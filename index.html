@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Catalyze Care — Healthcare Growth Intelligence</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --navy: #1A1A2E;
+  --navy-light: #25253D;
+  --accent: #F97316;
+  --accent-light: #FB923C;
+  --accent-pale: #FFF7ED;
+  --slate: #3D4F6F;
+  --gray-100: #F4F6F9;
+  --gray-200: #E2E7EF;
+  --gray-400: #8E99AB;
+  --gray-600: #5A6882;
+  --white: #FFFFFF;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--navy);
+  line-height: 1.6;
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── NAV ── */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--gray-200);
+  transition: box-shadow 0.3s;
+}
+.nav.scrolled { box-shadow: 0 2px 24px rgba(11,29,58,0.08); }
+.nav-inner {
+  max-width: 1200px; margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 32px; height: 64px;
+}
+.nav-logo {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700; font-size: 1.25rem;
+  color: var(--navy); text-decoration: none;
+  display: flex; align-items: center; gap: 8px;
+}
+.nav-logo .mark {
+  width: 32px; height: 32px; background: var(--accent);
+  border-radius: 8px; display: grid; place-items: center;
+  color: white; font-size: 0.85rem; font-weight: 700;
+}
+.nav-links { display: flex; align-items: center; gap: 4px; }
+.nav-links a {
+  text-decoration: none; color: var(--slate);
+  font-size: 0.9rem; font-weight: 500;
+  padding: 8px 16px; border-radius: 8px;
+  transition: all 0.2s;
+}
+.nav-links a:hover { background: var(--gray-100); color: var(--navy); }
+.nav-links a.active { color: var(--accent); background: var(--accent-pale); }
+.nav-cta {
+  background: var(--accent); color: white;
+  padding: 10px 24px; border-radius: 8px;
+  font-size: 0.9rem; font-weight: 600;
+  text-decoration: none; transition: all 0.2s;
+  border: none; cursor: pointer;
+}
+.nav-cta:hover { background: var(--accent-light); transform: translateY(-1px); }
+
+/* ── HERO ── */
+.hero {
+  padding: 140px 32px 80px;
+  max-width: 1200px; margin: 0 auto;
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 64px; align-items: center;
+}
+.hero-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--accent-pale); color: var(--accent);
+  font-size: 0.8rem; font-weight: 600;
+  padding: 6px 14px; border-radius: 100px;
+  margin-bottom: 20px; letter-spacing: 0.02em;
+}
+.hero-badge .dot { width: 6px; height: 6px; background: var(--accent); border-radius: 50%; }
+.hero h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 3.2rem; font-weight: 700;
+  line-height: 1.12; letter-spacing: -0.03em;
+  margin-bottom: 20px;
+}
+.hero h1 .accent { color: var(--accent); }
+.hero p {
+  font-size: 1.15rem; color: var(--slate);
+  line-height: 1.7; margin-bottom: 32px;
+  max-width: 480px;
+}
+.hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.btn-primary {
+  background: var(--accent); color: white;
+  padding: 14px 28px; border-radius: 10px;
+  font-size: 0.95rem; font-weight: 600;
+  text-decoration: none; transition: all 0.2s;
+  display: inline-flex; align-items: center; gap: 8px;
+  border: none; cursor: pointer;
+}
+.btn-primary:hover { background: var(--accent-light); transform: translateY(-1px); box-shadow: 0 8px 24px rgba(249,115,22,0.3); }
+.btn-secondary {
+  background: transparent; color: var(--navy);
+  padding: 14px 28px; border-radius: 10px;
+  font-size: 0.95rem; font-weight: 600;
+  text-decoration: none; transition: all 0.2s;
+  border: 2px solid var(--gray-200);
+  display: inline-flex; align-items: center; gap: 8px;
+  cursor: pointer;
+}
+.btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+
+.hero-visual {
+  background: var(--navy);
+  border-radius: 16px;
+  padding: 32px;
+  position: relative;
+  overflow: hidden;
+  min-height: 420px;
+}
+.hero-visual::before {
+  content: '';
+  position: absolute; top: -50%; right: -30%;
+  width: 400px; height: 400px;
+  background: radial-gradient(circle, rgba(249,115,22,0.15) 0%, transparent 70%);
+  border-radius: 50%;
+}
+.stat-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 16px; position: relative; z-index: 1;
+}
+.stat-card {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px; padding: 20px;
+  transition: all 0.3s;
+}
+.stat-card:hover { background: rgba(255,255,255,0.1); transform: translateY(-2px); }
+.stat-card .label {
+  font-size: 0.75rem; color: var(--gray-400);
+  text-transform: uppercase; letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}
+.stat-card .value {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.8rem; font-weight: 700; color: white;
+}
+.stat-card .value .unit { font-size: 0.9rem; color: var(--accent-light); font-weight: 500; }
+.stat-card .subtext { font-size: 0.8rem; color: var(--gray-400); margin-top: 4px; }
+.mini-chart {
+  grid-column: 1 / -1;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px; padding: 20px;
+}
+.mini-chart .header {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 16px;
+}
+.mini-chart .title { font-size: 0.85rem; color: white; font-weight: 600; }
+.mini-chart .tag {
+  font-size: 0.7rem; color: var(--accent-light); font-weight: 600;
+  background: rgba(249,115,22,0.15); padding: 3px 10px; border-radius: 100px;
+}
+.bar-row {
+  display: flex; align-items: center; gap: 12px;
+  margin-bottom: 8px;
+}
+.bar-label { font-size: 0.75rem; color: var(--gray-400); width: 100px; text-align: right; }
+.bar-track { flex: 1; height: 8px; background: rgba(255,255,255,0.06); border-radius: 4px; overflow: hidden; }
+.bar-fill { height: 100%; border-radius: 4px; transition: width 1.5s ease; }
+.bar-fill.accent { background: var(--accent); }
+.bar-fill.accent-light { background: var(--accent-light); }
+.bar-fill.slate { background: var(--gray-400); }
+
+/* ── SECTION ── */
+.section {
+  padding: 100px 32px;
+  max-width: 1200px; margin: 0 auto;
+}
+.section-dark {
+  background: var(--navy);
+  max-width: 100%; padding: 100px 32px;
+}
+.section-dark .section-inner { max-width: 1200px; margin: 0 auto; }
+.section-gray { background: var(--gray-100); max-width: 100%; padding: 100px 32px; }
+.section-gray .section-inner { max-width: 1200px; margin: 0 auto; }
+
+.section-label {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 0.8rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--accent); margin-bottom: 16px;
+}
+.section-label .line { width: 24px; height: 2px; background: var(--accent); border-radius: 1px; }
+.section-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 2.4rem; font-weight: 700;
+  line-height: 1.2; letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+.section-subtitle {
+  font-size: 1.1rem; color: var(--slate);
+  line-height: 1.7; max-width: 600px;
+  margin-bottom: 48px;
+}
+.section-dark .section-title { color: white; }
+.section-dark .section-subtitle { color: var(--gray-400); }
+
+/* ── MARKETING GRID ── */
+.marketing-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.marketing-card {
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+  padding: 32px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+.marketing-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 8px 32px rgba(249,115,22,0.08);
+  transform: translateY(-2px);
+}
+.marketing-card.featured {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+  border: none;
+  color: white;
+}
+.marketing-card.featured:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(11,29,58,0.3); }
+.marketing-card .icon-wrap {
+  width: 48px; height: 48px;
+  background: var(--accent-pale);
+  border-radius: 10px;
+  display: grid; place-items: center;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+.marketing-card.featured .icon-wrap { background: rgba(249,115,22,0.15); }
+.marketing-card h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.3rem; font-weight: 700;
+  margin-bottom: 12px; line-height: 1.3;
+}
+.marketing-card.featured h3 { font-size: 1.5rem; color: white; }
+.marketing-card p {
+  color: var(--slate); font-size: 0.95rem; line-height: 1.7;
+}
+.marketing-card.featured p { color: var(--gray-400); }
+.card-features {
+  list-style: none; padding: 0; margin-top: 16px;
+}
+.card-features li {
+  padding: 6px 0;
+  font-size: 0.9rem;
+  color: var(--slate);
+  display: flex; align-items: flex-start; gap: 10px;
+}
+.marketing-card.featured .card-features li { color: var(--gray-400); }
+.card-features .check {
+  color: var(--accent); font-weight: 700; flex-shrink: 0;
+  margin-top: 2px;
+}
+.featured-visual {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px; padding: 24px;
+}
+.ref-flow { display: flex; flex-direction: column; gap: 12px; }
+.ref-step {
+  display: flex; align-items: center; gap: 16px;
+  padding: 12px 16px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.06);
+}
+.ref-step .num {
+  width: 28px; height: 28px;
+  background: var(--accent);
+  border-radius: 6px;
+  display: grid; place-items: center;
+  color: white; font-size: 0.75rem; font-weight: 700;
+  flex-shrink: 0;
+}
+.ref-step .text { font-size: 0.85rem; color: var(--gray-400); }
+.ref-step .text strong { color: white; }
+.connector { width: 2px; height: 12px; background: rgba(249,115,22,0.3); margin-left: 29px; }
+
+/* ── LEAD LISTS ── */
+.leads-layout {
+  display: grid; grid-template-columns: 1.1fr 0.9fr;
+  gap: 64px; align-items: start;
+}
+.lead-filters { display: flex; flex-direction: column; gap: 12px; }
+.filter-group {
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: 10px;
+  padding: 20px 24px;
+  display: flex; align-items: center; gap: 16px;
+  transition: all 0.3s;
+}
+.filter-group:hover { border-color: var(--accent); box-shadow: 0 4px 16px rgba(249,115,22,0.06); }
+.filter-icon {
+  width: 40px; height: 40px;
+  background: var(--accent-pale);
+  border-radius: 8px;
+  display: grid; place-items: center;
+  flex-shrink: 0;
+  font-size: 1.1rem;
+}
+.filter-content h4 {
+  font-size: 0.95rem; font-weight: 700; margin-bottom: 2px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.filter-content p { font-size: 0.85rem; color: var(--gray-600); line-height: 1.5; }
+
+.leads-preview {
+  background: var(--navy);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.preview-header {
+  padding: 20px 24px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  display: flex; justify-content: space-between; align-items: center;
+}
+.preview-header .title { color: white; font-size: 0.9rem; font-weight: 600; }
+.preview-header .count {
+  font-size: 0.75rem; color: var(--accent-light);
+  background: rgba(249,115,22,0.12);
+  padding: 4px 10px; border-radius: 100px; font-weight: 600;
+}
+.preview-table { width: 100%; }
+.preview-row {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr 1fr;
+  padding: 14px 24px;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  font-size: 0.82rem;
+  transition: background 0.2s;
+}
+.preview-row:hover { background: rgba(255,255,255,0.03); }
+.preview-row.header {
+  color: var(--gray-400);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+.preview-row .name { color: white; font-weight: 500; }
+.preview-row .specialty { color: var(--gray-400); }
+.preview-row .channels { display: flex; gap: 6px; }
+.channel-dot {
+  width: 22px; height: 22px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 5px;
+  display: grid; place-items: center;
+  font-size: 0.6rem; color: var(--gray-400);
+  transition: all 0.2s;
+}
+.channel-dot.active { background: rgba(249,115,22,0.15); color: var(--accent-light); }
+
+/* ── REFERRAL DATA ── */
+.referral-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+.referral-text { padding-top: 8px; }
+.referral-example {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.example-header {
+  padding: 20px 24px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.example-header .query {
+  font-size: 0.8rem; color: var(--gray-400);
+  margin-bottom: 6px;
+}
+.example-header h4 { color: white; font-size: 1.05rem; font-weight: 700; }
+.example-header .geo {
+  font-size: 0.8rem; color: var(--accent-light); margin-top: 4px;
+  display: flex; align-items: center; gap: 6px;
+}
+.referral-rows { padding: 8px 0; }
+.referral-row {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr 0.5fr 0.6fr;
+  padding: 12px 24px;
+  align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  transition: background 0.2s;
+}
+.referral-row:last-child { border-bottom: none; }
+.referral-row:hover { background: rgba(255,255,255,0.03); }
+.referral-row.header {
+  font-size: 0.7rem; color: var(--gray-400);
+  text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600;
+}
+.referral-row .provider-name { color: white; font-size: 0.88rem; font-weight: 500; }
+.referral-row .provider-type { font-size: 0.75rem; color: var(--gray-400); }
+.referral-row .vol {
+  font-family: 'Space Grotesk', sans-serif;
+  color: white; font-weight: 700; font-size: 1rem;
+}
+.referral-row .pct { color: var(--accent-light); font-size: 0.85rem; font-weight: 600; }
+.referral-row .trend { font-size: 0.8rem; font-weight: 600; }
+.referral-row .trend.up { color: #34D399; }
+.referral-row .trend.down { color: #F87171; }
+.referral-row .trend.flat { color: var(--gray-400); }
+
+.referral-bar-visual {
+  padding: 16px 24px 20px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+.referral-bar-visual .bar-label-row {
+  display: flex; justify-content: space-between;
+  font-size: 0.72rem; color: var(--gray-400);
+  margin-bottom: 8px;
+}
+.referral-bar-full {
+  height: 10px; background: rgba(255,255,255,0.06);
+  border-radius: 5px; overflow: hidden;
+  display: flex;
+}
+.referral-bar-full .seg {
+  height: 100%; transition: width 1.5s ease;
+}
+.seg-1 { background: var(--accent); }
+.seg-2 { background: var(--accent-light); }
+.seg-3 { background: var(--gray-400); }
+
+.insight-cards {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+  margin-top: 32px;
+}
+.insight-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px; padding: 20px;
+}
+.insight-card .number {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.8rem; font-weight: 700; color: white;
+  margin-bottom: 4px;
+}
+.insight-card .desc { font-size: 0.85rem; color: var(--gray-400); }
+
+/* ── CTA BANNER ── */
+.cta-banner {
+  max-width: 1200px; margin: 0 auto;
+  padding: 0 32px 100px;
+}
+.cta-inner {
+  background: linear-gradient(135deg, var(--accent) 0%, #EA580C 100%);
+  border-radius: 16px;
+  padding: 64px;
+  display: grid; grid-template-columns: 1.2fr 0.8fr;
+  gap: 40px; align-items: center;
+  position: relative; overflow: hidden;
+}
+.cta-inner::before {
+  content: '';
+  position: absolute; top: -100px; right: -100px;
+  width: 300px; height: 300px;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+  border-radius: 50%;
+}
+.cta-inner h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 2rem; font-weight: 700;
+  color: white; line-height: 1.25;
+  margin-bottom: 12px;
+}
+.cta-inner p { color: rgba(255,255,255,0.8); font-size: 1.05rem; line-height: 1.7; }
+.cta-form {
+  display: flex; flex-direction: column; gap: 12px;
+  position: relative; z-index: 1;
+}
+.cta-form input {
+  padding: 14px 18px;
+  border-radius: 10px;
+  border: 2px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.1);
+  color: white;
+  font-size: 0.95rem;
+  font-family: 'DM Sans', sans-serif;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.cta-form input::placeholder { color: rgba(255,255,255,0.5); }
+.cta-form input:focus { border-color: rgba(255,255,255,0.5); }
+.cta-form button {
+  background: white; color: var(--navy);
+  padding: 14px 28px; border-radius: 10px;
+  font-size: 0.95rem; font-weight: 700;
+  border: none; cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  transition: all 0.2s;
+}
+.cta-form button:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(0,0,0,0.15); }
+
+/* ── FOOTER ── */
+.footer {
+  border-top: 1px solid var(--gray-200);
+  padding: 40px 32px;
+  max-width: 1200px; margin: 0 auto;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.footer-left {
+  font-size: 0.85rem; color: var(--gray-600);
+}
+.footer-links { display: flex; gap: 24px; }
+.footer-links a {
+  font-size: 0.85rem; color: var(--gray-600);
+  text-decoration: none; transition: color 0.2s;
+}
+.footer-links a:hover { color: var(--accent); }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .hero { grid-template-columns: 1fr; padding-top: 120px; gap: 40px; }
+  .hero h1 { font-size: 2.4rem; }
+  .marketing-grid { grid-template-columns: 1fr; }
+  .marketing-card.featured { grid-template-columns: 1fr; }
+  .leads-layout { grid-template-columns: 1fr; }
+  .referral-layout { grid-template-columns: 1fr; }
+  .cta-inner { grid-template-columns: 1fr; padding: 40px; }
+  .footer { flex-direction: column; gap: 16px; text-align: center; }
+  .section-title { font-size: 1.8rem; }
+}
+@media (max-width: 600px) {
+  .nav-links { display: none; }
+  .hero h1 { font-size: 2rem; }
+  .stat-grid { grid-template-columns: 1fr; }
+  .insight-cards { grid-template-columns: 1fr; }
+  .referral-row { grid-template-columns: 1fr 0.6fr 0.5fr; }
+  .referral-row .provider-type { display: none; }
+}
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate { opacity: 0; animation: fadeUp 0.6s ease forwards; }
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+</style>
+</head>
+<body>
+
+<!-- ════════════ NAV ════════════ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <span class="mark">CC</span>
+      Catalyze Care
+    </a>
+    <div class="nav-links">
+      <a href="#marketing" class="active">Marketing</a>
+      <a href="#leads">Lead Lists</a>
+      <a href="#referrals">Referral Data</a>
+    </div>
+    <a href="#contact" class="nav-cta">Get Started</a>
+  </div>
+</nav>
+
+<!-- ════════════ HERO ════════════ -->
+<section class="hero">
+  <div class="animate">
+    <div class="hero-badge">
+      <span class="dot"></span>
+      Healthcare Growth Intelligence
+    </div>
+    <h1>Win more patients with <span class="accent">data-driven</span> healthcare marketing</h1>
+    <p>Catalyze Care gives healthcare practices the marketing engine, lead intelligence, and referral analytics they need to grow — all in one platform.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">Book a Demo →</a>
+      <a href="#marketing" class="btn-secondary">See How It Works</a>
+    </div>
+  </div>
+  <div class="hero-visual animate delay-2">
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="label">Provider Contacts</div>
+        <div class="value">2.1<span class="unit">M+</span></div>
+        <div class="subtext">Verified nationwide</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Referral Patterns</div>
+        <div class="value">48<span class="unit">M+</span></div>
+        <div class="subtext">Tracked annually</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Avg. ROI</div>
+        <div class="value">4.2<span class="unit">x</span></div>
+        <div class="subtext">First 6 months</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Specialties</div>
+        <div class="value">120<span class="unit">+</span></div>
+        <div class="subtext">Provider types</div>
+      </div>
+      <div class="mini-chart">
+        <div class="header">
+          <span class="title">Referral Growth Trend</span>
+          <span class="tag">Live Data</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Q1 2025</span>
+          <div class="bar-track"><div class="bar-fill accent" style="width:45%"></div></div>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Q2 2025</span>
+          <div class="bar-track"><div class="bar-fill accent" style="width:62%"></div></div>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Q3 2025</span>
+          <div class="bar-track"><div class="bar-fill accent-light" style="width:78%"></div></div>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Q4 2025</span>
+          <div class="bar-track"><div class="bar-fill accent-light" style="width:91%"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ MARKETING ════════════ -->
+<section class="section-gray" id="marketing">
+  <div class="section-inner">
+    <div class="section-label"><span class="line"></span> Marketing</div>
+    <h2 class="section-title">Complete marketing for healthcare practices</h2>
+    <p class="section-subtitle">We build, manage, and optimize your entire marketing presence — from your provider profiles to targeted referral campaigns — so you can focus on patient care.</p>
+
+    <div class="marketing-grid">
+      <!-- Featured Card: Referral Marketing -->
+      <div class="marketing-card featured animate">
+        <div>
+          <div class="icon-wrap">🔗</div>
+          <h3>Referral Marketing</h3>
+          <p>Our flagship service. We build systematic referral campaigns that connect you to the right providers in your region, turning one-time referrals into consistent patient pipelines.</p>
+          <ul class="card-features">
+            <li><span class="check">✓</span> Identify top referring providers in your specialty and geography</li>
+            <li><span class="check">✓</span> Multi-channel outreach via fax, email, phone, LinkedIn, and direct mail</li>
+            <li><span class="check">✓</span> Personalized campaigns based on live referral data</li>
+            <li><span class="check">✓</span> Monthly performance reporting and campaign optimization</li>
+          </ul>
+        </div>
+        <div class="featured-visual">
+          <div class="ref-flow">
+            <div class="ref-step">
+              <span class="num">1</span>
+              <span class="text"><strong>Identify</strong> — We analyze referral patterns to find providers already sending patients in your specialty.</span>
+            </div>
+            <div class="connector"></div>
+            <div class="ref-step">
+              <span class="num">2</span>
+              <span class="text"><strong>Engage</strong> — Personalized outreach across fax, email, phone, LinkedIn, and direct mail.</span>
+            </div>
+            <div class="connector"></div>
+            <div class="ref-step">
+              <span class="num">3</span>
+              <span class="text"><strong>Convert</strong> — Build lasting referral relationships with ongoing nurture campaigns.</span>
+            </div>
+            <div class="connector"></div>
+            <div class="ref-step">
+              <span class="num">4</span>
+              <span class="text"><strong>Optimize</strong> — Track results and double down on the highest-performing channels.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Profile Management -->
+      <div class="marketing-card animate delay-1">
+        <div class="icon-wrap">👤</div>
+        <h3>Provider Profile Management</h3>
+        <p>Your online profiles are often a patient's first impression. We claim, optimize, and maintain your presence across every major directory to maximize visibility and trust.</p>
+        <ul class="card-features">
+          <li><span class="check">✓</span> Google Business, Healthgrades, Zocdoc, Vitals, and 30+ directories</li>
+          <li><span class="check">✓</span> Consistent NAP data, specialty keywords, and photo optimization</li>
+          <li><span class="check">✓</span> Review monitoring and response management</li>
+        </ul>
+      </div>
+
+      <!-- Digital Marketing -->
+      <div class="marketing-card animate delay-2">
+        <div class="icon-wrap">📊</div>
+        <h3>Digital Marketing & SEO</h3>
+        <p>We drive organic patient acquisition through search engine optimization, local SEO, and paid advertising tailored to healthcare practices.</p>
+        <ul class="card-features">
+          <li><span class="check">✓</span> Local SEO optimized for "near me" and specialty-specific searches</li>
+          <li><span class="check">✓</span> Google Ads and Meta campaigns with HIPAA-compliant targeting</li>
+          <li><span class="check">✓</span> Content marketing and authority-building for your practice</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ LEAD LISTS ════════════ -->
+<section class="section" id="leads">
+  <div class="section-label"><span class="line"></span> Lead Lists</div>
+  <h2 class="section-title">Precision-targeted provider lead lists</h2>
+  <p class="section-subtitle">Access over 2 million verified provider contacts with multi-channel reach. Filter by specialty, geography, and contact type to build the exact list you need.</p>
+
+  <div class="leads-layout">
+    <div class="lead-filters animate">
+      <div class="filter-group">
+        <div class="filter-icon">🩺</div>
+        <div class="filter-content">
+          <h4>Filter by Specialty</h4>
+          <p>120+ provider specialties — from cardiology and orthopedics to psychiatry, dermatology, and behavioral health. Target the exact referral sources that matter to your practice.</p>
+        </div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-icon">📍</div>
+        <div class="filter-content">
+          <h4>Filter by Geography</h4>
+          <p>Drill down to state, city, county, or ZIP code. Build hyper-local lists for your service area or expand regionally as your practice grows.</p>
+        </div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-icon">📠</div>
+        <div class="filter-content">
+          <h4>Fax Numbers</h4>
+          <p>Verified fax lines for every provider — still the #1 channel for healthcare-to-healthcare communication and referral outreach.</p>
+        </div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-icon">💼</div>
+        <div class="filter-content">
+          <h4>LinkedIn Profiles</h4>
+          <p>Direct LinkedIn profile links for provider-to-provider networking, relationship building, and professional outreach.</p>
+        </div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-icon">📞</div>
+        <div class="filter-content">
+          <h4>Phone & Email</h4>
+          <p>Verified direct phone lines and email addresses — enabling multi-touch campaigns that reach providers where they're most responsive.</p>
+        </div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-icon">📬</div>
+        <div class="filter-content">
+          <h4>Physical Addresses</h4>
+          <p>Full practice addresses for direct mail campaigns, drop-off visits, and territory mapping. Complete with suite numbers and practice names.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="leads-preview animate delay-2">
+      <div class="preview-header">
+        <span class="title">Sample: Psychiatrists · Detroit, MI</span>
+        <span class="count">847 results</span>
+      </div>
+      <div class="preview-table">
+        <div class="preview-row header">
+          <span>Provider</span>
+          <span>Specialty</span>
+          <span>Channels</span>
+        </div>
+        <div class="preview-row">
+          <span class="name">Dr. Sarah Chen, MD</span>
+          <span class="specialty">Psychiatry</span>
+          <span class="channels">
+            <span class="channel-dot active" title="Fax">F</span>
+            <span class="channel-dot active" title="LinkedIn">L</span>
+            <span class="channel-dot active" title="Phone">P</span>
+            <span class="channel-dot active" title="Email">E</span>
+            <span class="channel-dot active" title="Address">A</span>
+          </span>
+        </div>
+        <div class="preview-row">
+          <span class="name">Dr. James Okafor, DO</span>
+          <span class="specialty">Psychiatry</span>
+          <span class="channels">
+            <span class="channel-dot active" title="Fax">F</span>
+            <span class="channel-dot active" title="LinkedIn">L</span>
+            <span class="channel-dot active" title="Phone">P</span>
+            <span class="channel-dot active" title="Email">E</span>
+            <span class="channel-dot active" title="Address">A</span>
+          </span>
+        </div>
+        <div class="preview-row">
+          <span class="name">Dr. Maria Gonzalez, MD</span>
+          <span class="specialty">Psychiatry</span>
+          <span class="channels">
+            <span class="channel-dot active" title="Fax">F</span>
+            <span class="channel-dot" title="LinkedIn">L</span>
+            <span class="channel-dot active" title="Phone">P</span>
+            <span class="channel-dot active" title="Email">E</span>
+            <span class="channel-dot active" title="Address">A</span>
+          </span>
+        </div>
+        <div class="preview-row">
+          <span class="name">Dr. Michael Rivera, MD</span>
+          <span class="specialty">Psychiatry</span>
+          <span class="channels">
+            <span class="channel-dot active" title="Fax">F</span>
+            <span class="channel-dot active" title="LinkedIn">L</span>
+            <span class="channel-dot active" title="Phone">P</span>
+            <span class="channel-dot" title="Email">E</span>
+            <span class="channel-dot active" title="Address">A</span>
+          </span>
+        </div>
+        <div class="preview-row">
+          <span class="name">Dr. Aisha Patel, MD</span>
+          <span class="specialty">Psychiatry</span>
+          <span class="channels">
+            <span class="channel-dot active" title="Fax">F</span>
+            <span class="channel-dot active" title="LinkedIn">L</span>
+            <span class="channel-dot active" title="Phone">P</span>
+            <span class="channel-dot active" title="Email">E</span>
+            <span class="channel-dot active" title="Address">A</span>
+          </span>
+        </div>
+        <div class="preview-row" style="justify-content:center; padding:16px; color:var(--gray-400); font-size:0.8rem;">
+          + 842 more providers →
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ REFERRAL DATA ════════════ -->
+<section class="section-dark" id="referrals">
+  <div class="section-inner">
+    <div class="section-label" style="color:var(--accent-light)"><span class="line" style="background:var(--accent-light)"></span> Referral Data</div>
+    <h2 class="section-title">Trace exact referral patterns between any providers</h2>
+    <p class="section-subtitle">See precisely how many referrals Provider A, B, or C made for any specialty in any city. No estimates — real claims-backed referral intelligence.</p>
+
+    <div class="referral-layout">
+      <div class="referral-text">
+        <p style="color:var(--gray-400); font-size:1rem; line-height:1.8; margin-bottom:24px;">
+          Our referral database is built on actual claims data, giving you a complete map of who's referring patients, to whom, in what volumes, and for which specialties. Stop guessing and start targeting the providers who are already actively referring in your space.
+        </p>
+        <p style="color:var(--gray-400); font-size:1rem; line-height:1.8; margin-bottom:32px;">
+          Use this data to identify your highest-potential referral targets, understand your competitive landscape, and measure the effectiveness of your outreach over time.
+        </p>
+
+        <div class="insight-cards">
+          <div class="insight-card">
+            <div class="number">48M+</div>
+            <div class="desc">Referral relationships tracked annually</div>
+          </div>
+          <div class="insight-card">
+            <div class="number">100%</div>
+            <div class="desc">Claims-backed data — no estimates or surveys</div>
+          </div>
+          <div class="insight-card">
+            <div class="number">120+</div>
+            <div class="desc">Specialties with referral pattern data</div>
+          </div>
+          <div class="insight-card">
+            <div class="number">Any</div>
+            <div class="desc">Geography — ZIP, city, county, state, national</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="referral-example animate delay-1">
+        <div class="example-header">
+          <div class="query">EXAMPLE QUERY</div>
+          <h4>Psychiatry Referrals</h4>
+          <div class="geo">📍 Detroit, Michigan · Last 12 months</div>
+        </div>
+        <div class="referral-rows">
+          <div class="referral-row header">
+            <span>Referring Provider</span>
+            <span>Type</span>
+            <span>Volume</span>
+            <span>Trend</span>
+          </div>
+          <div class="referral-row">
+            <span class="provider-name">Dr. Robert Kim, MD</span>
+            <span class="provider-type">Primary Care</span>
+            <span class="vol">342</span>
+            <span class="trend up">↑ +18%</span>
+          </div>
+          <div class="referral-row">
+            <span class="provider-name">Dr. Emily Zhao, DO</span>
+            <span class="provider-type">Family Medicine</span>
+            <span class="vol">287</span>
+            <span class="trend up">↑ +12%</span>
+          </div>
+          <div class="referral-row">
+            <span class="provider-name">Dr. David Thompson, MD</span>
+            <span class="provider-type">Internal Medicine</span>
+            <span class="vol">195</span>
+            <span class="trend flat">— 0%</span>
+          </div>
+          <div class="referral-row">
+            <span class="provider-name">Dr. Lisa Morgan, MD</span>
+            <span class="provider-type">Pediatrics</span>
+            <span class="vol">163</span>
+            <span class="trend up">↑ +24%</span>
+          </div>
+          <div class="referral-row">
+            <span class="provider-name">Dr. Anthony Cruz, DO</span>
+            <span class="provider-type">Emergency Med</span>
+            <span class="vol">128</span>
+            <span class="trend down">↓ -6%</span>
+          </div>
+        </div>
+        <div class="referral-bar-visual">
+          <div class="bar-label-row">
+            <span>Share of Total Referrals</span>
+            <span>Top 5 of 214 providers</span>
+          </div>
+          <div class="referral-bar-full">
+            <div class="seg seg-1" style="width:31%"></div>
+            <div class="seg seg-2" style="width:26%"></div>
+            <div class="seg seg-3" style="width:43%"></div>
+          </div>
+          <div style="display:flex; gap:16px; margin-top:10px; font-size:0.72rem; color:var(--gray-400);">
+            <span style="display:flex;align-items:center;gap:4px;"><span style="width:8px;height:8px;background:var(--accent);border-radius:2px;"></span> Top 2</span>
+            <span style="display:flex;align-items:center;gap:4px;"><span style="width:8px;height:8px;background:var(--accent-light);border-radius:2px;"></span> Next 3</span>
+            <span style="display:flex;align-items:center;gap:4px;"><span style="width:8px;height:8px;background:var(--gray-400);border-radius:2px;"></span> All Others</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ CTA ════════════ -->
+<section class="cta-banner" id="contact">
+  <div class="cta-inner">
+    <div>
+      <h2>Ready to grow your practice with real data?</h2>
+      <p>Join healthcare practices across the country that use Catalyze Care to drive patient volume through smarter marketing, better leads, and referral intelligence.</p>
+    </div>
+    <form class="cta-form" name="demo-request" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="demo-request" />
+      <p style="display:none"><label>Don't fill this out: <input name="bot-field" /></label></p>
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Work email" required />
+      <input type="text" name="practice" placeholder="Practice name" required />
+      <input type="tel" name="phone" placeholder="Phone number" />
+      <button type="submit">Book a Demo →</button>
+    </form>
+  </div>
+</section>
+
+<!-- ════════════ FOOTER ════════════ -->
+<footer class="footer">
+  <div class="footer-left">© 2026 Catalyze Care. All rights reserved.</div>
+  <div class="footer-links">
+    <a href="#marketing">Marketing</a>
+    <a href="#leads">Lead Lists</a>
+    <a href="#referrals">Referral Data</a>
+    <a href="#contact">Contact</a>
+  </div>
+</footer>
+
+<script>
+// Nav scroll effect
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 20);
+});
+
+// Active nav link on scroll
+const sections = document.querySelectorAll('section[id], .section-gray[id], .section-dark[id]');
+const navLinks = document.querySelectorAll('.nav-links a');
+
+const observerOptions = { threshold: 0.3, rootMargin: '-64px 0px 0px 0px' };
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      navLinks.forEach(l => l.classList.remove('active'));
+      const id = entry.target.id || entry.target.querySelector('[id]')?.id;
+      const active = document.querySelector(`.nav-links a[href="#${id}"]`);
+      if (active) active.classList.add('active');
+    }
+  });
+}, observerOptions);
+
+document.querySelectorAll('#marketing, #leads, #referrals').forEach(s => {
+  // Walk up to find the actual section element
+  let target = s;
+  if (s.tagName !== 'SECTION') {
+    target = s.closest('section') || s;
+  }
+  observer.observe(target);
+});
+
+// Animate on scroll
+const animObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.style.animationPlayState = 'running';
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.animate').forEach(el => {
+  el.style.animationPlayState = 'paused';
+  animObserver.observe(el);
+});
+</script>
+</body>
+</html>
