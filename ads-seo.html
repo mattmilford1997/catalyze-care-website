@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Paid Ads & SEO for Healthcare Practices — Catalyze Care</title>
+<meta name="description" content="HIPAA-compliant Google Ads, Meta Ads, and local SEO services built exclusively for healthcare practices. Drive more patient appointments with data-backed digital marketing." />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --navy: #1A1A2E;
+  --navy-light: #25253D;
+  --accent: #F97316;
+  --accent-light: #FB923C;
+  --accent-pale: #FFF7ED;
+  --slate: #3D4F6F;
+  --gray-100: #F4F6F9;
+  --gray-200: #E2E7EF;
+  --gray-400: #8E99AB;
+  --gray-600: #5A6882;
+  --white: #FFFFFF;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--navy);
+  line-height: 1.6;
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── NAV ── */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--gray-200);
+  transition: box-shadow 0.3s;
+}
+.nav.scrolled { box-shadow: 0 2px 24px rgba(11,29,58,0.08); }
+.nav-inner {
+  max-width: 1200px; margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 32px; height: 64px;
+}
+.nav-logo {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700; font-size: 1.25rem;
+  color: var(--navy); text-decoration: none;
+  display: flex; align-items: center; gap: 8px;
+}
+.nav-logo .mark {
+  width: 32px; height: 32px; background: var(--accent);
+  border-radius: 8px; display: grid; place-items: center;
+  color: white; font-size: 0.85rem; font-weight: 700;
+}
+.nav-links { display: flex; align-items: center; gap: 4px; }
+.nav-links a {
+  text-decoration: none; color: var(--slate);
+  font-size: 0.9rem; font-weight: 500;
+  padding: 8px 16px; border-radius: 8px;
+  transition: all 0.2s;
+}
+.nav-links a:hover { background: var(--gray-100); color: var(--navy); }
+.nav-links a.active { color: var(--accent); background: var(--accent-pale); }
+.nav-cta {
+  background: var(--accent); color: white;
+  padding: 10px 24px; border-radius: 8px;
+  font-size: 0.9rem; font-weight: 600;
+  text-decoration: none; transition: all 0.2s;
+  border: none; cursor: pointer;
+}
+.nav-cta:hover { background: var(--accent-light); transform: translateY(-1px); }
+
+/* ── HERO ── */
+.hero {
+  padding: 140px 32px 80px;
+  max-width: 1200px; margin: 0 auto;
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 64px; align-items: center;
+}
+.hero-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--accent-pale); color: var(--accent);
+  font-size: 0.8rem; font-weight: 600;
+  padding: 6px 14px; border-radius: 100px;
+  margin-bottom: 20px; letter-spacing: 0.02em;
+}
+.hero-badge .dot { width: 6px; height: 6px; background: var(--accent); border-radius: 50%; }
+.hero h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 3.2rem; font-weight: 700;
+  line-height: 1.12; letter-spacing: -0.03em;
+  margin-bottom: 20px;
+}
+.hero h1 .accent { color: var(--accent); }
+.hero p {
+  font-size: 1.15rem; color: var(--slate);
+  line-height: 1.7; margin-bottom: 32px;
+  max-width: 480px;
+}
+.hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.btn-primary {
+  background: var(--accent); color: white;
+  padding: 14px 28px; border-radius: 10px;
+  font-size: 0.95rem; font-weight: 600;
+  text-decoration: none; transition: all 0.2s;
+  display: inline-flex; align-items: center; gap: 8px;
+  border: none; cursor: pointer;
+}
+.btn-primary:hover { background: var(--accent-light); transform: translateY(-1px); box-shadow: 0 8px 24px rgba(249,115,22,0.3); }
+.btn-secondary {
+  background: transparent; color: var(--navy);
+  padding: 14px 28px; border-radius: 10px;
+  font-size: 0.95rem; font-weight: 600;
+  text-decoration: none; transition: all 0.2s;
+  border: 2px solid var(--gray-200);
+  display: inline-flex; align-items: center; gap: 8px;
+  cursor: pointer;
+}
+.btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ── HERO VISUAL ── */
+.hero-visual {
+  background: var(--navy);
+  border-radius: 16px;
+  padding: 32px;
+  position: relative;
+  overflow: hidden;
+  min-height: 420px;
+}
+.hero-visual::before {
+  content: '';
+  position: absolute; top: -50%; right: -30%;
+  width: 400px; height: 400px;
+  background: radial-gradient(circle, rgba(249,115,22,0.15) 0%, transparent 70%);
+  border-radius: 50%;
+}
+.metrics-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 16px; position: relative; z-index: 1;
+}
+.metric-card {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px; padding: 20px;
+  transition: all 0.3s;
+}
+.metric-card:hover { background: rgba(255,255,255,0.1); transform: translateY(-2px); }
+.metric-card .label {
+  font-size: 0.75rem; color: var(--gray-400);
+  text-transform: uppercase; letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}
+.metric-card .value {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.8rem; font-weight: 700; color: white;
+}
+.metric-card .value .unit { font-size: 0.9rem; color: var(--accent-light); font-weight: 500; }
+.metric-card .subtext { font-size: 0.8rem; color: var(--gray-400); margin-top: 4px; }
+
+.perf-card {
+  grid-column: 1 / -1;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px; padding: 20px;
+}
+.perf-card .header {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 16px;
+}
+.perf-card .title { font-size: 0.85rem; color: white; font-weight: 600; }
+.perf-card .tag {
+  font-size: 0.7rem; color: var(--accent-light); font-weight: 600;
+  background: rgba(249,115,22,0.15); padding: 3px 10px; border-radius: 100px;
+}
+.channel-row {
+  display: flex; align-items: center; gap: 12px;
+  margin-bottom: 10px;
+}
+.channel-row:last-child { margin-bottom: 0; }
+.channel-name { font-size: 0.75rem; color: var(--gray-400); width: 110px; text-align: right; }
+.bar-track { flex: 1; height: 8px; background: rgba(255,255,255,0.06); border-radius: 4px; overflow: hidden; }
+.bar-fill { height: 100%; border-radius: 4px; }
+.bar-fill.accent { background: var(--accent); }
+.bar-fill.accent-light { background: var(--accent-light); }
+.bar-fill.teal { background: #2DD4BF; }
+.bar-fill.purple { background: #A78BFA; }
+.channel-val { font-size: 0.75rem; color: white; font-weight: 600; width: 36px; text-align: right; }
+
+/* ── SECTION ── */
+.section {
+  padding: 100px 32px;
+  max-width: 1200px; margin: 0 auto;
+}
+.section-dark {
+  background: var(--navy);
+  max-width: 100%; padding: 100px 32px;
+}
+.section-dark .section-inner { max-width: 1200px; margin: 0 auto; }
+.section-gray { background: var(--gray-100); max-width: 100%; padding: 100px 32px; }
+.section-gray .section-inner { max-width: 1200px; margin: 0 auto; }
+
+.section-label {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 0.8rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--accent); margin-bottom: 16px;
+}
+.section-label .line { width: 24px; height: 2px; background: var(--accent); border-radius: 1px; }
+.section-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 2.4rem; font-weight: 700;
+  line-height: 1.2; letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+.section-subtitle {
+  font-size: 1.1rem; color: var(--slate);
+  line-height: 1.7; max-width: 600px;
+  margin-bottom: 48px;
+}
+.section-dark .section-title { color: white; }
+.section-dark .section-subtitle { color: var(--gray-400); }
+
+/* ── SERVICE GRID ── */
+.service-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.service-card {
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+  padding: 32px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+.service-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 8px 32px rgba(249,115,22,0.08);
+  transform: translateY(-2px);
+}
+.service-card.wide {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+  border: none;
+  color: white;
+}
+.service-card.wide:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(11,29,58,0.3); }
+.service-card .icon-wrap {
+  width: 48px; height: 48px;
+  background: var(--accent-pale);
+  border-radius: 10px;
+  display: grid; place-items: center;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+.service-card.wide .icon-wrap { background: rgba(249,115,22,0.15); }
+.service-card h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.3rem; font-weight: 700;
+  margin-bottom: 12px; line-height: 1.3;
+}
+.service-card.wide h3 { font-size: 1.5rem; color: white; }
+.service-card p { color: var(--slate); font-size: 0.95rem; line-height: 1.7; }
+.service-card.wide p { color: var(--gray-400); }
+.card-features {
+  list-style: none; padding: 0; margin-top: 16px;
+}
+.card-features li {
+  padding: 6px 0;
+  font-size: 0.9rem;
+  color: var(--slate);
+  display: flex; align-items: flex-start; gap: 10px;
+}
+.service-card.wide .card-features li { color: var(--gray-400); }
+.card-features .check { color: var(--accent); font-weight: 700; flex-shrink: 0; margin-top: 2px; }
+
+/* ── AD TYPES SHOWCASE ── */
+.ad-types {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 48px;
+}
+.ad-type-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px; padding: 24px;
+  transition: all 0.3s;
+}
+.ad-type-card:hover { background: rgba(255,255,255,0.07); transform: translateY(-2px); }
+.ad-type-card .icon { font-size: 1.5rem; margin-bottom: 14px; }
+.ad-type-card h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  color: white; font-size: 1.05rem; font-weight: 700;
+  margin-bottom: 8px;
+}
+.ad-type-card p { color: var(--gray-400); font-size: 0.88rem; line-height: 1.6; }
+
+/* ── SEO PILLARS ── */
+.seo-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: start;
+}
+.seo-pillars { display: flex; flex-direction: column; gap: 16px; }
+.pillar {
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: 10px;
+  padding: 24px;
+  display: flex; align-items: flex-start; gap: 16px;
+  transition: all 0.3s;
+}
+.pillar:hover { border-color: var(--accent); box-shadow: 0 4px 16px rgba(249,115,22,0.06); }
+.pillar-icon {
+  width: 44px; height: 44px;
+  background: var(--accent-pale);
+  border-radius: 10px;
+  display: grid; place-items: center;
+  flex-shrink: 0; font-size: 1.1rem;
+}
+.pillar-content h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1rem; font-weight: 700; margin-bottom: 4px;
+}
+.pillar-content p { font-size: 0.88rem; color: var(--gray-600); line-height: 1.6; }
+
+.seo-results {
+  background: var(--navy);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.seo-results-header {
+  padding: 20px 24px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  display: flex; justify-content: space-between; align-items: center;
+}
+.seo-results-header .title { color: white; font-size: 0.9rem; font-weight: 600; }
+.seo-results-header .live-dot {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 0.75rem; color: #34D399; font-weight: 600;
+}
+.live-dot-pulse {
+  width: 7px; height: 7px; background: #34D399;
+  border-radius: 50%; animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.serp-list { padding: 16px 24px; display: flex; flex-direction: column; gap: 12px; }
+.serp-item {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 8px; padding: 14px 16px;
+  transition: all 0.2s;
+}
+.serp-item:hover { background: rgba(255,255,255,0.07); }
+.serp-item .query { font-size: 0.75rem; color: var(--gray-400); margin-bottom: 4px; }
+.serp-item .rank-row {
+  display: flex; justify-content: space-between; align-items: center;
+}
+.serp-item .kw { color: white; font-size: 0.88rem; font-weight: 500; }
+.rank-badge {
+  font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 6px;
+}
+.rank-badge.top { background: rgba(52,211,153,0.15); color: #34D399; }
+.rank-badge.mid { background: rgba(249,115,22,0.15); color: var(--accent-light); }
+.serp-item .vol-row {
+  display: flex; gap: 16px; margin-top: 6px;
+}
+.serp-item .vol-tag {
+  font-size: 0.72rem; color: var(--gray-400);
+  display: flex; align-items: center; gap: 4px;
+}
+
+/* ── PROCESS ── */
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  position: relative;
+}
+.process-steps::before {
+  content: '';
+  position: absolute;
+  top: 32px; left: calc(12.5% + 12px); right: calc(12.5% + 12px);
+  height: 2px;
+  background: repeating-linear-gradient(90deg, var(--accent) 0, var(--accent) 8px, transparent 8px, transparent 16px);
+  z-index: 0;
+}
+.process-step {
+  text-align: center;
+  position: relative; z-index: 1;
+}
+.step-num {
+  width: 64px; height: 64px;
+  background: var(--accent-pale);
+  border: 3px solid var(--accent);
+  border-radius: 50%;
+  display: grid; place-items: center;
+  margin: 0 auto 20px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.3rem; font-weight: 700; color: var(--accent);
+  background: white;
+}
+.process-step h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1rem; font-weight: 700; margin-bottom: 8px;
+}
+.process-step p { font-size: 0.88rem; color: var(--slate); line-height: 1.6; }
+
+/* ── RESULTS STATS ── */
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+.result-stat {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px; padding: 28px 24px;
+  text-align: center;
+}
+.result-stat .number {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 2.4rem; font-weight: 700;
+  color: var(--accent-light); margin-bottom: 8px;
+}
+.result-stat .label { font-size: 0.9rem; color: var(--gray-400); line-height: 1.5; }
+
+/* ── HIPAA CALLOUT ── */
+.hipaa-banner {
+  background: rgba(52,211,153,0.06);
+  border: 1px solid rgba(52,211,153,0.2);
+  border-radius: 12px;
+  padding: 24px 28px;
+  display: flex; align-items: flex-start; gap: 20px;
+  margin-top: 32px;
+}
+.hipaa-banner .shield { font-size: 1.8rem; flex-shrink: 0; }
+.hipaa-banner h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  color: white; font-size: 1rem; font-weight: 700; margin-bottom: 4px;
+}
+.hipaa-banner p { font-size: 0.88rem; color: var(--gray-400); line-height: 1.6; }
+
+/* ── PRICING ── */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.pricing-card {
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+  padding: 32px;
+  transition: all 0.3s;
+  display: flex; flex-direction: column;
+  position: relative;
+}
+.pricing-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 8px 32px rgba(249,115,22,0.08);
+  transform: translateY(-2px);
+}
+.pricing-card.popular {
+  border-color: var(--accent);
+  box-shadow: 0 4px 20px rgba(249,115,22,0.1);
+}
+.popular-badge {
+  position: absolute; top: -12px; left: 50%;
+  transform: translateX(-50%);
+  background: var(--accent); color: white;
+  font-size: 0.7rem; font-weight: 700;
+  padding: 4px 14px; border-radius: 100px;
+  text-transform: uppercase; letter-spacing: 0.06em;
+}
+.pricing-card .icon-wrap {
+  width: 48px; height: 48px;
+  background: var(--accent-pale);
+  border-radius: 10px;
+  display: grid; place-items: center;
+  margin-bottom: 20px; font-size: 1.2rem;
+}
+.pricing-card h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.2rem; font-weight: 700; margin-bottom: 6px;
+}
+.pricing-desc { color: var(--slate); font-size: 0.9rem; line-height: 1.6; margin-bottom: 20px; }
+.pricing-amount {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 2.4rem; font-weight: 700; color: var(--accent);
+  line-height: 1.1; margin-bottom: 4px;
+}
+.pricing-period { font-size: 0.88rem; color: var(--gray-600); margin-bottom: 20px; }
+.pricing-card .card-features { margin-top: auto; }
+
+/* ── CTA BANNER ── */
+.cta-banner {
+  max-width: 1200px; margin: 0 auto;
+  padding: 0 32px 100px;
+}
+.cta-inner {
+  background: linear-gradient(135deg, var(--accent) 0%, #EA580C 100%);
+  border-radius: 16px;
+  padding: 64px;
+  display: grid; grid-template-columns: 1.2fr 0.8fr;
+  gap: 40px; align-items: center;
+  position: relative; overflow: hidden;
+}
+.cta-inner::before {
+  content: '';
+  position: absolute; top: -100px; right: -100px;
+  width: 300px; height: 300px;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+  border-radius: 50%;
+}
+.cta-inner h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 2rem; font-weight: 700;
+  color: white; line-height: 1.25; margin-bottom: 12px;
+}
+.cta-inner p { color: rgba(255,255,255,0.8); font-size: 1.05rem; line-height: 1.7; }
+.cta-form {
+  display: flex; flex-direction: column; gap: 12px;
+  position: relative; z-index: 1;
+}
+.cta-form input {
+  padding: 14px 18px; border-radius: 10px;
+  border: 2px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.1); color: white;
+  font-size: 0.95rem; font-family: 'DM Sans', sans-serif;
+  outline: none; transition: border-color 0.2s;
+}
+.cta-form input::placeholder { color: rgba(255,255,255,0.5); }
+.cta-form input:focus { border-color: rgba(255,255,255,0.5); }
+.cta-form button {
+  background: white; color: var(--navy);
+  padding: 14px 28px; border-radius: 10px;
+  font-size: 0.95rem; font-weight: 700;
+  border: none; cursor: pointer;
+  font-family: 'DM Sans', sans-serif; transition: all 0.2s;
+}
+.cta-form button:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(0,0,0,0.15); }
+
+/* ── FOOTER ── */
+.footer {
+  border-top: 1px solid var(--gray-200);
+  padding: 40px 32px;
+  max-width: 1200px; margin: 0 auto;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.footer-left { font-size: 0.85rem; color: var(--gray-600); }
+.footer-links { display: flex; gap: 24px; }
+.footer-links a {
+  font-size: 0.85rem; color: var(--gray-600);
+  text-decoration: none; transition: color 0.2s;
+}
+.footer-links a:hover { color: var(--accent); }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .hero { grid-template-columns: 1fr; padding-top: 120px; gap: 40px; }
+  .hero h1 { font-size: 2.4rem; }
+  .service-grid { grid-template-columns: 1fr; }
+  .service-card.wide { grid-template-columns: 1fr; }
+  .ad-types { grid-template-columns: 1fr; }
+  .seo-layout { grid-template-columns: 1fr; }
+  .process-steps { grid-template-columns: 1fr 1fr; }
+  .process-steps::before { display: none; }
+  .results-grid { grid-template-columns: 1fr 1fr; }
+  .pricing-grid { grid-template-columns: 1fr; }
+  .cta-inner { grid-template-columns: 1fr; padding: 40px; }
+  .footer { flex-direction: column; gap: 16px; text-align: center; }
+  .section-title { font-size: 1.8rem; }
+}
+@media (max-width: 600px) {
+  .nav-links { display: none; }
+  .hero h1 { font-size: 2rem; }
+  .metrics-grid { grid-template-columns: 1fr; }
+  .process-steps { grid-template-columns: 1fr; }
+  .results-grid { grid-template-columns: 1fr; }
+}
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate { opacity: 0; animation: fadeUp 0.6s ease forwards; }
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+</style>
+</head>
+<body>
+
+<!-- ════════════ NAV ════════════ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="mark">CC</span>
+      Catalyze Care
+    </a>
+    <div class="nav-links">
+      <a href="index.html#marketing">Marketing</a>
+      <a href="index.html#leads">Lead Lists</a>
+      <a href="index.html#referrals">Referral Data</a>
+      <a href="ads-seo.html" class="active">Ads & SEO</a>
+      <a href="index.html#pricing">Pricing</a>
+    </div>
+    <a href="#contact" class="nav-cta">Get Started</a>
+  </div>
+</nav>
+
+<!-- ════════════ HERO ════════════ -->
+<section class="hero">
+  <div class="animate">
+    <div class="hero-badge">
+      <span class="dot"></span>
+      Paid Ads & SEO for Healthcare
+    </div>
+    <h1>More patients through <span class="accent">targeted ads</span> and organic search</h1>
+    <p>HIPAA-compliant Google Ads, Meta Ads, and local SEO services built exclusively for healthcare practices — so every dollar drives appointment bookings, not just clicks.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">Book a Strategy Call →</a>
+      <a href="#services" class="btn-secondary">See Our Services</a>
+    </div>
+  </div>
+  <div class="hero-visual animate delay-2">
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <div class="label">Avg. Cost Per Lead</div>
+        <div class="value">$28<span class="unit"> CPL</span></div>
+        <div class="subtext">vs. $94 industry avg.</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">Local Ranking Lift</div>
+        <div class="value">3.8<span class="unit">x</span></div>
+        <div class="subtext">In 6 months or less</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">Ad Spend ROAS</div>
+        <div class="value">5.1<span class="unit">x</span></div>
+        <div class="subtext">Return on ad spend</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">Organic Traffic</div>
+        <div class="value">+210<span class="unit">%</span></div>
+        <div class="subtext">Avg. 12-month growth</div>
+      </div>
+      <div class="perf-card">
+        <div class="header">
+          <span class="title">Patient Acquisition by Channel</span>
+          <span class="tag">Live Dashboard</span>
+        </div>
+        <div class="channel-row">
+          <span class="channel-name">Google Search</span>
+          <div class="bar-track"><div class="bar-fill accent" style="width:82%"></div></div>
+          <span class="channel-val">82%</span>
+        </div>
+        <div class="channel-row">
+          <span class="channel-name">Local SEO</span>
+          <div class="bar-track"><div class="bar-fill teal" style="width:68%"></div></div>
+          <span class="channel-val">68%</span>
+        </div>
+        <div class="channel-row">
+          <span class="channel-name">Meta Ads</span>
+          <div class="bar-track"><div class="bar-fill accent-light" style="width:54%"></div></div>
+          <span class="channel-val">54%</span>
+        </div>
+        <div class="channel-row">
+          <span class="channel-name">Display / YouTube</span>
+          <div class="bar-track"><div class="bar-fill purple" style="width:31%"></div></div>
+          <span class="channel-val">31%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ SERVICES ════════════ -->
+<section class="section-gray" id="services">
+  <div class="section-inner">
+    <div class="section-label"><span class="line"></span> Services</div>
+    <h2 class="section-title">End-to-end digital patient acquisition</h2>
+    <p class="section-subtitle">We manage every layer of your digital presence — paid search, paid social, and organic search — all tuned to the unique compliance and conversion requirements of healthcare.</p>
+
+    <div class="service-grid">
+      <!-- Featured: Google Ads -->
+      <div class="service-card wide animate">
+        <div>
+          <div class="icon-wrap">🎯</div>
+          <h3>Google Ads Management</h3>
+          <p>We build and manage HIPAA-compliant Google Search and Performance Max campaigns that capture patients actively searching for your specialty right now — not a broad audience, but high-intent individuals ready to book.</p>
+          <ul class="card-features">
+            <li><span class="check">✓</span> Specialty-specific keyword research and negative keyword blocking</li>
+            <li><span class="check">✓</span> Location-based bid adjustments for your exact service area</li>
+            <li><span class="check">✓</span> Ad copy A/B testing optimized for appointment conversions</li>
+            <li><span class="check">✓</span> Google Local Services Ads setup and reputation management</li>
+            <li><span class="check">✓</span> Monthly budget pacing and performance reporting</li>
+          </ul>
+        </div>
+        <div>
+          <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:24px;">
+            <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--gray-400);margin-bottom:16px;">Sample Google Ads Performance</div>
+            <div style="display:flex;flex-direction:column;gap:10px;">
+              <div style="display:flex;justify-content:space-between;align-items:center;padding:12px 14px;background:rgba(255,255,255,0.04);border-radius:8px;border:1px solid rgba(255,255,255,0.06);">
+                <span style="font-size:0.85rem;color:var(--gray-400);">Impressions</span>
+                <span style="font-family:'Space Grotesk',sans-serif;color:white;font-weight:700;">24,800</span>
+              </div>
+              <div style="display:flex;justify-content:space-between;align-items:center;padding:12px 14px;background:rgba(255,255,255,0.04);border-radius:8px;border:1px solid rgba(255,255,255,0.06);">
+                <span style="font-size:0.85rem;color:var(--gray-400);">Click-Through Rate</span>
+                <span style="font-family:'Space Grotesk',sans-serif;color:#34D399;font-weight:700;">8.4%</span>
+              </div>
+              <div style="display:flex;justify-content:space-between;align-items:center;padding:12px 14px;background:rgba(255,255,255,0.04);border-radius:8px;border:1px solid rgba(255,255,255,0.06);">
+                <span style="font-size:0.85rem;color:var(--gray-400);">Cost Per Click</span>
+                <span style="font-family:'Space Grotesk',sans-serif;color:white;font-weight:700;">$4.12</span>
+              </div>
+              <div style="display:flex;justify-content:space-between;align-items:center;padding:12px 14px;background:rgba(255,255,255,0.04);border-radius:8px;border:1px solid rgba(255,255,255,0.06);">
+                <span style="font-size:0.85rem;color:var(--gray-400);">Appt. Conversion Rate</span>
+                <span style="font-family:'Space Grotesk',sans-serif;color:var(--accent-light);font-weight:700;">14.2%</span>
+              </div>
+              <div style="display:flex;justify-content:space-between;align-items:center;padding:12px 14px;background:rgba(249,115,22,0.08);border-radius:8px;border:1px solid rgba(249,115,22,0.2);">
+                <span style="font-size:0.85rem;color:white;font-weight:600;">Cost Per Appointment</span>
+                <span style="font-family:'Space Grotesk',sans-serif;color:var(--accent-light);font-weight:700;">$29</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Meta Ads -->
+      <div class="service-card animate delay-1">
+        <div class="icon-wrap">📱</div>
+        <h3>Meta Ads (Facebook & Instagram)</h3>
+        <p>Reach patients where they spend their time. We build compliant Meta ad campaigns that grow brand awareness for your practice, retarget website visitors, and drive appointment bookings through compelling creative.</p>
+        <ul class="card-features">
+          <li><span class="check">✓</span> HIPAA-safe audience targeting (no sensitive health data)</li>
+          <li><span class="check">✓</span> Custom and lookalike audiences from your existing patient base</li>
+          <li><span class="check">✓</span> Scroll-stopping creative designed for healthcare audiences</li>
+          <li><span class="check">✓</span> Retargeting sequences for website visitors and video viewers</li>
+        </ul>
+      </div>
+
+      <!-- Display & YouTube -->
+      <div class="service-card animate delay-2">
+        <div class="icon-wrap">📺</div>
+        <h3>Display & YouTube Ads</h3>
+        <p>Build top-of-funnel awareness and stay top-of-mind with prospective patients during their research journey. Display and video ads complement your search strategy by reaching patients before they're ready to book.</p>
+        <ul class="card-features">
+          <li><span class="check">✓</span> Specialty and condition-based contextual targeting</li>
+          <li><span class="check">✓</span> YouTube pre-roll and in-feed video placements</li>
+          <li><span class="check">✓</span> Remarketing to site visitors across Google's display network</li>
+          <li><span class="check">✓</span> Brand-safe placements only — no inappropriate content adjacency</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ PAID ADS DETAIL ════════════ -->
+<section class="section-dark" id="paid-ads">
+  <div class="section-inner">
+    <div class="section-label" style="color:var(--accent-light)"><span class="line" style="background:var(--accent-light)"></span> Paid Advertising</div>
+    <h2 class="section-title">Every ad type, built for healthcare</h2>
+    <p class="section-subtitle">We deploy the right ad formats for each stage of the patient journey — from awareness to appointment booking — with HIPAA compliance built in at every step.</p>
+
+    <div class="ad-types">
+      <div class="ad-type-card animate">
+        <div class="icon">🔍</div>
+        <h4>Search Ads</h4>
+        <p>Capture patients actively searching for your specialty with precision keyword targeting and ad copy optimized for appointment intent.</p>
+      </div>
+      <div class="ad-type-card animate delay-1">
+        <div class="icon">📍</div>
+        <h4>Local Services Ads</h4>
+        <p>Appear at the very top of Google results with the Google Guaranteed badge — the highest-trust ad placement for local healthcare providers.</p>
+      </div>
+      <div class="ad-type-card animate delay-2">
+        <div class="icon">🗺️</div>
+        <h4>Map & Local Ads</h4>
+        <p>Dominate Google Maps results in your service area. Show up when patients search "specialist near me" or browse map results for your specialty.</p>
+      </div>
+      <div class="ad-type-card animate delay-3">
+        <div class="icon">🖼️</div>
+        <h4>Display Retargeting</h4>
+        <p>Re-engage website visitors across millions of websites as they continue their search, keeping your practice top-of-mind until they book.</p>
+      </div>
+      <div class="ad-type-card animate delay-1">
+        <div class="icon">📹</div>
+        <h4>YouTube Video Ads</h4>
+        <p>Build trust with prospective patients through video — provider spotlights, patient testimonials (HIPAA-compliant), and practice tours.</p>
+      </div>
+      <div class="ad-type-card animate delay-2">
+        <div class="icon">💬</div>
+        <h4>Meta Lead Ads</h4>
+        <p>Capture appointment requests directly inside Facebook and Instagram without requiring users to leave the app — frictionless lead gen at scale.</p>
+      </div>
+    </div>
+
+    <div class="hipaa-banner animate">
+      <div class="shield">🛡️</div>
+      <div>
+        <h4>HIPAA-Compliant by Design</h4>
+        <p>All campaigns are built with healthcare compliance at the core. We avoid targeting based on health conditions or diagnoses, use BAA-covered pixels and tracking, and ensure no PHI is ever transmitted through ad platforms. Our team stays current on platform policy changes that affect healthcare advertisers so your campaigns stay compliant and active.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ SEO ════════════ -->
+<section class="section" id="seo">
+  <div class="section-label"><span class="line"></span> SEO</div>
+  <h2 class="section-title">Rank where patients search</h2>
+  <p class="section-subtitle">We build long-term organic visibility for your practice across local, national, and condition-specific searches — so you earn patient appointments without paying per click.</p>
+
+  <div class="seo-layout">
+    <div class="seo-pillars animate">
+      <div class="pillar">
+        <div class="pillar-icon">📍</div>
+        <div class="pillar-content">
+          <h4>Local SEO & Google Business Profile</h4>
+          <p>We optimize your Google Business Profile, build consistent local citations, and manage your local presence so you rank in the map pack for "near me" searches in your specialty and city.</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-icon">📄</div>
+        <div class="pillar-content">
+          <h4>On-Page SEO & Content Strategy</h4>
+          <p>Condition pages, service pages, and provider bios optimized for the exact terms patients use when searching for care. We write or audit every key page on your site.</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-icon">⚙️</div>
+        <div class="pillar-content">
+          <h4>Technical SEO</h4>
+          <p>Core Web Vitals, mobile optimization, schema markup (MedicalOrganization, Physician, FAQPage), and crawl health — the foundation that lets your content rank.</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-icon">✍️</div>
+        <div class="pillar-content">
+          <h4>Healthcare Content Marketing</h4>
+          <p>Medically accurate, SEO-optimized blog posts and condition guides that establish your providers as authorities in their specialty and drive long-tail organic traffic.</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-icon">🔗</div>
+        <div class="pillar-content">
+          <h4>Authority & Link Building</h4>
+          <p>Earn backlinks from medical journals, healthcare directories, and regional news — signals that tell Google your practice is the authoritative source in your specialty.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="seo-results animate delay-2">
+      <div class="seo-results-header">
+        <span class="title">Keyword Rank Tracker</span>
+        <span class="live-dot">
+          <span class="live-dot-pulse"></span>
+          Live
+        </span>
+      </div>
+      <div class="serp-list">
+        <div class="serp-item">
+          <div class="query">EXAMPLE QUERY</div>
+          <div class="rank-row">
+            <span class="kw">psychiatrist detroit mi</span>
+            <span class="rank-badge top">#2</span>
+          </div>
+          <div class="vol-row">
+            <span class="vol-tag">🔍 1,900 mo/searches</span>
+            <span class="vol-tag">↑ was #11</span>
+          </div>
+        </div>
+        <div class="serp-item">
+          <div class="query">EXAMPLE QUERY</div>
+          <div class="rank-row">
+            <span class="kw">anxiety therapist near me</span>
+            <span class="rank-badge top">#1</span>
+          </div>
+          <div class="vol-row">
+            <span class="vol-tag">🔍 2,400 mo/searches</span>
+            <span class="vol-tag">↑ was #8</span>
+          </div>
+        </div>
+        <div class="serp-item">
+          <div class="query">EXAMPLE QUERY</div>
+          <div class="rank-row">
+            <span class="kw">ADHD evaluation adult michigan</span>
+            <span class="rank-badge top">#3</span>
+          </div>
+          <div class="vol-row">
+            <span class="vol-tag">🔍 880 mo/searches</span>
+            <span class="vol-tag">↑ was #24</span>
+          </div>
+        </div>
+        <div class="serp-item">
+          <div class="query">EXAMPLE QUERY</div>
+          <div class="rank-row">
+            <span class="kw">medication management psychiatry</span>
+            <span class="rank-badge mid">#6</span>
+          </div>
+          <div class="vol-row">
+            <span class="vol-tag">🔍 1,100 mo/searches</span>
+            <span class="vol-tag">↑ was #31</span>
+          </div>
+        </div>
+        <div class="serp-item">
+          <div class="query">EXAMPLE QUERY</div>
+          <div class="rank-row">
+            <span class="kw">telehealth psychiatrist michigan</span>
+            <span class="rank-badge top">#4</span>
+          </div>
+          <div class="vol-row">
+            <span class="vol-tag">🔍 720 mo/searches</span>
+            <span class="vol-tag">↑ was #18</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ PROCESS ════════════ -->
+<section class="section-gray" id="process">
+  <div class="section-inner">
+    <div class="section-label"><span class="line"></span> Our Process</div>
+    <h2 class="section-title">From audit to appointments in 30 days</h2>
+    <p class="section-subtitle">We move fast and focus on revenue — not vanity metrics. Here's how we go from kickoff to live campaigns driving patient volume.</p>
+
+    <div class="process-steps">
+      <div class="process-step animate">
+        <div class="step-num">1</div>
+        <h4>Discovery & Audit</h4>
+        <p>We audit your existing digital presence, competitor rankings, ad history, and website conversion rate. We leave with a clear picture of where every dollar should go.</p>
+      </div>
+      <div class="process-step animate delay-1">
+        <div class="step-num">2</div>
+        <h4>Strategy & Setup</h4>
+        <p>Keyword research, audience build-out, campaign architecture, and landing page optimization — all built specifically for your specialty, geography, and patient demographics.</p>
+      </div>
+      <div class="process-step animate delay-2">
+        <div class="step-num">3</div>
+        <h4>Launch & Monitor</h4>
+        <p>Campaigns go live and we monitor performance daily in the first 30 days — adjusting bids, keywords, and creatives to ensure we hit your cost-per-appointment target.</p>
+      </div>
+      <div class="process-step animate delay-3">
+        <div class="step-num">4</div>
+        <h4>Optimize & Scale</h4>
+        <p>Monthly performance reviews with your account manager. We double down on what's working, cut what isn't, and expand budgets as ROI proves out.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ RESULTS ════════════ -->
+<section class="section-dark" id="results">
+  <div class="section-inner">
+    <div class="section-label" style="color:var(--accent-light)"><span class="line" style="background:var(--accent-light)"></span> Results</div>
+    <h2 class="section-title">Numbers that move the needle</h2>
+    <p class="section-subtitle">Across our portfolio of healthcare clients, we consistently outperform industry benchmarks on the metrics that matter most — patient appointments, not just impressions.</p>
+
+    <div class="results-grid animate">
+      <div class="result-stat">
+        <div class="number">$28</div>
+        <div class="label">Average cost per new patient appointment</div>
+      </div>
+      <div class="result-stat">
+        <div class="number">+210%</div>
+        <div class="label">Average organic traffic growth in 12 months</div>
+      </div>
+      <div class="result-stat">
+        <div class="number">5.1x</div>
+        <div class="label">Return on ad spend across Google & Meta</div>
+      </div>
+      <div class="result-stat">
+        <div class="number">30 days</div>
+        <div class="label">Avg. time from kickoff to first inbound leads</div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:0;" class="animate delay-2">
+      <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:28px;">
+        <div style="font-size:0.8rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--accent-light);margin-bottom:16px;font-weight:600;">Case Snapshot — Orthopedic Practice, Dallas TX</div>
+        <p style="color:var(--gray-400);font-size:0.92rem;line-height:1.7;margin-bottom:16px;">Launched Google Search and Local Services Ads targeting sports medicine and joint replacement searches. Combined with a local SEO sprint targeting suburb-specific keywords.</p>
+        <div style="display:flex;gap:24px;">
+          <div>
+            <div style="font-family:'Space Grotesk',sans-serif;font-size:1.6rem;font-weight:700;color:white;">+47</div>
+            <div style="font-size:0.8rem;color:var(--gray-400);">New patients / month</div>
+          </div>
+          <div>
+            <div style="font-family:'Space Grotesk',sans-serif;font-size:1.6rem;font-weight:700;color:var(--accent-light);">$31</div>
+            <div style="font-size:0.8rem;color:var(--gray-400);">Cost per appointment</div>
+          </div>
+          <div>
+            <div style="font-family:'Space Grotesk',sans-serif;font-size:1.6rem;font-weight:700;color:#34D399;">6.2x</div>
+            <div style="font-size:0.8rem;color:var(--gray-400);">ROAS</div>
+          </div>
+        </div>
+      </div>
+      <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:28px;">
+        <div style="font-size:0.8rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--accent-light);margin-bottom:16px;font-weight:600;">Case Snapshot — Behavioral Health Group, Chicago IL</div>
+        <p style="color:var(--gray-400);font-size:0.92rem;line-height:1.7;margin-bottom:16px;">SEO-focused engagement targeting ADHD, anxiety, and depression condition pages alongside Meta Ads for new patient acquisition across 3 clinic locations.</p>
+        <div style="display:flex;gap:24px;">
+          <div>
+            <div style="font-family:'Space Grotesk',sans-serif;font-size:1.6rem;font-weight:700;color:white;">+310%</div>
+            <div style="font-size:0.8rem;color:var(--gray-400);">Organic search traffic</div>
+          </div>
+          <div>
+            <div style="font-family:'Space Grotesk',sans-serif;font-size:1.6rem;font-weight:700;color:var(--accent-light);">#1–3</div>
+            <div style="font-size:0.8rem;color:var(--gray-400);">Map pack rankings</div>
+          </div>
+          <div>
+            <div style="font-family:'Space Grotesk',sans-serif;font-size:1.6rem;font-weight:700;color:#34D399;">$22</div>
+            <div style="font-size:0.8rem;color:var(--gray-400);">Cost per Meta lead</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ PRICING ════════════ -->
+<section class="section-gray" id="pricing">
+  <div class="section-inner">
+    <div class="section-label"><span class="line"></span> Pricing</div>
+    <h2 class="section-title">Transparent pricing, no surprises</h2>
+    <p class="section-subtitle">Choose the engagement that fits your practice's growth stage. All plans include dedicated account management and monthly performance reporting.</p>
+
+    <div class="pricing-grid">
+      <!-- SEO -->
+      <div class="pricing-card animate">
+        <div class="icon-wrap">🔍</div>
+        <h3>Local SEO</h3>
+        <p class="pricing-desc">Dominate local search results for your specialty and geography. Ideal for practices with little-to-no existing organic presence.</p>
+        <div class="pricing-amount">$1,500<span style="font-size:1rem;font-weight:500;color:var(--gray-600)"> /mo</span></div>
+        <div class="pricing-period">6-month minimum · results in 60–90 days</div>
+        <ul class="card-features">
+          <li><span class="check">✓</span> Google Business Profile optimization</li>
+          <li><span class="check">✓</span> Local citation building and cleanup</li>
+          <li><span class="check">✓</span> On-page SEO for up to 10 service pages</li>
+          <li><span class="check">✓</span> Monthly rank tracking report</li>
+          <li><span class="check">✓</span> Review monitoring and response</li>
+        </ul>
+      </div>
+
+      <!-- Paid Ads -->
+      <div class="pricing-card popular animate delay-1">
+        <span class="popular-badge">Most Popular</span>
+        <div class="icon-wrap">🎯</div>
+        <h3>Paid Ads Management</h3>
+        <p class="pricing-desc">Full-service Google Ads and/or Meta Ads management with HIPAA-compliant strategy, creative, and optimization.</p>
+        <div class="pricing-amount">$2,500<span style="font-size:1rem;font-weight:500;color:var(--gray-600)"> /mo</span></div>
+        <div class="pricing-period">+ ad spend · 3-month minimum</div>
+        <ul class="card-features">
+          <li><span class="check">✓</span> Campaign setup, keyword research &amp; audience build</li>
+          <li><span class="check">✓</span> Ad copy and creative development</li>
+          <li><span class="check">✓</span> HIPAA-compliant tracking configuration</li>
+          <li><span class="check">✓</span> Landing page optimization</li>
+          <li><span class="check">✓</span> Weekly performance check-ins</li>
+          <li><span class="check">✓</span> Monthly reporting with ROI breakdown</li>
+        </ul>
+      </div>
+
+      <!-- Growth Bundle -->
+      <div class="pricing-card animate delay-2">
+        <div class="icon-wrap">🚀</div>
+        <h3>Growth Bundle</h3>
+        <p class="pricing-desc">Our full digital patient acquisition stack — paid ads, local SEO, and content marketing all working together for maximum impact.</p>
+        <div class="pricing-amount">$4,000<span style="font-size:1rem;font-weight:500;color:var(--gray-600)"> /mo</span></div>
+        <div class="pricing-period">+ ad spend · 6-month minimum</div>
+        <ul class="card-features">
+          <li><span class="check">✓</span> Everything in Paid Ads Management</li>
+          <li><span class="check">✓</span> Everything in Local SEO</li>
+          <li><span class="check">✓</span> 4 SEO-optimized content pieces/month</li>
+          <li><span class="check">✓</span> Technical SEO audit and remediation</li>
+          <li><span class="check">✓</span> Authority link building</li>
+          <li><span class="check">✓</span> Quarterly strategy reviews</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="margin-top:32px;padding:28px;background:white;border:1px solid var(--gray-200);border-radius:12px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;" class="animate">
+      <div>
+        <div style="font-family:'Space Grotesk',sans-serif;font-size:1.1rem;font-weight:700;margin-bottom:4px;">Not sure which plan is right for you?</div>
+        <div style="font-size:0.92rem;color:var(--slate);">Book a free 30-minute strategy call. We'll audit your current digital presence and recommend the highest-ROI starting point for your practice.</div>
+      </div>
+      <a href="#contact" class="btn-primary" style="white-space:nowrap;">Get a Free Audit →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ CTA ════════════ -->
+<section class="cta-banner" id="contact">
+  <div class="cta-inner">
+    <div>
+      <h2>Ready to fill your appointment calendar?</h2>
+      <p>Tell us about your practice and we'll build a custom paid ads and SEO strategy to drive patient volume — with a clear ROI target before we spend a dollar.</p>
+    </div>
+    <form class="cta-form" name="ads-seo-inquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="ads-seo-inquiry" />
+      <p style="display:none"><label>Don't fill this out: <input name="bot-field" /></label></p>
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Work email" required />
+      <input type="text" name="practice" placeholder="Practice name" required />
+      <input type="text" name="specialty" placeholder="Specialty (e.g. Cardiology, Psychiatry)" />
+      <input type="tel" name="phone" placeholder="Phone number" />
+      <button type="submit">Book a Free Strategy Call →</button>
+    </form>
+  </div>
+</section>
+
+<!-- ════════════ FOOTER ════════════ -->
+<footer class="footer">
+  <div class="footer-left">© 2026 Catalyze Care. All rights reserved.</div>
+  <div class="footer-links">
+    <a href="index.html#marketing">Marketing</a>
+    <a href="index.html#leads">Lead Lists</a>
+    <a href="index.html#referrals">Referral Data</a>
+    <a href="ads-seo.html">Ads & SEO</a>
+    <a href="index.html#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </div>
+</footer>
+
+<script>
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 20);
+});
+
+const animObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.style.animationPlayState = 'running';
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.animate').forEach(el => {
+  el.style.animationPlayState = 'paused';
+  animObserver.observe(el);
+});
+</script>
+</body>
+</html>
