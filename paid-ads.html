@@ -29,6 +29,7 @@ body {
   font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--navy); line-height: 1.6;
   background: var(--white); -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 /* ── NAV ── */
@@ -431,15 +432,24 @@ body {
   .cta-inner { grid-template-columns: 1fr; padding: 40px; }
   .footer { flex-direction: column; gap: 16px; text-align: center; }
   .section-title { font-size: 1.8rem; }
+  .section { padding: 64px 20px; }
+  .section-dark { padding: 64px 20px; }
+  .section-gray { padding: 64px 20px; }
 }
 @media (max-width: 600px) {
+  .nav-inner { padding: 0 16px; }
   .nav-links { display: none; }
+  .hero { padding: 100px 16px 48px; }
   .hero h1 { font-size: 2rem; }
   .metrics-grid { grid-template-columns: 1fr; }
   .ad-types-grid { grid-template-columns: 1fr; }
   .process-steps { grid-template-columns: 1fr; }
   .results-grid { grid-template-columns: 1fr; }
   .kpi-row { grid-template-columns: 1fr 1fr; }
+  .hipaa-banner { flex-direction: column; }
+  .cta-inner { padding: 28px 20px; }
+  .cta-banner { padding: 0 16px 60px; }
+  .footer { padding: 32px 16px; }
 }
 
 @keyframes fadeUp {

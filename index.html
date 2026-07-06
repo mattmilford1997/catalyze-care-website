@@ -31,6 +31,7 @@ body {
   line-height: 1.6;
   background: var(--white);
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 /* ── NAV ── */
@@ -693,14 +694,22 @@ body {
   .pricing-tiers { grid-template-columns: 1fr; }
   .footer { flex-direction: column; gap: 16px; text-align: center; }
   .section-title { font-size: 1.8rem; }
+  .section { padding: 64px 20px; }
+  .section-dark { padding: 64px 20px; }
+  .section-gray { padding: 64px 20px; }
 }
 @media (max-width: 600px) {
+  .nav-inner { padding: 0 16px; }
   .nav-links { display: none; }
+  .hero { padding: 100px 16px 48px; }
   .hero h1 { font-size: 2rem; }
   .stat-grid { grid-template-columns: 1fr; }
   .insight-cards { grid-template-columns: 1fr; }
   .referral-row { grid-template-columns: 1fr 0.6fr 0.5fr; }
   .referral-row .provider-type { display: none; }
+  .cta-inner { padding: 28px 20px; }
+  .cta-banner { padding: 0 16px 60px; }
+  .footer { padding: 32px 16px; }
 }
 
 /* ── ANIMATIONS ── */
