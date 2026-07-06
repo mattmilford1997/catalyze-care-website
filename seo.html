@@ -726,14 +726,15 @@ body {
       <h2>Start ranking where your patients search</h2>
       <p>Share your practice details and we'll build a custom SEO roadmap showing exactly what it takes to reach the top of search results in your specialty and market.</p>
     </div>
-    <form class="cta-form" name="seo-inquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+    <form class="cta-form" name="seo-inquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
       <input type="hidden" name="form-name" value="seo-inquiry" />
       <p style="display:none"><label>Don't fill this out: <input name="bot-field" /></label></p>
-      <input type="text" name="name" placeholder="Your name" required />
-      <input type="email" name="email" placeholder="Work email" required />
-      <input type="text" name="practice" placeholder="Practice name" required />
-      <input type="text" name="specialty" placeholder="Specialty (e.g. Cardiology, Psychiatry)" />
-      <input type="text" name="website" placeholder="Practice website URL" />
+      <input type="text" name="name" placeholder="Your name *" required />
+      <input type="email" name="email" placeholder="Work email *" required />
+      <input type="text" name="practice" placeholder="Practice name *" required />
+      <input type="text" name="specialty" placeholder="Specialty (e.g. Cardiology, Psychiatry) *" required />
+      <input type="text" name="website" placeholder="Practice website URL *" required />
+      <div data-netlify-recaptcha="true"></div>
       <button type="submit">Get My Free SEO Audit →</button>
     </form>
   </div>
