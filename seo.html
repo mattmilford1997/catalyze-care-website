@@ -369,6 +369,7 @@ body {
   .results-grid { grid-template-columns: 1fr 1fr; }
   .case-grid { grid-template-columns: 1fr; }
   .pricing-grid { grid-template-columns: 1fr; }
+  .pricing-two-col { grid-template-columns: 1fr !important; }
   .cta-inner { grid-template-columns: 1fr; padding: 40px; }
   .footer { flex-direction: column; gap: 16px; text-align: center; }
   .section-title { font-size: 1.8rem; }
@@ -665,10 +666,23 @@ body {
   <div class="section-inner">
     <div class="section-label"><span class="line"></span> Pricing</div>
     <h2 class="section-title">Simple, transparent pricing</h2>
-    <p class="section-subtitle">One plan, everything included — local SEO, technical optimization, content, and monthly reporting. No lock-in after the minimum term.</p>
+    <p class="section-subtitle">Everything included — local SEO, technical optimization, content, and monthly reporting. No lock-in after the minimum term.</p>
 
-    <div style="max-width:560px;">
-      <div class="pricing-card animate">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:960px;" class="pricing-two-col">
+      <div class="pricing-card popular animate">
+        <div class="popular-badge">Portfolio Rate</div>
+        <div class="icon-wrap">🤝</div>
+        <h3>Arche Companies</h3>
+        <div class="pricing-amount">$499<span style="font-size:1rem;font-weight:500;color:var(--gray-600)"> /mo</span></div>
+        <div class="pricing-period">6-month minimum · results in 60–90 days</div>
+        <p class="pricing-desc">Exclusive rate for Arche portfolio companies — the same full-service SEO engagement at a preferred price.</p>
+        <ul class="card-features">
+          <li><span class="check">✓</span> Full SEO management, all deliverables included</li>
+          <li><span class="check">✓</span> GBP + citations + on-page + technical SEO</li>
+          <li><span class="check">✓</span> 2 content pieces / month + monthly reporting</li>
+        </ul>
+      </div>
+      <div class="pricing-card animate delay-1">
         <div class="icon-wrap">📈</div>
         <h3>SEO Management</h3>
         <div class="pricing-amount">$799<span style="font-size:1rem;font-weight:500;color:var(--gray-600)"> /mo</span></div>
