@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HIPAA and Your Marketing Stack: Pixels, Tracking, and What Changed After the HHS Guidance — Catalyze Care</title>
+<meta name="description" content="Tracking pixels on healthcare websites have been the subject of HHS guidance, litigation, and settlements. Here's what the current position is, what's actually risky, and how to measure marketing without transmitting PHI." />
+<link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+<link rel="canonical" href="https://catalyzegrowth.co/blog/hipaa-marketing-pixels-tracking" />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --navy: #1A1A2E; --accent: #F97316; --accent-light: #FB923C; --accent-pale: #FFF7ED; --slate: #3D4F6F; --gray-100: #F4F6F9; --gray-200: #E2E7EF; --gray-400: #8E99AB; --gray-600: #5A6882; --white: #FFFFFF; }
+html { scroll-behavior: smooth; }
+body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6; background: var(--white); }
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.92); backdrop-filter: blur(16px); border-bottom: 1px solid var(--gray-200); }
+.nav-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0 32px; height: 64px; }
+.nav-logo { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.25rem; color: var(--navy); text-decoration: none; display: flex; align-items: center; gap: 8px; }
+.nav-logo .mark { width: 32px; height: 32px; background: var(--accent); border-radius: 8px; display: grid; place-items: center; color: white; font-size: 0.85rem; font-weight: 700; }
+.nav-links { display: flex; gap: 4px; }
+.nav-links a { text-decoration: none; color: var(--slate); font-size: 0.9rem; font-weight: 500; padding: 8px 16px; border-radius: 8px; }
+.nav-links a.active { color: var(--accent); background: var(--accent-pale); }
+.nav-cta { background: var(--accent); color: white; padding: 10px 24px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; text-decoration: none; }
+@media (max-width: 900px) { .nav-links { display: none; } }
+.post-header { padding: 140px 32px 48px; max-width: 760px; margin: 0 auto; }
+.breadcrumb { font-size: 0.85rem; color: var(--gray-600); margin-bottom: 24px; }
+.breadcrumb a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.post-cat { display: inline-flex; font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: 18px; }
+.post-header h1 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.18; letter-spacing: -0.02em; margin-bottom: 20px; }
+.post-meta { font-size: 0.88rem; color: var(--gray-600); display: flex; gap: 10px; }
+.post-content { max-width: 760px; margin: 0 auto; padding: 0 32px 80px; }
+.post-content h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; margin: 44px 0 16px; color: var(--navy); }
+.post-content p { font-size: 1.02rem; color: var(--slate); line-height: 1.8; margin-bottom: 20px; }
+.post-content ul, .post-content ol { margin: 0 0 20px 24px; color: var(--slate); line-height: 1.8; }
+.post-content li { margin-bottom: 8px; font-size: 1.02rem; }
+.post-content strong { color: var(--navy); }
+.post-cta { max-width: 760px; margin: 0 auto; padding: 0 32px 80px; }
+.cta-box { background: var(--navy); border-radius: 14px; padding: 44px; text-align: center; }
+.cta-box h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.35rem; font-weight: 700; color: white; margin-bottom: 10px; }
+.cta-box p { color: var(--gray-400); font-size: 0.95rem; margin-bottom: 24px; }
+.cta-box a { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: white; padding: 14px 28px; border-radius: 10px; font-size: 0.92rem; font-weight: 600; text-decoration: none; }
+.footer { border-top: 1px solid var(--gray-200); padding: 40px 32px; max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+.footer-left { font-size: 0.85rem; color: var(--gray-600); }
+.footer-links { display: flex; gap: 24px; flex-wrap: wrap; }
+.footer-links a { font-size: 0.85rem; color: var(--gray-600); text-decoration: none; }
+@media (max-width: 600px) { .post-header { padding: 120px 20px 40px; } .post-content { padding: 0 20px 60px; } .post-cta { padding: 0 20px 60px; } .cta-box { padding: 32px 24px; } .footer { flex-direction: column; text-align: center; } }
+</style>
+<script>
+(function(){
+var publishDate = new Date("2026-10-26T09:00:00-04:00");
+if (new Date() < publishDate) { window.location.replace("/blog"); }
+})();
+</script>
+</head>
+<body>
+<nav class="nav"><div class="nav-inner"><a href="../index.html" class="nav-logo"><span class="mark">CC</span> Catalyze Care</a><div class="nav-links"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../index.html#referrals">Referral Data</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html" class="active">Blog</a><a href="../index.html#pricing">Pricing</a></div><a href="../index.html#contact" class="nav-cta">Get Started</a></div></nav>
+<header class="post-header"><div class="breadcrumb"><a href="../blog.html">&larr; Back to Blog</a></div><div class="post-cat">Paid Ads</div><h1>HIPAA and Your Marketing Stack: Pixels, Tracking, and What Changed After the HHS Guidance</h1><div class="post-meta"><span>October 26, 2026</span><span>&middot;</span><span>3 min read</span></div></header>
+<article class="post-content">
+<p>The Meta pixel on a healthcare website went from standard practice to litigation exposure in about two years. Here's where things stand and how to run marketing analytics without creating a HIPAA problem.</p>
+<h2>What happened</h2>
+<p>In 2022, HHS's Office for Civil Rights issued guidance stating that tracking technologies on HIPAA-covered websites and apps could transmit protected health information to third parties (Meta, Google, others) without authorization, and that this could violate HIPAA. Health systems received warning letters. Class actions followed, targeting hospitals and telehealth companies whose pixels sent page URLs, form fields, or appointment details to ad platforms. Several settled for large sums.</p>
+<p>A 2024 court ruling narrowed the guidance's reach for certain unauthenticated pages, and HHS revised its position. But the practical exposure remains: if a pixel sends information that identifies a person and relates to their health, care, or payment, you have a problem regardless of how the guidance is worded this year.</p>
+<h2>What's actually risky</h2>
+<p>The risk isn't "having a pixel." It's what the pixel sends. High-risk patterns:</p>
+<ul>
+<li><strong>Page URLs that reveal condition or service</strong> sent to ad platforms ("/schedule/anxiety-treatment," "/conditions/adhd") along with a user identifier.</li>
+<li><strong>Form data</strong> captured by pixels: names, emails, phone numbers, reason for visit.</li>
+<li><strong>Authenticated pages.</strong> Anything behind a patient login is PHI territory. Pixels don't belong there at all.</li>
+<li><strong>Scheduling and intake flows.</strong> The pages where someone selects a provider, a service, and a time are the highest-value pages for marketing and the highest-risk pages for HIPAA.</li>
+<li><strong>Chat widgets and session recording tools</strong> that capture typed content.</li>
+</ul>
+<p>Lower risk: a general homepage view with no identifying parameters. Even that, on a covered entity's site, is worth reviewing.</p>
+<h2>The platforms' own restrictions</h2>
+<p>Meta restricts data from sites it categorizes as health-related and will block custom events. Google Analytics 4 is not HIPAA-compliant out of the box, and Google won't sign a BAA for it. Google Ads conversion tracking has the same issue. The platforms have effectively told healthcare advertisers to figure out a different measurement layer.</p>
+<h2>How to measure marketing without transmitting PHI</h2>
+<p><strong>1. Separate the marketing site from the patient site.</strong> Public informational pages can carry standard tracking with care. Intake, scheduling, and portal flows live on a separate domain or subdomain with no third-party pixels.</p>
+<p><strong>2. Use server-side tracking with a filter.</strong> Route events through your own server, strip identifying and health-related parameters, and forward only generic events (page view, form submitted) to ad platforms. Several vendors offer HIPAA-oriented versions of this and will sign BAAs.</p>
+<p><strong>3. Measure conversions in your own systems.</strong> Your CRM and EHR know which patients booked. Use campaign-tagged phone numbers, form fields, and URLs to attribute at intake, then report from your side, not the platform's.</p>
+<p><strong>4. Use platform-native lead forms</strong> (Meta instant forms, Google lead form extensions) so the conversion happens on the platform under its terms and your site never sees the data.</p>
+<p><strong>5. Sign BAAs with every vendor that touches PHI.</strong> Call tracking, chat, CRM, email, forms. If a vendor won't sign one, it doesn't belong in a flow that handles patient information.</p>
+<p><strong>6. Inventory your tags.</strong> Run a tag audit on every page. Most practices are surprised by what's firing.</p>
+<h2>The trade-off</h2>
+<p>You lose some attribution precision. Platform-reported ROAS becomes directional. That's fine. A practice that knows its cost per booked patient from its own intake data, by campaign, has better information than one relying on Meta's attribution anyway.</p>
+<h2>How Catalyze Care handles it</h2>
+<p>Catalyze Care runs paid media for healthcare practices with a HIPAA-conscious measurement setup by default: separated marketing and intake domains where possible, server-side filtered events, campaign-tagged intake attribution, and BAAs with every tool in the stack. We start every engagement with a tag audit.</p>
+<p>Book a call and we'll run the tag audit on your site before we talk about anything else.</p>
+</article>
+<div class="post-cta"><div class="cta-box"><h3>Need help with HIPAA tracking pixels?</h3><p>Book a free consultation and we'll show you exactly what we'd run for your practice.</p><a href="../index.html#contact">Book a Free Consultation &rarr;</a></div></div>
+<footer class="footer"><div class="footer-left">&copy; 2026 Catalyze Care. All rights reserved.</div><div class="footer-links"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html">Blog</a><a href="../index.html#contact">Contact</a></div></footer>
+</body>
+</html>

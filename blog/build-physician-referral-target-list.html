@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>How to Build a Referral Target List That Actually Produces Referrals — Catalyze Care</title>
+<meta name="description" content="A referral campaign is only as good as its list. Here's how to build one from NPI and claims-adjacent data: specialty, geography, volume, referral propensity, and the contact that actually routes referrals." />
+<link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+<link rel="canonical" href="https://catalyzegrowth.co/blog/build-physician-referral-target-list" />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --navy: #1A1A2E; --accent: #F97316; --accent-light: #FB923C; --accent-pale: #FFF7ED; --slate: #3D4F6F; --gray-100: #F4F6F9; --gray-200: #E2E7EF; --gray-400: #8E99AB; --gray-600: #5A6882; --white: #FFFFFF; }
+html { scroll-behavior: smooth; }
+body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6; background: var(--white); }
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.92); backdrop-filter: blur(16px); border-bottom: 1px solid var(--gray-200); }
+.nav-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0 32px; height: 64px; }
+.nav-logo { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.25rem; color: var(--navy); text-decoration: none; display: flex; align-items: center; gap: 8px; }
+.nav-logo .mark { width: 32px; height: 32px; background: var(--accent); border-radius: 8px; display: grid; place-items: center; color: white; font-size: 0.85rem; font-weight: 700; }
+.nav-links { display: flex; gap: 4px; }
+.nav-links a { text-decoration: none; color: var(--slate); font-size: 0.9rem; font-weight: 500; padding: 8px 16px; border-radius: 8px; }
+.nav-links a.active { color: var(--accent); background: var(--accent-pale); }
+.nav-cta { background: var(--accent); color: white; padding: 10px 24px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; text-decoration: none; }
+@media (max-width: 900px) { .nav-links { display: none; } }
+.post-header { padding: 140px 32px 48px; max-width: 760px; margin: 0 auto; }
+.breadcrumb { font-size: 0.85rem; color: var(--gray-600); margin-bottom: 24px; }
+.breadcrumb a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.post-cat { display: inline-flex; font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: 18px; }
+.post-header h1 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.18; letter-spacing: -0.02em; margin-bottom: 20px; }
+.post-meta { font-size: 0.88rem; color: var(--gray-600); display: flex; gap: 10px; }
+.post-content { max-width: 760px; margin: 0 auto; padding: 0 32px 80px; }
+.post-content h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; margin: 44px 0 16px; color: var(--navy); }
+.post-content p { font-size: 1.02rem; color: var(--slate); line-height: 1.8; margin-bottom: 20px; }
+.post-content ul, .post-content ol { margin: 0 0 20px 24px; color: var(--slate); line-height: 1.8; }
+.post-content li { margin-bottom: 8px; font-size: 1.02rem; }
+.post-content strong { color: var(--navy); }
+.post-cta { max-width: 760px; margin: 0 auto; padding: 0 32px 80px; }
+.cta-box { background: var(--navy); border-radius: 14px; padding: 44px; text-align: center; }
+.cta-box h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.35rem; font-weight: 700; color: white; margin-bottom: 10px; }
+.cta-box p { color: var(--gray-400); font-size: 0.95rem; margin-bottom: 24px; }
+.cta-box a { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: white; padding: 14px 28px; border-radius: 10px; font-size: 0.92rem; font-weight: 600; text-decoration: none; }
+.footer { border-top: 1px solid var(--gray-200); padding: 40px 32px; max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+.footer-left { font-size: 0.85rem; color: var(--gray-600); }
+.footer-links { display: flex; gap: 24px; flex-wrap: wrap; }
+.footer-links a { font-size: 0.85rem; color: var(--gray-600); text-decoration: none; }
+@media (max-width: 600px) { .post-header { padding: 120px 20px 40px; } .post-content { padding: 0 20px 60px; } .post-cta { padding: 0 20px 60px; } .cta-box { padding: 32px 24px; } .footer { flex-direction: column; text-align: center; } }
+</style>
+<script>
+(function(){
+var publishDate = new Date("2026-09-21T09:00:00-04:00");
+if (new Date() < publishDate) { window.location.replace("/blog"); }
+})();
+</script>
+</head>
+<body>
+<nav class="nav"><div class="nav-inner"><a href="../index.html" class="nav-logo"><span class="mark">CC</span> Catalyze Care</a><div class="nav-links"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../index.html#referrals">Referral Data</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html" class="active">Blog</a><a href="../index.html#pricing">Pricing</a></div><a href="../index.html#contact" class="nav-cta">Get Started</a></div></nav>
+<header class="post-header"><div class="breadcrumb"><a href="../blog.html">&larr; Back to Blog</a></div><div class="post-cat">Referral Marketing</div><h1>How to Build a Referral Target List That Actually Produces Referrals</h1><div class="post-meta"><span>September 21, 2026</span><span>&middot;</span><span>3 min read</span></div></header>
+<article class="post-content">
+<p>"Send it to all the pediatricians in Denver" is not a target list. It's a mailing. Here's how to build a list that produces referrals instead of noise.</p>
+<h2>Start with the patient, not the provider</h2>
+<p>Before you pick specialties, define who you want more of. A speech therapy practice wants kids with a speech delay, which means pediatricians, but also ENTs, developmental pediatricians, early intervention coordinators, ABA providers, and school nurses. A bipolar-focused psychiatry practice wants adults with mood disorders, which means PCPs, therapists without prescribers, EDs, and crisis lines. Map the patient's journey and list every provider who sees them before you would.</p>
+<p>That map is your specialty list, ranked by how often each specialty encounters your patient and how likely they are to refer out rather than treat.</p>
+<h2>Filter by geography that matches how you deliver care</h2>
+<p>For in-person practices, the radius is what patients will drive. For telehealth, it's the states you're licensed and credentialed in. For hybrid, it's both. Filter to the counties or ZIP codes that fit, and don't waste outreach on offices whose patients can't actually reach you.</p>
+<h2>Layer volume and referral propensity</h2>
+<p>Public and licensed data sources let you go far beyond name and address:</p>
+<ul>
+<li><strong>NPI registry</strong> gives you every provider, their specialty taxonomy, and their practice location.</li>
+<li><strong>Medicare and Medicaid enrollment data</strong> tells you which providers participate in which programs, which matters if your practice accepts Medicaid.</li>
+<li><strong>Claims-adjacent and referral-pattern data</strong> (available through commercial datasets) shows which providers refer out heavily in a given specialty, and to whom. A pediatrician who refers 40 kids a year to speech therapy is worth ten who refer two.</li>
+<li><strong>Practice size and affiliation.</strong> Independent practices and small groups tend to be easier to influence than health-system-employed providers, whose referrals often route internally.</li>
+</ul>
+<p>Score each provider on fit (specialty, geography, payer mix) and opportunity (volume, referral propensity, independence). Sort. The top 300 to 500 per market is your campaign list.</p>
+<h2>Find the right contact, not just the doctor</h2>
+<p>The physician's name is on the NPI record. The person who routes referrals usually isn't. For each target office, identify:</p>
+<ul>
+<li><strong>The referral coordinator or office manager</strong> (the person who reads the fax queue and returns voicemails)</li>
+<li><strong>The main office fax and phone</strong> (not the billing office)</li>
+<li><strong>The physician's LinkedIn</strong>, if they're active there (a minority, but a responsive one)</li>
+</ul>
+<p>Multi-channel campaigns need multi-channel contacts. A list with only a physician name and a mailing address supports one channel.</p>
+<h2>Exclude and suppress</h2>
+<p>Remove providers who are competitors, who are employed by systems that won't refer out, who've opted out of prior outreach, and whose numbers are wireless (for voicemail compliance). Maintain the suppression list across campaigns.</p>
+<h2>Segment for learning</h2>
+<p>Tag every record by specialty, geography, practice size, and payer participation. When results come in, you'll want to know that independent pediatricians in suburban counties responded at 14 percent and hospital-employed ones at 2 percent. That's the insight that makes the second campaign better than the first.</p>
+<h2>Refresh</h2>
+<p>Providers move, retire, and change affiliations. A list older than six months has meaningful decay. Re-verify before every major wave.</p>
+<h2>How Catalyze Care builds lists</h2>
+<p>Catalyze Care maintains more than 2 million verified provider contacts with specialty, location, payer participation, practice affiliation, and multi-channel contact data. We score and segment targets for each client's patient profile and delivery model, scrub for compliance, and refresh every campaign. Clients can also buy targeted lists standalone if they run outreach in-house.</p>
+<p>Book a call and we'll pull a sample list for your specialty and market before you commit to anything.</p>
+</article>
+<div class="post-cta"><div class="cta-box"><h3>Need help with physician referral target list?</h3><p>Book a free consultation and we'll show you exactly what we'd run for your practice.</p><a href="../index.html#contact">Book a Free Consultation &rarr;</a></div></div>
+<footer class="footer"><div class="footer-left">&copy; 2026 Catalyze Care. All rights reserved.</div><div class="footer-links"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html">Blog</a><a href="../index.html#contact">Contact</a></div></footer>
+</body>
+</html>

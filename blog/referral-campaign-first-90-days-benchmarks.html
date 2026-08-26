@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The First 90 Days of a Referral Campaign — Catalyze Care</title>
+<meta name="description" content="Referral campaigns don't produce patients in week one. Here's the 90-day arc, the metrics to track at each stage, and the benchmarks that tell you whether it's working." />
+<link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+<link rel="canonical" href="https://catalyzegrowth.co/blog/referral-campaign-first-90-days-benchmarks" />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --navy: #1A1A2E; --accent: #F97316; --accent-light: #FB923C; --accent-pale: #FFF7ED; --slate: #3D4F6F; --gray-100: #F4F6F9; --gray-200: #E2E7EF; --gray-400: #8E99AB; --gray-600: #5A6882; --white: #FFFFFF; }
+html { scroll-behavior: smooth; }
+body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6; background: var(--white); }
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.92); backdrop-filter: blur(16px); border-bottom: 1px solid var(--gray-200); }
+.nav-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0 32px; height: 64px; }
+.nav-logo { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.25rem; color: var(--navy); text-decoration: none; display: flex; align-items: center; gap: 8px; }
+.nav-logo .mark { width: 32px; height: 32px; background: var(--accent); border-radius: 8px; display: grid; place-items: center; color: white; font-size: 0.85rem; font-weight: 700; }
+.nav-links { display: flex; gap: 4px; }
+.nav-links a { text-decoration: none; color: var(--slate); font-size: 0.9rem; font-weight: 500; padding: 8px 16px; border-radius: 8px; }
+.nav-links a.active { color: var(--accent); background: var(--accent-pale); }
+.nav-cta { background: var(--accent); color: white; padding: 10px 24px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; text-decoration: none; }
+@media (max-width: 900px) { .nav-links { display: none; } }
+.post-header { padding: 140px 32px 48px; max-width: 760px; margin: 0 auto; }
+.breadcrumb { font-size: 0.85rem; color: var(--gray-600); margin-bottom: 24px; }
+.breadcrumb a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.post-cat { display: inline-flex; font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: 18px; }
+.post-header h1 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.18; letter-spacing: -0.02em; margin-bottom: 20px; }
+.post-meta { font-size: 0.88rem; color: var(--gray-600); display: flex; gap: 10px; }
+.post-content { max-width: 760px; margin: 0 auto; padding: 0 32px 80px; }
+.post-content h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; margin: 44px 0 16px; color: var(--navy); }
+.post-content p { font-size: 1.02rem; color: var(--slate); line-height: 1.8; margin-bottom: 20px; }
+.post-content ul, .post-content ol { margin: 0 0 20px 24px; color: var(--slate); line-height: 1.8; }
+.post-content li { margin-bottom: 8px; font-size: 1.02rem; }
+.post-content strong { color: var(--navy); }
+.table-wrap { overflow-x: auto; margin: 24px 0; }
+.table-wrap table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.table-wrap th { text-align: left; padding: 10px 14px; border-bottom: 2px solid var(--navy); font-family: 'Space Grotesk', sans-serif; font-weight: 700; color: var(--navy); }
+.table-wrap td { padding: 10px 14px; border-bottom: 1px solid var(--gray-200); color: var(--slate); }
+.post-cta { max-width: 760px; margin: 0 auto; padding: 0 32px 80px; }
+.cta-box { background: var(--navy); border-radius: 14px; padding: 44px; text-align: center; }
+.cta-box h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.35rem; font-weight: 700; color: white; margin-bottom: 10px; }
+.cta-box p { color: var(--gray-400); font-size: 0.95rem; margin-bottom: 24px; }
+.cta-box a { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: white; padding: 14px 28px; border-radius: 10px; font-size: 0.92rem; font-weight: 600; text-decoration: none; }
+.footer { border-top: 1px solid var(--gray-200); padding: 40px 32px; max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+.footer-left { font-size: 0.85rem; color: var(--gray-600); }
+.footer-links { display: flex; gap: 24px; flex-wrap: wrap; }
+.footer-links a { font-size: 0.85rem; color: var(--gray-600); text-decoration: none; }
+@media (max-width: 600px) { .post-header { padding: 120px 20px 40px; } .post-content { padding: 0 20px 60px; } .post-cta { padding: 0 20px 60px; } .cta-box { padding: 32px 24px; } .footer { flex-direction: column; text-align: center; } }
+</style>
+<script>
+(function(){
+var publishDate = new Date("2026-09-28T09:00:00-04:00");
+if (new Date() < publishDate) { window.location.replace("/blog"); }
+})();
+</script>
+</head>
+<body>
+<nav class="nav"><div class="nav-inner"><a href="../index.html" class="nav-logo"><span class="mark">CC</span> Catalyze Care</a><div class="nav-links"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../index.html#referrals">Referral Data</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html" class="active">Blog</a><a href="../index.html#pricing">Pricing</a></div><a href="../index.html#contact" class="nav-cta">Get Started</a></div></nav>
+<header class="post-header"><div class="breadcrumb"><a href="../blog.html">&larr; Back to Blog</a></div><div class="post-cat">Referral Marketing</div><h1>The First 90 Days of a Referral Campaign</h1><div class="post-meta"><span>September 28, 2026</span><span>&middot;</span><span>4 min read</span></div></header>
+<article class="post-content">
+<p>The most common reason referral campaigns get killed is that someone expected patients in week two. Here's what the first 90 days actually look like when a campaign is working, and the numbers to check along the way.</p>
+<h2>Days 1 to 14: list and launch</h2>
+<p>The list is built, scored, and scrubbed. Creative is finalized: fax-back form, voicemail script, LinkedIn message, email. Tracking is set up: a dedicated phone number and fax line so you can attribute inbound activity to the campaign.</p>
+<p><strong>Metric:</strong> list size by segment, and delivery rates. Faxes should deliver at 90 percent or better; undeliverable numbers are cleaned immediately.</p>
+<h2>Days 15 to 30: first wave</h2>
+<p>Every target office gets the first touches: fax, then voicemail three to five days later, then LinkedIn or email where contacts exist.</p>
+<p><strong>Metrics to watch:</strong></p>
+<ul>
+<li><strong>Response rate</strong> (any inbound: callback, fax-back, reply, form submission). Well-targeted campaigns typically see 5 to 12 percent of offices respond to the first wave. Below 3 percent usually means a list or messaging problem.</li>
+<li><strong>Response by segment.</strong> By day 30, you can usually see which specialties and geographies are responding.</li>
+</ul>
+<p><strong>What good looks like:</strong> a handful of offices have called to ask how to refer. One or two have sent a patient. Most haven't responded yet, which is normal.</p>
+<h2>Days 31 to 60: second wave and conversion</h2>
+<p>Non-responders get a second fax with a different angle (a specific service, a capacity update, an outcome statistic) and a second voicemail. Responders get a personal follow-up: a call or visit to the office, referral materials, and a direct contact.</p>
+<p><strong>Metrics to watch:</strong></p>
+<ul>
+<li><strong>Cumulative response rate.</strong> Second waves typically add 3 to 6 points, bringing well-run campaigns to 8 to 15 percent by day 60.</li>
+<li><strong>Referring offices.</strong> Count offices that have sent at least one patient. Not patients, offices. The number of distinct referring offices is the leading indicator of a durable channel.</li>
+<li><strong>Time to first visit</strong> for referred patients. If it's more than a week, referring offices notice and stop.</li>
+</ul>
+<p><strong>What good looks like:</strong> 5 to 15 referring offices per market, a steady trickle of referred patients, and a clear picture of which segments to double down on.</p>
+<h2>Days 61 to 90: nurture and scale</h2>
+<p>Referring offices get the first nurture touch: a thank-you, a consult note turnaround confirmation, and an ask for more. High-fit non-responders get a third touch. Underperforming segments are cut; overperforming ones get expanded lists.</p>
+<p><strong>Metrics to watch:</strong></p>
+<ul>
+<li><strong>Patients per referring office per month.</strong> The top offices should be sending two or more.</li>
+<li><strong>Cost per referred patient.</strong> Total campaign cost divided by patients from referred offices. By day 90 this is usually already competitive with paid CAC and falling.</li>
+<li><strong>Second-referral rate.</strong> What share of offices that sent one patient sent a second? This is the metric that predicts the channel's long-term value.</li>
+</ul>
+<p><strong>What good looks like:</strong> referred patient volume is growing month over month, the top ten offices are identifiable, and you know exactly which segments to target in the next market.</p>
+<h2>Benchmarks in one place</h2>
+<div class="table-wrap"><table><thead><tr><th>Metric</th><th>Day 30</th><th>Day 60</th><th>Day 90</th></tr></thead><tbody><tr><td>Office response rate</td><td>5 to 12%</td><td>8 to 15%</td><td>10 to 18%</td></tr><tr><td>Referring offices per market</td><td>1 to 5</td><td>5 to 15</td><td>10 to 25</td></tr><tr><td>Cost per referred patient</td><td>High (front-loaded)</td><td>Approaching paid CAC</td><td>Below paid CAC</td></tr><tr><td>Second-referral rate</td><td>n/a</td><td>30 to 50%</td><td>40 to 60%</td></tr></tbody></table></div>
+<p>These are planning ranges from behavioral health, therapy, and specialty campaigns. Specialty, payer mix, and how fast your intake team responds move them up or down.</p>
+<h2>The three things that break campaigns</h2>
+<ol>
+<li><strong>Slow intake.</strong> The referring office calls, nobody answers, or the patient waits three weeks. The office stops referring.</li>
+<li><strong>No closed loop.</strong> The referring provider never hears what happened. They forget you exist.</li>
+<li><strong>One wave and done.</strong> Most responses come on touches two through four. A single fax is a test, not a campaign.</li>
+</ol>
+<h2>How Catalyze Care runs the 90 days</h2>
+<p>Catalyze Care runs the full sequence with monthly reporting by segment and by office: contacted, responded, referred, and patients seen. Our reporting decks show clients exactly which offices are producing and where the next wave should go.</p>
+<p>Book a call and we'll show you a real 90-day report from a practice in your specialty.</p>
+</article>
+<div class="post-cta"><div class="cta-box"><h3>Need help with referral marketing campaign benchmarks?</h3><p>Book a free consultation and we'll show you exactly what we'd run for your practice.</p><a href="../index.html#contact">Book a Free Consultation &rarr;</a></div></div>
+<footer class="footer"><div class="footer-left">&copy; 2026 Catalyze Care. All rights reserved.</div><div class="footer-links"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html">Blog</a><a href="../index.html#contact">Contact</a></div></footer>
+</body>
+</html>
