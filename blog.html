@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Blog — Catalyze Care | Healthcare Marketing Insights</title>
+<meta name="description" content="Practical guides on referral marketing, paid ads, SEO, and analytics for healthcare practices. Real benchmarks, real tactics, from the team running these campaigns." />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="canonical" href="https://catalyzegrowth.co/blog" />
+<meta property="og:title" content="Blog — Catalyze Care" />
+<meta property="og:description" content="Practical guides on referral marketing, paid ads, SEO, and analytics for healthcare practices." />
+<meta property="og:type" content="website" />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+--navy: #1A1A2E; --navy-light: #25253D; --accent: #F97316; --accent-light: #FB923C;
+--accent-pale: #FFF7ED; --slate: #3D4F6F; --gray-100: #F4F6F9; --gray-200: #E2E7EF;
+--gray-400: #8E99AB; --gray-600: #5A6882; --white: #FFFFFF;
+}
+html { scroll-behavior: smooth; }
+body { font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif; color: var(--navy); line-height: 1.6; background: var(--white); -webkit-font-smoothing: antialiased; }
+
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.92); backdrop-filter: blur(16px); border-bottom: 1px solid var(--gray-200); }
+.nav-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0 32px; height: 64px; }
+.nav-logo { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.25rem; color: var(--navy); text-decoration: none; display: flex; align-items: center; gap: 8px; }
+.nav-logo .mark { width: 32px; height: 32px; background: var(--accent); border-radius: 8px; display: grid; place-items: center; color: white; font-size: 0.85rem; font-weight: 700; }
+.nav-links { display: flex; align-items: center; gap: 4px; }
+.nav-links a { text-decoration: none; color: var(--slate); font-size: 0.9rem; font-weight: 500; padding: 8px 16px; border-radius: 8px; transition: all 0.2s; }
+.nav-links a:hover { background: var(--gray-100); color: var(--navy); }
+.nav-links a.active { color: var(--accent); background: var(--accent-pale); }
+.nav-cta { background: var(--accent); color: white; padding: 10px 24px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; text-decoration: none; transition: all 0.2s; }
+.nav-cta:hover { background: var(--accent-light); transform: translateY(-1px); }
+@media (max-width: 900px) { .nav-links { display: none; } }
+
+.blog-hero { padding: 140px 32px 60px; max-width: 1200px; margin: 0 auto; }
+.section-label { display: inline-flex; align-items: center; gap: 8px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 16px; }
+.section-label .line { width: 24px; height: 2px; background: var(--accent); border-radius: 1px; }
+.blog-hero h1 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(2.2rem, 4vw, 3rem); font-weight: 700; letter-spacing: -0.02em; margin-bottom: 16px; }
+.blog-hero p { font-size: 1.1rem; color: var(--slate); line-height: 1.7; max-width: 600px; }
+
+.blog-filters { max-width: 1200px; margin: 0 auto; padding: 0 32px 40px; display: flex; gap: 10px; flex-wrap: wrap; }
+.filter-btn { padding: 9px 20px; border: 1.5px solid var(--gray-200); border-radius: 100px; background: transparent; font-family: 'DM Sans', sans-serif; font-size: 0.85rem; font-weight: 500; color: var(--slate); cursor: pointer; transition: all 0.2s; }
+.filter-btn:hover, .filter-btn.active { background: var(--navy); color: white; border-color: var(--navy); }
+
+.blog-grid { max-width: 1200px; margin: 0 auto; padding: 0 32px 100px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.blog-card { background: white; border: 1px solid var(--gray-200); border-radius: 14px; padding: 28px; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: all 0.25s; }
+.blog-card:hover { border-color: var(--accent); box-shadow: 0 8px 28px rgba(249,115,22,0.1); transform: translateY(-2px); }
+.blog-card-cat { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
+.blog-card h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; font-weight: 700; line-height: 1.32; letter-spacing: -0.01em; margin-bottom: 10px; color: var(--navy); }
+.blog-card p { font-size: 0.88rem; color: var(--gray-600); line-height: 1.6; margin-bottom: 18px; flex-grow: 1; }
+.blog-card-meta { font-size: 0.78rem; color: var(--gray-400); display: flex; gap: 8px; align-items: center; }
+
+.blog-cta { max-width: 1200px; margin: 0 auto 100px; padding: 0 32px; }
+.blog-cta-inner { background: linear-gradient(135deg, var(--accent) 0%, #EA580C 100%); border-radius: 16px; padding: 56px; text-align: center; }
+.blog-cta-inner h2 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.6rem, 3vw, 2.1rem); font-weight: 700; color: white; margin-bottom: 12px; }
+.blog-cta-inner p { color: rgba(255,255,255,0.85); font-size: 1.02rem; margin-bottom: 28px; max-width: 480px; margin-left: auto; margin-right: auto; }
+.blog-cta-inner a { display: inline-flex; align-items: center; gap: 8px; background: white; color: var(--navy); padding: 14px 30px; border-radius: 10px; font-size: 0.92rem; font-weight: 700; text-decoration: none; transition: all 0.2s; }
+.blog-cta-inner a:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(0,0,0,0.15); }
+
+.footer { border-top: 1px solid var(--gray-200); padding: 40px 32px; max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+.footer-left { font-size: 0.85rem; color: var(--gray-600); }
+.footer-links { display: flex; gap: 24px; flex-wrap: wrap; }
+.footer-links a { font-size: 0.85rem; color: var(--gray-600); text-decoration: none; }
+.footer-links a:hover { color: var(--accent); }
+
+@media (max-width: 900px) {
+.blog-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 600px) {
+.blog-hero { padding: 120px 20px 40px; }
+.blog-filters { padding: 0 20px 30px; }
+.blog-grid { grid-template-columns: 1fr; padding: 0 20px 60px; }
+.blog-cta { padding: 0 20px; }
+.blog-cta-inner { padding: 36px 24px; }
+.footer { flex-direction: column; text-align: center; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+<div class="nav-inner">
+<a href="index.html" class="nav-logo"><span class="mark">CC</span> Catalyze Care</a>
+<div class="nav-links">
+<a href="index.html#marketing">Marketing</a>
+<a href="index.html#leads">Lead Lists</a>
+<a href="index.html#referrals">Referral Data</a>
+<a href="paid-ads.html">Paid Ads</a>
+<a href="seo.html">SEO</a>
+<a href="blog.html" class="active">Blog</a>
+<a href="index.html#pricing">Pricing</a>
+</div>
+<a href="index.html#contact" class="nav-cta">Get Started</a>
+</div>
+</nav>
+
+<section class="blog-hero">
+<div class="section-label"><span class="line"></span> Insights</div>
+<h1>The Catalyze Care Blog</h1>
+<p>Practical guides on referral marketing, paid ads, SEO, and analytics for healthcare practices — real benchmarks and tactics from the team running these campaigns.</p>
+</section>
+
+<div class="blog-filters">
+<button class="filter-btn active" data-filter="all">All Posts</button>
+<button class="filter-btn" data-filter="referral">Referral Marketing</button>
+<button class="filter-btn" data-filter="paid">Paid Ads</button>
+<button class="filter-btn" data-filter="seo">SEO</button>
+<button class="filter-btn" data-filter="analytics">Analytics</button>
+<button class="filter-btn" data-filter="strategy">Strategy</button>
+</div>
+
+<div class="blog-grid">
+<a href="blog/provider-referrals-vs-paid-ads.html" class="blog-card" data-category="referral" data-publish="2026-08-31">
+<div class="blog-card-cat">Referral Marketing</div>
+<h3>The Referral Funnel Nobody Builds: Why Provider Referrals Beat Paid Ads for Most Specialty Practices</h3>
+<p>Paid ads get all the attention. Provider referrals get most of the patients. Here&#x27;s the CAC math for specialty and behavioral health practices, and why the referral funnel deserves the same rigor as the ad account.</p>
+<div class="blog-card-meta"><span>Aug 31, 2026</span><span>&middot;</span><span>3 min</span></div>
+</a>
+
+<a href="blog/fax-marketing-physician-offices.html" class="blog-card" data-category="referral" data-publish="2026-09-07">
+<div class="blog-card-cat">Referral Marketing</div>
+<h3>Fax Isn&#x27;t Dead: Why It Still Works for Reaching Physician Offices in 2026</h3>
+<p>Physician offices still run on fax, which makes it one of the most reliable channels for referral outreach. Here&#x27;s why it works, what the law requires, and what a fax that gets acted on looks like.</p>
+<div class="blog-card-meta"><span>Sep 7, 2026</span><span>&middot;</span><span>3 min</span></div>
+</a>
+
+<a href="blog/ringless-voicemail-tcpa-healthcare-outreach.html" class="blog-card" data-category="referral" data-publish="2026-09-14">
+<div class="blog-card-cat">Referral Marketing</div>
+<h3>Voicemail Drops, TCPA, and Healthcare Outreach</h3>
+<p>Voicemail is one of the most effective channels for reaching physician office managers. It&#x27;s also regulated. Here&#x27;s how the TCPA applies to B2B healthcare outreach in 2026 and how to run voicemail campaigns that are effective and defensible.</p>
+<div class="blog-card-meta"><span>Sep 14, 2026</span><span>&middot;</span><span>3 min</span></div>
+</a>
+
+<a href="blog/build-physician-referral-target-list.html" class="blog-card" data-category="referral" data-publish="2026-09-21">
+<div class="blog-card-cat">Referral Marketing</div>
+<h3>How to Build a Referral Target List That Actually Produces Referrals</h3>
+<p>A referral campaign is only as good as its list. Here&#x27;s how to build one from NPI and claims-adjacent data: specialty, geography, volume, referral propensity, and the contact that actually routes referrals.</p>
+<div class="blog-card-meta"><span>Sep 21, 2026</span><span>&middot;</span><span>3 min</span></div>
+</a>
+
+<a href="blog/referral-campaign-first-90-days-benchmarks.html" class="blog-card" data-category="referral" data-publish="2026-09-28">
+<div class="blog-card-cat">Referral Marketing</div>
+<h3>The First 90 Days of a Referral Campaign: What Good Looks Like</h3>
+<p>Referral campaigns don&#x27;t produce patients in week one. Here&#x27;s the 90-day arc, the metrics to track at each stage, and the benchmarks that tell you whether it&#x27;s working.</p>
+<div class="blog-card-meta"><span>Sep 28, 2026</span><span>&middot;</span><span>4 min</span></div>
+</a>
+
+<a href="blog/linkedin-outreach-physicians-referrals.html" class="blog-card" data-category="referral" data-publish="2026-10-05">
+<div class="blog-card-cat">Referral Marketing</div>
+<h3>LinkedIn Outreach to Physicians: The Message That Gets Replies</h3>
+<p>Most physicians ignore LinkedIn. The ones who don&#x27;t are worth reaching, and they reply to a specific kind of message. Here&#x27;s what works, what doesn&#x27;t, and how LinkedIn fits into a referral sequence.</p>
+<div class="blog-card-meta"><span>Oct 5, 2026</span><span>&middot;</span><span>3 min</span></div>
+</a>
+
+<a href="blog/google-ads-healthcare-2026-legitscript.html" class="blog-card" data-category="paid" data-publish="2026-10-12">
+<div class="blog-card-cat">Paid Ads</div>
+<h3>Google Ads for Healthcare in 2026: LegitScript and the Disapprovals That Kill Launches</h3>
+<p>Google&#x27;s healthcare advertising rules decide whether your campaign runs at all. Here&#x27;s what requires certification in 2026, what gets disapproved, and how to launch a compliant account without burning a month.</p>
+<div class="blog-card-meta"><span>Oct 12, 2026</span><span>&middot;</span><span>3 min</span></div>
+</a>
+
+<a href="blog/meta-ads-healthcare-without-condition-targeting.html" class="blog-card" data-category="paid" data-publish="2026-10-19">
+<div class="blog-card-cat">Paid Ads</div>
+<h3>Meta Ads for Healthcare: You Can&#x27;t Target by Condition</h3>
+<p>Meta removed health-condition targeting and restricts what health advertisers can track. Here&#x27;s what still works for healthcare practices on Facebook and Instagram in 2026, and what doesn&#x27;t.</p>
+<div class="blog-card-meta"><span>Oct 19, 2026</span><span>&middot;</span><span>3 min</span></div>
+</a>
+
+<a href="blog/hipaa-marketing-pixels-tracking.html" class="blog-card" data-category="paid" data-publish="2026-10-26">
+<div class="blog-card-cat">Paid Ads</div>
+<h3>HIPAA and Your Marketing Stack: Pixels, Tracking, and What Changed</h3>
+<p>Tracking pixels on healthcare websites have been the subject of HHS guidance, litigation, and settlements. Here&#x27;s what the current position is, what&#x27;s actually risky, and how to measure marketing without transmitting PHI.</p>
+<div class="blog-card-meta"><span>Oct 26, 2026</span><span>&middot;</span><span>3 min</span></div>
+</a>
+
+<a href="blog/local-seo-multi-state-telehealth.html" class="blog-card" data-category="seo" data-publish="2026-11-02">
+<div class="blog-card-cat">SEO</div>
+<h3>Local SEO for Multi-State Telehealth</h3>
+<p>Telehealth practices compete for &quot;near me&quot; searches without a location. Here&#x27;s how to build state and city pages that rank, what Google Business Profile allows for virtual practices, and which directories actually send patients.</p>
+<div class="blog-card-meta"><span>Nov 2, 2026</span><span>&middot;</span><span>4 min</span></div>
+</a>
+
+<a href="blog/ai-search-healthcare-practice-visibility.html" class="blog-card" data-category="seo" data-publish="2026-11-09">
+<div class="blog-card-cat">SEO</div>
+<h3>AI Search Is Answering &quot;Best Therapist Near Me.&quot; Here&#x27;s How to Get Cited.</h3>
+<p>A growing share of patients ask ChatGPT and Google&#x27;s AI Overviews where to get care. Here&#x27;s how AI answers pick their sources, and what a practice can do to be one of them.</p>
+<div class="blog-card-meta"><span>Nov 9, 2026</span><span>&middot;</span><span>3 min</span></div>
+</a>
+
+<a href="blog/referral-analytics-closing-the-loop.html" class="blog-card" data-category="analytics" data-publish="2026-11-16">
+<div class="blog-card-cat">Analytics</div>
+<h3>Referral Analytics: Closing the Loop</h3>
+<p>Most practices can&#x27;t answer &quot;who referred our last 50 patients?&quot; without a spreadsheet and an afternoon. Here&#x27;s how to build referral analytics that show which providers are producing, which are fading, and where the next campaign should go.</p>
+<div class="blog-card-meta"><span>Nov 16, 2026</span><span>&middot;</span><span>3 min</span></div>
+</a>
+
+<a href="blog/pediatrician-referrals-behavioral-health-therapy.html" class="blog-card" data-category="referral" data-publish="2026-11-23">
+<div class="blog-card-cat">Referral Marketing</div>
+<h3>The Pediatrician Channel</h3>
+<p>Pediatricians see every child in your market before you do, and most of them have nowhere good to send kids who need therapy. Here&#x27;s how to become their answer.</p>
+<div class="blog-card-meta"><span>Nov 23, 2026</span><span>&middot;</span><span>3 min</span></div>
+</a>
+
+<a href="blog/healthcare-marketing-q4-january-demand.html" class="blog-card" data-category="strategy" data-publish="2026-11-30">
+<div class="blog-card-cat">Strategy</div>
+<h3>Q4 Is Not Dead: Deductible Resets, Open Enrollment, and Planning for January</h3>
+<p>Healthcare demand has a calendar. Deductibles reset, plans change, and January is the busiest intake month for many specialties. Here&#x27;s how to use Q4 to set up Q1.</p>
+<div class="blog-card-meta"><span>Nov 30, 2026</span><span>&middot;</span><span>3 min</span></div>
+</a>
+
+<a href="blog/patient-acquisition-cost-benchmarks.html" class="blog-card" data-category="analytics" data-publish="2026-12-07">
+<div class="blog-card-cat">Analytics</div>
+<h3>What Does It Cost to Acquire a Patient?</h3>
+<p>Practice owners rarely get straight numbers on patient acquisition cost. Here are the ranges we see across channels and specialties, what drives them, and how to know if yours are good.</p>
+<div class="blog-card-meta"><span>Dec 7, 2026</span><span>&middot;</span><span>3 min</span></div>
+</a>
+
+<a href="blog/healthcare-directory-profile-audit.html" class="blog-card" data-category="seo" data-publish="2026-12-14">
+<div class="blog-card-cat">SEO</div>
+<h3>Your Directory Profiles Are Losing You Patients: A 30-Minute Audit</h3>
+<p>Patients and referring offices check directories before they call. Most practice profiles are incomplete, inconsistent, or wrong about insurance. Here&#x27;s a 30-minute audit that fixes the problems that cost the most.</p>
+<div class="blog-card-meta"><span>Dec 14, 2026</span><span>&middot;</span><span>3 min</span></div>
+</a>
+
+<a href="blog/referral-nurture-cadence-referring-offices.html" class="blog-card" data-category="referral" data-publish="2026-12-21">
+<div class="blog-card-cat">Referral Marketing</div>
+<h3>The Six-Touch Nurture Cadence That Keeps Referring Offices Referring</h3>
+<p>Winning a referring office is half the work. Keeping it requires a cadence. Here&#x27;s a six-touch annual rhythm that keeps your practice top of mind without becoming noise.</p>
+<div class="blog-card-meta"><span>Dec 21, 2026</span><span>&middot;</span><span>3 min</span></div>
+</a>
+
+<a href="blog/2027-healthcare-marketing-plan-template.html" class="blog-card" data-category="strategy" data-publish="2026-12-28">
+<div class="blog-card-cat">Strategy</div>
+<h3>Your 2027 Healthcare Marketing Plan on One Page</h3>
+<p>Most practice marketing plans are either a wish list or a spreadsheet nobody opens. Here&#x27;s a one-page template: three channels, five numbers, one review cadence.</p>
+<div class="blog-card-meta"><span>Dec 28, 2026</span><span>&middot;</span><span>3 min</span></div>
+</a>
+</div>
+
+<section class="blog-cta">
+<div class="blog-cta-inner">
+<h2>Ready to grow your practice with real data?</h2>
+<p>Book a free consultation and we'll show you exactly what we'd run for your specialty and market.</p>
+<a href="index.html#contact">Book a Demo &rarr;</a>
+</div>
+</section>
+
+<footer class="footer">
+<div class="footer-left">&copy; 2026 Catalyze Care. All rights reserved.</div>
+<div class="footer-links">
+<a href="index.html#marketing">Marketing</a>
+<a href="index.html#leads">Lead Lists</a>
+<a href="index.html#referrals">Referral Data</a>
+<a href="paid-ads.html">Paid Ads</a>
+<a href="seo.html">SEO</a>
+<a href="blog.html">Blog</a>
+<a href="index.html#contact">Contact</a>
+</div>
+</footer>
+
+<script>
+document.querySelectorAll('.filter-btn').forEach(btn => {
+btn.addEventListener('click', () => {
+document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+btn.classList.add('active');
+const filter = btn.dataset.filter;
+document.querySelectorAll('.blog-card').forEach(card => {
+card.style.display = (filter === 'all' || card.dataset.category === filter) ? 'flex' : 'none';
+});
+});
+});
+
+// Scheduled publishing: remove cards whose publish date is in the future
+(function() {
+var now = new Date();
+document.querySelectorAll('.blog-card[data-publish]').forEach(function(card) {
+var pub = new Date(card.getAttribute('data-publish') + "T09:00:00-04:00");
+if (now < pub) { card.remove(); }
+});
+})();
+</script>
+
+</body>
+</html>
