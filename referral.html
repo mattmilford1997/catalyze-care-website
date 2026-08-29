@@ -350,9 +350,10 @@ body {
   border-top: 1px solid var(--gray-200); padding: 40px 32px;
   max-width: 1200px; margin: 0 auto;
   display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 16px;
 }
 .footer-left { font-size: 0.85rem; color: var(--gray-600); }
-.footer-links { display: flex; gap: 24px; }
+.footer-links { display: flex; gap: 16px 24px; flex-wrap: wrap; }
 .footer-links a { font-size: 0.85rem; color: var(--gray-600); text-decoration: none; transition: color 0.2s; }
 .footer-links a:hover { color: var(--accent); }
 
@@ -389,6 +390,14 @@ body {
 .delay-2 { animation-delay: 0.2s; }
 .delay-3 { animation-delay: 0.3s; }
 .delay-4 { animation-delay: 0.4s; }
+
+/* ── BREADCRUMB ── */
+.page-breadcrumb {
+  font-size: 0.82rem; color: var(--gray-600); font-weight: 500; margin-bottom: 18px;
+}
+.page-breadcrumb a { color: var(--accent); text-decoration: none; }
+.page-breadcrumb a:hover { color: var(--navy); }
+.page-breadcrumb .sep { margin: 0 8px; color: var(--gray-400); }
 </style>
 <meta name="description" content="Healthcare referral marketing built on claims-backed referral intelligence. Identify referring providers, run multi-channel outreach, and grow patient pipelines with Catalyze Care." />
 <link rel="canonical" href="https://catalyzegrowth.co/referral" />
@@ -398,9 +407,13 @@ body {
 <meta property="og:url" content="https://catalyzegrowth.co/referral" />
 <meta property="og:site_name" content="Catalyze Care" />
 <meta property="og:type" content="website" />
+<meta property="og:image" content="https://catalyzegrowth.co/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Healthcare Referral Marketing | Catalyze Care" />
 <meta name="twitter:description" content="Healthcare referral marketing built on claims-backed referral intelligence. Identify referring providers, run multi-channel outreach, and grow patient pipelines with Catalyze Care." />
+<meta name="twitter:image" content="https://catalyzegrowth.co/og-image.png" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -438,6 +451,54 @@ body {
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does healthcare referral marketing work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We identify top referring providers in your specialty and geography using claims-backed referral intelligence, then run personalized outreach across fax, email, phone, LinkedIn, and direct mail. Campaigns are optimized monthly against engagement and pipeline reporting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What data does Catalyze Care use to find referring providers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Campaigns are built on claims-backed referral intelligence covering 48 million+ relationships across 120+ specialties. The data shows who is referring patients, to whom, in what volumes, and for which specialties — not estimates or surveys."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which channels do you use to reach referring offices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fax, email, phone, LinkedIn, and direct mail — the channels physician offices actually use. Outreach is personalized to the provider and specialty rather than a generic blast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is referral marketing different from paid ads?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Paid ads reach patients who are searching or browsing. Referral marketing reaches the providers who already send patients in your specialty, using claims-backed patterns to find those offices and a systematic outreach cadence to stay in front of them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens after you identify the target list?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We launch multi-channel outreach, nurture referring offices over time, report monthly, and double down on the highest-performing channels. Target lists are updated from fresh claims data as the campaign runs."
+      }
+    }
+  ]
+}
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-084ZGKDXZQ"></script>
 <script>
@@ -471,6 +532,9 @@ body {
 <!-- ════════════ HERO ════════════ -->
 <section class="hero">
   <div class="animate">
+    <nav class="page-breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a><span class="sep">/</span><span>Referral Marketing</span>
+    </nav>
     <div class="hero-badge"><span class="dot"></span> Healthcare Referral Marketing</div>
     <h1>Healthcare referral marketing built on <span class="accent">claims-backed</span> intelligence</h1>
     <p>Our flagship service. We build systematic referral campaigns that connect you to the right providers in your region, turning one-time referrals into consistent patient pipelines.</p>
@@ -642,6 +706,51 @@ body {
   </div>
 </section>
 
+
+<!-- ════════════ FAQ ════════════ -->
+<section class="section" id="faq">
+  <div class="section-label"><span class="line"></span> FAQ</div>
+  <h2 class="section-title">How referral marketing works</h2>
+  <p class="section-subtitle">How Catalyze Care finds referring providers, which channels we use, and how this differs from paid ads — without invented ROAS claims.</p>
+  <div class="pillars-list" style="max-width:800px;">
+    <div class="pillar">
+      <div class="pillar-icon">?</div>
+      <div class="pillar-content">
+        <h4>How does healthcare referral marketing work?</h4>
+        <p>We identify top referring providers in your specialty and geography using claims-backed referral intelligence, then run personalized outreach across fax, email, phone, LinkedIn, and direct mail. Campaigns are optimized monthly against engagement and pipeline reporting.</p>
+      </div>
+    </div>
+    <div class="pillar">
+      <div class="pillar-icon">?</div>
+      <div class="pillar-content">
+        <h4>What data does Catalyze Care use to find referring providers?</h4>
+        <p>Campaigns are built on claims-backed referral intelligence covering 48 million+ relationships across 120+ specialties. The data shows who is referring patients, to whom, in what volumes, and for which specialties — not estimates or surveys.</p>
+      </div>
+    </div>
+    <div class="pillar">
+      <div class="pillar-icon">?</div>
+      <div class="pillar-content">
+        <h4>Which channels do you use to reach referring offices?</h4>
+        <p>Fax, email, phone, LinkedIn, and direct mail — the channels physician offices actually use. Outreach is personalized to the provider and specialty rather than a generic blast.</p>
+      </div>
+    </div>
+    <div class="pillar">
+      <div class="pillar-icon">?</div>
+      <div class="pillar-content">
+        <h4>How is referral marketing different from paid ads?</h4>
+        <p>Paid ads reach patients who are searching or browsing. Referral marketing reaches the providers who already send patients in your specialty, using claims-backed patterns to find those offices and a systematic outreach cadence to stay in front of them.</p>
+      </div>
+    </div>
+    <div class="pillar">
+      <div class="pillar-icon">?</div>
+      <div class="pillar-content">
+        <h4>What happens after you identify the target list?</h4>
+        <p>We launch multi-channel outreach, nurture referring offices over time, report monthly, and double down on the highest-performing channels. Target lists are updated from fresh claims data as the campaign runs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ════════════ CTA ════════════ -->
 <section class="cta-banner" id="contact">
   <div class="cta-inner">
@@ -666,15 +775,17 @@ body {
 <footer class="footer">
   <div class="footer-left">© 2026 Catalyze Care. All rights reserved.</div>
   <div class="footer-links">
-    <a href="index.html#marketing">Marketing</a>
-    <a href="index.html#leads">Lead Lists</a>
-    <a href="index.html#referrals">Referral Data</a>
-    <a href="referral.html">Referral Marketing</a>
-    <a href="paid-ads.html">Paid Ads</a>
-    <a href="seo.html">SEO</a>
-    <a href="blog.html">Blog</a>
-    <a href="#contact">Contact</a>
-  </div>
+        <a href="index.html#marketing">Marketing</a>
+        <a href="index.html#leads">Lead Lists</a>
+        <a href="index.html#referrals">Referral Data</a>
+        <a href="referral.html">Referral Marketing</a>
+        <a href="paid-ads.html">Paid Ads</a>
+        <a href="seo.html">SEO</a>
+        <a href="blog.html">Blog</a>
+        <a href="healthcare-marketing-agency.html">Agency</a>
+        <a href="healthcare-digital-marketing.html">Digital Marketing</a>
+        <a href="#contact">Contact</a>
+    </div>
 </footer>
 
 <script>
