@@ -669,11 +669,12 @@ body {
   padding: 40px 32px;
   max-width: 1200px; margin: 0 auto;
   display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 16px;
 }
 .footer-left {
   font-size: 0.85rem; color: var(--gray-600);
 }
-.footer-links { display: flex; gap: 24px; }
+.footer-links { display: flex; gap: 16px 24px; flex-wrap: wrap; }
 .footer-links a {
   font-size: 0.85rem; color: var(--gray-600);
   text-decoration: none; transition: color 0.2s;
@@ -731,16 +732,26 @@ body {
 <meta property="og:url" content="https://catalyzegrowth.co/" />
 <meta property="og:site_name" content="Catalyze Care" />
 <meta property="og:type" content="website" />
+<meta property="og:image" content="https://catalyzegrowth.co/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Healthcare Marketing Agency | Catalyze Care" />
 <meta name="twitter:description" content="Catalyze Care is a healthcare marketing agency helping practices grow with referral marketing, SEO, and paid ads built on claims-backed referral intelligence." />
+<meta name="twitter:image" content="https://catalyzegrowth.co/og-image.png" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Catalyze Care",
   "url": "https://catalyzegrowth.co",
-  "email": "andrew@catalyzegrowth.co"
+  "email": "andrew@catalyzegrowth.co",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "andrew@catalyzegrowth.co",
+    "contactType": "customer support"
+  },
+  "areaServed": "United States"
 }
 </script>
 <script type="application/ld+json">
@@ -765,6 +776,45 @@ body {
     "Healthcare SEO",
     "Healthcare paid advertising",
     "Healthcare referral marketing"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Catalyze Care services",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Referral marketing",
+      "url": "https://catalyzegrowth.co/referral"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "SEO",
+      "url": "https://catalyzegrowth.co/seo"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Paid ads",
+      "url": "https://catalyzegrowth.co/paid-ads"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Healthcare marketing agency",
+      "url": "https://catalyzegrowth.co/healthcare-marketing-agency"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Healthcare digital marketing",
+      "url": "https://catalyzegrowth.co/healthcare-digital-marketing"
+    }
   ]
 }
 </script>
@@ -867,6 +917,7 @@ body {
     <div class="section-label"><span class="line"></span> Marketing</div>
     <h2 class="section-title">Complete marketing for healthcare practices</h2>
     <p class="section-subtitle">We build, manage, and optimize your entire marketing presence — from your provider profiles to targeted referral campaigns — so you can focus on patient care.</p>
+    <p style="margin-top:-28px;margin-bottom:40px;"><a href="healthcare-marketing-agency.html" style="color:var(--accent);font-weight:600;text-decoration:none;">Healthcare marketing agency overview →</a></p>
 
     <div class="marketing-grid">
       <!-- Featured Card: Referral Marketing -->
@@ -1304,15 +1355,17 @@ body {
 <footer class="footer">
   <div class="footer-left">© 2026 Catalyze Care. All rights reserved.</div>
   <div class="footer-links">
-    <a href="#marketing">Marketing</a>
-    <a href="#leads">Lead Lists</a>
-    <a href="#referrals">Referral Data</a>
-    <a href="paid-ads.html">Paid Ads</a>
-    <a href="seo.html">SEO</a>
-    <a href="blog.html">Blog</a>
-    <a href="#pricing">Pricing</a>
-    <a href="#contact">Contact</a>
-  </div>
+        <a href="#marketing">Marketing</a>
+        <a href="#leads">Lead Lists</a>
+        <a href="#referrals">Referral Data</a>
+        <a href="paid-ads.html">Paid Ads</a>
+        <a href="seo.html">SEO</a>
+        <a href="blog.html">Blog</a>
+        <a href="#pricing">Pricing</a>
+        <a href="healthcare-marketing-agency.html">Agency</a>
+        <a href="healthcare-digital-marketing.html">Digital Marketing</a>
+        <a href="#contact">Contact</a>
+    </div>
 </footer>
 
 <script>
