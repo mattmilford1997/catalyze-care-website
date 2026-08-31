@@ -400,6 +400,20 @@ body {
 .page-breadcrumb a:hover { color: var(--navy); }
 .page-breadcrumb .sep { margin: 0 8px; color: var(--gray-400); }
 
+
+.related-row {
+  max-width: 1200px; margin: 0 auto; padding: 8px 32px 48px;
+  font-size: 0.9rem; color: var(--gray-600); line-height: 1.9;
+}
+.related-row a { color: var(--accent); text-decoration: none; font-weight: 600; }
+.related-row a:hover { text-decoration: underline; }
+.faq-list { max-width: 800px; display: flex; flex-direction: column; gap: 16px; }
+.faq-item { background: white; border: 1px solid var(--gray-200); border-radius: 12px; padding: 20px 24px; }
+.faq-item h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.05rem; font-weight: 700; margin-bottom: 8px; }
+.faq-item p { color: var(--slate); font-size: 0.95rem; line-height: 1.7; }
+@media (max-width: 600px) {
+  .related-row { padding: 8px 16px 40px; }
+}
 </style>
 <link rel="canonical" href="https://catalyzegrowth.co/healthcare-digital-marketing" />
 <meta name="robots" content="index,follow" />
@@ -412,7 +426,7 @@ body {
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:image" content="https://catalyzegrowth.co/og-image.png" />
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Healthcare Digital Marketing — Catalyze Care" />
 <meta name="twitter:description" content="SEO, paid ads, and referral marketing run together for healthcare practices — not as three disconnected vendors." />
 <script type="application/ld+json">
@@ -448,6 +462,54 @@ body {
       "position": 2,
       "name": "Healthcare Digital Marketing",
       "item": "https://catalyzegrowth.co/healthcare-digital-marketing"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is healthcare digital marketing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Healthcare digital marketing is SEO, paid ads, and referral outreach run as one system for a healthcare practice. Catalyze Care uses the same specialty, geography, and reporting across all three."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do SEO, ads, and referrals have to run together?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Catalyze Care does not require every channel on day one. Work is sequenced against the gap in your pipeline. Often referral outreach or paid ads start for nearer-term volume, with SEO started in parallel."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do the channels stay aligned?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Service pages, ad copy, and outreach mention the same conditions, ages, and insurance constraints. Local SEO, geo-fenced ads, and referral targets are cut to the same ZIP, city, county, or state footprint."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What data sits underneath the digital program?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Campaigns are built on claims-backed referral intelligence covering 48 million+ relationships across 120+ specialties, plus 2.1M+ verified provider contacts when a list is needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you report?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monthly reporting covers what ranked, what was spent, who was reached, and what to change next. Search, ads, and outreach are reviewed together."
+      }
     }
   ]
 }
@@ -489,7 +551,7 @@ body {
     </nav>
     <div class="hero-badge"><span class="dot"></span> Healthcare Digital Marketing</div>
     <h1>Healthcare digital marketing as <span class="accent">SEO + paid ads + referrals</span>, not three separate retainers</h1>
-    <p>Search, ads, and referring offices are the same patient-growth problem. Catalyze Care runs them as one system: organic visibility, HIPAA-aware paid campaigns, and claims-backed outreach to the providers already sending patients in your specialty.</p>
+    <p>Healthcare digital marketing is SEO, paid ads, and referral outreach run as one system for a healthcare practice. Catalyze Care uses the same specialty, geography, and reporting across all three. Search captures patients looking for care. Ads buy nearer-term demand. Referral marketing reaches the offices already sending patients.</p>
     <div class="hero-actions">
       <a href="#contact" class="btn-primary">Get Started →</a>
       <a href="#system" class="btn-secondary">See the System</a>
@@ -644,6 +706,34 @@ body {
   </div>
 </section>
 
+<section class="section" id="faq">
+  <div class="section-label"><span class="line"></span> FAQ</div>
+  <h2 class="section-title">Common questions</h2>
+  <p class="section-subtitle">Straight answers from how Catalyze Care actually works. No invented ROI claims.</p>
+  <div class="faq-list">
+    <div class="faq-item">
+      <h3>What is healthcare digital marketing?</h3>
+      <p>Healthcare digital marketing is SEO, paid ads, and referral outreach run as one system for a healthcare practice. Catalyze Care uses the same specialty, geography, and reporting across all three.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Do SEO, ads, and referrals have to run together?</h3>
+      <p>No. Catalyze Care does not require every channel on day one. Work is sequenced against the gap in your pipeline. Often referral outreach or paid ads start for nearer-term volume, with SEO started in parallel.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How do the channels stay aligned?</h3>
+      <p>Service pages, ad copy, and outreach mention the same conditions, ages, and insurance constraints. Local SEO, geo-fenced ads, and referral targets are cut to the same ZIP, city, county, or state footprint.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What data sits underneath the digital program?</h3>
+      <p>Campaigns are built on claims-backed referral intelligence covering 48 million+ relationships across 120+ specialties, plus 2.1M+ verified provider contacts when a list is needed.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How do you report?</h3>
+      <p>Monthly reporting covers what ranked, what was spent, who was reached, and what to change next. Search, ads, and outreach are reviewed together.</p>
+    </div>
+  </div>
+</section>
+
 <section class="cta-banner" id="contact">
   <div class="cta-inner">
     <div>
@@ -663,20 +753,24 @@ body {
   </div>
 </section>
 
+<p class="related-row">Related: <a href="healthcare-marketing-agency.html">healthcare marketing agency</a> · <a href="healthcare-referral-marketing.html">healthcare referral marketing</a> · <a href="seo-for-healthcare-practices.html">SEO for healthcare practices</a> · <a href="paid-ads-for-healthcare-practices.html">paid ads for healthcare practices</a> · <a href="seo.html">SEO</a> · <a href="paid-ads.html">Paid Ads</a> · <a href="referral.html">Referral Marketing</a></p>
 <footer class="footer">
   <div class="footer-left">© 2026 Catalyze Care. All rights reserved.</div>
   <div class="footer-links">
-    <a href="index.html#marketing">Marketing</a>
-    <a href="index.html#leads">Lead Lists</a>
-    <a href="index.html#referrals">Referral Data</a>
-    <a href="referral.html">Referral Marketing</a>
-    <a href="paid-ads.html">Paid Ads</a>
-    <a href="seo.html">SEO</a>
-    <a href="healthcare-marketing-agency.html">Agency</a>
-    <a href="healthcare-digital-marketing.html">Digital Marketing</a>
-    <a href="blog.html">Blog</a>
-    <a href="#contact">Contact</a>
-  </div>
+        <a href="index.html#marketing">Marketing</a>
+        <a href="index.html#leads">Lead Lists</a>
+        <a href="index.html#referrals">Referral Data</a>
+        <a href="referral.html">Referral Marketing</a>
+        <a href="healthcare-referral-marketing.html">Referral Practices</a>
+        <a href="seo-for-healthcare-practices.html">SEO for Practices</a>
+        <a href="paid-ads-for-healthcare-practices.html">Paid Ads for Practices</a>
+        <a href="paid-ads.html">Paid Ads</a>
+        <a href="seo.html">SEO</a>
+        <a href="healthcare-marketing-agency.html">Agency</a>
+        <a href="healthcare-digital-marketing.html">Digital Marketing</a>
+        <a href="blog.html">Blog</a>
+        <a href="#contact">Contact</a>
+    </div>
 </footer>
 <script>
 const nav = document.getElementById('nav');
