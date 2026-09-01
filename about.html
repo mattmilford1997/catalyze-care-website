@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About Catalyze Care | Healthcare Marketing Agency</title>
+<meta name="description" content="Catalyze Care is a healthcare marketing agency for healthcare practices and provider groups. Contact andrew@catalyzegrowth.co." />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="canonical" href="https://catalyzegrowth.co/about" />
+<meta property="og:title" content="About Catalyze Care" />
+<meta property="og:description" content="Catalyze Care is a healthcare marketing agency for healthcare practices and provider groups." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://catalyzegrowth.co/about" />
+<meta property="og:site_name" content="Catalyze Care" />
+<meta property="og:image" content="https://catalyzegrowth.co/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="About Catalyze Care" />
+<meta name="twitter:description" content="Catalyze Care is a healthcare marketing agency for healthcare practices and provider groups." />
+<meta name="twitter:image" content="https://catalyzegrowth.co/og-image.png" />
+<meta name="robots" content="index,follow" />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+--navy: #1A1A2E; --navy-light: #25253D; --accent: #F97316; --accent-light: #FB923C;
+--accent-pale: #FFF7ED; --slate: #3D4F6F; --gray-100: #F4F6F9; --gray-200: #E2E7EF;
+--gray-400: #8E99AB; --gray-600: #5A6882; --white: #FFFFFF;
+}
+html { scroll-behavior: smooth; }
+body { font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif; color: var(--navy); line-height: 1.6; background: var(--white); -webkit-font-smoothing: antialiased; }
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.92); backdrop-filter: blur(16px); border-bottom: 1px solid var(--gray-200); }
+.nav-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0 32px; height: 64px; }
+.nav-logo { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.25rem; color: var(--navy); text-decoration: none; display: flex; align-items: center; gap: 8px; }
+.nav-logo .mark { width: 32px; height: 32px; background: var(--accent); border-radius: 8px; display: grid; place-items: center; color: white; font-size: 0.85rem; font-weight: 700; }
+.nav-links { display: flex; align-items: center; gap: 4px; }
+.nav-links a { text-decoration: none; color: var(--slate); font-size: 0.9rem; font-weight: 500; padding: 8px 16px; border-radius: 8px; transition: all 0.2s; }
+.nav-links a:hover { background: var(--gray-100); color: var(--navy); }
+.nav-links a.active { color: var(--accent); background: var(--accent-pale); }
+.nav-cta { background: var(--accent); color: white; padding: 10px 24px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; text-decoration: none; transition: all 0.2s; }
+.nav-cta:hover { background: var(--accent-light); transform: translateY(-1px); }
+@media (max-width: 900px) { .nav-links { display: none; } }
+.post-header { padding: 140px 32px 48px; max-width: 760px; margin: 0 auto; }
+.breadcrumb { font-size: 0.85rem; color: var(--gray-600); margin-bottom: 24px; }
+.breadcrumb a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.post-cat { display: inline-flex; font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: 18px; }
+.post-header h1 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.18; letter-spacing: -0.02em; margin-bottom: 20px; }
+.post-content { max-width: 760px; margin: 0 auto; padding: 0 32px 80px; }
+.post-content h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; margin: 44px 0 16px; color: var(--navy); }
+.post-content p { font-size: 1.02rem; color: var(--slate); line-height: 1.8; margin-bottom: 20px; }
+.post-content ul { margin: 0 0 20px 24px; color: var(--slate); line-height: 1.8; }
+.post-content li { margin-bottom: 8px; font-size: 1.02rem; }
+.post-content a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.post-content a:hover { text-decoration: underline; }
+.post-cta { max-width: 760px; margin: 0 auto; padding: 0 32px 80px; }
+.cta-box { background: var(--navy); border-radius: 14px; padding: 44px; text-align: center; }
+.cta-box h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.35rem; font-weight: 700; color: white; margin-bottom: 10px; }
+.cta-box p { color: var(--gray-400); font-size: 0.95rem; margin-bottom: 24px; }
+.cta-box a { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: white; padding: 14px 28px; border-radius: 10px; font-size: 0.92rem; font-weight: 600; text-decoration: none; }
+.footer { border-top: 1px solid var(--gray-200); padding: 40px 32px; max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+.footer-left { font-size: 0.85rem; color: var(--gray-600); }
+.footer-links { display: flex; gap: 16px 24px; flex-wrap: wrap; }
+.footer-links a { font-size: 0.85rem; color: var(--gray-600); text-decoration: none; }
+.footer-links a:hover { color: var(--accent); }
+@media (max-width: 600px) {
+.post-header { padding: 120px 20px 40px; }
+.post-content { padding: 0 20px 60px; }
+.post-cta { padding: 0 20px 60px; }
+.cta-box { padding: 32px 24px; }
+.footer { flex-direction: column; text-align: center; }
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About Catalyze Care",
+  "url": "https://catalyzegrowth.co/about",
+  "description": "Catalyze Care is a healthcare marketing agency for healthcare practices and provider groups.",
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "Catalyze Care",
+    "url": "https://catalyzegrowth.co",
+    "email": "andrew@catalyzegrowth.co"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://catalyzegrowth.co/" },
+    { "@type": "ListItem", "position": 2, "name": "About", "item": "https://catalyzegrowth.co/about" }
+  ]
+}
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-084ZGKDXZQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-084ZGKDXZQ');
+</script>
+<link rel="stylesheet" href="css/site.css" />
+<script src="js/site.js" defer></script>
+</head>
+<body>
+<nav class="nav">
+<div class="nav-inner">
+<a href="index.html" class="nav-logo"><span class="mark">CC</span> Catalyze Care</a>
+<div class="nav-links" id="primary-nav">
+<a href="index.html#marketing">Marketing</a>
+<a href="index.html#leads">Lead Lists</a>
+<a href="index.html#referrals">Referral Data</a>
+<a href="referral.html">Referral Marketing</a>
+<a href="paid-ads.html">Paid Ads</a>
+<a href="seo.html">SEO</a>
+<a href="blog.html">Blog</a>
+<a href="index.html#pricing">Pricing</a>
+</div>
+<a href="index.html#contact" class="nav-cta">Get Started</a>
+<button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></button>
+</div>
+</nav>
+
+<header class="post-header">
+<div class="breadcrumb"><a href="index.html">&larr; Home</a></div>
+<div class="post-cat">Catalyze Care</div>
+<h1>About Catalyze Care</h1>
+</header>
+
+<article class="post-content">
+<p>Catalyze Care is a healthcare marketing agency for healthcare practices and provider groups. Work is referral marketing, SEO, and paid ads built on the same claims-backed referral intelligence — not a generalist stack retrofitted for healthcare.</p>
+<p>This page is the company contact and orientation page. It does not include staff bios or credentials that are not published elsewhere on the site.</p>
+
+<h2>Contact</h2>
+<p>Email <a href="mailto:andrew@catalyzegrowth.co">andrew@catalyzegrowth.co</a>. To talk through specialty, market, and which channel should go first, use the <a href="index.html#contact">demo form</a> on the homepage.</p>
+
+<h2>What Catalyze Care does</h2>
+<ul>
+<li><a href="healthcare-marketing-agency.html">Healthcare marketing agency</a> — the firm-level overview of referral, SEO, and paid ads on one referral map.</li>
+<li><a href="healthcare-referral-marketing.html">Healthcare referral marketing</a> — outreach to providers who already send patients in your specialty, via fax, email, phone, LinkedIn, and direct mail. Flagship service: <a href="referral.html">referral marketing</a>.</li>
+<li><a href="seo-for-healthcare-practices.html">SEO for healthcare practices</a> — local SEO, Google Business Profile, on-page and technical work, schema, and medically reviewed content. Full engagement: <a href="seo.html">SEO</a>.</li>
+<li><a href="paid-ads-for-healthcare-practices.html">Paid ads for healthcare practices</a> — HIPAA-aware Google Ads, Meta Ads, and Display aimed at booked appointments. Full engagement: <a href="paid-ads.html">paid ads</a>.</li>
+<li><a href="healthcare-digital-marketing.html">Healthcare digital marketing</a> — SEO, paid ads, and referral outreach run as one system.</li>
+</ul>
+<p>Practical write-ups live on the <a href="blog.html">blog</a>.</p>
+
+<h2>How campaigns are built</h2>
+<p>Campaigns use claims-backed referral intelligence covering 48 million+ relationships across 120+ specialties. Outreach reaches offices by fax, email, phone, LinkedIn, and direct mail. Pricing is published on the service pages. This site does not invent ROI figures or unnamed case-study percentages.</p>
+</article>
+
+<div class="post-cta"><div class="cta-box"><h3>Book a demo</h3><p>Share your practice details. Catalyze Care walks through specialty, market, and which of referral, SEO, or paid ads should go first.</p><a href="index.html#contact">Book a Demo &rarr;</a></div></div>
+
+<footer class="footer">
+<div class="footer-left">&copy; 2026 Catalyze Care. All rights reserved.</div>
+<div class="footer-links">
+<a href="index.html#marketing">Marketing</a>
+<a href="index.html#leads">Lead Lists</a>
+<a href="index.html#referrals">Referral Data</a>
+<a href="referral.html">Referral Marketing</a>
+<a href="healthcare-referral-marketing.html">Referral Practices</a>
+<a href="seo-for-healthcare-practices.html">SEO for Practices</a>
+<a href="paid-ads-for-healthcare-practices.html">Paid Ads for Practices</a>
+<a href="paid-ads.html">Paid Ads</a>
+<a href="seo.html">SEO</a>
+<a href="blog.html">Blog</a>
+<a href="about.html">About</a>
+<a href="healthcare-marketing-agency.html">Agency</a>
+<a href="healthcare-digital-marketing.html">Digital Marketing</a>
+<a href="index.html#contact">Contact</a>
+</div>
+</footer>
+</body>
+</html>
