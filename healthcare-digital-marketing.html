@@ -514,6 +514,17 @@ body {
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "url": "https://catalyzegrowth.co/healthcare-digital-marketing",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["#definition"]
+  }
+}
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-084ZGKDXZQ"></script>
 <script>
@@ -522,6 +533,8 @@ body {
   gtag('js', new Date());
   gtag('config', 'G-084ZGKDXZQ');
 </script>
+<link rel="stylesheet" href="css/site.css" />
+<script src="js/site.js" defer></script>
 </head>
 <body>
 
@@ -531,7 +544,7 @@ body {
       <span class="mark">CC</span>
       Catalyze Care
     </a>
-    <div class="nav-links">
+    <div class="nav-links" id="primary-nav">
       <a href="index.html#marketing">Marketing</a>
       <a href="index.html#leads">Lead Lists</a>
       <a href="index.html#referrals">Referral Data</a>
@@ -541,6 +554,7 @@ body {
       <a href="index.html#pricing">Pricing</a>
     </div>
     <a href="#contact" class="nav-cta">Get Started</a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></button>
   </div>
 </nav>
 
@@ -551,7 +565,7 @@ body {
     </nav>
     <div class="hero-badge"><span class="dot"></span> Healthcare Digital Marketing</div>
     <h1>Healthcare digital marketing as <span class="accent">SEO + paid ads + referrals</span>, not three separate retainers</h1>
-    <p>Healthcare digital marketing is SEO, paid ads, and referral outreach run as one system for a healthcare practice. Catalyze Care uses the same specialty, geography, and reporting across all three. Search captures patients looking for care. Ads buy nearer-term demand. Referral marketing reaches the offices already sending patients.</p>
+    <p id="definition">Healthcare digital marketing is SEO, paid ads, and referral outreach run as one system for a healthcare practice. Catalyze Care uses the same specialty, geography, and reporting across all three. Search captures patients looking for care. Ads buy nearer-term demand. Referral marketing reaches the offices already sending patients.</p>
     <div class="hero-actions">
       <a href="#contact" class="btn-primary">Get Started →</a>
       <a href="#system" class="btn-secondary">See the System</a>
@@ -769,6 +783,7 @@ body {
         <a href="healthcare-marketing-agency.html">Agency</a>
         <a href="healthcare-digital-marketing.html">Digital Marketing</a>
         <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
         <a href="#contact">Contact</a>
     </div>
 </footer>

@@ -514,6 +514,17 @@ body {
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "url": "https://catalyzegrowth.co/healthcare-marketing-agency",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["#definition"]
+  }
+}
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-084ZGKDXZQ"></script>
 <script>
@@ -522,6 +533,8 @@ body {
   gtag('js', new Date());
   gtag('config', 'G-084ZGKDXZQ');
 </script>
+<link rel="stylesheet" href="css/site.css" />
+<script src="js/site.js" defer></script>
 </head>
 <body>
 
@@ -531,7 +544,7 @@ body {
       <span class="mark">CC</span>
       Catalyze Care
     </a>
-    <div class="nav-links">
+    <div class="nav-links" id="primary-nav">
       <a href="index.html#marketing">Marketing</a>
       <a href="index.html#leads">Lead Lists</a>
       <a href="index.html#referrals">Referral Data</a>
@@ -541,6 +554,7 @@ body {
       <a href="index.html#pricing">Pricing</a>
     </div>
     <a href="#contact" class="nav-cta">Get Started</a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></button>
   </div>
 </nav>
 
@@ -551,7 +565,7 @@ body {
     </nav>
     <div class="hero-badge"><span class="dot"></span> Healthcare Marketing Agency</div>
     <h1>A healthcare marketing agency built around <span class="accent">who already refers</span> in your market</h1>
-    <p>A healthcare marketing agency is a firm that runs patient-growth work for healthcare practices and provider groups. Catalyze Care is a healthcare marketing agency that runs referral marketing, SEO, and paid ads on the same claims-backed referral intelligence. Campaigns use 48 million+ referral relationships across 120+ specialties. Outreach reaches offices by fax, email, phone, LinkedIn, and direct mail.</p>
+    <p id="definition">A healthcare marketing agency is a firm that runs patient-growth work for healthcare practices and provider groups. Catalyze Care is a healthcare marketing agency that runs referral marketing, SEO, and paid ads on the same claims-backed referral intelligence. Campaigns use 48 million+ referral relationships across 120+ specialties. Outreach reaches offices by fax, email, phone, LinkedIn, and direct mail.</p>
     <div class="hero-actions">
       <a href="#contact" class="btn-primary">Get Started →</a>
       <a href="#what-we-do" class="btn-secondary">See What We Do</a>
@@ -769,6 +783,7 @@ body {
         <a href="healthcare-marketing-agency.html">Agency</a>
         <a href="healthcare-digital-marketing.html">Digital Marketing</a>
         <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
         <a href="#contact">Contact</a>
     </div>
 </footer>
