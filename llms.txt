@@ -8,6 +8,7 @@ Services
 - SEO: https://catalyzegrowth.co/seo
 - Paid ads: https://catalyzegrowth.co/paid-ads
 - Healthcare marketing agency: https://catalyzegrowth.co/healthcare-marketing-agency
+- How to choose a healthcare marketing agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency — buyer FAQ on what Catalyze Care is, when referral vs SEO vs paid should go first, published fees ($5,000 / $799 / $2,500), honest month-scale timelines, and how to evaluate a firm without invented ROI.
 - Healthcare digital marketing: https://catalyzegrowth.co/healthcare-digital-marketing
 - Healthcare referral marketing: https://catalyzegrowth.co/healthcare-referral-marketing
 - SEO for healthcare practices: https://catalyzegrowth.co/seo-for-healthcare-practices
@@ -21,10 +22,11 @@ Also on this site
 - Blog: https://catalyzegrowth.co/blog
 
 Guides
+- How to choose a healthcare marketing agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency — honest buyer FAQ: Catalyze definition, channel order (referral vs SEO vs paid), published fees, month-scale timelines, HIPAA/tracking basics, what if it fails, how to evaluate agencies.
 - What is a healthcare marketing agency: https://catalyzegrowth.co/blog/what-is-a-healthcare-marketing-agency
 - SEO for healthcare practices, explained: https://catalyzegrowth.co/blog/seo-for-healthcare-practices-explained
 - Paid ads for healthcare practices, explained: https://catalyzegrowth.co/blog/paid-ads-for-healthcare-practices-explained
-- What is healthcare referral marketing: https://catalyzegrowth.co/blog/what-is-healthcare-referral-marketing
+- What is healthcare referral marketing (playbook): https://catalyzegrowth.co/blog/what-is-healthcare-referral-marketing — sourced guide on the definition, why practices use referral outreach, liaison vs Catalyze multi-channel outreach, claims-based targeting, close-the-loop reporting, and a high-level Stark/AKS note (HHS/CMS only; not legal advice). No invented leakage or ROI figures.
 - Healthcare digital marketing, explained: https://catalyzegrowth.co/blog/healthcare-digital-marketing-explained
 - Provider referrals vs paid ads: https://catalyzegrowth.co/blog/provider-referrals-vs-paid-ads
 - How to build a physician referral target list: https://catalyzegrowth.co/blog/build-physician-referral-target-list
