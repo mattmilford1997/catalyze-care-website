@@ -131,6 +131,18 @@
   color: #fff !important;
   text-decoration: none;
 }
+.hero .key-takeaway {
+  max-width: 36rem;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+.proof-honesty {
+  font-size: 0.92rem;
+  color: var(--gray-600);
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 0 24px;
+}
 .hero a.btn-secondary {
   color: var(--navy);
   text-decoration: none;
