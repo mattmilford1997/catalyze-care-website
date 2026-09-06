@@ -7,12 +7,12 @@ Services
 - Referral marketing: https://catalyzegrowth.co/referral
 - SEO: https://catalyzegrowth.co/seo
 - Paid ads: https://catalyzegrowth.co/paid-ads
-- Healthcare marketing agency: https://catalyzegrowth.co/healthcare-marketing-agency
-- How to choose a healthcare marketing agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency — buyer FAQ on what Catalyze Care is, when referral vs SEO vs paid should go first, published fees ($5,000 / $799 / $2,500), honest month-scale timelines, and how to evaluate a firm without invented ROI.
-- Healthcare digital marketing: https://catalyzegrowth.co/healthcare-digital-marketing
-- Healthcare referral marketing: https://catalyzegrowth.co/healthcare-referral-marketing
-- SEO for healthcare practices: https://catalyzegrowth.co/seo-for-healthcare-practices
-- Paid ads for healthcare practices: https://catalyzegrowth.co/paid-ads-for-healthcare-practices
+- Healthcare marketing agency: https://catalyzegrowth.co/healthcare-marketing-agency — exact-match lander (updated 2026-09-06): buyer education on channel mix, published fees, evaluation checks; links the expanded agency guide, how-to-choose, and three services. Speakable #definition + #key-takeaway.
+- How to choose a healthcare marketing agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency — buyer FAQ (updated 2026-09-06): Catalyze definition, channel order, published fees ($5,000 / $799 / $2,500), contract length, monthly reporting cadence, data needed from the practice, multi-location, when NOT to hire, honest month-scale timelines. No invented ROI.
+- Healthcare digital marketing: https://catalyzegrowth.co/healthcare-digital-marketing — lander (updated 2026-09-06): SEO + paid + referral as one system; links agency guide, comparison post, and channel guides.
+- Healthcare referral marketing: https://catalyzegrowth.co/healthcare-referral-marketing — lander (updated 2026-09-06): claims-backed outreach definition plus depth linking the playbook and referral-vs-paid comparison.
+- SEO for healthcare practices: https://catalyzegrowth.co/seo-for-healthcare-practices — lander (updated 2026-09-06): local SEO / GBP summary linking the expanded SEO guide. No ranking guarantees.
+- Paid ads for healthcare practices: https://catalyzegrowth.co/paid-ads-for-healthcare-practices — lander (updated 2026-09-06): HIPAA-aware ads summary linking the expanded paid-ads guide. No invented CPC.
 
 Referral marketing is the flagship service. Campaigns are built on claims-backed referral intelligence covering 48 million+ relationships across 120+ specialties, with multi-channel outreach via fax, email, phone, LinkedIn, and direct mail.
 
@@ -22,13 +22,13 @@ Also on this site
 - Blog: https://catalyzegrowth.co/blog
 
 Guides
-- How to choose a healthcare marketing agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency — honest buyer FAQ: Catalyze definition, channel order (referral vs SEO vs paid), published fees, month-scale timelines, HIPAA/tracking basics, what if it fails, how to evaluate agencies.
-- What is a healthcare marketing agency: https://catalyzegrowth.co/blog/what-is-a-healthcare-marketing-agency
+- How to choose a healthcare marketing agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency — honest buyer FAQ (updated 2026-09-06): Catalyze definition, channel order (referral vs SEO vs paid), published fees, contract length, reporting cadence, practice data needed, multi-location, when NOT to hire, month-scale timelines, HIPAA/tracking basics.
+- What is a healthcare marketing agency: https://catalyzegrowth.co/blog/what-is-a-healthcare-marketing-agency — sourced ~16-min guide (updated 2026-09-06): what an agency does, referral/SEO/paid mix, how to evaluate, published fees, HIPAA-aware constraints with HHS/CMS citations, when not to hire. Schema: BlogPosting + FAQPage + BreadcrumbList + Speakable (#definition, #key-takeaway). No invented case studies or ROI.
 - SEO for healthcare practices, explained: https://catalyzegrowth.co/blog/seo-for-healthcare-practices-explained — sourced ~14-min guide (updated 2026-09-05): local SEO and Google Business Profile, practice-site basics, high-level AI Overviews / answer-engine notes from Google Search Central, when SEO vs paid vs referral first, FAQ. No invented rankings or ROI. Schema: BlogPosting + FAQPage + BreadcrumbList + Speakable (#definition, #key-takeaway).
 - Paid ads for healthcare practices, explained: https://catalyzegrowth.co/blog/paid-ads-for-healthcare-practices-explained — sourced ~14-min guide (updated 2026-09-05): search vs social channels, HIPAA-aware tracking basics citing HHS OCR / HHS marketing / FTC Health Breach Notification / Google Ads healthcare policy, when paid vs SEO vs referral first, FAQ. No invented CPC or ROI. Schema: BlogPosting + FAQPage + BreadcrumbList + Speakable (#definition, #key-takeaway).
 - What is healthcare referral marketing (playbook): https://catalyzegrowth.co/blog/what-is-healthcare-referral-marketing — sourced guide on the definition, why practices use referral outreach, liaison vs Catalyze multi-channel outreach, claims-based targeting, close-the-loop reporting, and a high-level Stark/AKS note (HHS/CMS only; not legal advice). No invented leakage or ROI figures. Also explores the SEO, paid-ads, and digital-marketing guides.
 - Healthcare digital marketing, explained: https://catalyzegrowth.co/blog/healthcare-digital-marketing-explained — sourced ~14-min guide (updated 2026-09-05): SEO + paid ads + referral as one system, honest HIPAA-aware framing (no invented certifications), HHS/CMS/AHRQ citations, published fees, FAQ. Schema: BlogPosting + FAQPage + BreadcrumbList + Speakable (#definition, #key-takeaway).
-- Provider referrals vs paid ads: https://catalyzegrowth.co/blog/provider-referrals-vs-paid-ads
+- Referral marketing vs paid ads for healthcare practices: https://catalyzegrowth.co/blog/provider-referrals-vs-paid-ads — honest channel contrast (updated 2026-09-06): who each funnel reaches, published fees ($5,000 referral / $2,500 paid), when to run both. Planning-model ranges are not guaranteed ROI. Schema: BlogPosting + FAQPage + BreadcrumbList + Speakable (#definition, #key-takeaway).
 - How to build a physician referral target list: https://catalyzegrowth.co/blog/build-physician-referral-target-list
 - Google Ads, LegitScript, and healthcare disapprovals: https://catalyzegrowth.co/blog/google-ads-healthcare-2026-legitscript
 - Local SEO for multi-state telehealth: https://catalyzegrowth.co/blog/local-seo-multi-state-telehealth
