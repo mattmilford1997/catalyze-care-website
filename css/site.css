@@ -270,3 +270,33 @@
 .post-content .cite { font-size: 0.92rem; }
 .post-sources { font-size: 0.92rem; }
 .post-sources li { font-size: 0.92rem; }
+
+/* Additive lander education prose — does not change hero CTA or nav */
+.page-education {
+  max-width: 800px;
+}
+.page-education p {
+  font-size: 1.02rem;
+  color: var(--slate);
+  line-height: 1.75;
+  margin-bottom: 16px;
+}
+.page-education h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 24px 0 10px;
+  color: var(--navy);
+}
+.page-education a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+.page-education a:hover { text-decoration: underline; }
+.page-education ul {
+  margin: 0 0 16px 22px;
+  color: var(--slate);
+  line-height: 1.7;
+}
+.page-education li { margin-bottom: 6px; font-size: 1rem; }
