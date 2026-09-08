@@ -146,7 +146,7 @@ body {
   border-radius: 50%;
 }
 .stat-grid {
-  display: grid; grid-template-columns: 1fr 1fr;
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px; position: relative; z-index: 1;
 }
 .stat-card {
@@ -1015,12 +1015,6 @@ body {
         <div class="label">Referral Patterns</div>
         <div class="value">48<span class="unit">M+</span></div>
         <div class="subtext">Tracked annually</div>
-      </div>
-      <!-- UNVERIFIED_METRIC: homepage Avg. ROI 4.2x / First 6 months is not sourced in this repo. Left unchanged in this PR; do not invent a replacement figure. -->
-      <div class="stat-card">
-        <div class="label">Avg. ROI</div>
-        <div class="value">4.2<span class="unit">x</span></div>
-        <div class="subtext">First 6 months</div>
       </div>
       <div class="stat-card">
         <div class="label">Specialties</div>

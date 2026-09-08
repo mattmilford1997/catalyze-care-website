@@ -314,7 +314,8 @@ body {
 
 /* ── RESULTS ── */
 .results-grid {
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-bottom: 40px;
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px;
+  max-width: 720px; margin: 0 auto 40px;
 }
 .result-stat {
   background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
@@ -693,16 +694,6 @@ body {
   <div class="hero-visual animate delay-2">
     <div class="metrics-grid">
       <div class="metric-card">
-        <div class="label">Avg. Cost Per Lead</div>
-        <div class="value">$28<span class="unit"> CPL</span></div>
-        <div class="subtext">vs. $94 industry avg.</div>
-      </div>
-      <div class="metric-card">
-        <div class="label">Ad ROAS</div>
-        <div class="value">5.1<span class="unit">x</span></div>
-        <div class="subtext">Return on ad spend</div>
-      </div>
-      <div class="metric-card">
         <div class="label">Avg. CTR</div>
         <div class="value">8.4<span class="unit">%</span></div>
         <div class="subtext">Google Search campaigns</div>
@@ -891,14 +882,6 @@ body {
     <p class="section-subtitle">We consistently outperform industry benchmarks on the metrics that move the needle — patient appointments, not impressions.</p>
 
     <div class="results-grid animate">
-      <div class="result-stat">
-        <div class="number">$28</div>
-        <div class="label">Avg. cost per new patient appointment</div>
-      </div>
-      <div class="result-stat">
-        <div class="number">5.1x</div>
-        <div class="label">Return on ad spend across Google & Meta</div>
-      </div>
       <div class="result-stat">
         <div class="number">8.4%</div>
         <div class="label">Avg. Google Search click-through rate</div>
