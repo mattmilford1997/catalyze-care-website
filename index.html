@@ -146,7 +146,7 @@ body {
   border-radius: 50%;
 }
 .stat-grid {
-  display: grid; grid-template-columns: 1fr 1fr;
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px; position: relative; z-index: 1;
 }
 .stat-card {
@@ -1016,12 +1016,6 @@ body {
         <div class="value">48<span class="unit">M+</span></div>
         <div class="subtext">Tracked annually</div>
       </div>
-      <!-- UNVERIFIED_METRIC: homepage Avg. ROI 4.2x / First 6 months is not sourced in this repo. Left unchanged in this PR; do not invent a replacement figure. -->
-      <div class="stat-card">
-        <div class="label">Avg. ROI</div>
-        <div class="value">4.2<span class="unit">x</span></div>
-        <div class="subtext">First 6 months</div>
-      </div>
       <div class="stat-card">
         <div class="label">Specialties</div>
         <div class="value">120<span class="unit">+</span></div>
@@ -1181,9 +1175,10 @@ body {
 
     <div class="leads-preview animate delay-2">
       <div class="preview-header">
-        <span class="title">Sample: Psychiatrists · Detroit, MI</span>
+        <span class="title">Sample (fictional / illustrative): Psychiatrists · Detroit, MI</span>
         <span class="count">847 results</span>
       </div>
+      <p style="font-size:0.78rem;color:var(--gray-400);padding:0 16px 8px;margin:0;">YMYL note: Provider names in this sample table are fictional and illustrative only — not real clinicians.</p>
       <div class="preview-table">
         <div class="preview-row header">
           <span>Provider</span>
@@ -1295,7 +1290,7 @@ body {
 
       <div class="referral-example animate delay-1">
         <div class="example-header">
-          <div class="query">EXAMPLE QUERY</div>
+          <div class="query">EXAMPLE QUERY (FICTIONAL / ILLUSTRATIVE)</div>
           <h4>Psychiatry Referrals</h4>
           <div class="geo">📍 Detroit, Michigan · Last 12 months</div>
         </div>
