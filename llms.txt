@@ -8,13 +8,13 @@ Services
 - SEO: https://catalyzegrowth.co/seo
 - Paid ads: https://catalyzegrowth.co/paid-ads
 - Healthcare marketing agency: https://catalyzegrowth.co/healthcare-marketing-agency — exact-match lander (updated 2026-09-06): buyer education on channel mix, published fees, evaluation checks; links the expanded agency guide, how-to-choose, and three services. Speakable #definition + #key-takeaway.
-- How to choose a healthcare marketing agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency — buyer FAQ (updated 2026-09-06): Catalyze definition, channel order, published fees ($5,000 / $799 / $2,500), contract length, monthly reporting cadence, data needed from the practice, multi-location, when NOT to hire, honest month-scale timelines. No invented ROI.
-- Healthcare digital marketing: https://catalyzegrowth.co/healthcare-digital-marketing — lander (updated 2026-09-06): SEO + paid + referral as one system; links agency guide, comparison post, and channel guides.
+- How to choose a healthcare marketing agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency — buyer FAQ (updated 2026-09-08) with buyer scorecard table (HIPAA/tracking, healthcare-only, published fees, data ownership, reporting): Catalyze definition, channel order, published fees ($5,000 / $799 / $2,500), contract length, monthly reporting cadence, data needed from the practice, multi-location, when NOT to hire, honest month-scale timelines. No invented ROI.
+- Healthcare digital marketing: https://catalyzegrowth.co/healthcare-digital-marketing — lander (updated 2026-09-08) with channel-order decision table (referral vs SEO vs paid first + fees): SEO + paid + referral as one system; links agency guide, comparison post, and channel guides.
 - Healthcare referral marketing: https://catalyzegrowth.co/healthcare-referral-marketing — lander (updated 2026-09-06): claims-backed outreach definition plus depth linking the playbook and referral-vs-paid comparison.
 - SEO for healthcare practices: https://catalyzegrowth.co/seo-for-healthcare-practices — lander (updated 2026-09-06): local SEO / GBP summary linking the expanded SEO guide. No ranking guarantees.
 - Paid ads for healthcare practices: https://catalyzegrowth.co/paid-ads-for-healthcare-practices — lander (updated 2026-09-06): HIPAA-aware ads summary linking the expanded paid-ads guide. No invented CPC.
 
-Referral marketing is the flagship service. Campaigns are built on claims-backed referral intelligence covering 48 million+ relationships across 120+ specialties, with multi-channel outreach via fax, email, phone, LinkedIn, and direct mail.
+Referral marketing is the flagship service at a published $5,000/month with a 3-month minimum (updated 2026-09-08 on /referral with service-standard close-the-loop cadence). Campaigns are built on claims-backed referral intelligence covering 48 million+ relationships across 120+ specialties, with multi-channel outreach via fax, email, phone, LinkedIn, and direct mail.
 
 Also on this site
 - Home: https://catalyzegrowth.co/
@@ -33,6 +33,12 @@ Guides
 - Google Ads, LegitScript, and healthcare disapprovals: https://catalyzegrowth.co/blog/google-ads-healthcare-2026-legitscript
 - Local SEO for multi-state telehealth: https://catalyzegrowth.co/blog/local-seo-multi-state-telehealth
 - AI search and practice visibility: https://catalyzegrowth.co/blog/ai-search-healthcare-practice-visibility
+
+- SEO vs GEO for healthcare practices: https://catalyzegrowth.co/blog/seo-vs-geo-healthcare-practices — answer-first (2026-09-08): classic SEO vs generative engine optimization; Google/CMS/AHRQ/HHS cites; links /seo and AI search guide. Schema: BlogPosting + FAQPage.
+- Agency vs in-house healthcare marketing: https://catalyzegrowth.co/blog/agency-vs-in-house-healthcare-marketing — decision guide (2026-09-08) using only published Catalyze fees ($5,000 / $799 / $2,500). No invented ROI. Schema: BlogPosting + FAQPage.
+- Physician liaison vs referral agency: https://catalyzegrowth.co/blog/physician-liaison-vs-referral-agency — BLS wage context vs Catalyze referral $5,000/mo (3-month min). No invented leakage. Schema: BlogPosting + FAQPage.
+- HIPAA-aware Google Ads conversion tracking: https://catalyzegrowth.co/blog/hipaa-google-ads-conversion-tracking — HHS OCR / HHS marketing / Google Ads healthcare / FTC cites; no PHI in pixels/URLs; links /paid-ads. Schema: BlogPosting + FAQPage.
+- Local SEO checklist for healthcare practices: https://catalyzegrowth.co/blog/local-seo-checklist-healthcare-practices — GBP, NAP, reviews, citations checklist (distinct from multi-state telehealth post). Schema: BlogPosting + FAQPage.
 - Patient acquisition cost benchmarks: https://catalyzegrowth.co/blog/patient-acquisition-cost-benchmarks
 - HIPAA marketing pixels and tracking: https://catalyzegrowth.co/blog/hipaa-marketing-pixels-tracking
 - Directory profile audit: https://catalyzegrowth.co/blog/healthcare-directory-profile-audit
@@ -51,6 +57,6 @@ Contact: andrew@catalyzegrowth.co
 
 Key facts
 - Catalyze Care is a healthcare marketing agency for healthcare practices and provider groups.
-- Referral marketing is the flagship service.
+- Referral marketing is the flagship service at a published $5,000/month with a 3-month minimum (updated 2026-09-08 on /referral with service-standard close-the-loop cadence).
 - Campaigns use claims-backed referral intelligence covering 48 million+ relationships across 120+ specialties.
 - Contact: andrew@catalyzegrowth.co
