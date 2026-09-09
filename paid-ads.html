@@ -128,6 +128,30 @@ body {
   background: radial-gradient(circle, rgba(249,115,22,0.15) 0%, transparent 70%);
   border-radius: 50%;
 }
+/* Honesty SERP panel on navy hero: light text/borders (do not use light-page serp colors). */
+.hero-visual .serp-preview {
+  position: relative; z-index: 1; color: #fff;
+}
+.hero-visual .serp-header {
+  display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; gap: 12px;
+}
+.hero-visual .serp-title { font-size: 0.85rem; color: #fff; font-weight: 600; }
+.hero-visual .serp-tag {
+  font-size: 0.7rem; color: var(--accent-light); font-weight: 600;
+  background: rgba(249,115,22,0.22); padding: 3px 10px; border-radius: 100px;
+  border: 1px solid rgba(251,146,60,0.45);
+  display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;
+}
+.hero-visual .serp-item {
+  background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; transition: all 0.2s;
+}
+.hero-visual .serp-item:hover { background: rgba(255,255,255,0.1); }
+.hero-visual .serp-item:last-child { margin-bottom: 0; }
+.hero-visual .serp-row { display: flex; justify-content: space-between; align-items: center; }
+.hero-visual .serp-kw { color: #fff; font-size: 0.88rem; font-weight: 500; }
+.hero-visual .serp-meta { display: flex; gap: 14px; margin-top: 5px; }
+.hero-visual .serp-meta span { font-size: 0.72rem; color: #C5CDD8; }
 .metrics-grid {
   display: grid; grid-template-columns: 1fr 1fr;
   gap: 16px; position: relative; z-index: 1;
@@ -628,13 +652,13 @@ body {
       "@type": "HowToStep",
       "position": 3,
       "name": "Launch & Monitor",
-      "text": "Campaigns go live and we monitor daily for the first 30 days — adjusting bids, keywords, and creative to hit your cost-per-appointment target."
+      "text": "Campaigns go live and we monitor daily for the first 30 days — adjusting bids, keywords, and creative against appointment-oriented conversion events."
     },
     {
       "@type": "HowToStep",
       "position": 4,
       "name": "Optimize & Scale",
-      "text": "Monthly reviews with your account manager. We cut what doesn't work, scale what does, and expand your budget as ROI proves out."
+      "text": "Monthly reviews with your account manager. We cut what doesn't work and scale what does. This page does not invent CPC or ROI figures."
     }
   ]
 }
@@ -684,7 +708,7 @@ body {
     <p>HIPAA-compliant Google Ads, Meta Ads, and Display campaigns built for healthcare — engineered to drive patient volume, not just clicks.</p>
     <p id="definition">Paid ads for healthcare practices are paid campaigns built to drive booked appointments, not vanity traffic. Catalyze Care runs HIPAA-aware Google Ads, Meta Ads, and Display for healthcare practices. Campaigns do not target by health condition or diagnosis.</p>
     <p class="key-takeaway" id="key-takeaway"><span class="label">In one sentence</span>Paid ads for healthcare practices are HIPAA-aware Google, Meta, and Display campaigns built to drive booked appointments — not vanity traffic or condition targeting.</p>
-    <p>Read the <a href="paid-ads-for-healthcare-practices.html">paid ads for healthcare practices</a> definition and the <a href="blog/paid-ads-for-healthcare-practices-explained.html">explained guide</a>. Buyer FAQ: <a href="how-to-choose-a-healthcare-marketing-agency.html">how to choose a healthcare marketing agency</a>.</p>
+    <p>Read the <a href="paid-ads-for-healthcare-practices.html">paid ads for healthcare practices</a> definition and the <a href="blog/paid-ads-for-healthcare-practices-explained.html">explained guide</a>. Conversion tracking: <a href="blog/hipaa-google-ads-conversion-tracking.html">HIPAA-aware Google Ads conversion tracking</a>. Buyer FAQ: <a href="how-to-choose-a-healthcare-marketing-agency.html">how to choose a healthcare marketing agency</a>.</p>
     
     <div class="hero-actions">
       <a href="#contact" class="btn-primary">Book a Strategy Call →</a>
@@ -692,40 +716,26 @@ body {
     </div>
   </div>
   <div class="hero-visual animate delay-2">
-    <div class="metrics-grid">
-      <div class="metric-card">
-        <div class="label">Avg. CTR</div>
-        <div class="value">8.4<span class="unit">%</span></div>
-        <div class="subtext">Google Search campaigns</div>
+    <div class="serp-preview">
+      <div class="serp-header">
+        <span class="serp-title">Healthcare paid ads</span>
+        <span class="serp-tag">Catalyze Care</span>
       </div>
-      <div class="metric-card">
-        <div class="label">Launch Time</div>
-        <div class="value">30<span class="unit"> days</span></div>
-        <div class="subtext">Kickoff to first leads</div>
+      <div class="serp-item">
+        <div class="serp-row"><span class="serp-kw">Google Search and LSAs</span></div>
+        <div class="serp-meta"><span>High appointment intent — no invented CPC</span></div>
       </div>
-      <div class="perf-panel">
-        <div class="panel-header">
-          <span class="panel-title">Sample Campaign Snapshot</span>
-          <span class="tag">Google Ads · Psychiatry</span>
-        </div>
-        <div class="kpi-row">
-          <div class="kpi-item">
-            <div class="kpi-val">24.8K</div>
-            <div class="kpi-lbl">Impressions</div>
-          </div>
-          <div class="kpi-item">
-            <div class="kpi-val green">8.4%</div>
-            <div class="kpi-lbl">CTR</div>
-          </div>
-          <div class="kpi-item">
-            <div class="kpi-val">$4.12</div>
-            <div class="kpi-lbl">CPC</div>
-          </div>
-          <div class="kpi-item">
-            <div class="kpi-val orange">$29</div>
-            <div class="kpi-lbl">Cost / Appt.</div>
-          </div>
-        </div>
+      <div class="serp-item">
+        <div class="serp-row"><span class="serp-kw">Meta Ads</span></div>
+        <div class="serp-meta"><span>Facebook and Instagram</span></div>
+      </div>
+      <div class="serp-item">
+        <div class="serp-row"><span class="serp-kw">Display and YouTube</span></div>
+        <div class="serp-meta"><span>Retargeting sequences</span></div>
+      </div>
+      <div class="serp-item">
+        <div class="serp-row"><span class="serp-kw">HIPAA-aware tracking</span></div>
+        <div class="serp-meta"><span>No condition targeting</span></div>
       </div>
     </div>
   </div>
@@ -752,14 +762,6 @@ body {
             <li><span class="check">✓</span> Google Local Services Ads setup and badge management</li>
             <li><span class="check">✓</span> Monthly budget pacing with weekly performance reviews</li>
           </ul>
-        </div>
-        <div class="perf-table-wrap">
-          <div class="perf-table-label">Sample Performance — Cardiology · Houston TX</div>
-          <div class="perf-row"><span class="perf-label">Impressions (mo.)</span><span class="perf-val">24,800</span></div>
-          <div class="perf-row"><span class="perf-label">Click-Through Rate</span><span class="perf-val green">8.4%</span></div>
-          <div class="perf-row"><span class="perf-label">Cost Per Click</span><span class="perf-val">$4.12</span></div>
-          <div class="perf-row"><span class="perf-label">Appt. Conversion Rate</span><span class="perf-val orange">14.2%</span></div>
-          <div class="perf-row highlight"><span class="perf-label">Cost Per Appointment</span><span class="perf-val orange">$29</span></div>
         </div>
       </div>
 
@@ -846,8 +848,8 @@ body {
 <section class="section-gray" id="process">
   <div class="section-inner">
     <div class="section-label"><span class="line"></span> Our Process</div>
-    <h2 class="section-title">Live campaigns in 30 days, results in 60</h2>
-    <p class="section-subtitle">We move fast and focus on revenue, not vanity metrics. Here's how we go from kickoff to campaigns that fill your appointment calendar.</p>
+    <h2 class="section-title">From kickoff to live campaigns</h2>
+    <p class="section-subtitle">We move from audit to live campaigns on a published process. This page does not invent CPC, CTR, or cost-per-appointment figures.</p>
 
     <div class="process-steps">
       <div class="process-step animate">
@@ -863,12 +865,12 @@ body {
       <div class="process-step animate delay-2">
         <div class="step-num">3</div>
         <h4>Launch & Monitor</h4>
-        <p>Campaigns go live and we monitor daily for the first 30 days — adjusting bids, keywords, and creative to hit your cost-per-appointment target.</p>
+        <p>Campaigns go live and we monitor daily for the first 30 days — adjusting bids, keywords, and creative against appointment-oriented conversion events.</p>
       </div>
       <div class="process-step animate delay-3">
         <div class="step-num">4</div>
         <h4>Optimize & Scale</h4>
-        <p>Monthly reviews with your account manager. We cut what doesn't work, scale what does, and expand your budget as ROI proves out.</p>
+        <p>Monthly reviews with your account manager. We cut what doesn't work and scale what does. This page does not invent CPC or ROI figures.</p>
       </div>
     </div>
   </div>
@@ -878,17 +880,17 @@ body {
 <section class="section-dark" id="results">
   <div class="section-inner">
     <div class="section-label" style="color:var(--accent-light)"><span class="line" style="background:var(--accent-light)"></span> Results</div>
-    <h2 class="section-title">Numbers our clients actually care about</h2>
-    <p class="section-subtitle">We consistently outperform industry benchmarks on the metrics that move the needle — patient appointments, not impressions.</p>
+    <h2 class="section-title">What paid ads management includes</h2>
+    <p class="section-subtitle">Published fee and constraints — not invented CPC or appointment conversion rates.</p>
 
     <div class="results-grid animate">
       <div class="result-stat">
-        <div class="number">8.4%</div>
-        <div class="label">Avg. Google Search click-through rate</div>
+        <div class="number">$2,500</div>
+        <div class="label">Per month, published management fee (media spend separate)</div>
       </div>
       <div class="result-stat">
-        <div class="number">30 days</div>
-        <div class="label">From kickoff to first inbound patient leads</div>
+        <div class="number">3 mo</div>
+        <div class="label">Minimum term · no condition targeting · HIPAA-aware tracking</div>
       </div>
     </div>
 
@@ -916,7 +918,7 @@ body {
           <li><span class="check">✓</span> Ad copy A/B testing and creative development</li>
           <li><span class="check">✓</span> Landing page conversion optimization</li>
           <li><span class="check">✓</span> HIPAA-compliant conversion tracking</li>
-          <li><span class="check">✓</span> Weekly check-ins + monthly ROI reports</li>
+          <li><span class="check">✓</span> Weekly check-ins + monthly performance reports</li>
         </ul>
       </div>
 
@@ -933,7 +935,7 @@ body {
           <li><span class="check">✓</span> Custom + lookalike audience development</li>
           <li><span class="check">✓</span> Retargeting and lead ad campaigns</li>
           <li><span class="check">✓</span> Ad creative development and A/B testing</li>
-          <li><span class="check">✓</span> Weekly check-ins + monthly ROI reports</li>
+          <li><span class="check">✓</span> Weekly check-ins + monthly performance reports</li>
         </ul>
       </div>
     </div>
@@ -941,7 +943,7 @@ body {
     <div style="margin-top:32px;padding:28px;background:white;border:1px solid var(--gray-200);border-radius:12px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;" class="animate">
       <div>
         <div style="font-family:'Space Grotesk',sans-serif;font-size:1.1rem;font-weight:700;margin-bottom:4px;">Not sure where to start?</div>
-        <div style="font-size:0.92rem;color:var(--slate);">Book a free 30-minute audit call. We'll review your current ad accounts and tell you exactly where the highest-ROI opportunities are.</div>
+        <div style="font-size:0.92rem;color:var(--slate);">Book a free 30-minute audit call. We'll review your current ad accounts and tell you where HIPAA-aware search, Meta, or Display is the better first channel.</div>
       </div>
       <a href="#contact" class="btn-primary" style="white-space:nowrap;">Get a Free Audit →</a>
     </div>
@@ -984,7 +986,7 @@ body {
   <div class="cta-inner">
     <div>
       <h2>Ready to fill your appointment calendar?</h2>
-      <p>Tell us about your practice and we'll build a custom paid ads strategy — with a clear cost-per-appointment target before we spend a single dollar.</p>
+      <p>Tell us about your practice and we'll walk through a custom paid ads strategy — platforms, HIPAA-aware tracking, and the published $2,500/month management fee. Media spend is separate. This page does not invent a cost-per-appointment target.</p>
     </div>
     <form class="cta-form" name="paid-ads-inquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
       <input type="hidden" name="form-name" value="paid-ads-inquiry" />
@@ -1003,7 +1005,7 @@ body {
 <!-- ════════════ FOOTER ════════════ -->
 <p class="related-row">Related: <a href="healthcare-marketing-agency.html">healthcare marketing agency</a> · <a href="blog/what-is-a-healthcare-marketing-agency.html">agency guide</a> · <a href="how-to-choose-a-healthcare-marketing-agency.html">how to choose an agency</a> · <a href="blog/provider-referrals-vs-paid-ads.html">referral vs paid ads</a> · <a href="healthcare-digital-marketing.html">healthcare digital marketing</a> · <a href="blog/healthcare-digital-marketing-explained.html">digital marketing guide</a> · <a href="healthcare-referral-marketing.html">healthcare referral marketing</a> · <a href="seo-for-healthcare-practices.html">SEO for healthcare practices</a> · <a href="blog/seo-for-healthcare-practices-explained.html">SEO guide</a> · <a href="paid-ads-for-healthcare-practices.html">paid ads for healthcare practices</a> · <a href="blog/paid-ads-for-healthcare-practices-explained.html">Paid ads explained</a> · <a href="seo.html">SEO</a> · <a href="referral.html">Referral Marketing</a></p>
 <footer class="footer" aria-label="Site footer">
-  <div class="footer-left">© 2026 Catalyze Care. All rights reserved.</div>
+  <div class="footer-left">© 2026 Catalyze Care. All rights reserved.<br>Service-area marketing for healthcare practices (no public street address).</div>
   <div class="footer-links">
         <a href="index.html#marketing">Marketing</a>
         <a href="index.html#leads">Lead Lists</a>

@@ -36,4 +36,16 @@ Allow: /
 User-agent: meta-externalagent
 Allow: /
 
+User-agent: Amazonbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
 Sitemap: https://catalyzegrowth.co/sitemap.xml
