@@ -45,6 +45,9 @@ Allow: /
 User-agent: GoogleOther
 Allow: /
 
+User-agent: Google-InspectionTool
+Allow: /
+
 User-agent: cohere-ai
 Allow: /
 
