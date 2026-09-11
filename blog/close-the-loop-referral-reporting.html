@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#F97316" />
+<link rel="apple-touch-icon" href="/favicon.svg" />
+<meta property="og:locale" content="en_US" />
+<title>Close-the-Loop Referral Reporting for Practices — Catalyze Care</title>
+<meta name="description" content="What a practice should measure each month in referral reporting: offices contacted, responses, referred patients, and close-the-loop notes. No invented leakage percentages." />
+<link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Close-the-Loop Referral Reporting for Practices — Catalyze Care" />
+<meta property="og:description" content="What a practice should measure each month in referral reporting: offices contacted, responses, referred patients, and close-the-loop notes. No invented leakage percentages." />
+<meta property="og:url" content="https://catalyzegrowth.co/blog/close-the-loop-referral-reporting" />
+<meta property="og:site_name" content="Catalyze Care" />
+<meta property="og:image" content="https://catalyzegrowth.co/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:alt" content="Catalyze Care" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Close-the-Loop Referral Reporting for Practices — Catalyze Care" />
+<meta name="twitter:description" content="Monthly referral measures you can check against intake. No invented leakage percentages." />
+<meta name="twitter:image" content="https://catalyzegrowth.co/og-image.png" />
+<meta name="twitter:image:alt" content="Catalyze Care" />
+<meta property="article:published_time" content="2026-09-11" />
+<meta property="article:modified_time" content="2026-09-11" />
+<link rel="canonical" href="https://catalyzegrowth.co/blog/close-the-loop-referral-reporting" />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --navy: #1A1A2E; --accent: #F97316; --accent-light: #FB923C; --accent-pale: #FFF7ED; --slate: #3D4F6F; --gray-100: #F4F6F9; --gray-200: #E2E7EF; --gray-400: #8E99AB; --gray-600: #5A6882; --white: #FFFFFF; }
+html { scroll-behavior: smooth; }
+body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6; background: var(--white); }
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.92); backdrop-filter: blur(16px); border-bottom: 1px solid var(--gray-200); }
+.nav-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0 32px; height: 64px; }
+.nav-logo { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.25rem; color: var(--navy); text-decoration: none; display: flex; align-items: center; gap: 8px; }
+.nav-logo .mark { width: 32px; height: 32px; background: var(--accent); border-radius: 8px; display: grid; place-items: center; color: white; font-size: 0.85rem; font-weight: 700; }
+.nav-links { display: flex; gap: 4px; }
+.nav-links a { text-decoration: none; color: var(--slate); font-size: 0.9rem; font-weight: 500; padding: 8px 16px; border-radius: 8px; }
+.nav-links a.active { color: var(--accent); background: var(--accent-pale); }
+.nav-cta { background: var(--accent); color: white; padding: 10px 24px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; text-decoration: none; }
+@media (max-width: 900px) { .nav-links { display: none; } }
+.post-header { padding: 140px 32px 48px; max-width: 760px; margin: 0 auto; }
+.breadcrumb { font-size: 0.85rem; color: var(--gray-600); margin-bottom: 24px; }
+.breadcrumb a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.breadcrumb .sep { margin: 0 8px; color: var(--gray-400); }
+.post-cat { display: inline-flex; font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: 18px; }
+.post-header h1 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.18; letter-spacing: -0.02em; margin-bottom: 20px; }
+.post-meta { font-size: 0.88rem; color: var(--gray-600); display: flex; gap: 10px; flex-wrap: wrap; }
+.post-content { max-width: 760px; margin: 0 auto; padding: 0 32px 80px; }
+.post-content h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; margin: 44px 0 16px; color: var(--navy); }
+.post-content h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; font-weight: 700; margin: 28px 0 12px; color: var(--navy); }
+.post-content p { font-size: 1.02rem; color: var(--slate); line-height: 1.8; margin-bottom: 20px; }
+.post-content ul, .post-content ol { margin: 0 0 20px 24px; color: var(--slate); line-height: 1.8; }
+.post-content li { margin-bottom: 8px; font-size: 1.02rem; }
+.post-content strong { color: var(--navy); }
+.post-content a { color: var(--accent); font-weight: 500; text-decoration: none; }
+.post-content a:hover { text-decoration: underline; }
+.post-content .cite { font-size: 0.92rem; color: var(--gray-600); }
+.post-content table { width: 100%; border-collapse: collapse; margin: 0 0 24px; font-size: 0.95rem; }
+.post-content th, .post-content td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--gray-200); vertical-align: top; }
+.post-content th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--gray-600); }
+.post-cta { max-width: 760px; margin: 0 auto; padding: 0 32px 80px; }
+.cta-box { background: var(--navy); border-radius: 14px; padding: 44px; text-align: center; }
+.cta-box h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.35rem; font-weight: 700; color: white; margin-bottom: 10px; }
+.cta-box p { color: var(--gray-400); font-size: 0.95rem; margin-bottom: 24px; }
+.cta-box a { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: white; padding: 14px 28px; border-radius: 10px; font-size: 0.92rem; font-weight: 600; text-decoration: none; }
+.footer { border-top: 1px solid var(--gray-200); padding: 40px 32px; max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+.footer-left { font-size: 0.85rem; color: var(--gray-600); }
+.footer-links { display: flex; gap: 24px; flex-wrap: wrap; }
+.footer-links a { font-size: 0.85rem; color: var(--gray-600); text-decoration: none; }
+.related-services { max-width: 760px; margin: 0 auto 24px; padding: 0 32px; font-size: 0.9rem; color: var(--gray-600); }
+.related-services a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.related-guides { max-width: 760px; margin: 0 auto 24px; padding: 0 32px; }
+.related-guides-box { border: 1px solid var(--gray-200); border-radius: 12px; padding: 24px; background: var(--gray-100); }
+.related-guides-box h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; margin-bottom: 12px; }
+.related-guides-box ul { margin: 0 0 0 18px; color: var(--slate); }
+.related-guides-box a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.key-takeaway { background: var(--accent-pale); border-left: 3px solid var(--accent); padding: 14px 18px; margin: 0 0 24px; border-radius: 0 10px 10px 0; }
+.key-takeaway .label { display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+@media (max-width: 600px) { .post-header { padding: 120px 20px 40px; } .post-content { padding: 0 20px 60px; } .post-cta { padding: 0 20px 60px; } .cta-box { padding: 32px 24px; } .footer { flex-direction: column; text-align: center; } .related-services, .related-guides { padding: 0 20px; } }
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-084ZGKDXZQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-084ZGKDXZQ');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Close-the-Loop Referral Reporting for Practices \u2014 Catalyze Care",
+  "url": "https://catalyzegrowth.co/blog/close-the-loop-referral-reporting",
+  "datePublished": "2026-09-11",
+  "dateModified": "2026-09-11",
+  "author": {
+    "@type": "Person",
+    "name": "Andrew",
+    "email": "andrew@catalyzegrowth.co",
+    "url": "https://catalyzegrowth.co/about",
+    "sameAs": "https://www.linkedin.com/in/andrew-brazis-1769591a9"
+  },
+  "description": "What a practice should measure each month in referral reporting: offices contacted, responses, referred patients, and close-the-loop notes. No invented leakage percentages.",
+  "image": "https://catalyzegrowth.co/og-image.png",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Catalyze Care",
+    "url": "https://catalyzegrowth.co"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://catalyzegrowth.co/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://catalyzegrowth.co/blog" },
+    { "@type": "ListItem", "position": 3, "name": "Close-the-Loop Referral Reporting for Practices", "item": "https://catalyzegrowth.co/blog/close-the-loop-referral-reporting" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should a monthly referral report include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Offices contacted and delivered, responses, new and fading referrers, referred patients the front desk can confirm, and close-the-loop notes back to those offices. If a number cannot be checked against intake, it does not belong on the slide."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this page publish a leakage percentage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Catalyze Care does not invent referral leakage or ROI figures on this site. Measure your own referring-provider field and booked inquiries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does Catalyze Care charge for referral marketing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Published fee is $5,000 per month with a 3-month minimum. That matches the homepage and referral service page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does reporting look like in month two?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Month one is usually the list and first wave. Month two should show a second wave plus the same intake fields: who was contacted, who responded, and which booked inquiries name a referring office. Patients in week two are not promised."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "url": "https://catalyzegrowth.co/blog/close-the-loop-referral-reporting",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["#definition", "#key-takeaway"]
+  }
+}
+</script>
+<link rel="stylesheet" href="../css/site.css" />
+<script src="../js/site.js" defer></script>
+</head>
+<body>
+<nav class="nav"><div class="nav-inner"><a href="../index.html" class="nav-logo"><span class="mark">CC</span> Catalyze Care</a><div class="nav-links" id="primary-nav"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../index.html#referrals">Referral Data</a><a href="../referral.html">Referral Marketing</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../how-catalyze-care-works.html">How We Work</a><a href="../blog.html" class="active" aria-current="page">Blog</a><a href="../index.html#pricing">Pricing</a></div><a href="../index.html#contact" class="nav-cta">Get Started</a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></button></div></nav>
+<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><a href="../blog.html">Blog</a><span class="sep">/</span><span>Close-the-Loop Referral Reporting for Practices</span></nav><div class="post-cat">Referral Marketing</div><h1>Close-the-Loop Referral Reporting for Practices</h1><div class="post-meta"><span>By Andrew · Published September 11, 2026</span><span>&middot;</span><span>9 min read</span></div></header>
+<article class="post-content">
+<p id="definition">Close-the-loop referral reporting is a monthly packet a practice administrator can check against intake: which offices were contacted, which responded, which patients named a referring provider, and whether those offices received acknowledgment. It is not a hospital leakage dashboard and it is not an invented ROI multiple. Catalyze Care’s published referral fee is <strong>$5,000/month</strong> with a <strong>3-month minimum</strong>. Read the <a href="what-is-healthcare-referral-marketing.html">referral marketing playbook</a>, the service page at <a href="../referral.html">referral marketing</a>, and the earlier guide <a href="referral-analytics-closing-the-loop.html">referral analytics: closing the loop</a>.</p>
+<p class="key-takeaway" id="key-takeaway"><span class="label">In one sentence</span>Measure offices contacted, responses, and booked inquiries your front desk can confirm—then close the loop with those offices. Do not invent a leakage percentage.</p>
+
+<h2>What to measure every month</h2>
+<p>The practice still owns the EHR or CRM field that makes attribution real. Marketing can count outreach. Only intake can count a booked inquiry that names a referring office.</p>
+<div class="stack-table-wrap">
+<table class="stack-table">
+<thead><tr><th>Field</th><th>Who can check it</th><th>What it is not</th></tr></thead>
+<tbody>
+<tr><td data-label="Field">Offices contacted / delivered</td><td data-label="Who can check it">Agency log + your suppression list</td><td data-label="What it is not">A promised patient count</td></tr>
+<tr><td data-label="Field">Responses (reply, fax back, call)</td><td data-label="Who can check it">Shared inbox or call notes</td><td data-label="What it is not">A conversion rate guarantee</td></tr>
+<tr><td data-label="Field">New vs fading referrers</td><td data-label="Who can check it">Your referring-provider field, trailing months</td><td data-label="What it is not">An invented leakage %</td></tr>
+<tr><td data-label="Field">Booked inquiries naming a referrer</td><td data-label="Who can check it">Front desk / schedule / EHR</td><td data-label="What it is not">Platform ROAS</td></tr>
+<tr><td data-label="Field">Close-the-loop notes sent</td><td data-label="Who can check it">Consult note or thank-you log</td><td data-label="What it is not">A clinical outcome claim</td></tr>
+</tbody>
+</table>
+</div>
+<p>If a slide cannot be checked against one of those systems, remove it. Process: <a href="../how-catalyze-care-works.html">how Catalyze Care works</a>.</p>
+
+<h2>The intake field that makes the rest possible</h2>
+<p>Require a specific referring provider or office—not “internet” or “doctor.” Offer “self-referred” and a marketing source (Google, Meta, directory) as the alternatives. Free text dies in a month. Train intake to ask. Reconcile monthly against faxed referrals when you have them.</p>
+<p>Care coordination is a clinical concept, not a marketing KPI. CMS and AHRQ describe coordination as communication across settings. That is useful language when you explain to a referring office why a consult note matters. It is not a leakage percentage this site will invent.</p>
+<p class="cite">Source: <a href="https://www.cms.gov/priorities/innovation/key-concepts/care-coordination">CMS, Care Coordination</a>. Source: <a href="https://www.ahrq.gov/ncepcr/care/coordination.html">AHRQ, Care Coordination</a>.</p>
+
+<h2>What month two should look like</h2>
+<p>Month one is usually the scored list and the first multi-channel wave (fax, email, phone, LinkedIn, direct mail). Patients in week two are not promised. Referral marketing has a published 3-month minimum because a single month is not a test.</p>
+<p>By month two you should see:</p>
+<ul>
+<li>A second wave against the same list, plus suppressions for offices that asked to stop.</li>
+<li>The same activity fields as month one, now with a short trend (not a guaranteed lift).</li>
+<li>Booked-inquiry rows your administrator can open in the schedule.</li>
+<li>Close-the-loop notes for offices that actually sent someone.</li>
+</ul>
+<p>First-quarter shape, labeled as planning ranges only: <a href="referral-campaign-first-90-days-benchmarks.html">the first 90 days of a referral campaign</a>. Nurture after the first send: <a href="referral-nurture-cadence-referring-offices.html">the six-touch nurture cadence</a>.</p>
+
+<h2>What this report will not include</h2>
+<ul>
+<li>No invented referral leakage percentage.</li>
+<li>No unnamed ROI multiple.</li>
+<li>No hospital-system “keepage” dashboard. That is a different product than outreach to referring offices.</li>
+<li>No diagnosis-level patient files. Kickoff needs who you take, not charts.</li>
+</ul>
+<p>HIPAA limits how protected health information can be used for marketing. HHS requires written authorization for most marketing uses of PHI. A referral report should name offices and booked-inquiry counts—not clinical detail.</p>
+<p class="cite">Source: <a href="https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/marketing/index.html">HHS, HIPAA and marketing</a>.</p>
+
+<h2>Where this sits in the Catalyze stack</h2>
+<p>Flagship referral marketing is <strong>$5,000/month</strong> (3-month minimum) on claims-backed patterns (48 million+ relationships, 120+ specialties). The report is activity plus your intake fields. Service: <a href="../referral.html">referral marketing</a>. Definition lander: <a href="../healthcare-referral-marketing.html">healthcare referral marketing</a>. Playbook: <a href="what-is-healthcare-referral-marketing.html">what is healthcare referral marketing</a>. Data-model companion: <a href="referral-analytics-closing-the-loop.html">referral analytics: closing the loop</a>.</p>
+
+<section class="post-faq" id="faq" aria-labelledby="faq-heading"><h2 id="faq-heading">FAQ</h2><div class="post-faq-list">
+<div class="post-faq-item"><h3>What should a monthly referral report include?</h3><p>Offices contacted and delivered, responses, new and fading referrers, referred patients the front desk can confirm, and close-the-loop notes back to those offices. If a number cannot be checked against intake, it does not belong on the slide.</p></div>
+<div class="post-faq-item"><h3>Does this page publish a leakage percentage?</h3><p>No. Catalyze Care does not invent referral leakage or ROI figures on this site. Measure your own referring-provider field and booked inquiries.</p></div>
+<div class="post-faq-item"><h3>What does Catalyze Care charge for referral marketing?</h3><p>Published fee is $5,000 per month with a 3-month minimum. That matches the homepage and <a href="../referral.html">referral marketing</a> service page.</p></div>
+<div class="post-faq-item"><h3>What does reporting look like in month two?</h3><p>Month one is usually the list and first wave. Month two should show a second wave plus the same intake fields: who was contacted, who responded, and which booked inquiries name a referring office. Patients in week two are not promised.</p></div>
+</div></section>
+</article>
+<aside class="related-guides" aria-labelledby="related-guides-heading"><div class="related-guides-box"><h2 id="related-guides-heading">Related guides</h2><ul>
+<li><a href="what-is-healthcare-referral-marketing.html">What is healthcare referral marketing</a></li>
+<li><a href="referral-analytics-closing-the-loop.html">Referral analytics: closing the loop</a></li>
+<li><a href="../referral.html">Referral marketing service</a></li>
+<li><a href="../healthcare-referral-marketing.html">Healthcare referral marketing</a></li>
+<li><a href="referral-campaign-first-90-days-benchmarks.html">The first 90 days of a referral campaign</a></li>
+<li><a href="../how-catalyze-care-works.html">How Catalyze Care works</a></li>
+</ul></div></aside>
+<p class="related-services">Related services: <a href="../referral.html">Referral Marketing</a> · <a href="../healthcare-referral-marketing.html">Healthcare referral marketing</a> · <a href="../seo.html">SEO</a> · <a href="../paid-ads.html">Paid Ads</a></p>
+<div class="post-cta"><div class="cta-box"><h3>Want a report you can check against intake?</h3><p>Share specialty, market, and how “booked” is stored. Catalyze Care walks the monthly fields—no invented leakage.</p><a href="../index.html#contact">Book a Demo &rarr;</a></div></div>
+<footer class="footer" aria-label="Site footer"><div class="footer-left">&copy; 2026 Catalyze Care. All rights reserved.<br>Service-area marketing for healthcare practices (no public street address).</div><div class="footer-links"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../how-catalyze-care-works.html">How We Work</a><a href="../blog.html">Blog</a>
+        <a href="../healthcare-marketing-agency.html">Agency</a> <a href="../how-to-choose-a-healthcare-marketing-agency.html">How to Choose</a> <a href="../case-studies.html">Case Studies</a> <a href="../about.html">About</a> <a href="../index.html#contact">Contact</a></div></footer>
+</body>
+</html>
