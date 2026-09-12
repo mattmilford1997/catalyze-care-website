@@ -10,16 +10,23 @@
 <meta name="description" content="Most practices can't answer who referred our last 50 patients without a spreadsheet and an afternoon. Here's how to build referral analytics that show which providers are producing, which are fading, and where the next campaign should go." />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta property="og:type" content="article" />
+<meta property="og:title" content="Referral Analytics: Closing the Loop — Catalyze Care" />
+<meta property="og:description" content="Close-the-loop referral analytics: capture the source, report monthly fields, send the consult note. No invented leakage." />
 <meta property="og:url" content="https://catalyzegrowth.co/blog/referral-analytics-closing-the-loop" />
+<meta property="og:site_name" content="Catalyze Care" />
 <meta property="og:image" content="https://catalyzegrowth.co/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:alt" content="Catalyze Care" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Referral Analytics: Closing the Loop — Catalyze Care" />
+<meta name="twitter:description" content="Capture the referring office, report monthly fields, send the consult note. No invented leakage." />
+<meta name="twitter:image" content="https://catalyzegrowth.co/og-image.png" />
 <meta name="twitter:image:alt" content="Catalyze Care" />
 
 <meta property="article:published_time" content="2026-08-26" />
-<meta property="article:modified_time" content="2026-09-08" />
+<meta property="article:modified_time" content="2026-09-12" />
 <link rel="canonical" href="https://catalyzegrowth.co/blog/referral-analytics-closing-the-loop" />
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
 <style>
@@ -60,6 +67,8 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 @media (max-width: 600px) { .post-header { padding: 120px 20px 40px; } .post-content { padding: 0 20px 60px; } .post-cta { padding: 0 20px 60px; } .cta-box { padding: 32px 24px; } .footer { flex-direction: column; text-align: center; } }
 .related-services { max-width: 760px; margin: 0 auto 24px; padding: 0 32px; font-size: 0.9rem; color: var(--gray-600); }
 .related-services a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.key-takeaway { background: var(--accent-pale); border-left: 3px solid var(--accent); padding: 14px 18px; margin: 0 0 24px; border-radius: 0 10px 10px 0; }
+.key-takeaway .label { display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
 @media (max-width: 600px) { .related-services { padding: 0 20px; } }
 </style>
 <!-- Google tag (gtag.js) -->
@@ -81,9 +90,10 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
     "@type": "Person",
     "name": "Andrew",
     "email": "andrew@catalyzegrowth.co",
-    "url": "https://catalyzegrowth.co/about"
+    "url": "https://catalyzegrowth.co/about",
+    "sameAs": "https://www.linkedin.com/in/andrew-brazis-1769591a9"
   },
-  "dateModified": "2026-09-08",
+  "dateModified": "2026-09-12",
   "description": "Most practices can't answer who referred our last 50 patients without a spreadsheet and an afternoon. Here's how to build referral analytics that show which providers are producing, which are fading, and where the next campaign should go.",
   "image": "https://catalyzegrowth.co/og-image.png",
   "publisher": {
@@ -119,20 +129,56 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does close-the-loop referral analytics require?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A required referring-provider field at intake, monthly reports the front desk can check, and a consult note back to the referring office. No invented leakage percentage. Fields: close-the-loop referral reporting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this page publish a leakage percentage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Compare offices that should send this specialty (from claims-backed patterns) to offices that actually appear in your intake. The gap is a list, not a published percentage."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "url": "https://catalyzegrowth.co/blog/referral-analytics-closing-the-loop",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["#definition", "#key-takeaway"]
+  }
+}
+</script>
 <link rel="stylesheet" href="../css/site.css" />
 <script src="../js/site.js" defer></script>
 </head>
 <body>
 <nav class="nav"><div class="nav-inner"><a href="../index.html" class="nav-logo"><span class="mark">CC</span> Catalyze Care</a><div class="nav-links" id="primary-nav"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../index.html#referrals">Referral Data</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html" class="active" aria-current="page">Blog</a><a href="../index.html#pricing">Pricing</a></div><a href="../index.html#contact" class="nav-cta">Get Started</a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></button></div></nav>
-<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><a href="../blog.html">Blog</a><span class="sep">/</span><span>Referral Analytics: Closing the Loop</span></nav><div class="post-cat">Analytics</div><h1>Referral Analytics: Closing the Loop</h1><div class="post-meta"><span>By Andrew · Updated September 8, 2026</span><span>&middot;</span><span>3 min read</span></div></header>
+<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><a href="../blog.html">Blog</a><span class="sep">/</span><span>Referral Analytics: Closing the Loop</span></nav><div class="post-cat">Analytics</div><h1>Referral Analytics: Closing the Loop</h1><div class="post-meta"><span>By Andrew · Updated September 12, 2026</span><span>&middot;</span><span>7 min read</span></div></header>
 <article class="post-content">
-<p>Referral analytics that close the loop answer three questions every month: who referred each new patient, which referring offices are growing or fading, and whether those offices received acknowledgment and outcome feedback. Without a required referring-provider field and a simple close-the-loop cadence, referral marketing becomes lunch-driven guesswork. Catalyze Care builds campaigns on claims-backed patterns and reports engagement and pipeline monthly; the practice still owns the EHR/CRM fields that make attribution real. This guide shows the minimum data model and the acknowledgment cadence—without inventing leakage percentages or ROI. Updated September 8, 2026.</p>
+<p id="definition">Referral analytics that close the loop answer three questions every month: who referred each new patient, which referring offices are growing or fading, and whether those offices received a consult note. Without a required referring-provider field, referral marketing is guesswork. Catalyze Care publishes referral marketing at <strong>$5,000/month</strong> (3-month minimum) and does not invent a leakage percentage or ROI on this page. First public date: August 26, 2026. Updated September 12, 2026. Monthly fields: <a href="close-the-loop-referral-reporting.html">close-the-loop referral reporting</a>. Vendor checks: <a href="evaluate-referral-marketing-vendors.html">how practices should evaluate referral marketing vendors</a>.</p>
+<p class="key-takeaway" id="key-takeaway"><span class="label">In one sentence</span>Capture the referring office at intake, report fields you can check, and send the note back. Do not buy a leakage slide.</p>
 <h2>Capture the referral source at intake, every time</h2>
 <p>The foundation is a single required field: who referred this patient? Not "internet" or "doctor." The specific referring provider or office, selected from a maintained list, with "self-referred" and a marketing source (Google, Meta, Psychology Today) as the alternatives. If the field is free text, it's useless in a month.</p>
 <p>Train intake staff to ask, and make it required in the EHR or CRM. Then reconcile monthly against faxed referrals and payer referral data.</p>
 <h2>The five reports that matter</h2>
-<p><strong>1. Referrals by provider, trailing 12 months.</strong> Ranked. Your top ten referrers are usually 50 to 70 percent of referred volume. Know who they are by name.</p>
+<p><strong>1. Referrals by provider, trailing 12 months.</strong> Ranked. Know the offices by name. This page does not invent a concentration percentage.</p>
 <p><strong>2. New referrers this quarter.</strong> Which offices sent their first patient? Those are campaign results and nurture candidates.</p>
 <p><strong>3. Fading referrers.</strong> Providers who sent patients in the prior two quarters and none in this one. This is the early warning that a competitor got there or that something went wrong (a bad experience, a slow consult note, a staff change at their office). Call them.</p>
 <p><strong>4. Referral to conversion.</strong> Of patients referred, how many scheduled, how many showed, how many are still in care. Broken down by referrer, this tells you which offices send well-matched patients and which send patients who never book.</p>
@@ -140,20 +186,25 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 <h2>Close the loop with the referring office</h2>
 <p>The reason offices keep referring is that they hear back. A consult note or summary faxed to the referring provider within 48 hours of the first visit is the single highest-leverage retention action in referral marketing. It's also expected clinically. Practices that do it consistently keep referrers; practices that don't lose them quietly.</p>
 <p>Build it into the workflow: first-visit note complete, fax or secure message to referrer, logged. Then report on it: percentage of referred patients with a closed-loop note sent within 48 hours.</p>
-<h2>Detect and act on leakage</h2>
-<p>Leakage is when a provider who should be referring to you refers elsewhere. Referral-pattern data (from claims-adjacent datasets) shows where providers in your market send patients for your service. Compare to your own referrer list. The gap is your outreach list: providers who refer your patient type heavily and haven't sent you anyone.</p>
+<h2>Find offices that should already send this specialty</h2>
+<p>Claims-backed referral patterns show offices that already send this specialty in the market. Compare that set to offices that appear in your intake. The gap is an outreach list, not a published leakage percentage. Playbook: <a href="what-is-healthcare-referral-marketing.html">what is healthcare referral marketing</a>.</p>
 <h2>Attribute campaigns</h2>
-<p>If you run outreach campaigns, tag each target office with the campaign and wave. When they refer, you know which campaign produced them. Cost per referred patient by campaign is the metric that justifies the budget.</p>
+<p>If you run outreach campaigns, tag each target office with the campaign and wave. When they refer, you can attribute the office to the wave. Cost per referred patient is your math from the $5,000 line and your intake, not a published Catalyze figure.</p>
 <h2>The dashboard</h2>
 <p>One page, updated monthly: top referrers, new referrers, fading referrers, closed-loop rate, and campaign attribution. Clinicians and practice leadership should see it. The top referrers should get a personal touch from a clinician quarterly.</p>
 <h2>How Catalyze Care does referral analytics</h2>
-<p>Catalyze Care's platform tracks referring providers per client, flags new and fading referrers, benchmarks referral rates against market referral-pattern data to surface leakage, and attributes referred patients to outreach campaigns. Monthly reporting decks show exactly which offices are producing and where the next wave goes.</p>
-<p>Book a call and we'll show you what a referral dashboard looks like for a practice your size.</p>
+<p>Catalyze Care reports offices contacted, responses, and booked inquiries from the practice's own intake. The practice still owns the EHR or CRM field that makes attribution real. No invented leakage.</p>
+<p>Book a demo and we will walk the monthly fields against how “booked” is stored.</p>
+<section class="post-faq" id="faq" aria-labelledby="faq-heading"><h2 id="faq-heading">FAQ</h2><div class="post-faq-list">
+<div class="post-faq-item"><h3>What does close-the-loop referral analytics require?</h3><p>A required referring-provider field at intake, monthly reports the front desk can check, and a consult note back to the referring office. No invented leakage percentage. Fields: <a href="close-the-loop-referral-reporting.html">close-the-loop referral reporting</a>.</p></div>
+<div class="post-faq-item"><h3>Does this page publish a leakage percentage?</h3><p>No. Compare offices that should send this specialty (from claims-backed patterns) to offices that actually appear in your intake. The gap is a list, not a published percentage. Vendor checklist: <a href="evaluate-referral-marketing-vendors.html">how practices should evaluate referral marketing vendors</a>.</p></div>
+</div></section>
 </article>
 <aside class="related-guides" aria-labelledby="related-guides-heading">
 <div class="related-guides-box">
 <h2 id="related-guides-heading">Related guides</h2>
 <ul>
+<li><a href="evaluate-referral-marketing-vendors.html">How practices should evaluate referral marketing vendors</a></li>
 <li><a href="close-the-loop-referral-reporting.html">Close-the-loop referral reporting</a></li>
 <li><a href="referral-campaign-first-90-days-benchmarks.html">The first 90 days of a referral campaign</a></li>
 <li><a href="referral-nurture-cadence-referring-offices.html">The six-touch nurture cadence</a></li>
