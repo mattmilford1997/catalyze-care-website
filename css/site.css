@@ -363,6 +363,80 @@
 }
 .page-education li { margin-bottom: 6px; font-size: 1rem; }
 
+/* Mobile-safe CTA banner: keep #contact / .cta-form / reCAPTCHA inside the
+   viewport on ~390px. Additive — does not change desktop two-column layout. */
+.cta-banner {
+  width: 100%;
+  box-sizing: border-box;
+}
+.cta-inner,
+.cta-form,
+.cta-inner > * {
+  min-width: 0;
+  max-width: 100%;
+}
+.cta-form input,
+.cta-form button {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.cta-inner h2,
+.cta-inner p {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  max-width: 100%;
+}
+.cta-form [data-netlify-recaptcha="true"],
+.cta-form .g-recaptcha {
+  max-width: 100%;
+  transform-origin: 0 0;
+}
+
+@media (max-width: 1024px) {
+  .cta-inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .cta-banner {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 60px;
+    overflow-x: clip;
+  }
+  .cta-inner {
+    padding: 28px 16px;
+    gap: 24px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .cta-inner h2 {
+    font-size: 1.5rem;
+  }
+  .cta-form {
+    width: 100%;
+  }
+}
+
+/* reCAPTCHA v2 checkbox is 304×78. At 390px, 16px banner + 16px inner
+   padding leaves 326px — unscaled widget fits. Scale only below that. */
+@media (max-width: 368px) {
+  .cta-form [data-netlify-recaptcha="true"],
+  .cta-form .g-recaptcha {
+    transform: scale(0.85);
+    transform-origin: 0 0;
+  }
+}
+@media (max-width: 340px) {
+  .cta-form [data-netlify-recaptcha="true"],
+  .cta-form .g-recaptcha {
+    transform: scale(0.77);
+  }
+}
+
 
 /* Mobile-safe stacked tables: desktop stays a real table; mobile becomes cards (no overflow-x). */
 .stack-table-wrap {
