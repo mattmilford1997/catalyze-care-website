@@ -25,6 +25,19 @@ Also on this site
 - Case studies: https://catalyzegrowth.co/case-studies
 - Blog: https://catalyzegrowth.co/blog — topic clusters expanded 2026-09-15 with Compare / alternatives; CollectionPage ItemList includes vs/alternatives/roundup URLs; BreadcrumbList is Home → Blog only.
 
+
+## Thu 2026-09-17 citeable posts + lander depth
+- Healthcare marketing attribution without PHI leakage: https://catalyzegrowth.co/blog/healthcare-marketing-attribution-without-phi — citeable (2026-09-17): UTM hygiene, call-tracking caveats, offline conversions; HHS/OCR cites; HowTo + FAQPage + Speakable. Links HIPAA pixels + Google Ads conversion posts. Not legal advice. No invented ROI.
+- Staff intake before scaling referral or paid: https://catalyzegrowth.co/blog/staff-intake-before-scaling-referral-or-paid — citeable (2026-09-17): capacity + SLA; HowTo + FAQPage + Speakable. Links referral KPIs + conversion essentials. No invented fill rates.
+- Review generation and reputation for healthcare practices: https://catalyzegrowth.co/blog/review-generation-reputation-healthcare-practices — YMYL-safe (2026-09-17): no fake stars; FAQPage + Speakable. Links GBP guide, local SEO checklist, /seo.
+- Multi-location healthcare paid ads structure: https://catalyzegrowth.co/blog/multi-location-healthcare-paid-ads-structure — citeable (2026-09-17): shared vs per-location; FAQPage + Speakable. Links Ads account structure + /paid-ads. No invented CPC.
+- WebMD Ignite-style vs practice-led referral outreach: https://catalyzegrowth.co/blog/webmd-ignite-style-vs-practice-led-referral-outreach — honest contrast (2026-09-17); FAQPage + Speakable. Links /referral, catalyze-care-vs-webmd-ignite, webmd-ignite-alternatives. Published Catalyze fees only.
+- Healthcare marketing agency lander: https://catalyzegrowth.co/healthcare-marketing-agency — expanded 2026-09-17 with who-we-are-not + fee transparency + RFP/brief links.
+- How to choose a healthcare marketing agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency — +2 FAQs 2026-09-17 (attribution without PHI; intake before scaling) synced to FAQPage.
+- Pediatrician referrals (refresh): https://catalyzegrowth.co/blog/pediatrician-referrals-behavioral-health-therapy — answer-first + FAQPage added 2026-09-17.
+- LinkedIn outreach (refresh): https://catalyzegrowth.co/blog/linkedin-outreach-physicians-referrals — answer-first + FAQPage added 2026-09-17.
+- Fax marketing (refresh): https://catalyzegrowth.co/blog/fax-marketing-physician-offices — answer-first refresh 2026-09-17; links intake readiness.
+
 Guides
 - Compare healthcare marketing agencies: https://catalyzegrowth.co/compare — hub (2026-09-15): ItemList + BreadcrumbList + FAQPage + Speakable of all vs/alternatives/roundup URLs. Published Catalyze fees only. No invented ROI or ranks. Author sameAs Andrew LinkedIn.
 - Catalyze Care vs Healthcare Success: https://catalyzegrowth.co/catalyze-care-vs-healthcare-success — answer-first (2026-09-15): published fees $5,000 / $799 / $2,500; process-proof (reporting, fee transparency, healthcare-only); FAQPage + Speakable + HowTo. Honest contrast vs hospital/health-system marketing positioning. No trademark smear. Links /how-to-choose, /referral, /seo, /paid-ads, alternatives page.

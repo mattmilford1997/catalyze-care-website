@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#F97316" />
+<link rel="apple-touch-icon" href="/favicon.svg" />
+<meta property="og:locale" content="en_US" />
+<title>Healthcare Marketing Attribution Without PHI Leakage — Catalyze Care</title>
+<meta name="description" content="UTM hygiene, call-tracking caveats, and offline conversions for healthcare practices without putting PHI in pixels or URLs. HHS/OCR-safe framing. Not legal advice." />
+<link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Healthcare Marketing Attribution Without PHI Leakage — Catalyze Care" />
+<meta property="og:description" content="UTM hygiene, call-tracking caveats, and offline conversions for healthcare practices without putting PHI in pixels or URLs. HHS/OCR-safe framing. Not legal advice." />
+<meta property="og:url" content="https://catalyzegrowth.co/blog/healthcare-marketing-attribution-without-phi" />
+<meta property="og:site_name" content="Catalyze Care" />
+<meta property="og:image" content="https://catalyzegrowth.co/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:alt" content="Catalyze Care" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Healthcare Marketing Attribution Without PHI Leakage — Catalyze Care" />
+<meta name="twitter:description" content="UTM hygiene, call-tracking caveats, and offline conversions for healthcare practices without putting PHI in pixels or URLs. HHS/OCR-safe framing. Not legal advice." />
+<meta name="twitter:image" content="https://catalyzegrowth.co/og-image.png" />
+<meta name="twitter:image:alt" content="Catalyze Care" />
+<meta property="article:published_time" content="2026-09-17" />
+<meta property="article:modified_time" content="2026-09-17" />
+<link rel="canonical" href="https://catalyzegrowth.co/blog/healthcare-marketing-attribution-without-phi" />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --navy: #1A1A2E; --accent: #F97316; --accent-light: #FB923C; --accent-pale: #FFF7ED; --slate: #3D4F6F; --gray-100: #F4F6F9; --gray-200: #E2E7EF; --gray-400: #8E99AB; --gray-600: #5A6882; --white: #FFFFFF; }
+html { scroll-behavior: smooth; }
+body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6; background: var(--white); }
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.92); backdrop-filter: blur(16px); border-bottom: 1px solid var(--gray-200); }
+.nav-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0 32px; height: 64px; }
+.nav-logo { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.25rem; color: var(--navy); text-decoration: none; display: flex; align-items: center; gap: 8px; }
+.nav-logo .mark { width: 32px; height: 32px; background: var(--accent); border-radius: 8px; display: grid; place-items: center; color: white; font-size: 0.85rem; font-weight: 700; }
+.nav-links { display: flex; gap: 4px; }
+.nav-links a { text-decoration: none; color: var(--slate); font-size: 0.9rem; font-weight: 500; padding: 8px 16px; border-radius: 8px; }
+.nav-links a.active { color: var(--accent); background: var(--accent-pale); }
+.nav-cta { background: var(--accent); color: white; padding: 10px 24px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; text-decoration: none; }
+@media (max-width: 900px) { .nav-links { display: none; } }
+.post-header { padding: 140px 32px 48px; max-width: 760px; margin: 0 auto; }
+.breadcrumb { font-size: 0.85rem; color: var(--gray-600); margin-bottom: 24px; }
+.breadcrumb a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.breadcrumb .sep { margin: 0 8px; color: var(--gray-400); }
+.post-cat { display: inline-flex; font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: 18px; }
+.post-header h1 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.18; letter-spacing: -0.02em; margin-bottom: 20px; }
+.post-meta { font-size: 0.88rem; color: var(--gray-600); display: flex; gap: 10px; flex-wrap: wrap; }
+.post-content { max-width: 760px; margin: 0 auto; padding: 0 32px 80px; }
+.post-content h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; margin: 44px 0 16px; color: var(--navy); }
+.post-content h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; font-weight: 700; margin: 28px 0 12px; color: var(--navy); }
+.post-content p { font-size: 1.02rem; color: var(--slate); line-height: 1.8; margin-bottom: 20px; }
+.post-content ul, .post-content ol { margin: 0 0 20px 24px; color: var(--slate); line-height: 1.8; }
+.post-content li { margin-bottom: 8px; font-size: 1.02rem; }
+.post-content strong { color: var(--navy); }
+.post-content a { color: var(--accent); font-weight: 500; text-decoration: none; }
+.post-content a:hover { text-decoration: underline; }
+.post-content .cite { font-size: 0.92rem; color: var(--gray-600); }
+.post-content table { width: 100%; border-collapse: collapse; margin: 0 0 24px; font-size: 0.95rem; }
+.post-content th, .post-content td { border: 1px solid var(--gray-200); padding: 12px 14px; text-align: left; vertical-align: top; }
+.post-content th { background: var(--gray-100); color: var(--navy); font-weight: 600; }
+.post-cta { max-width: 760px; margin: 0 auto; padding: 0 32px 80px; }
+.cta-box { background: var(--navy); border-radius: 14px; padding: 44px; text-align: center; }
+.cta-box h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.35rem; font-weight: 700; color: white; margin-bottom: 10px; }
+.cta-box p { color: var(--gray-400); font-size: 0.95rem; margin-bottom: 24px; }
+.cta-box a { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: white; padding: 14px 28px; border-radius: 10px; font-size: 0.92rem; font-weight: 600; text-decoration: none; }
+.footer { border-top: 1px solid var(--gray-200); padding: 40px 32px; max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+.footer-left { font-size: 0.85rem; color: var(--gray-600); }
+.footer-links { display: flex; gap: 24px; flex-wrap: wrap; }
+.footer-links a { font-size: 0.85rem; color: var(--gray-600); text-decoration: none; }
+.related-services { max-width: 760px; margin: 0 auto 24px; padding: 0 32px; font-size: 0.9rem; color: var(--gray-600); }
+.related-services a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.related-guides { max-width: 760px; margin: 0 auto 24px; padding: 0 32px; }
+.related-guides-box { border: 1px solid var(--gray-200); border-radius: 12px; padding: 24px; background: var(--gray-100); }
+.related-guides-box h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; margin-bottom: 12px; }
+.related-guides-box ul { margin: 0 0 0 18px; color: var(--slate); }
+.related-guides-box a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.key-takeaway { background: var(--accent-pale); border-left: 3px solid var(--accent); padding: 14px 18px; margin: 0 0 24px; border-radius: 0 10px 10px 0; }
+.key-takeaway .label { display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+@media (max-width: 600px) { .post-header { padding: 120px 20px 40px; } .post-content { padding: 0 20px 60px; } .post-cta { padding: 0 20px 60px; } .cta-box { padding: 32px 24px; } .footer { flex-direction: column; text-align: center; } .related-services, .related-guides { padding: 0 20px; } }
+
+</style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-084ZGKDXZQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-084ZGKDXZQ');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Healthcare Marketing Attribution Without PHI Leakage \u2014 Catalyze Care",
+  "url": "https://catalyzegrowth.co/blog/healthcare-marketing-attribution-without-phi",
+  "datePublished": "2026-09-17",
+  "dateModified": "2026-09-17",
+  "author": {
+    "@type": "Person",
+    "name": "Andrew",
+    "email": "andrew@catalyzegrowth.co",
+    "url": "https://catalyzegrowth.co/about",
+    "sameAs": "https://www.linkedin.com/in/andrew-brazis-1769591a9"
+  },
+  "description": "UTM hygiene, call-tracking caveats, and offline conversions for healthcare practices without putting PHI in pixels or URLs. HHS/OCR-safe framing. Not legal advice.",
+  "image": "https://catalyzegrowth.co/og-image.png",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Catalyze Care",
+    "url": "https://catalyzegrowth.co"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://catalyzegrowth.co/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://catalyzegrowth.co/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Healthcare Marketing Attribution Without PHI Leakage",
+      "item": "https://catalyzegrowth.co/blog/healthcare-marketing-attribution-without-phi"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can UTMs include a diagnosis if only the practice sees the CRM?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Treat UTMs and landing URLs as data that tags and browsers may store or share. Keep clinical reasons in the EHR or intake system. Use channel and campaign labels only. Not legal advice\u2014have counsel review your map."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is call tracking allowed for healthcare marketing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Call tracking can support attribution when the marketing signal is duration or booked/not-booked and clinical detail stays in practice systems. Recording or transcript features need privacy review and often a BAA. This page is not legal advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Catalyze Care report attribution?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monthly reporting ties outreach, SEO, or ad activity to practice-side booked-inquiry fields\u2014not invented ROI. Paid ads management is $2,500/month (media separate). See the paid ads and healthcare marketing agency pages."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Healthcare marketing attribution without PHI leakage",
+  "description": "Six visible checklist steps: map tags, standardize UTMs, generic thank-you conversions, keep call transcripts in practice systems, offline imports without PHI, reconcile to intake.",
+  "url": "https://catalyzegrowth.co/blog/healthcare-marketing-attribution-without-phi",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Map every tag",
+      "text": "Inventory Ads, Analytics, call tracking, chat, and pixels on public pages."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Standardize UTMs",
+      "text": "Use channel and campaign labels with no clinical strings."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Fire conversions on generic pages",
+      "text": "Use thank-you or request-received pages only."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Keep call transcripts in practice systems",
+      "text": "Send only duration or booked flags to ad tools."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Import offline conversions without PHI",
+      "text": "Use click IDs and generic event names."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "Reconcile to intake",
+      "text": "Compare weekly to booked appointments, not platform lead counts."
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "url": "https://catalyzegrowth.co/blog/healthcare-marketing-attribution-without-phi",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "#definition",
+      "#key-takeaway"
+    ]
+  }
+}
+</script>
+<link rel="stylesheet" href="../css/site.css" />
+<script src="../js/site.js" defer></script>
+</head>
+<body>
+<nav class="nav"><div class="nav-inner"><a href="../index.html" class="nav-logo"><span class="mark">CC</span> Catalyze Care</a><div class="nav-links" id="primary-nav"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../index.html#referrals">Referral Data</a><a href="../referral.html">Referral Marketing</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html" class="active" aria-current="page">Blog</a><a href="../index.html#pricing">Pricing</a></div><a href="../index.html#contact" class="nav-cta">Get Started</a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></button></div></nav>
+<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><a href="../blog.html">Blog</a><span class="sep">/</span><span>Healthcare Marketing Attribution Without PHI Leakage</span></nav><div class="post-cat">Compliance</div><h1>Healthcare Marketing Attribution Without PHI Leakage</h1><div class="post-meta"><span>By Andrew · Updated September 17, 2026</span><span>&middot;</span><span>11 min read</span></div></header>
+<article class="post-content">
+<p id="definition">Healthcare marketing attribution without PHI leakage means assigning credit to referral, SEO, or paid channels using generic campaign labels, clean thank-you events, and practice-side intake fields—never diagnoses, member IDs, or condition strings in pixels, UTMs, or call-tracking transcripts sent to ad platforms. HHS OCR has published guidance on online tracking technologies used by HIPAA covered entities and business associates. Pair that with Google Ads healthcare policy and your counsel’s review of the tag map. This article is educational, not legal advice. Catalyze Care publishes paid ads management at <strong>$2,500/month</strong> (media separate), SEO at <strong>$799/month</strong>, and referral marketing at <strong>$5,000/month</strong> (3-month minimum).</p>
+<p class="key-takeaway" id="key-takeaway"><span class="label">In one sentence</span>Attribute the appointment request—not the diagnosis—and keep PHI out of UTMs, call recordings, and offline conversion uploads.</p>
+<h2>Why attribution breaks in healthcare</h2>
+<p>Practices need to know which channel produced a booked appointment. Ad platforms want conversion signals. The conflict appears when someone pastes a diagnosis into a UTM, names a condition in a thank-you URL, or uploads a call recording that includes clinical details. OCR’s tracking guidance treats tools that connect an individual to health-related context as high risk. The safe pattern is the same as <a href="hipaa-google-ads-conversion-tracking.html">HIPAA-aware Google Ads conversion tracking</a>: measure the appointment request on a generic page, not the clinical story.</p>
+<p class="cite">Source: <a href="https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html">HHS OCR, Use of Online Tracking Technologies by HIPAA Covered Entities and Business Associates</a>.</p>
+<p class="cite">Source: <a href="https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/marketing/index.html">HHS, Marketing (HIPAA Privacy Rule)</a>.</p>
+
+<h2>UTM hygiene for practices</h2>
+<p>UTMs are fine when they name the channel, campaign, and creative—not the patient. Use source/medium/campaign values like <code>google / cpc / orthopedic-service-area</code> or <code>referral / fax / q3-outreach</code>. Do not put condition names, procedure codes, or member IDs in query strings that tags or analytics will store.</p>
+<ul>
+<li><strong>Allowed pattern:</strong> channel + geography or service-line label the practice already publishes on the website.</li>
+<li><strong>Avoid:</strong> diagnosis, medication, insurance member ID, or “patient called about X condition” in the UTM or landing URL.</li>
+<li><strong>Store the clinical reason</strong> only in the practice’s EHR or intake system—not in the ad platform.</li>
+</ul>
+<p>Broader pixel context: <a href="hipaa-marketing-pixels-tracking.html">HIPAA marketing pixels and tracking</a>.</p>
+
+<h2>Call tracking caveats</h2>
+<p>Dynamic numbers help connect a click to a phone call. They become risky when recordings, transcripts, or CRM notes with clinical detail sync to an advertising or analytics vendor. Prefer:</p>
+<ul>
+<li>Call duration or answered/missed flags as the marketing signal.</li>
+<li>Practice-side disposition (“booked,” “left message,” “wrong number”) without the clinical narrative in the vendor payload.</li>
+<li>Counsel review of any recording retention or transcription vendor against BAAs and OCR guidance.</li>
+</ul>
+<p>This is not legal advice. Practices should involve their privacy officer before enabling transcript features on marketing numbers.</p>
+
+<h2>Offline conversions without PHI</h2>
+<p>Offline conversion imports (for example, uploading booked appointments back to Google Ads) should use a click ID or call timestamp plus a generic conversion name such as “appointment_request.” Do not upload names, DOBs, MRNs, or diagnosis codes. Match keys stay in the practice CRM; the upload file stays minimal.</p>
+<p class="cite">Source: <a href="https://support.google.com/adspolicy/answer/176031">Google Ads, Healthcare and medicines policy</a>.</p>
+
+<h2 id="checklist">Attribution checklist (visible steps)</h2>
+<ol>
+<li><strong>Map every tag</strong> on public pages: Ads, Analytics, call tracking, chat, and pixels. See <a href="hipaa-marketing-pixels-tracking.html">HIPAA marketing pixels</a>.</li>
+<li><strong>Standardize UTMs</strong> to channel + campaign labels with no clinical strings.</li>
+<li><strong>Fire conversions</strong> on generic thank-you or “we received your request” pages only.</li>
+<li><strong>Keep call transcripts</strong> inside practice systems; send only duration or booked flags to ad tools.</li>
+<li><strong>Import offline conversions</strong> with click IDs and generic event names—never PHI columns.</li>
+<li><strong>Reconcile weekly</strong> against intake’s booked-appointment count, not platform-reported “leads.”</li>
+</ol>
+<p>Website booking path: <a href="healthcare-website-conversion-essentials.html">healthcare website conversion essentials</a>. Exact-match landers: <a href="../healthcare-marketing-agency.html">healthcare marketing agency</a>, <a href="../paid-ads-for-healthcare-practices.html">paid ads for healthcare practices</a>, <a href="../healthcare-digital-marketing.html">healthcare digital marketing</a>.</p>
+
+<h2>What Catalyze Care does</h2>
+<p>We set channel reporting so practices can see referral, SEO, and paid activity without diagnosis-level pixels. Published fees only: referral <strong>$5,000/month</strong> (3-month minimum), SEO <strong>$799/month</strong>, paid ads <strong>$2,500/month</strong> management (media separate). We do not invent ROI multiples or leakage percentages.</p>
+
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html">HHS OCR online tracking technologies</a></li>
+<li><a href="https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/marketing/index.html">HHS Marketing (Privacy Rule)</a></li>
+<li><a href="https://support.google.com/adspolicy/answer/176031">Google Ads healthcare and medicines policy</a></li>
+</ul>
+
+<section class="post-faq" id="faq" aria-labelledby="faq-heading"><h2 id="faq-heading">FAQ</h2><div class="post-faq-list"><div class="post-faq-item"><h3>Can UTMs include a diagnosis if only the practice sees the CRM?</h3><p>Treat UTMs and landing URLs as data that tags and browsers may store or share. Keep clinical reasons in the EHR or intake system. Use channel and campaign labels only. Not legal advice—have counsel review your map.</p></div><div class="post-faq-item"><h3>Is call tracking allowed for healthcare marketing?</h3><p>Call tracking can support attribution when the marketing signal is duration or booked/not-booked and clinical detail stays in practice systems. Recording or transcript features need privacy review and often a BAA. This page is not legal advice.</p></div><div class="post-faq-item"><h3>How does Catalyze Care report attribution?</h3><p>Monthly reporting ties outreach, SEO, or ad activity to practice-side booked-inquiry fields—not invented ROI. Paid ads management is $2,500/month (media separate). See the paid ads and healthcare marketing agency pages.</p></div></div></section>
+</article>
+<aside class="related-guides" aria-labelledby="related-guides-heading"><div class="related-guides-box"><h2 id="related-guides-heading">Related guides</h2><ul><li><a href="hipaa-marketing-pixels-tracking.html">HIPAA marketing pixels and tracking</a></li><li><a href="hipaa-google-ads-conversion-tracking.html">HIPAA-aware Google Ads conversion tracking</a></li><li><a href="healthcare-website-conversion-essentials.html">Healthcare website conversion essentials</a></li><li><a href="staff-intake-before-scaling-referral-or-paid.html">Staff intake before scaling referral or paid</a></li><li><a href="../paid-ads.html">Paid ads service</a></li></ul></div></aside>
+<p class="related-services">Related services: <a href="../healthcare-marketing-agency.html">Healthcare marketing agency</a> · <a href="../paid-ads-for-healthcare-practices.html">Paid ads for healthcare practices</a> · <a href="../healthcare-digital-marketing.html">Healthcare digital marketing</a> · <a href="../paid-ads.html">Paid Ads</a></p>
+<div class="post-cta"><div class="cta-box"><h3>Need attribution that stays off clinical detail?</h3><p>Book a demo. Bring your tag list and how intake records booked appointments. Catalyze Care walks published fees—no invented ROI.</p><a href="../index.html#contact">Book a Demo &rarr;</a></div></div>
+<footer class="footer" aria-label="Site footer"><div class="footer-left">&copy; 2026 Catalyze Care. All rights reserved.<br>Service-area marketing for healthcare practices (no public street address).</div><div class="footer-links"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html">Blog</a>
+        <a href="../healthcare-marketing-agency.html">Agency</a> <a href="../healthcare-digital-marketing.html">Digital Marketing</a> <a href="../healthcare-referral-marketing.html">Referral Practices</a> <a href="../seo-for-healthcare-practices.html">SEO for Practices</a> <a href="../paid-ads-for-healthcare-practices.html">Paid Ads for Practices</a> <a href="../about.html">About</a> <a href="../index.html#contact">Contact</a></div></footer>
+</body>
+</html>
