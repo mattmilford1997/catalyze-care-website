@@ -8,22 +8,32 @@ Services
 - SEO: https://catalyzegrowth.co/seo, honesty pass (2026-09-09): removed unsourced ranking-outcome claims and fake rank-tracker widget; kept $799 and 6-month minimum. Related-row link to website conversion essentials (2026-09-13).
 - Paid ads: https://catalyzegrowth.co/paid-ads, honesty pass kept $2,500 + media separate. Related-row link to website conversion essentials (2026-09-13). In-body link to HIPAA-aware conversion tracking.
 - Healthcare marketing agency: https://catalyzegrowth.co/healthcare-marketing-agency, buyer checklist + FAQ sync (2026-09-12) linking proposal, when-not-to-hire, and case-studies. Speakable #definition + #key-takeaway.
-- How to choose a healthcare marketing agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency, buyer FAQ (updated 2026-09-13) with +2 FAQs (RFP questions; agency brief). Speakable #definition + #key-takeaway. Published fees $5,000 / $799 / $2,500. Monthly reporting of verified activity.
+- How to choose a healthcare marketing agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency, buyer FAQ (updated 2026-09-18) with attribution and intake FAQs kept; related-row trimmed to 5. Speakable #definition + #key-takeaway. Published fees $5,000 / $799 / $2,500. Monthly reporting of verified activity.
 - How Catalyze Care works: https://catalyzegrowth.co/how-catalyze-care-works, process page (updated 2026-09-11): +2 FAQs (proposal red flags; month-2 reporting). Published fees only. HowTo + FAQPage + Speakable. Named outcomes appear only with client permission.
 - Case studies: https://catalyzegrowth.co/case-studies, honesty stub plus process-proof (2026-09-13): reporting cadence, channel mix, fee transparency. Links compare hub (2026-09-15). Named outcomes appear only with client permission. CTA: Book a Demo / andrew@catalyzegrowth.co.
 - Healthcare digital marketing: https://catalyzegrowth.co/healthcare-digital-marketing, lander (updated 2026-09-13): channel-selection FAQ plus links to budget allocation and website conversion essentials. Speakable #definition + #key-takeaway.
-- Healthcare referral marketing: https://catalyzegrowth.co/healthcare-referral-marketing, lander (updated 2026-09-13): KPI-teaser plus links to referral KPIs and close-the-loop reporting. Speakable #definition + #key-takeaway.
-- SEO for healthcare practices: https://catalyzegrowth.co/seo-for-healthcare-practices, lander (updated 2026-09-13): conversion-essentials teaser plus existing local-pack paragraph. No ranking guarantees.
-- Paid ads for healthcare practices: https://catalyzegrowth.co/paid-ads-for-healthcare-practices, lander (updated 2026-09-13): conversion-essentials teaser plus existing account-structure / Meta creative notes. Reports show spend and booked-inquiry fields from your intake.
+- Healthcare referral marketing: https://catalyzegrowth.co/healthcare-referral-marketing, lander (updated 2026-09-18): Ignite-style vs practice-led teaser plus KPI and close-the-loop notes. Speakable #definition + #key-takeaway.
+- SEO for healthcare practices: https://catalyzegrowth.co/seo-for-healthcare-practices, lander (updated 2026-09-18): review-generation + local-pack teaser. No ranking guarantees.
+- Paid ads for healthcare practices: https://catalyzegrowth.co/paid-ads-for-healthcare-practices, lander (updated 2026-09-18): multi-location structure + attribution teaser. Reports show spend and booked-inquiry fields from your intake.
 
 Referral marketing is the flagship service at a published $5,000/month with a 3-month minimum (updated 2026-09-08 on /referral with service-standard close-the-loop cadence). Campaigns are built on claims-backed referral intelligence covering 48 million+ relationships across 120+ specialties, with multi-channel outreach via fax, email, phone, LinkedIn, and direct mail.
+
+## Fri 2026-09-18 content QA + lander depth
+- Related-guides / Also explore / related-row trimmed to 5 distinct topics sitewide (compare cluster on /blog kept). Em dashes replaced in remaining HTML titles and body. Copy speaks to practice owners.
+- Healthcare referral marketing lander: https://catalyzegrowth.co/healthcare-referral-marketing, expanded 2026-09-18 with Ignite-style vs practice-led teaser plus /compare Ignite pages. Published $5,000/month, 3-month minimum.
+- Paid ads for healthcare practices lander: https://catalyzegrowth.co/paid-ads-for-healthcare-practices, expanded 2026-09-18 with multi-location paid structure + attribution posts. Management $2,500/month, media separate.
+- SEO for healthcare practices lander: https://catalyzegrowth.co/seo-for-healthcare-practices, expanded 2026-09-18 with review-generation + local-pack posts. SEO $799/month. No ranking guarantees.
+- How to choose: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency, related-row trimmed to 5; attribution and intake FAQs kept in sync. Updated 2026-09-18.
+- Answer-first refresh (2026-09-18): physician liaison vs referral agency; HIPAA-aware Google Ads conversion tracking; local SEO checklist. Author sameAs Andrew LinkedIn. FAQPage/Speakable only where visible Q&A.
+- Exact-match inlinks added from briefs, conversion essentials, budget, nurture, 2027 plan, and the three refreshed posts into /healthcare-marketing-agency, /seo-for-healthcare-practices, /paid-ads-for-healthcare-practices, /healthcare-referral-marketing, /healthcare-digital-marketing.
+- Blog index: card blurbs cleaned of writer-shop meta; topic clusters capped at 5 except Compare / alternatives.
 
 Also on this site
 - Home: https://catalyzegrowth.co/, FAQ / related cluster now links case-studies honesty stub (2026-09-11). Homepage #pricing cards now include referral $5,000, SEO $799, and paid ads $2,500 with Book a Demo (2026-09-15). Named outcomes appear only with client permission.
 - About: https://catalyzegrowth.co/about, contact and orientation (updated 2026-09-10); links how Catalyze Care works and case studies.
 - How Catalyze Care works: https://catalyzegrowth.co/how-catalyze-care-works
 - Case studies: https://catalyzegrowth.co/case-studies
-- Blog: https://catalyzegrowth.co/blog, topic clusters expanded 2026-09-15 with Compare / alternatives; CollectionPage ItemList includes vs/alternatives/roundup URLs; BreadcrumbList is Home → Blog only.
+- Blog: https://catalyzegrowth.co/blog, topic clusters capped at 5 topics each (2026-09-18) except Compare / alternatives; CollectionPage ItemList includes vs/alternatives/roundup URLs; BreadcrumbList is Home → Blog only.
 
 
 ## Thu 2026-09-17 citeable posts + lander depth
