@@ -515,6 +515,30 @@ body {
         "@type": "Answer",
         "text": "The paid ads service page has platforms, process, and the audit form."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What does Catalyze Care charge for paid ads?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Paid ads management is $2,500/month. Media spend is billed to the platforms separately. Reports show spend and booked-inquiry fields from your intake. No CPC promises."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How should multi-location practices structure Google Ads?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use shared campaigns when creative and intake are identical. Use per-location campaigns when offices differ on schedule, insurance, or services. Guide: multi-location healthcare paid ads structure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should the monthly paid report show?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Spend, policy status, and booked inquiries from intake. Impressions without a booked-inquiry column are not the product. Channel mix: healthcare digital marketing channel mix without vanity metrics."
+      }
     }
   ]
 }
@@ -526,7 +550,7 @@ body {
   "url": "https://catalyzegrowth.co/paid-ads-for-healthcare-practices",
   "speakable": {
     "@type": "SpeakableSpecification",
-    "cssSelector": ["#definition", "#key-takeaway"]
+    "cssSelector": ["#definition", "#key-takeaway", "#faq-speak-1", "#faq-speak-2", "#faq-speak-3"]
   }
 }
 </script>
@@ -608,25 +632,25 @@ body {
 
 <section class="section" id="overview">
   <div class="section-label"><span class="line"></span> What this means</div>
-  <h2 class="section-title">What paid ads for healthcare practices means here</h2>
-  <p class="section-subtitle">This page answers the query. The paid ads service page has platforms, process, and how to request an audit.</p>
+  <h2 class="section-title">Paid ads for healthcare practices are booked-appointment campaigns, not condition targeting</h2>
+  <p class="section-subtitle">You get HIPAA-aware Google, Meta, and Display work aimed at booked appointments the front desk can confirm. The paid ads service page has platforms, process, and how to request an audit.</p>
   <div class="pillars-list" style="max-width:800px;">
     <div class="pillar">
-      <div class="pillar-icon">📢</div>
+      <div class="pillar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 11 19-7-7 19-2-8-8-2z"/></svg></div>
       <div class="pillar-content">
         <h4>Built for booked appointments</h4>
         <p>Campaigns are aimed at booked appointments rather than clicks alone. Catalyze Care audits ad history, competitor landscape, website conversion path, and target patient demographics before build.</p>
       </div>
     </div>
     <div class="pillar">
-      <div class="pillar-icon">🔒</div>
+      <div class="pillar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
       <div class="pillar-content">
         <h4>Healthcare advertising rules</h4>
         <p>Campaigns do not target based on health conditions or diagnoses. Tracking is set up so PHI is not transmitted through ad platforms. The team monitors platform policy changes that affect healthcare advertisers.</p>
       </div>
     </div>
     <div class="pillar">
-      <div class="pillar-icon">🧩</div>
+      <div class="pillar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></div>
       <div class="pillar-content">
         <h4>Platforms we manage</h4>
         <p>Google Search, Local Services Ads, Performance Max, Google Maps Ads, Display retargeting, YouTube, and Meta, including lead ads and retargeting sequences.</p>
@@ -645,6 +669,7 @@ body {
     <p>Google Ads should split campaigns by job (search vs brand vs remarketing), with spend and booked-inquiry fields reported monthly. The practice owns the account. Structure: <a href="blog/google-ads-account-structure-healthcare-practices.html">Google Ads account structure for healthcare practices</a>. Meta creative should invite a booked inquiry without condition targeting and without diagnosis-level values in pixels. Creative brief: <a href="blog/hipaa-aware-meta-ads-creative-landing-pages.html">HIPAA-aware Meta Ads creative and landing pages</a>. Targeting: <a href="blog/meta-ads-healthcare-without-condition-targeting.html">Meta ads without condition targeting</a>.</p>
     <h3>Website conversion for paid traffic</h3>
     <p>Clicks that land on a homepage maze are not a media problem. Use a HIPAA-safe form, a landing page that matches the ad, and no condition in the URL. Catalyze Care publishes paid ads at $2,500/month management (media separate). Reports show spend and booked-inquiry fields from your intake. Essentials: <a href="blog/healthcare-website-conversion-essentials.html">healthcare website conversion essentials</a>.</p>
+    <p>Several offices should not share one catch-all campaign if schedules or payers differ. Shared vs per-location: <a href="blog/multi-location-healthcare-paid-ads-structure.html">multi-location healthcare paid ads structure</a>. Score the month on booked inquiries, not impressions: <a href="blog/healthcare-digital-marketing-channel-mix.html">healthcare digital marketing channel mix</a>.</p>
   </div>
 </section>
 
@@ -653,15 +678,15 @@ body {
   <h2 class="section-title">Common questions</h2>
   <p class="section-subtitle">Straight answers from how Catalyze Care actually works. Published fees: $5,000 / $799 / $2,500.</p>
   <div class="faq-list">
-    <div class="faq-item">
+    <div class="faq-item" id="faq-speak-1">
       <h3>What are paid ads for healthcare practices?</h3>
       <p>Paid ads for healthcare practices are paid campaigns built to drive booked appointments. Catalyze Care runs HIPAA-aware Google Ads, Meta Ads, and Display for healthcare practices.</p>
     </div>
-    <div class="faq-item">
+    <div class="faq-item" id="faq-speak-2">
       <h3>Are paid campaigns HIPAA-aware?</h3>
       <p>Campaigns are built with compliance at the core. We do not target based on health conditions or diagnoses, and we work so PHI is not transmitted through ad platforms.</p>
     </div>
-    <div class="faq-item">
+    <div class="faq-item" id="faq-speak-3">
       <h3>Which ad platforms do you manage?</h3>
       <p>Google Search, Local Services Ads, Performance Max, Google Maps Ads, Display retargeting, YouTube, and Meta, including lead ads and retargeting sequences.</p>
     </div>
@@ -672,6 +697,18 @@ body {
     <div class="faq-item">
       <h3>Where do I start?</h3>
       <p>The paid ads service page has platforms, process, and the audit form. Go to <a href="paid-ads.html">paid ads</a>.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What does Catalyze Care charge for paid ads?</h3>
+      <p>Paid ads management is $2,500/month. Media spend is billed to the platforms separately. Reports show spend and booked-inquiry fields from your intake.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How should multi-location practices structure Google Ads?</h3>
+      <p>Use shared campaigns when creative and intake are identical. Use per-location campaigns when offices differ on schedule, insurance, or services. Guide: <a href="blog/multi-location-healthcare-paid-ads-structure.html">multi-location healthcare paid ads structure</a>.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What should the monthly paid report show?</h3>
+      <p>Spend, policy status, and booked inquiries from intake. Impressions without a booked-inquiry column are not the product. Mix: <a href="blog/healthcare-digital-marketing-channel-mix.html">healthcare digital marketing channel mix without vanity metrics</a>.</p>
     </div>
   </div>
 </section>
@@ -690,7 +727,7 @@ body {
   </div>
 </section>
 
-<p class="related-row">Also explore: <a href="blog/healthcare-website-conversion-essentials.html">website conversion essentials</a> · <a href="blog/hipaa-aware-meta-ads-creative-landing-pages.html">HIPAA-aware Meta Ads creative</a> · <a href="blog/google-ads-account-structure-healthcare-practices.html">Google Ads account structure</a> · <a href="healthcare-marketing-agency.html">healthcare marketing agency</a> · <a href="blog/what-is-a-healthcare-marketing-agency.html">agency guide</a> · <a href="how-to-choose-a-healthcare-marketing-agency.html">how to choose an agency</a> · <a href="how-catalyze-care-works.html">how Catalyze Care works</a> · <a href="blog/provider-referrals-vs-paid-ads.html">referral vs paid ads</a> · <a href="healthcare-digital-marketing.html">healthcare digital marketing</a> · <a href="blog/healthcare-digital-marketing-explained.html">digital marketing guide</a> · <a href="healthcare-referral-marketing.html">healthcare referral marketing</a> · <a href="seo-for-healthcare-practices.html">SEO for healthcare practices</a> · <a href="blog/seo-for-healthcare-practices-explained.html">SEO guide</a> · <a href="blog/paid-ads-for-healthcare-practices-explained.html">paid ads guide</a> · <a href="seo.html">SEO</a> · <a href="paid-ads.html">Paid Ads</a> · <a href="referral.html">Referral Marketing</a> · <a href="compare.html">compare / alternatives</a> · <a href="best-healthcare-marketing-agencies-for-practices.html">best agencies for practices</a></p>
+<p class="related-row">Longer guide: <a href="blog/paid-ads-for-healthcare-practices-explained.html">paid ads for healthcare practices, explained</a>. Several offices: <a href="blog/multi-location-healthcare-paid-ads-structure.html">multi-location healthcare paid ads structure</a>. Service: <a href="paid-ads.html">paid ads</a> ($2,500/month management, media separate). Booking path: <a href="blog/healthcare-website-conversion-essentials.html">website conversion essentials</a>. Mix: <a href="blog/healthcare-digital-marketing-channel-mix.html">healthcare digital marketing channel mix</a>.</p>
 
 <footer class="footer" aria-label="Site footer">
   <div class="footer-left">© 2026 Catalyze Care. All rights reserved.<br>Service-area marketing for healthcare practices (no public street address).</div>

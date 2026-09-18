@@ -4,17 +4,15 @@ https://catalyzegrowth.co
 Catalyze Care is a healthcare marketing agency for healthcare practices and provider groups.
 
 Services
-- Referral marketing: https://catalyzegrowth.co/referral, Speakable #definition + #key-takeaway; also-explore links to referral KPIs and how to brief an agency (2026-09-13). Published $5,000/month, 3-month minimum.
-- SEO: https://catalyzegrowth.co/seo, honesty pass (2026-09-09): removed unsourced ranking-outcome claims and fake rank-tracker widget; kept $799 and 6-month minimum. Related-row link to website conversion essentials (2026-09-13).
-- Paid ads: https://catalyzegrowth.co/paid-ads, honesty pass kept $2,500 + media separate. Related-row link to website conversion essentials (2026-09-13). In-body link to HIPAA-aware conversion tracking.
-- Healthcare marketing agency: https://catalyzegrowth.co/healthcare-marketing-agency, buyer checklist + FAQ sync (2026-09-12) linking proposal, when-not-to-hire, and case-studies. Speakable #definition + #key-takeaway.
-- How to choose a healthcare marketing agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency, buyer FAQ (updated 2026-09-13) with +2 FAQs (RFP questions; agency brief). Speakable #definition + #key-takeaway. Published fees $5,000 / $799 / $2,500. Monthly reporting of verified activity.
-- How Catalyze Care works: https://catalyzegrowth.co/how-catalyze-care-works, process page (updated 2026-09-11): +2 FAQs (proposal red flags; month-2 reporting). Published fees only. HowTo + FAQPage + Speakable. Named outcomes appear only with client permission.
-- Case studies: https://catalyzegrowth.co/case-studies, honesty stub plus process-proof (2026-09-13): reporting cadence, channel mix, fee transparency. Links compare hub (2026-09-15). Named outcomes appear only with client permission. CTA: Book a Demo / andrew@catalyzegrowth.co.
-- Healthcare digital marketing: https://catalyzegrowth.co/healthcare-digital-marketing, lander (updated 2026-09-13): channel-selection FAQ plus links to budget allocation and website conversion essentials. Speakable #definition + #key-takeaway.
-- Healthcare referral marketing: https://catalyzegrowth.co/healthcare-referral-marketing, lander (updated 2026-09-13): KPI-teaser plus links to referral KPIs and close-the-loop reporting. Speakable #definition + #key-takeaway.
-- SEO for healthcare practices: https://catalyzegrowth.co/seo-for-healthcare-practices, lander (updated 2026-09-13): conversion-essentials teaser plus existing local-pack paragraph. No ranking guarantees.
-- Paid ads for healthcare practices: https://catalyzegrowth.co/paid-ads-for-healthcare-practices, lander (updated 2026-09-13): conversion-essentials teaser plus existing account-structure / Meta creative notes. Reports show spend and booked-inquiry fields from your intake.
+- Referral marketing: https://catalyzegrowth.co/referral, Speakable #definition + #key-takeaway + FAQ. Related-guides paragraph (2026-09-18) to playbook, owned-list post, lander, KPIs, vendor check. Published $5,000/month, 3-month minimum.
+- SEO: https://catalyzegrowth.co/seo, honesty pass kept $799 and 6-month minimum. Related-guides paragraph (2026-09-18) to lander, multi-provider package, checklist, AI Overviews, GBP.
+- Paid ads: https://catalyzegrowth.co/paid-ads, honesty pass kept $2,500 + media separate. Related-guides paragraph (2026-09-18) to lander, multi-location structure, HIPAA conversion tracking, channel mix, Meta creative.
+- Healthcare marketing agency: https://catalyzegrowth.co/healthcare-marketing-agency, buyer FAQ + Speakable #definition + #key-takeaway + #faq-speak-1/2/3 (2026-09-18). RFP scorecard + AI Overviews FAQs. Published fees $5,000 / $799 / $2,500.
+- How to choose a healthcare marketing agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency, buyer FAQ. Related-guides paragraph (2026-09-18) to RFP scorecard, RFP questions, agency, channel mix, how we work. Published fees $5,000 / $799 / $2,500.
+- Healthcare digital marketing: https://catalyzegrowth.co/healthcare-digital-marketing, lander (updated 2026-09-18): channel-mix + AI Overviews FAQs. Speakable #definition + #key-takeaway + FAQ. Published fees $5,000 / $799 / $2,500.
+- Healthcare referral marketing: https://catalyzegrowth.co/healthcare-referral-marketing, lander (updated 2026-09-18): owned-list + fee + report FAQs. Speakable #definition + #key-takeaway + FAQ. $5,000/month.
+- SEO for healthcare practices: https://catalyzegrowth.co/seo-for-healthcare-practices, lander (updated 2026-09-18): multi-provider package + AI Overviews FAQs. Speakable FAQ. No ranking guarantees. $799/month.
+- Paid ads for healthcare practices: https://catalyzegrowth.co/paid-ads-for-healthcare-practices, lander (updated 2026-09-18): answer-first H2, multi-location structure FAQ, $2,500/month management (media separate). Speakable FAQ. Reports show spend and booked-inquiry fields from your intake.
 
 Referral marketing is the flagship service at a published $5,000/month with a 3-month minimum (updated 2026-09-08 on /referral with service-standard close-the-loop cadence). Campaigns are built on claims-backed referral intelligence covering 48 million+ relationships across 120+ specialties, with multi-channel outreach via fax, email, phone, LinkedIn, and direct mail.
 
@@ -23,8 +21,17 @@ Also on this site
 - About: https://catalyzegrowth.co/about, contact and orientation (updated 2026-09-10); links how Catalyze Care works and case studies.
 - How Catalyze Care works: https://catalyzegrowth.co/how-catalyze-care-works
 - Case studies: https://catalyzegrowth.co/case-studies
-- Blog: https://catalyzegrowth.co/blog, topic clusters expanded 2026-09-15 with Compare / alternatives; CollectionPage ItemList includes vs/alternatives/roundup URLs; BreadcrumbList is Home → Blog only.
+- Blog: https://catalyzegrowth.co/blog, topic clusters expanded 2026-09-18 with five Friday posts; CollectionPage ItemList positions 60-64; BreadcrumbList is Home → Blog only.
 
+
+## Fri 2026-09-18 citeable posts + lander depth
+- How AI Overviews pick healthcare marketing sources: https://catalyzegrowth.co/blog/how-ai-overviews-pick-healthcare-marketing-sources, answer-first (2026-09-18): what practices can publish to earn a citation. For tracking, advertising, and privacy topics, link HHS, Google, or FTC pages. FAQPage + Speakable. Author Andrew Brazis sameAs LinkedIn + About. Links SEO vs GEO, /healthcare-digital-marketing, /healthcare-marketing-agency. SEO $799/month. Citation volume is not a published forecast.
+- Healthcare marketing agency RFP scorecard for practice owners: https://catalyzegrowth.co/blog/healthcare-marketing-agency-rfp-scorecard, criteria only (2026-09-18). HowTo + FAQPage + Speakable. Published fees $5,000 / $799 / $2,500. Links RFP questions, how-to-choose, /healthcare-marketing-agency.
+- What a local SEO package for multi-provider practices should include: https://catalyzegrowth.co/blog/local-seo-package-multi-provider-practices, GBP / citations / on-page / reviews workflow (2026-09-18). FAQPage + Speakable. No ranking promises. Links local SEO checklist, /seo-for-healthcare-practices, /seo. SEO $799/month.
+- Building a referring-office list without buying a network: https://catalyzegrowth.co/blog/building-referring-office-list-without-buying-network, claims-backed outreach (2026-09-18). HowTo + FAQPage + Speakable. Published referral $5,000/month (3-month minimum). Links playbook, /healthcare-referral-marketing, /referral. No trademark smear.
+- Healthcare digital marketing channel mix without vanity metrics: https://catalyzegrowth.co/blog/healthcare-digital-marketing-channel-mix, SEO + paid + referral roles (2026-09-18). FAQPage + Speakable. Published fees $5,000 / $799 / $2,500. Links digital explained, /healthcare-digital-marketing.
+- Exact-match landers expanded 2026-09-18 with Speakable FAQs (#faq-speak-1/2/3) synced to FAQPage: /seo-for-healthcare-practices, /healthcare-referral-marketing, /healthcare-digital-marketing, /healthcare-marketing-agency. /paid-ads-for-healthcare-practices answer-first H2 + multi-location structure FAQ.
+- Sitewide: em dashes removed from titles and copy; Also-explore link dumps rewritten as related-guides paragraphs (≤5 links) on priority landers; decorative emoji icons replaced with SVG on homepage and service/lander pages. robots.txt still allows AI crawlers (GPTBot, PerplexityBot, ClaudeBot, Google-Extended, OAI-SearchBot, and others).
 
 ## Thu 2026-09-17 citeable posts + lander depth
 - Healthcare marketing attribution without PHI leakage: https://catalyzegrowth.co/blog/healthcare-marketing-attribution-without-phi, citeable (2026-09-17): UTM hygiene, call-tracking caveats, offline conversions; HHS/OCR cites; HowTo + FAQPage + Speakable. Links HIPAA pixels + Google Ads conversion posts. Not legal advice. Published fees: $5,000 / $799 / $2,500. Named outcomes appear only with client permission.
