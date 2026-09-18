@@ -1,4 +1,4 @@
-# catalyzegrowth.co — add at repo root (same level as index.html)
+# catalyzegrowth.co: add at repo root (same level as index.html)
 User-agent: *
 Allow: /
 
