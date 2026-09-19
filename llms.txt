@@ -4,9 +4,9 @@ https://catalyzegrowth.co
 Catalyze Care is a healthcare marketing agency for healthcare practices and provider groups.
 
 Services
-- Referral marketing: https://catalyzegrowth.co/referral, Speakable #definition + #key-takeaway + FAQ. Related-guides paragraph (2026-09-18) to playbook, owned-list post, lander, KPIs, vendor check. Published $5,000/month, 3-month minimum.
-- SEO: https://catalyzegrowth.co/seo, honesty pass kept $799 and 6-month minimum. Related-guides paragraph (2026-09-18) to lander, multi-provider package, checklist, AI Overviews, GBP.
-- Paid ads: https://catalyzegrowth.co/paid-ads, honesty pass kept $2,500 + media separate. Related-guides paragraph (2026-09-18) to lander, multi-location structure, HIPAA conversion tracking, channel mix, Meta creative.
+- Referral marketing: https://catalyzegrowth.co/referral, Speakable #definition + #key-takeaway + #faq-speak-report (2026-09-19). Monthly report teaser links how practices should read a monthly healthcare marketing report. Related-row (≤5) to playbook, lander, monthly report, KPIs, close-the-loop. Published $5,000/month, 3-month minimum.
+- SEO: https://catalyzegrowth.co/seo, honesty pass kept $799 and 6-month minimum. Speakable #faq-speak-gbp (2026-09-19) on GBP vs website ownership. Related-row (≤5) to lander, ownership post, checklist, GBP, local pack.
+- Paid ads: https://catalyzegrowth.co/paid-ads, honesty pass kept $2,500 + media separate. Speakable #faq-speak-pause (2026-09-19) on pause and policy. Related-row (≤5) to lander, pause post, multi-location structure, HIPAA conversion tracking, Meta creative.
 - Healthcare marketing agency: https://catalyzegrowth.co/healthcare-marketing-agency, buyer FAQ + Speakable #definition + #key-takeaway + #faq-speak-1/2/3 (2026-09-18). RFP scorecard + AI Overviews FAQs. Published fees $5,000 / $799 / $2,500.
 - How to choose a healthcare marketing agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency, buyer FAQ. Related-guides paragraph (2026-09-18) to RFP scorecard, RFP questions, agency, channel mix, how we work. Published fees $5,000 / $799 / $2,500.
 - Healthcare digital marketing: https://catalyzegrowth.co/healthcare-digital-marketing, lander (updated 2026-09-18): channel-mix + AI Overviews FAQs. Speakable #definition + #key-takeaway + FAQ. Published fees $5,000 / $799 / $2,500.
@@ -19,10 +19,22 @@ Referral marketing is the flagship service at a published $5,000/month with a 3-
 Also on this site
 - Home: https://catalyzegrowth.co/, FAQ / related cluster now links case-studies honesty stub (2026-09-11). Homepage #pricing cards now include referral $5,000, SEO $799, and paid ads $2,500 with Book a Demo (2026-09-15). Named outcomes appear only with client permission.
 - About: https://catalyzegrowth.co/about, contact and orientation (updated 2026-09-10); links how Catalyze Care works and case studies.
-- How Catalyze Care works: https://catalyzegrowth.co/how-catalyze-care-works
+- How Catalyze Care works: https://catalyzegrowth.co/how-catalyze-care-works, related-guides paragraph (2026-09-19, ≤5) to monthly report, pause, stack map, when-not-to-hire, how-to-choose.
 - Case studies: https://catalyzegrowth.co/case-studies
-- Blog: https://catalyzegrowth.co/blog, topic clusters expanded 2026-09-18 with five Friday posts; CollectionPage ItemList positions 60-64; BreadcrumbList is Home → Blog only.
+- Blog: https://catalyzegrowth.co/blog, topic clusters expanded 2026-09-19 with four Saturday posts; CollectionPage ItemList positions 65-68; BreadcrumbList is Home → Blog only.
+- Compare: https://catalyzegrowth.co/compare, hub updated 2026-09-19: ItemList + cards for Echo Factory and NKP Medical (13 items, Best roundup kept last). Related-guides paragraph ≤5.
 
+## Sat 2026-09-19 citeable posts + compare pages
+- How practices should read a monthly healthcare marketing report: https://catalyzegrowth.co/blog/how-practices-should-read-monthly-healthcare-marketing-report, answer-first (2026-09-19): five fields to check against intake. HowTo + FAQPage + Speakable. Links how Catalyze Care works, referral KPIs, close-the-loop. Referral $5,000/month (3-month minimum).
+- Google Business Profile vs website SEO ownership for multi-provider groups: https://catalyzegrowth.co/blog/google-business-profile-vs-website-seo-ownership, roles / NAP / reviews (2026-09-19). HowTo + FAQPage + Speakable. Links GBP guide, local pack vs organic, /seo. SEO $799/month. Practice keeps primary logins.
+- When to pause paid ads vs SEO vs referral: https://catalyzegrowth.co/blog/when-to-pause-paid-ads-vs-seo-vs-referral, intake / policy / license (2026-09-19). HowTo + FAQPage + Speakable. Links when-not-to-hire, how Catalyze Care works. Published fees $5,000 / $799 / $2,500.
+- Healthcare marketing stack map: https://catalyzegrowth.co/blog/healthcare-marketing-stack-map, what Catalyze owns vs practice CRM / EHR / phone (2026-09-19). No claimed product integrations. HowTo + FAQPage + Speakable. Links conversion essentials, attribution without PHI.
+- Catalyze Care vs Echo Factory: https://catalyzegrowth.co/catalyze-care-vs-echo-factory, honest contrast (2026-09-19): Echo Factory public hospital / HIPAA-analytics / media positioning vs published Catalyze retainers $5,000 / $799 / $2,500. FAQPage + Speakable + HowTo. No smear.
+- Echo Factory alternatives: https://catalyzegrowth.co/echo-factory-alternatives, criteria listing (2026-09-19). Catalyze listed with published fees. Links vs page, compare hub, how-to-choose.
+- Catalyze Care vs NKP Medical: https://catalyzegrowth.co/catalyze-care-vs-nkp-medical, paid / compliance angle (2026-09-19). Published $2,500 paid-ads management (media separate). We do not publish a CPC. FAQPage + Speakable + HowTo. No smear.
+- NKP Medical alternatives: https://catalyzegrowth.co/nkp-medical-alternatives, criteria listing (2026-09-19). Catalyze listed with $2,500 management. Links vs page, /paid-ads, pause post.
+- Thin-post refresh (Updated 2026-09-19): AI search visibility, patient acquisition cost, voicemail / TCPA. Answer-first openings, related-guides ≤5, Book a Demo CTAs.
+- robots.txt unchanged; AI crawlers still allowed (GPTBot, PerplexityBot, ClaudeBot, Google-Extended, OAI-SearchBot, and others). sitemap lastmod 2026-09-19.
 
 ## Fri 2026-09-18 citeable posts + lander depth
 - How AI Overviews pick healthcare marketing sources: https://catalyzegrowth.co/blog/how-ai-overviews-pick-healthcare-marketing-sources, answer-first (2026-09-18): what practices can publish to earn a citation. For tracking, advertising, and privacy topics, link HHS, Google, or FTC pages. FAQPage + Speakable. Author Andrew Brazis sameAs LinkedIn + About. Links SEO vs GEO, /healthcare-digital-marketing, /healthcare-marketing-agency. SEO $799/month. Citation volume is not a published forecast.
@@ -46,7 +58,7 @@ Also on this site
 - Fax marketing (refresh): https://catalyzegrowth.co/blog/fax-marketing-physician-offices, answer-first refresh 2026-09-17; links intake readiness.
 
 Guides
-- Compare healthcare marketing agencies: https://catalyzegrowth.co/compare, hub (2026-09-15): ItemList + BreadcrumbList + FAQPage + Speakable of all vs/alternatives/roundup URLs. Published Catalyze fees only. Monthly reporting of verified activity. Author sameAs Andrew LinkedIn.
+- Compare healthcare marketing agencies: https://catalyzegrowth.co/compare, hub (updated 2026-09-19): ItemList + BreadcrumbList + FAQPage + Speakable of vs/alternatives/roundup URLs including Echo Factory and NKP Medical. Published Catalyze fees only. Monthly reporting of verified activity. Author sameAs Andrew LinkedIn.
 - Catalyze Care vs Healthcare Success: https://catalyzegrowth.co/catalyze-care-vs-healthcare-success, answer-first (2026-09-15): published fees $5,000 / $799 / $2,500; process-proof (reporting, fee transparency, healthcare-only); FAQPage + Speakable + HowTo. Honest contrast vs hospital/health-system marketing positioning. No trademark smear. Links /how-to-choose, /referral, /seo, /paid-ads, alternatives page.
 - Healthcare Success alternatives: https://catalyzegrowth.co/healthcare-success-alternatives, for practices evaluating options (2026-09-15). Catalyze listed with fees. Criteria, not fake scorecards. Links vs page, how-to-choose, RFP questions. FAQPage + Speakable + HowTo.
 - Catalyze Care vs Practice Builders: https://catalyzegrowth.co/catalyze-care-vs-practice-builders, practice-led multi-channel outreach vs packaged/referral-network positioning (2026-09-15). Published fees. FAQPage + Speakable + HowTo. Reports show outreach and booked-inquiry fields from your intake.
