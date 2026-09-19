@@ -19,8 +19,8 @@ Referral marketing is the flagship service at a published $5,000/month with a 3-
 Also on this site
 - Home: https://catalyzegrowth.co/, FAQ / related cluster now links case-studies honesty stub (2026-09-11). Homepage #pricing cards now include referral $5,000, SEO $799, and paid ads $2,500 with Book a Demo (2026-09-15). Named outcomes appear only with client permission.
 - About: https://catalyzegrowth.co/about, contact and orientation (updated 2026-09-10); links how Catalyze Care works and case studies.
-- Privacy: https://catalyzegrowth.co/privacy, Catalyze Care LLC data practices (contact forms, GA4 G-084ZGKDXZQ, reCAPTCHA). Operator andrew@catalyzegrowth.co.
-- Terms: https://catalyzegrowth.co/terms, site use, no medical advice, published fees informational, California law.
+- Privacy: https://catalyzegrowth.co/privacy, short Catalyze Care LLC notice (forms, GA4 G-084ZGKDXZQ, reCAPTCHA, Netlify). Operator andrew@catalyzegrowth.co.
+- Terms: https://catalyzegrowth.co/terms, short site terms: informational, services under separate agreement, California law.
 - How Catalyze Care works: https://catalyzegrowth.co/how-catalyze-care-works, related-guides paragraph (2026-09-19, ≤5) to monthly report, pause, stack map, when-not-to-hire, how-to-choose.
 - Case studies: https://catalyzegrowth.co/case-studies
 - Blog: https://catalyzegrowth.co/blog, topic clusters expanded 2026-09-19 with four Saturday posts; CollectionPage ItemList positions 65-68; BreadcrumbList is Home → Blog only.

@@ -15,6 +15,13 @@
     } catch (err) {
       /* private mode: banner may return on the next visit */
     }
+    if (typeof gtag === 'function') {
+      gtag('consent', 'update', {
+        analytics_storage: 'granted',
+        functionality_storage: 'granted',
+        security_storage: 'granted'
+      });
+    }
   }
 
   function hide(bar) {
