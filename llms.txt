@@ -6,10 +6,10 @@ Catalyze Care is a healthcare marketing agency for healthcare practices and prov
 Services
 - Referral marketing: https://catalyzegrowth.co/referral, Speakable #definition + #key-takeaway + #faq-speak-report (2026-09-19). Monthly report teaser links how practices should read a monthly healthcare marketing report. Related-row (≤5) to playbook, lander, monthly report, KPIs, close-the-loop. Published $5,000/month, 3-month minimum.
 - SEO: https://catalyzegrowth.co/seo, honesty pass kept $799 and 6-month minimum. Speakable #faq-speak-gbp (2026-09-19) on GBP vs website ownership. Related-row (≤5) to lander, ownership post, checklist, GBP, local pack.
-- Paid ads: https://catalyzegrowth.co/paid-ads, honesty pass kept $2,500 + media separate. Speakable #faq-speak-pause (2026-09-19) on pause and policy. Related-row (≤5) to lander, pause post, multi-location structure, HIPAA conversion tracking, Meta creative.
-- Healthcare marketing agency: https://catalyzegrowth.co/healthcare-marketing-agency, buyer FAQ + Speakable #definition + #key-takeaway + #faq-speak-1/2/3 (2026-09-18). RFP scorecard + AI Overviews FAQs. Published fees $5,000 / $799 / $2,500.
+- Paid ads: https://catalyzegrowth.co/paid-ads, honesty pass kept $2,500 + media separate. Speakable #faq-speak-pause + #faq-speak-remarketing (2026-09-20). Related-row (≤5) to lander, remarketing post, pause post, multi-location structure, HIPAA conversion tracking.
+- Healthcare marketing agency: https://catalyzegrowth.co/healthcare-marketing-agency, buyer FAQ + Speakable #definition + #key-takeaway + #faq-speak-1/2/3 (2026-09-20). Fee-transparency FAQ + links to Sun budget and choose-retainer posts. Published fees $5,000 / $799 / $2,500.
 - How to choose a healthcare marketing agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency, buyer FAQ. Related-guides paragraph (2026-09-18) to RFP scorecard, RFP questions, agency, channel mix, how we work. Published fees $5,000 / $799 / $2,500.
-- Healthcare digital marketing: https://catalyzegrowth.co/healthcare-digital-marketing, lander (updated 2026-09-18): channel-mix + AI Overviews FAQs. Speakable #definition + #key-takeaway + FAQ. Published fees $5,000 / $799 / $2,500.
+- Healthcare digital marketing: https://catalyzegrowth.co/healthcare-digital-marketing, lander (updated 2026-09-20): stack map + mid-size budget teasers. Speakable #definition + #key-takeaway + FAQ. Published fees $5,000 / $799 / $2,500.
 - Healthcare referral marketing: https://catalyzegrowth.co/healthcare-referral-marketing, lander (updated 2026-09-18): owned-list + fee + report FAQs. Speakable #definition + #key-takeaway + FAQ. $5,000/month.
 - SEO for healthcare practices: https://catalyzegrowth.co/seo-for-healthcare-practices, lander (updated 2026-09-18): multi-provider package + AI Overviews FAQs. Speakable FAQ. No ranking guarantees. $799/month.
 - Paid ads for healthcare practices: https://catalyzegrowth.co/paid-ads-for-healthcare-practices, lander (updated 2026-09-18): answer-first H2, multi-location structure FAQ, $2,500/month management (media separate). Speakable FAQ. Reports show spend and booked-inquiry fields from your intake.
@@ -23,8 +23,20 @@ Also on this site
 - Terms: https://catalyzegrowth.co/terms, short site terms: informational, services under separate agreement, California law.
 - How Catalyze Care works: https://catalyzegrowth.co/how-catalyze-care-works, related-guides paragraph (2026-09-19, ≤5) to monthly report, pause, stack map, when-not-to-hire, how-to-choose.
 - Case studies: https://catalyzegrowth.co/case-studies
-- Blog: https://catalyzegrowth.co/blog, topic clusters expanded 2026-09-19 with four Saturday posts; CollectionPage ItemList positions 65-68; BreadcrumbList is Home → Blog only.
-- Compare: https://catalyzegrowth.co/compare, hub updated 2026-09-19: ItemList + cards for Echo Factory and NKP Medical (13 items, Best roundup kept last). Related-guides paragraph ≤5.
+- Blog: https://catalyzegrowth.co/blog, topic clusters expanded 2026-09-20 with four Sunday posts; CollectionPage ItemList positions 69-72; BreadcrumbList is Home → Blog only.
+- Compare: https://catalyzegrowth.co/compare, hub updated 2026-09-20: ItemList + cards for Imre and Digital Elevator (17 items, Best roundup kept last). Related-guides paragraph ≤5.
+
+## Sun 2026-09-20 citeable posts + compare pages
+- Healthcare marketing budget planning for mid-size provider groups: https://catalyzegrowth.co/blog/healthcare-marketing-budget-planning-mid-size-provider-groups, answer-first (2026-09-20): channel mix across referral/SEO/paid using published fees $5,000 / $799 / $2,500. HowTo + FAQPage + Speakable. Links stack map, pause post, how Catalyze Care works.
+- Call tracking vs EHR / practice-management attribution: https://catalyzegrowth.co/blog/call-tracking-vs-ehr-practice-management-attribution, what each can prove (2026-09-20). PHI-safe. HowTo + FAQPage + Speakable. Links attribution without PHI + conversion essentials.
+- HIPAA-safe remarketing and audience exclusions: https://catalyzegrowth.co/blog/hipaa-safe-remarketing-audience-exclusions-healthcare-ads, policy-first (2026-09-20). We do not publish a CPC. FAQPage + Speakable + HowTo. Links /paid-ads, multi-location paid, pause post.
+- How to choose between a referral retainer and a paid ads test month: https://catalyzegrowth.co/blog/choose-referral-retainer-or-paid-ads-test-month, decision tree (2026-09-20). Published fees. HowTo + FAQPage + Speakable. Links /referral, /paid-ads, when-not-to-hire.
+- Catalyze Care vs Imre: https://catalyzegrowth.co/catalyze-care-vs-imre, honest contrast (2026-09-20): Imre public healthcare/consumer AOR on imre.com vs published Catalyze retainers $5,000 / $799 / $2,500. FAQPage + Speakable + HowTo. No smear.
+- Imre alternatives: https://catalyzegrowth.co/imre-alternatives, criteria listing (2026-09-20). Catalyze listed with published fees. Links vs page, compare hub, how-to-choose.
+- Catalyze Care vs Digital Elevator: https://catalyzegrowth.co/catalyze-care-vs-the-digital-elevator, honest contrast (2026-09-20): Digital Elevator public productized SEO / AI visibility on thedigitalelevator.com vs published Catalyze retainers. FAQPage + Speakable + HowTo. No smear.
+- Digital Elevator alternatives: https://catalyzegrowth.co/the-digital-elevator-alternatives, criteria listing (2026-09-20). Catalyze listed with published fees. Links vs page, compare hub, how-to-choose.
+- Thin-post refresh (Updated 2026-09-20): directory profile audit, local SEO multi-state telehealth, 2027 one-page plan. Answer-first openings, related-guides ≤5, Book a Demo CTAs.
+- robots.txt unchanged; AI crawlers still allowed (GPTBot, PerplexityBot, ClaudeBot, Google-Extended, OAI-SearchBot, and others). sitemap lastmod 2026-09-20.
 
 ## Sat 2026-09-19 citeable posts + compare pages
 - How practices should read a monthly healthcare marketing report: https://catalyzegrowth.co/blog/how-practices-should-read-monthly-healthcare-marketing-report, answer-first (2026-09-19): five fields to check against intake. HowTo + FAQPage + Speakable. Links how Catalyze Care works, referral KPIs, close-the-loop. Referral $5,000/month (3-month minimum).
