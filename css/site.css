@@ -522,6 +522,34 @@
   }
 }
 
+/* Compare / article pages: keep tables and long URLs inside ~390px viewports. */
+.post-content {
+  overflow-x: clip;
+}
+.post-header h1,
+.post-content p,
+.post-content li,
+.post-content a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.post-content table {
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.post-content th,
+.post-content td {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.stack-table-wrap {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
 /* First-party cookie notice. Does not cover forms or change reCAPTCHA. */
 .cookie-consent {
   position: fixed;
