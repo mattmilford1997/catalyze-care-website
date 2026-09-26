@@ -146,3 +146,11 @@ Key facts
 - Campaigns use claims-backed referral intelligence covering 48 million+ relationships across 120+ specialties.
 - Contact: andrew@catalyzegrowth.co
 - Footer (sitewide, 2026-09-09): “Service-area marketing for healthcare practices (no public street address).” Monthly reporting of verified activity.
+
+## Sat 2026-09-26 ship
+- Referral liaison vs multi-channel outreach: https://catalyzegrowth.co/blog/referral-liaison-vs-multi-channel-outreach (FAQPage + Speakable; links referral lander, 7-day close-the-loop, playbook; fee anchor $5,000/mo)
+- Healthcare marketing agency fee transparency checklist: https://catalyzegrowth.co/blog/healthcare-marketing-agency-fee-transparency-checklist (published fees $5,000 / $799 / $2,500 as examples; links agency lander)
+- Multi-location Google review routing without duplicate GBP: https://catalyzegrowth.co/blog/multi-location-google-review-routing-without-duplicate-gbp (links Thu multi-provider GBP post + /seo-for-healthcare-practices; SEO $799)
+- HIPAA-aware remarketing for healthcare paid ads: https://catalyzegrowth.co/blog/hipaa-aware-remarketing-healthcare-paid-ads (no condition targeting; links /paid-ads-for-healthcare-practices + LP checklist; $2,500 management, media separate)
+- Lander FAQ/Speakable teasers: referral, agency, SEO, paid-ads-for-healthcare-practices
+- Sermo Hoffman pair: skipped (public marketing footprint not used for a new vs/alt this ship)

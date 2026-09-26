@@ -25,7 +25,7 @@
 <meta name="twitter:image" content="https://catalyzegrowth.co/og-image.png" />
 <meta name="twitter:image:alt" content="Catalyze Care" />
 <meta property="article:published_time" content="2026-09-24" />
-<meta property="article:modified_time" content="2026-09-24" />
+<meta property="article:modified_time" content="2026-09-26" />
 <meta property="article:author" content="Andrew Brazis" />
 <link rel="canonical" href="https://catalyzegrowth.co/blog/paid-search-landing-page-checklist-healthcare" />
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -41,8 +41,26 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 .nav-links { display: flex; gap: 4px; }
 .nav-links a { text-decoration: none; color: var(--slate); font-size: 0.9rem; font-weight: 500; padding: 8px 16px; border-radius: 8px; }
 .nav-links a.active { color: var(--accent); background: var(--accent-pale); }
+.nav-toggle { display: none; }
 .nav-cta { background: var(--accent); color: white; padding: 10px 24px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; text-decoration: none; }
-@media (max-width: 900px) { .nav-links { display: none; } }
+@media (max-width: 900px) {
+  .nav-toggle { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; padding: 0; border: 1px solid var(--gray-200); border-radius: 10px; background: white; cursor: pointer; flex-shrink: 0; }
+  .nav-toggle-bar { display: block; width: 18px; height: 2px; background: var(--navy); border-radius: 1px; }
+  .nav-toggle-bar + .nav-toggle-bar { margin-top: 4px; }
+  .nav-links { display: none; }
+  .nav-links.is-open {
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    top: 64px; left: 0; right: 0;
+    background: white;
+    border-bottom: 1px solid var(--gray-200);
+    padding: 12px 16px 16px;
+    gap: 4px;
+    z-index: 40;
+  }
+  .nav-inner { position: relative; flex-wrap: wrap; }
+}
 .post-header { padding: 140px 32px 48px; max-width: 760px; margin: 0 auto; }
 .breadcrumb { font-size: 0.85rem; color: var(--gray-600); margin-bottom: 24px; }
 .breadcrumb a { color: var(--accent); text-decoration: none; font-weight: 500; }
@@ -97,7 +115,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
   "headline": "Paid Search Landing Page Checklist for Healthcare | Catalyze Care",
   "url": "https://catalyzegrowth.co/blog/paid-search-landing-page-checklist-healthcare",
   "datePublished": "2026-09-24",
-  "dateModified": "2026-09-24",
+  "dateModified": "2026-09-26",
   "author": {
     "@type": "Person",
     "name": "Andrew Brazis",
@@ -235,7 +253,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 <body>
 <nav class="nav"><div class="nav-inner"><a href="../index.html" class="nav-logo"><span class="mark">CC</span> Catalyze Care</a><div class="nav-links" id="primary-nav"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../index.html#referrals">Referral Data</a><a href="../referral.html">Referral Marketing</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html" class="active" aria-current="page">Blog</a><a href="../index.html#pricing">Pricing</a></div><a href="../index.html#contact" class="nav-cta">Get Started</a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></button></div></nav>
-<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><a href="../blog.html">Blog</a><span class="sep">/</span><span>Paid Search Landing Page Checklist for Healthcare</span></nav><div class="post-cat">Paid Ads</div><h1>Paid Search Landing Page Checklist for Healthcare</h1><div class="post-meta"><span>By <a href="../about.html">Andrew Brazis</a> · Updated September 24, 2026</span><span>&middot;</span><span>9 min read</span></div></header>
+<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><a href="../blog.html">Blog</a><span class="sep">/</span><span>Paid Search Landing Page Checklist for Healthcare</span></nav><div class="post-cat">Paid Ads</div><h1>Paid Search Landing Page Checklist for Healthcare</h1><div class="post-meta"><span>By <a href="../about.html">Andrew Brazis</a> · Updated September 26, 2026</span><span>&middot;</span><span>9 min read</span></div></header>
 <article class="post-content">
 <p id="definition">A healthcare paid search landing page is ready when claims match what the practice can say, the phone CTA is visible on a phone screen, and the form only asks for fields intake can process without diagnosis-level capture on the thank-you URL. Catalyze Care publishes paid ads management at <strong>$2,500/month</strong> plus media. Catalyze Care does not publish a CPC. Service: <a href="../paid-ads-for-healthcare-practices.html">paid ads for healthcare practices</a>. Remarketing exclusions: <a href="hipaa-safe-remarketing-audience-exclusions-healthcare-ads.html">HIPAA-safe remarketing and audience exclusions</a>.</p>
 <p class="key-takeaway" id="key-takeaway"><span class="label">In one sentence</span>Approve compliance copy, put the phone above the fold, keep forms intake-ready, and exclude patient audiences before spend starts.</p>
@@ -274,7 +292,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 
 <section class="post-faq" id="faq" aria-labelledby="faq-heading"><h2 id="faq-heading">FAQ</h2><div class="post-faq-list"><div class="post-faq-item" id="faq-speak-1"><h3>Does Catalyze Care publish a CPC for healthcare paid search?</h3><p>No. Catalyze Care publishes paid ads management at $2,500/month plus media. Media and CPC vary by market and specialty. Ask for a written media plan, not a borrowed CPC.</p></div><div class="post-faq-item" id="faq-speak-2"><h3>What must a healthcare paid landing page include?</h3><p>Approved claims only, a phone CTA visible on mobile, intake-ready form fields, a generic thank-you page, and remarketing exclusions where the product allows.</p></div><div class="post-faq-item" id="faq-speak-3"><h3>How does this connect to remarketing?</h3><p>Build audiences carefully and exclude known patients where possible. See HIPAA-safe remarketing and audience exclusions for healthcare ads. Not legal advice.</p></div><div class="post-faq-item" id="faq-speak-4"><h3>Where should I start on the Catalyze site?</h3><p>Start with paid ads for healthcare practices, then this checklist, then HIPAA-aware Meta creative if you also run social.</p></div></div></section>
 </article>
-<aside class="related-guides" aria-labelledby="related-guides-heading"><div class="related-guides-box"><h2 id="related-guides-heading">Related guides</h2><p><a href="../paid-ads-for-healthcare-practices.html">Paid ads for healthcare practices</a> · <a href="hipaa-safe-remarketing-audience-exclusions-healthcare-ads.html">HIPAA-safe remarketing</a> · <a href="healthcare-website-conversion-essentials.html">Website conversion essentials</a> · <a href="hipaa-aware-meta-ads-creative-landing-pages.html">HIPAA-aware Meta LPs</a> · <a href="google-ads-account-structure-healthcare-practices.html">Google Ads account structure</a></p></div></aside>
+<aside class="related-guides" aria-labelledby="related-guides-heading"><div class="related-guides-box"><h2 id="related-guides-heading">Related guides</h2><p><a href="../paid-ads-for-healthcare-practices.html">Paid ads for healthcare practices</a> · <a href="hipaa-aware-remarketing-healthcare-paid-ads.html">HIPAA-aware remarketing</a> · <a href="healthcare-website-conversion-essentials.html">Website conversion essentials</a> · <a href="../paid-ads.html">Paid ads service</a> · <a href="hipaa-safe-remarketing-audience-exclusions-healthcare-ads.html">Audience exclusions</a></p></div></aside>
 <p class="related-services">Related services: <a href="../paid-ads-for-healthcare-practices.html">Paid ads for healthcare practices</a> · <a href="../paid-ads.html">Paid Ads</a> · <a href="../healthcare-marketing-agency.html">Healthcare marketing agency</a> · <a href="../healthcare-digital-marketing.html">Digital marketing</a></p>
 <div class="post-cta"><div class="cta-box"><h3>Clearing a paid landing page before spend?</h3><p>Book a demo. Bring the draft URL, phone routing, and form fields. Paid management: $2,500/month plus media.</p><a href="../index.html#contact">Book a Demo &rarr;</a></div></div>
 <footer class="footer" aria-label="Site footer"><div class="footer-left">&copy; 2026 Catalyze Care. All rights reserved.<br>Service-area marketing for healthcare practices (no public street address).</div><div class="footer-links"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html">Blog</a>

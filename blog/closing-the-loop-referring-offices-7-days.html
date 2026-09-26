@@ -25,7 +25,7 @@
 <meta name="twitter:image" content="https://catalyzegrowth.co/og-image.png" />
 <meta name="twitter:image:alt" content="Catalyze Care" />
 <meta property="article:published_time" content="2026-09-24" />
-<meta property="article:modified_time" content="2026-09-24" />
+<meta property="article:modified_time" content="2026-09-26" />
 <meta property="article:author" content="Andrew Brazis" />
 <link rel="canonical" href="https://catalyzegrowth.co/blog/closing-the-loop-referring-offices-7-days" />
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -41,8 +41,26 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 .nav-links { display: flex; gap: 4px; }
 .nav-links a { text-decoration: none; color: var(--slate); font-size: 0.9rem; font-weight: 500; padding: 8px 16px; border-radius: 8px; }
 .nav-links a.active { color: var(--accent); background: var(--accent-pale); }
+.nav-toggle { display: none; }
 .nav-cta { background: var(--accent); color: white; padding: 10px 24px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; text-decoration: none; }
-@media (max-width: 900px) { .nav-links { display: none; } }
+@media (max-width: 900px) {
+  .nav-toggle { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; padding: 0; border: 1px solid var(--gray-200); border-radius: 10px; background: white; cursor: pointer; flex-shrink: 0; }
+  .nav-toggle-bar { display: block; width: 18px; height: 2px; background: var(--navy); border-radius: 1px; }
+  .nav-toggle-bar + .nav-toggle-bar { margin-top: 4px; }
+  .nav-links { display: none; }
+  .nav-links.is-open {
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    top: 64px; left: 0; right: 0;
+    background: white;
+    border-bottom: 1px solid var(--gray-200);
+    padding: 12px 16px 16px;
+    gap: 4px;
+    z-index: 40;
+  }
+  .nav-inner { position: relative; flex-wrap: wrap; }
+}
 .post-header { padding: 140px 32px 48px; max-width: 760px; margin: 0 auto; }
 .breadcrumb { font-size: 0.85rem; color: var(--gray-600); margin-bottom: 24px; }
 .breadcrumb a { color: var(--accent); text-decoration: none; font-weight: 500; }
@@ -97,7 +115,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
   "headline": "Closing the Loop With Referring Offices in 7 Days | Catalyze Care",
   "url": "https://catalyzegrowth.co/blog/closing-the-loop-referring-offices-7-days",
   "datePublished": "2026-09-24",
-  "dateModified": "2026-09-24",
+  "dateModified": "2026-09-26",
   "author": {
     "@type": "Person",
     "name": "Andrew Brazis",
@@ -235,7 +253,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 <body>
 <nav class="nav"><div class="nav-inner"><a href="../index.html" class="nav-logo"><span class="mark">CC</span> Catalyze Care</a><div class="nav-links" id="primary-nav"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../index.html#referrals">Referral Data</a><a href="../referral.html">Referral Marketing</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html" class="active" aria-current="page">Blog</a><a href="../index.html#pricing">Pricing</a></div><a href="../index.html#contact" class="nav-cta">Get Started</a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></button></div></nav>
-<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><a href="../blog.html">Blog</a><span class="sep">/</span><span>Closing the Loop With Referring Offices in 7 Days</span></nav><div class="post-cat">Referral</div><h1>Closing the Loop With Referring Offices in 7 Days</h1><div class="post-meta"><span>By <a href="../about.html">Andrew Brazis</a> · Updated September 24, 2026</span><span>&middot;</span><span>9 min read</span></div></header>
+<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><a href="../blog.html">Blog</a><span class="sep">/</span><span>Closing the Loop With Referring Offices in 7 Days</span></nav><div class="post-cat">Referral</div><h1>Closing the Loop With Referring Offices in 7 Days</h1><div class="post-meta"><span>By <a href="../about.html">Andrew Brazis</a> · Updated September 26, 2026</span><span>&middot;</span><span>9 min read</span></div></header>
 <article class="post-content">
 <p id="definition">Closing the loop with referring offices in 7 days means a named owner tells the sending office what happened after each referral (received, scheduled, seen, or needs more info) inside one week using fax, email, or portal. Catalyze Care publishes referral marketing at <strong>$5,000/month</strong> with a 3-month minimum. Service: <a href="../healthcare-referral-marketing.html">healthcare referral marketing</a>. KPI fields: <a href="referral-marketing-kpis-practices.html">referral marketing KPIs practices should track</a>. Reporting: <a href="close-the-loop-referral-reporting.html">close-the-loop referral reporting</a>.</p>
 <p class="key-takeaway" id="key-takeaway"><span class="label">In one sentence</span>Name the owner, pick the channel the office already uses, and reply inside 7 days with a status the sender can trust.</p>
@@ -270,7 +288,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 
 <section class="post-faq" id="faq" aria-labelledby="faq-heading"><h2 id="faq-heading">FAQ</h2><div class="post-faq-list"><div class="post-faq-item" id="faq-speak-1"><h3>What is a 7-day close-the-loop SLA?</h3><p>A named owner tells the referring office the status of each referral within seven days using fax, email, or portal. Status means received, needs info, scheduled, seen, or declined with a reason category.</p></div><div class="post-faq-item" id="faq-speak-2"><h3>Does Catalyze Care publish a referral conversion rate?</h3><p>No. Catalyze Care publishes referral marketing at $5,000/month with a 3-month minimum, and reports verified activity fields. Ask for latency and booked appointments, not a borrowed percentage.</p></div><div class="post-faq-item" id="faq-speak-3"><h3>Which channel should we use to close the loop?</h3><p>Use the channel the referring office already monitors. Many prefer fax for clinical packets. Email or portal only when that inbox is watched.</p></div><div class="post-faq-item" id="faq-speak-4"><h3>Which KPIs belong with this SLA?</h3><p>Referrals received, booked appointments, and close-the-loop latency in days, plus outreach volume. See referral marketing KPIs practices should track and close-the-loop referral reporting.</p></div></div></section>
 </article>
-<aside class="related-guides" aria-labelledby="related-guides-heading"><div class="related-guides-box"><h2 id="related-guides-heading">Related guides</h2><p><a href="referral-marketing-kpis-practices.html">Referral marketing KPIs</a> · <a href="close-the-loop-referral-reporting.html">Close-the-loop referral reporting</a> · <a href="../healthcare-referral-marketing.html">Healthcare referral marketing</a> · <a href="referral-analytics-closing-the-loop.html">Referral analytics</a> · <a href="staff-intake-before-scaling-referral-or-paid.html">Staff intake first</a></p></div></aside>
+<aside class="related-guides" aria-labelledby="related-guides-heading"><div class="related-guides-box"><h2 id="related-guides-heading">Related guides</h2><p><a href="referral-marketing-kpis-practices.html">Referral marketing KPIs</a> · <a href="close-the-loop-referral-reporting.html">Close-the-loop referral reporting</a> · <a href="../healthcare-referral-marketing.html">Healthcare referral marketing</a> · <a href="referral-liaison-vs-multi-channel-outreach.html">Liaison vs multi-channel outreach</a> · <a href="staff-intake-before-scaling-referral-or-paid.html">Staff intake first</a></p></div></aside>
 <p class="related-services">Related services: <a href="../healthcare-referral-marketing.html">Healthcare referral marketing</a> · <a href="../referral.html">Referral Marketing</a> · <a href="../healthcare-marketing-agency.html">Healthcare marketing agency</a> · <a href="../healthcare-digital-marketing.html">Digital marketing</a></p>
 <div class="post-cta"><div class="cta-box"><h3>Installing a 7-day referring-office SLA?</h3><p>Book a demo. Bring specialty, liaison seat, and how offices prefer fax or email. Referral retainer: $5,000/month (3-month minimum).</p><a href="../index.html#contact">Book a Demo &rarr;</a></div></div>
 <footer class="footer" aria-label="Site footer"><div class="footer-left">&copy; 2026 Catalyze Care. All rights reserved.<br>Service-area marketing for healthcare practices (no public street address).</div><div class="footer-links"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html">Blog</a>
