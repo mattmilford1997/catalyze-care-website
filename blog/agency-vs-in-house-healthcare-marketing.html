@@ -7,11 +7,11 @@
 <link rel="apple-touch-icon" href="/favicon.svg" />
 <meta property="og:locale" content="en_US" />
 <title>Agency vs In-House Healthcare Marketing | Catalyze Care</title>
-<meta name="description" content="When to hire a healthcare marketing agency vs build in-house. Uses only published Catalyze fees ($5,000 referral / $799 SEO / $2,500 paid). Published fees: $5,000 / $799 / $2,500. Named outcomes appear only with client permission." />
+<meta name="description" content="When to hire an in-house marketer, when a healthcare marketing agency fits better, and the hybrid most practices use. Published fees included." />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Agency vs In-House Healthcare Marketing | Catalyze Care" />
-<meta property="og:description" content="When to hire a healthcare marketing agency vs build in-house. Uses only published Catalyze fees ($5,000 referral / $799 SEO / $2,500 paid). Published fees: $5,000 / $799 / $2,500. Named outcomes appear only with client permission." />
+<meta property="og:description" content="When to hire an in-house marketer, when a healthcare marketing agency fits better, and the hybrid most practices use. Published fees included." />
 <meta property="og:url" content="https://catalyzegrowth.co/blog/agency-vs-in-house-healthcare-marketing" />
 <meta property="og:site_name" content="Catalyze Care" />
 <meta property="og:image" content="https://catalyzegrowth.co/og-image.png" />
@@ -21,11 +21,12 @@
 <meta property="og:image:alt" content="Catalyze Care" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Agency vs In-House Healthcare Marketing | Catalyze Care" />
-<meta name="twitter:description" content="When to hire a healthcare marketing agency vs build in-house. Uses only published Catalyze fees ($5,000 referral / $799 SEO / $2,500 paid). Published fees: $5,000 / $799 / $2,500. Named outcomes appear only with client permission." />
+<meta name="twitter:description" content="In-house vs agency for healthcare marketing: who should own what, and the hybrid most practices use." />
 <meta name="twitter:image" content="https://catalyzegrowth.co/og-image.png" />
 <meta name="twitter:image:alt" content="Catalyze Care" />
 <meta property="article:published_time" content="2026-09-08" />
-<meta property="article:modified_time" content="2026-09-09" />
+<meta property="article:modified_time" content="2026-09-27" />
+<meta property="article:author" content="Andrew Brazis" />
 <link rel="canonical" href="https://catalyzegrowth.co/blog/agency-vs-in-house-healthcare-marketing" />
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
 <style>
@@ -40,8 +41,26 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 .nav-links { display: flex; gap: 4px; }
 .nav-links a { text-decoration: none; color: var(--slate); font-size: 0.9rem; font-weight: 500; padding: 8px 16px; border-radius: 8px; }
 .nav-links a.active { color: var(--accent); background: var(--accent-pale); }
+.nav-toggle { display: none; }
 .nav-cta { background: var(--accent); color: white; padding: 10px 24px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; text-decoration: none; }
-@media (max-width: 900px) { .nav-links { display: none; } }
+@media (max-width: 900px) {
+  .nav-toggle { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; padding: 0; border: 1px solid var(--gray-200); border-radius: 10px; background: white; cursor: pointer; flex-shrink: 0; }
+  .nav-toggle-bar { display: block; width: 18px; height: 2px; background: var(--navy); border-radius: 1px; }
+  .nav-toggle-bar + .nav-toggle-bar { margin-top: 4px; }
+  .nav-links { display: none; }
+  .nav-links.is-open {
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    top: 64px; left: 0; right: 0;
+    background: white;
+    border-bottom: 1px solid var(--gray-200);
+    padding: 12px 16px 16px;
+    gap: 4px;
+    z-index: 40;
+  }
+  .nav-inner { position: relative; flex-wrap: wrap; }
+}
 .post-header { padding: 140px 32px 48px; max-width: 760px; margin: 0 auto; }
 .breadcrumb { font-size: 0.85rem; color: var(--gray-600); margin-bottom: 24px; }
 .breadcrumb a { color: var(--accent); text-decoration: none; font-weight: 500; }
@@ -76,13 +95,12 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 .related-guides { max-width: 760px; margin: 0 auto 24px; padding: 0 32px; }
 .related-guides-box { border: 1px solid var(--gray-200); border-radius: 12px; padding: 24px; background: var(--gray-100); }
 .related-guides-box h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; margin-bottom: 12px; }
-.related-guides-box ul { margin: 0 0 0 18px; color: var(--slate); }
+.related-guides-box p { color: var(--slate); font-size: 0.95rem; line-height: 1.75; margin: 0; }
 .related-guides-box a { color: var(--accent); text-decoration: none; font-weight: 500; }
 .key-takeaway { background: var(--accent-pale); border-left: 3px solid var(--accent); padding: 14px 18px; margin: 0 0 24px; border-radius: 0 10px 10px 0; }
 .key-takeaway .label { display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
 @media (max-width: 600px) { .post-header { padding: 120px 20px 40px; } .post-content { padding: 0 20px 60px; } .post-cta { padding: 0 20px 60px; } .cta-box { padding: 32px 24px; } .footer { flex-direction: column; text-align: center; } .related-services, .related-guides { padding: 0 20px; } }
 </style>
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-084ZGKDXZQ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -97,14 +115,15 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
   "headline": "Agency vs In-House Healthcare Marketing | Catalyze Care",
   "url": "https://catalyzegrowth.co/blog/agency-vs-in-house-healthcare-marketing",
   "datePublished": "2026-09-08",
-  "dateModified": "2026-09-09",
+  "dateModified": "2026-09-27",
   "author": {
     "@type": "Person",
-    "name": "Andrew",
+    "name": "Andrew Brazis",
     "email": "andrew@catalyzegrowth.co",
-    "url": "https://catalyzegrowth.co/about"
+    "url": "https://catalyzegrowth.co/about",
+    "sameAs": "https://www.linkedin.com/in/andrew-brazis-1769591a9"
   },
-  "description": "When to hire a healthcare marketing agency vs build in-house. Uses only published Catalyze fees ($5,000 referral / $799 SEO / $2,500 paid). Published fees: $5,000 / $799 / $2,500. Named outcomes appear only with client permission.",
+  "description": "When to hire an in-house marketer, when a healthcare marketing agency fits better, and the hybrid most practices use. Published fees included.",
   "image": "https://catalyzegrowth.co/og-image.png",
   "publisher": {
     "@type": "Organization",
@@ -146,26 +165,34 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "When is in-house marketing better than an agency?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When you have steady work for one or two channels, clinical review capacity, and a manager who can coach the marketer every week."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When is a healthcare marketing agency the better fit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When you need referral outreach, healthcare ad policy knowledge, or local SEO depth quickly, or want several channels on one plan without hiring for each role."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should stay in-house if we hire an agency?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Intake, clinical review of any health claim, brand voice, and follow-up with referring offices. The agency runs the channel work around them."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "What are Catalyze Care's published fees?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Referral marketing $5,000/month with a 3-month minimum; SEO $799/month; paid ads $2,500/month management (media spend separate). Fees match the homepage and service pages."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When is in-house better than an agency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When you have continuous work for one or two channels, clinical review capacity, and a manager who can coach the marketer weekly. If you need claims-backed referral outreach or healthcare ad policy expertise immediately, an agency is usually faster."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will Catalyze Care share named client results?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Compare published fees, channel fit, and reporting. Named case studies only with permission."
+        "text": "Referral marketing $5,000/month with a 3-month minimum, SEO $799/month, and paid ads management $2,500/month with media billed separately."
       }
     }
   ]
@@ -192,50 +219,40 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 <body>
 <nav class="nav"><div class="nav-inner"><a href="../index.html" class="nav-logo"><span class="mark">CC</span> Catalyze Care</a><div class="nav-links" id="primary-nav"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../index.html#referrals">Referral Data</a><a href="../referral.html">Referral Marketing</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html" class="active" aria-current="page">Blog</a><a href="../index.html#pricing">Pricing</a></div><a href="../index.html#contact" class="nav-cta">Get Started</a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></button></div></nav>
-<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><a href="../blog.html">Blog</a><span class="sep">/</span><span>Agency vs In-House Healthcare Marketing</span></nav><div class="post-cat">Strategy</div><h1>Agency vs In-House Healthcare Marketing</h1><div class="post-meta"><span>By Andrew · Updated September 9, 2026</span><span>&middot;</span><span>8 min read</span></div></header>
+<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><a href="../blog.html">Blog</a><span class="sep">/</span><span>Agency vs In-House Healthcare Marketing</span></nav><div class="post-cat">Strategy</div><h1>Agency vs In-House Healthcare Marketing</h1><div class="post-meta"><span>By <a href="../about.html">Andrew Brazis</a> · Updated September 27, 2026</span><span>&middot;</span><span>7 min read</span></div></header>
 <article class="post-content">
-<p id="definition">Choose an in-house marketer when you have enough continuous work, clinical review capacity, and management time to run referral outreach, SEO, and paid ads week after week. Choose a healthcare marketing agency when you need specialized channel execution, claims-backed referral targeting, HIPAA-aware ads, local SEO, without hiring three roles. Either path still needs a named owner at the practice for intake, referring-provider fields, and clinical review of claims; the agency does not replace those jobs. Catalyze Care publishes fees on this site: <strong>$5,000/month</strong> referral marketing (3-month minimum), <strong>$799/month</strong> SEO, and <strong>$2,500/month</strong> paid ads (media spend separate). Published fees: $5,000 / $799 / $2,500. Named outcomes appear only with client permission.</p>
-<p class="key-takeaway" id="key-takeaway"><span class="label">In one sentence</span>In-house wins on day-to-day control; a healthcare agency wins on specialized channel depth, compare published fees, not published fees and named outcomes with permission.</p>
-<h2>What “in-house” actually costs</h2>
-<p>A single generalist marketer rarely covers physician outreach, Google Ads policy for healthcare, and local SEO at once. Fully loaded cost includes salary, benefits, tools, creative, and management time. Public BLS wage data for related sales and marketing roles shows mid-five to low-six-figure base pay bands before benefits, useful as a floor, not as Catalyze pricing.</p>
-<p class="cite">Source: <a href="https://www.bls.gov/ooh/sales/wholesale-and-manufacturing-sales-representatives.htm">U.S. BLS, Wholesale and Manufacturing Sales Representatives</a> (May 2024 median pay context for technical/scientific sales).</p>
-<h2>What an agency should put on the page</h2>
+<p id="definition">Choose in-house marketing when you have steady work for one or two channels, clinical review capacity, and a manager with time to coach. Choose a <a href="../healthcare-marketing-agency.html">healthcare marketing agency</a> when you need specialist work across referral outreach, SEO, or paid ads without hiring for each role. Either way, keep intake, clinical review, and referring-office follow-up inside the practice. Catalyze Care publishes its fees: referral marketing <strong>$5,000/month</strong> (3-month minimum), SEO <strong>$799/month</strong>, and paid ads management <strong>$2,500/month</strong> with media billed separately.</p>
+<p class="key-takeaway" id="key-takeaway"><span class="label">In one sentence</span>In-house wins on day-to-day control, an agency wins on specialist channel depth, and most practices do best with a hybrid that keeps intake and clinical review inside.</p>
+
+<h2>What an in-house hire really costs</h2>
+<p>One generalist marketer rarely covers physician outreach, healthcare ad policy, and local SEO at the same depth. Budget for salary, benefits, software, creative, and the manager hours spent coaching. The U.S. Bureau of Labor Statistics publishes pay data for <a href="https://www.bls.gov/ooh/management/advertising-promotions-and-marketing-managers.htm" target="_blank" rel="noopener">advertising, promotions, and marketing managers</a> that works as a starting point for your area.</p>
+
+<h2>Lean in-house when</h2>
 <ul>
-<li><strong>Published fees.</strong> Catalyze Care: $5,000 referral (3-month minimum), $799 SEO, $2,500 paid ads.</li>
-<li><strong>Healthcare-only focus.</strong> Fax workflows, condition-targeting limits, appointment-form constraints.</li>
-<li><strong>Data ownership.</strong> You should keep lists, creatives, and ad accounts.</li>
-<li><strong>Reporting cadence.</strong> Monthly outreach, rankings, or spend, not a promised multiple.</li>
+<li>You need steady content and one main channel, and you can hire and manage for it.</li>
+<li>Local SEO and Business Profile upkeep can be learned and done weekly by staff.</li>
+<li>Brand voice and clinical review need a daily presence in the office.</li>
 </ul>
-<p>Buyer checklist: <a href="../how-to-choose-a-healthcare-marketing-agency.html">how to choose a healthcare marketing agency</a>. Definition: <a href="what-is-a-healthcare-marketing-agency.html">what is a healthcare marketing agency</a>.</p>
-<h2>Decision table</h2>
-<div class="stack-table-wrap">
-<table class="stack-table">
-<thead><tr><th>Situation</th><th>Lean in-house</th><th>Lean agency</th></tr></thead>
-<tbody>
-<tr><td data-label="Situation">Steady content + one channel</td><td data-label="Lean in-house">Yes, if you can hire and manage</td><td data-label="Lean agency">Optional for overflow</td></tr>
-<tr><td data-label="Situation">Referral outreach across many offices</td><td data-label="Lean in-house">Hard without claims map + cadence</td><td data-label="Lean agency">Flagship Catalyze work at $5,000/mo</td></tr>
-<tr><td data-label="Situation">HIPAA-aware Google/Meta ads</td><td data-label="Lean in-house">Needs certified specialist time</td><td data-label="Lean agency">$2,500/mo management (+ media)</td></tr>
-<tr><td data-label="Situation">Local SEO / GBP / citations</td><td data-label="Lean in-house">Doable with training</td><td data-label="Lean agency">$799/mo if you want it owned</td></tr>
-<tr><td data-label="Situation">Need a guaranteed ROI slide</td><td data-label="Lean in-house">Neither path should sell a guaranteed multiple</td><td data-label="Lean agency">Catalyze reports activity you can check against intake</td></tr>
-</tbody>
-</table>
-</div>
-<h2>Hybrid that usually works</h2>
-<p>Keep intake, clinical review, and brand voice in-house. Outsource the channel that needs specialized tooling: claims-backed referral lists, ad policy navigation, or technical SEO. Sequence with <a href="../healthcare-digital-marketing.html">healthcare digital marketing</a> rather than buying three disconnected retainers on day one.</p>
-<h2>Sources</h2>
+
+<h2>Lean agency when</h2>
 <ul>
-<li><a href="https://www.bls.gov/ooh/sales/wholesale-and-manufacturing-sales-representatives.htm">U.S. BLS, Wholesale and Manufacturing Sales Representatives</a></li>
-<li>Catalyze Care published fees on <a href="../index.html#pricing">pricing</a>, <a href="../referral.html">referral</a>, <a href="../seo.html">SEO</a>, and <a href="../paid-ads.html">paid ads</a></li>
+<li>Referral outreach has to reach many offices on a steady cadence with a researched target list.</li>
+<li>Google and Meta ads need someone current on healthcare policy and tracking that keeps patient data out of ad platforms.</li>
+<li>You want SEO, paid ads, and referral work sharing one specialty and geography plan without three new hires.</li>
 </ul>
-<section class="post-faq" id="faq" aria-labelledby="faq-heading"><h2 id="faq-heading">FAQ</h2><div class="post-faq-list"><div class="post-faq-item"><h3>What are Catalyze Care's published fees?</h3><p>Referral marketing $5,000/month with a 3-month minimum; SEO $799/month; paid ads $2,500/month management (media spend separate). Fees match the homepage and service pages.</p></div><div class="post-faq-item"><h3>When is in-house better than an agency?</h3><p>When you have continuous work for one or two channels, clinical review capacity, and a manager who can coach the marketer weekly. If you need claims-backed referral outreach or healthcare ad policy expertise immediately, an agency is usually faster.</p></div><div class="post-faq-item"><h3>Will Catalyze Care share named client results?</h3><p>No. Compare published fees, channel fit, and reporting. Named case studies only with permission.</p></div></div></section>
+
+<h2>The hybrid most practices use</h2>
+<p>Keep intake, clinical review, and brand voice in-house. Hand the channel that needs specialist tools and cadence to an agency. Sequence channels on one plan, as described in our overview of <a href="../healthcare-digital-marketing.html">healthcare digital marketing</a>, instead of buying three separate retainers on day one.</p>
+
+<h2>What to ask before you choose</h2>
+<p>Ask any agency for written fees with media separate from management, practice-owned accounts, and a sample monthly report. Our <a href="healthcare-marketing-agency-fee-transparency-checklist.html">fee transparency checklist</a> covers the line items, and <a href="healthcare-marketing-agency-onboarding-first-30-days.html">what the first 30 days should look like</a> shows what to expect after you sign.</p>
+
+<section class="post-faq" id="faq" aria-labelledby="faq-heading"><h2 id="faq-heading">FAQ</h2><div class="post-faq-list"><div class="post-faq-item" id="faq-speak-1"><h3>When is in-house marketing better than an agency?</h3><p>When you have steady work for one or two channels, clinical review capacity, and a manager who can coach the marketer every week.</p></div><div class="post-faq-item" id="faq-speak-2"><h3>When is a healthcare marketing agency the better fit?</h3><p>When you need referral outreach, healthcare ad policy knowledge, or local SEO depth quickly, or want several channels on one plan without hiring for each role.</p></div><div class="post-faq-item" id="faq-speak-3"><h3>What should stay in-house if we hire an agency?</h3><p>Intake, clinical review of any health claim, brand voice, and follow-up with referring offices. The agency runs the channel work around them.</p></div><div class="post-faq-item" id="faq-speak-4"><h3>What are Catalyze Care's published fees?</h3><p>Referral marketing $5,000/month with a 3-month minimum, SEO $799/month, and paid ads management $2,500/month with media billed separately.</p></div></div></section>
 </article>
-<aside class="related-guides" aria-labelledby="related-guides-heading"><div class="related-guides-box"><h2 id="related-guides-heading">Related guides</h2><ul><li><a href="what-is-a-healthcare-marketing-agency.html">What is a healthcare marketing agency</a></li><li><a href="../how-to-choose-a-healthcare-marketing-agency.html">How to choose a healthcare marketing agency</a></li><li><a href="what-healthcare-only-agency-should-mean.html">What “healthcare-only agency” should mean</a></li>
-<li><a href="when-not-to-hire-healthcare-marketing-agency.html">When not to hire a healthcare marketing agency</a></li><li><a href="questions-before-signing-healthcare-marketing-contract.html">Questions before signing a healthcare marketing contract</a></li><li><a href="physician-liaison-vs-referral-agency.html">Physician liaison vs referral agency</a></li><li><a href="provider-referrals-vs-paid-ads.html">Referral marketing vs paid ads</a></li>
-<li><a href="../compare.html">Compare / alternatives hub</a></li>
-<li><a href="../best-healthcare-marketing-agencies-for-practices.html">Best healthcare marketing agencies for practices (2026)</a></li></ul></div></aside>
-<p class="related-services">Related services: <a href="../healthcare-marketing-agency.html">Healthcare marketing agency</a> · <a href="../referral.html">Referral Marketing</a> · <a href="../seo.html">SEO</a> · <a href="../paid-ads.html">Paid Ads</a></p>
-<div class="post-cta"><div class="cta-box"><h3>Comparing agency vs in-house for your practice?</h3><p>Book a free consultation and we'll show you exactly what we'd run for your practice.</p><a href="../index.html#contact">Book a Free Consultation &rarr;</a></div></div>
+<aside class="related-guides" aria-labelledby="related-guides-heading"><div class="related-guides-box"><h2 id="related-guides-heading">Related guides</h2><p><a href="../healthcare-marketing-agency.html">Healthcare marketing agency</a> · <a href="what-is-a-healthcare-marketing-agency.html">What is a healthcare marketing agency</a> · <a href="../how-to-choose-a-healthcare-marketing-agency.html">How to choose a healthcare marketing agency</a> · <a href="healthcare-marketing-agency-onboarding-first-30-days.html">Agency onboarding: the first 30 days</a> · <a href="healthcare-marketing-agency-fee-transparency-checklist.html">Fee transparency checklist</a></p></div></aside>
+<p class="related-services">Related services: <a href="../referral.html">Referral marketing</a> · <a href="../seo.html">SEO</a> · <a href="../paid-ads.html">Paid ads</a></p>
+<div class="post-cta"><div class="cta-box"><h3>Weighing a hire against an agency?</h3><p>Book a demo and we will map which channel to hand off first. Published fees: referral $5,000/month, SEO $799/month, paid ads $2,500/month plus media.</p><a href="../index.html#contact">Book a Demo &rarr;</a></div></div>
 <footer class="footer" aria-label="Site footer"><div class="footer-left">&copy; 2026 Catalyze Care. All rights reserved.<br>Service-area marketing for healthcare practices (no public street address).</div><div class="footer-links"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html">Blog</a>
-        <a href="../healthcare-marketing-agency.html">Agency</a> <a href="../healthcare-digital-marketing.html">Digital Marketing</a> <a href="../healthcare-referral-marketing.html">Referral Practices</a> <a href="../seo-for-healthcare-practices.html">SEO for Practices</a> <a href="../paid-ads-for-healthcare-practices.html">Paid Ads for Practices</a> <a href="../about.html">About</a> <a href="../index.html#contact">Contact</a> <a href="/privacy">Privacy</a> <a href="/terms">Terms</a></div></footer>
+        <a href="../healthcare-marketing-agency.html">Agency</a> <a href="../healthcare-digital-marketing.html">Digital Marketing</a> <a href="../healthcare-referral-marketing.html">Referral Practices</a> <a href="../seo-for-healthcare-practices.html">SEO for Practices</a> <a href="../paid-ads-for-healthcare-practices.html">Paid Ads for Practices</a> <a href="../about.html">About</a> <a href="../index.html#contact">Contact</a></div></footer>
 </body>
 </html>
