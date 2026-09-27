@@ -154,3 +154,11 @@ Key facts
 - HIPAA-aware remarketing for healthcare paid ads: https://catalyzegrowth.co/blog/hipaa-aware-remarketing-healthcare-paid-ads (no condition targeting; links /paid-ads-for-healthcare-practices + LP checklist; $2,500 management, media separate)
 - Lander FAQ/Speakable teasers: referral, agency, SEO, paid-ads-for-healthcare-practices
 - Sermo Hoffman pair: skipped (public marketing footprint not used for a new vs/alt this ship)
+
+## Sun 2026-09-27 ship
+- SEO audit checklist for healthcare practices: https://catalyzegrowth.co/blog/healthcare-practice-seo-audit-checklist (listing, indexing, pages, reviews, 90-day fix list; SEO $799/month)
+- Provider and location pages that rank: https://catalyzegrowth.co/blog/provider-and-location-pages-healthcare-seo (location and provider page fields, MedicalClinic/Physician schema, internal links)
+- Healthcare marketing agency onboarding, first 30 days: https://catalyzegrowth.co/blog/healthcare-marketing-agency-onboarding-first-30-days (access, intake, targeting, tracking without PHI, report format)
+- Healthcare digital marketing metrics glossary: https://catalyzegrowth.co/blog/healthcare-digital-marketing-metrics-glossary (15 defined terms; DefinedTermSet)
+- Refreshed: agency vs in-house, review generation for healthcare practices, multi-location healthcare paid ads structure
+- Fees unchanged: referral $5,000/month (3-month minimum), SEO $799/month, paid ads $2,500/month management (media separate)
