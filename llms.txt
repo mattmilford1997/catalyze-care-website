@@ -12,7 +12,7 @@ Services
 - Healthcare digital marketing: https://catalyzegrowth.co/healthcare-digital-marketing, lander (updated 2026-09-20): stack map + mid-size budget teasers. Speakable #definition + #key-takeaway + FAQ. Published fees $5,000 / $799 / $2,500.
 - Healthcare referral marketing: https://catalyzegrowth.co/healthcare-referral-marketing, lander (updated 2026-09-18): owned-list + fee + report FAQs. Speakable #definition + #key-takeaway + FAQ. $5,000/month.
 - SEO for healthcare practices: https://catalyzegrowth.co/seo-for-healthcare-practices, lander (updated 2026-09-18): multi-provider package + AI Overviews FAQs. Speakable FAQ. No ranking guarantees. $799/month.
-- Paid ads for healthcare practices: https://catalyzegrowth.co/paid-ads-for-healthcare-practices, lander (updated 2026-09-18): answer-first H2, multi-location structure FAQ, $2,500/month management (media separate). Speakable FAQ. Reports show spend and booked-inquiry fields from your intake.
+- Paid ads for healthcare practices: https://catalyzegrowth.co/paid-ads-for-healthcare-practices, lander (updated 2026-09-29): pixels + call conversion >60s FAQ, $2,500 fee card, Speakable FAQ. Links compliance checklist 2026.
 
 Referral marketing is the flagship service at a published $5,000/month with a 3-month minimum (updated 2026-09-08 on /referral with service-standard close-the-loop cadence). Campaigns are built on claims-backed referral intelligence covering 48 million+ relationships across 120+ specialties, with multi-channel outreach via fax, email, phone, LinkedIn, and direct mail.
 
@@ -162,3 +162,8 @@ Key facts
 - Healthcare digital marketing metrics glossary: https://catalyzegrowth.co/blog/healthcare-digital-marketing-metrics-glossary (15 defined terms; DefinedTermSet)
 - Refreshed: agency vs in-house, review generation for healthcare practices, multi-location healthcare paid ads structure
 - Fees unchanged: referral $5,000/month (3-month minimum), SEO $799/month, paid ads $2,500/month management (media separate)
+
+## Tue 2026-09-29 paid regain pack
+- Paid ads for healthcare practices lander expanded: HIPAA-aware pixels FAQ, conversion events (calls >60s), landing checklist teaser, published $2,500 fee card, Speakable + FAQPage synced. https://catalyzegrowth.co/paid-ads-for-healthcare-practices
+- New citeable post: Healthcare paid ads compliance checklist 2026 (LegitScript-aware creative, PHI pixels, call conversion >60s). FAQPage + Speakable + BlogPosting + HowTo. https://catalyzegrowth.co/blog/healthcare-paid-ads-compliance-checklist-2026
+- Hygiene: blog card + ItemList, sitemap lastmod, bidirectional related ≤5. Prices unchanged $5,000 / $799 / $2,500.
