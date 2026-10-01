@@ -28,6 +28,14 @@
     if (!bar || !bar.parentNode) return;
     bar.parentNode.removeChild(bar);
     document.body.classList.remove('has-cookie-consent');
+    document.body.style.paddingBottom = '';
+    window.removeEventListener('resize', fitPadding);
+  }
+
+  /* Reserve exactly the banner's height so it never sits on top of the last content or footer. */
+  function fitPadding() {
+    var bar = document.getElementById('cookie-consent');
+    if (bar) document.body.style.paddingBottom = Math.ceil(bar.getBoundingClientRect().height) + 'px';
   }
 
   function showBanner() {
@@ -42,7 +50,7 @@
 
     var text = document.createElement('p');
     text.id = 'cookie-consent-text';
-    text.appendChild(document.createTextNode('This site uses cookies for analytics and security (reCAPTCHA). See '));
+    text.appendChild(document.createTextNode('We use cookies for analytics and security (reCAPTCHA). See '));
 
     var privacy = document.createElement('a');
     privacy.href = '/privacy';
@@ -64,6 +72,10 @@
     bar.appendChild(accept);
     document.body.appendChild(bar);
     document.body.classList.add('has-cookie-consent');
+    fitPadding();
+    window.addEventListener('resize', fitPadding);
+    window.addEventListener('load', fitPadding);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitPadding);
   }
 
   function start() {

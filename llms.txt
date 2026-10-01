@@ -16,8 +16,8 @@ Services
 
 Referral marketing is the flagship service at a published $5,000/month with a 3-month minimum (updated 2026-09-08 on /referral with service-standard close-the-loop cadence). Campaigns are built on claims-backed referral intelligence covering 48 million+ relationships across 120+ specialties, with multi-channel outreach via fax, email, phone, LinkedIn, and direct mail.
 
-Also on this site
-- Home: https://catalyzegrowth.co/, FAQ / related cluster now links case-studies honesty stub (2026-09-11). Homepage #pricing cards now include referral $5,000, SEO $799, and paid ads $2,500 with Book a Demo (2026-09-15).
+More from Catalyze Care
+- Home: https://catalyzegrowth.co/, FAQ / related cluster now links the case studies page (2026-09-11). Homepage #pricing cards now include referral $5,000, SEO $799, and paid ads $2,500 with Book a Demo (2026-09-15).
 - About: https://catalyzegrowth.co/about, contact and orientation (updated 2026-09-10); links how Catalyze Care works and case studies.
 - Privacy: https://catalyzegrowth.co/privacy, short Catalyze Care LLC notice (forms, GA4 G-084ZGKDXZQ, reCAPTCHA, Netlify). Operator andrew@catalyzegrowth.co.
 - Terms: https://catalyzegrowth.co/terms, short site terms: informational, services under separate agreement, California law.
@@ -167,3 +167,13 @@ Key facts
 - Paid ads for healthcare practices lander expanded: HIPAA-aware pixels FAQ, conversion events (calls >60s), landing checklist teaser, published $2,500 fee card, Speakable + FAQPage synced. https://catalyzegrowth.co/paid-ads-for-healthcare-practices
 - New citeable post: Healthcare paid ads compliance checklist 2026 (LegitScript-aware creative, PHI pixels, call conversion >60s). FAQPage + Speakable + BlogPosting + HowTo. https://catalyzegrowth.co/blog/healthcare-paid-ads-compliance-checklist-2026
 - Hygiene: blog card + ItemList, sitemap lastmod, bidirectional related ≤5. Prices unchanged $5,000 / $799 / $2,500.
+
+## Tue 2026-09-29 referral regain + cleanup
+- Why healthcare PPC rankings swing week to week: https://catalyzegrowth.co/blog/why-healthcare-ppc-rankings-swing (Ad Rank, ad review, bid strategy status, Quality Score, weekly check; Google Ads Help sources)
+- Referral marketing scorecard for multi-location practices: https://catalyzegrowth.co/blog/referral-marketing-scorecard-multi-location-practices (capture, response time, loop closure, source mix, outreach capacity; AHRQ care coordination source)
+- Paid ads for healthcare practices: https://catalyzegrowth.co/paid-ads-for-healthcare-practices (FAQ added: why ad position changes week to week)
+- Sitewide cleanup: self-referential copy removed from older posts and comparison pages; blog card and meta descriptions rewritten for readers
+- Healthcare referral marketing: https://catalyzegrowth.co/healthcare-referral-marketing (multi-location scoring section, FAQs on timing, paying for referrals, and multi-location measurement)
+- What is healthcare referral marketing: https://catalyzegrowth.co/blog/what-is-healthcare-referral-marketing (refreshed 2026-09-29: cost, 7-day loop, and multi-location FAQs; author Andrew Brazis)
+- Paid ads: https://catalyzegrowth.co/paid-ads (Local Services Ads copy corrected: healthcare providers carried Google Screened, not Google Guaranteed; Google now shows a single Google Verified badge)
+- Fees unchanged: referral $5,000/month (3-month minimum), SEO $799/month, paid ads $2,500/month management (media separate)
