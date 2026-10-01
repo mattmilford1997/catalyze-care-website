@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#F97316" />
+<link rel="apple-touch-icon" href="/favicon.svg" />
+<meta property="og:locale" content="en_US" />
+<title>Multi-Location Referral Marketing Scorecard | Catalyze Care</title>
+<meta name="description" content="A monthly referral scorecard for multi-location practices: capture, response time, loop closure, source mix, and outreach capacity by location." />
+<link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Multi-Location Referral Marketing Scorecard | Catalyze Care" />
+<meta property="og:description" content="A monthly referral scorecard for multi-location practices: capture, response time, loop closure, source mix, and outreach capacity by location." />
+<meta property="og:url" content="https://catalyzegrowth.co/blog/referral-marketing-scorecard-multi-location-practices" />
+<meta property="og:site_name" content="Catalyze Care" />
+<meta property="og:image" content="https://catalyzegrowth.co/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:alt" content="Catalyze Care" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Multi-Location Referral Marketing Scorecard | Catalyze Care" />
+<meta name="twitter:description" content="One monthly table for every location: referral capture, response time, loop closure, source mix, and outreach capacity." />
+<meta name="twitter:image" content="https://catalyzegrowth.co/og-image.png" />
+<meta name="twitter:image:alt" content="Catalyze Care" />
+<meta property="article:published_time" content="2026-09-29" />
+<meta property="article:modified_time" content="2026-09-29" />
+<meta property="article:author" content="Andrew Brazis" />
+<link rel="canonical" href="https://catalyzegrowth.co/blog/referral-marketing-scorecard-multi-location-practices" />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --navy: #1A1A2E; --accent: #F97316; --accent-light: #FB923C; --accent-pale: #FFF7ED; --slate: #3D4F6F; --gray-100: #F4F6F9; --gray-200: #E2E7EF; --gray-400: #8E99AB; --gray-600: #5A6882; --white: #FFFFFF; }
+html { scroll-behavior: smooth; }
+body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6; background: var(--white); }
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.92); backdrop-filter: blur(16px); border-bottom: 1px solid var(--gray-200); }
+.nav-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0 32px; height: 64px; }
+.nav-logo { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.25rem; color: var(--navy); text-decoration: none; display: flex; align-items: center; gap: 8px; }
+.nav-logo .mark { width: 32px; height: 32px; background: var(--accent); border-radius: 8px; display: grid; place-items: center; color: white; font-size: 0.85rem; font-weight: 700; }
+.nav-links { display: flex; gap: 4px; }
+.nav-links a { text-decoration: none; color: var(--slate); font-size: 0.9rem; font-weight: 500; padding: 8px 16px; border-radius: 8px; }
+.nav-links a.active { color: var(--accent); background: var(--accent-pale); }
+.nav-toggle { display: none; }
+.nav-cta { background: var(--accent); color: white; padding: 10px 24px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; text-decoration: none; }
+@media (max-width: 900px) {
+  .nav-toggle { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; padding: 0; border: 1px solid var(--gray-200); border-radius: 10px; background: white; cursor: pointer; flex-shrink: 0; }
+  .nav-toggle-bar { display: block; width: 18px; height: 2px; background: var(--navy); border-radius: 1px; }
+  .nav-toggle-bar + .nav-toggle-bar { margin-top: 4px; }
+  .nav-links { display: none; }
+  .nav-links.is-open {
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    top: 64px; left: 0; right: 0;
+    background: white;
+    border-bottom: 1px solid var(--gray-200);
+    padding: 12px 16px 16px;
+    gap: 4px;
+    z-index: 40;
+  }
+  .nav-inner { position: relative; flex-wrap: wrap; }
+}
+.post-header { padding: 140px 32px 48px; max-width: 760px; margin: 0 auto; }
+.breadcrumb { font-size: 0.85rem; color: var(--gray-600); margin-bottom: 24px; }
+.breadcrumb a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.breadcrumb .sep { margin: 0 8px; color: var(--gray-400); }
+.post-cat { display: inline-flex; font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: 18px; }
+.post-header h1 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.18; letter-spacing: -0.02em; margin-bottom: 20px; }
+.post-meta { font-size: 0.88rem; color: var(--gray-600); display: flex; gap: 10px; flex-wrap: wrap; }
+.post-content { max-width: 760px; margin: 0 auto; padding: 0 32px 80px; }
+.post-content h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; margin: 44px 0 16px; color: var(--navy); }
+.post-content h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; font-weight: 700; margin: 28px 0 12px; color: var(--navy); }
+.post-content p { font-size: 1.02rem; color: var(--slate); line-height: 1.8; margin-bottom: 20px; }
+.post-content ul, .post-content ol { margin: 0 0 20px 24px; color: var(--slate); line-height: 1.8; }
+.post-content li { margin-bottom: 8px; font-size: 1.02rem; }
+.post-content strong { color: var(--navy); }
+.post-content a { color: var(--accent); font-weight: 500; text-decoration: none; }
+.post-content a:hover { text-decoration: underline; }
+.post-content .cite { font-size: 0.92rem; color: var(--gray-600); }
+.post-content table { width: 100%; border-collapse: collapse; margin: 0 0 24px; font-size: 0.95rem; }
+.post-content th, .post-content td { border: 1px solid var(--gray-200); padding: 12px 14px; text-align: left; vertical-align: top; }
+.post-content th { background: var(--gray-100); color: var(--navy); font-weight: 600; }
+.post-cta { max-width: 760px; margin: 0 auto; padding: 0 32px 80px; }
+.cta-box { background: var(--navy); border-radius: 14px; padding: 44px; text-align: center; }
+.cta-box h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.35rem; font-weight: 700; color: white; margin-bottom: 10px; }
+.cta-box p { color: var(--gray-400); font-size: 0.95rem; margin-bottom: 24px; }
+.cta-box a { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: white; padding: 14px 28px; border-radius: 10px; font-size: 0.92rem; font-weight: 600; text-decoration: none; }
+.footer { border-top: 1px solid var(--gray-200); padding: 40px 32px; max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+.footer-left { font-size: 0.85rem; color: var(--gray-600); }
+.footer-links { display: flex; gap: 24px; flex-wrap: wrap; }
+.footer-links a { font-size: 0.85rem; color: var(--gray-600); text-decoration: none; }
+.related-services { max-width: 760px; margin: 0 auto 24px; padding: 0 32px; font-size: 0.9rem; color: var(--gray-600); }
+.related-services a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.related-guides { max-width: 760px; margin: 0 auto 24px; padding: 0 32px; }
+.related-guides-box { border: 1px solid var(--gray-200); border-radius: 12px; padding: 24px; background: var(--gray-100); }
+.related-guides-box h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; margin-bottom: 12px; }
+.related-guides-box p { color: var(--slate); font-size: 0.95rem; line-height: 1.75; margin: 0; }
+.related-guides-box a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.key-takeaway { background: var(--accent-pale); border-left: 3px solid var(--accent); padding: 14px 18px; margin: 0 0 24px; border-radius: 0 10px 10px 0; }
+.key-takeaway .label { display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+@media (max-width: 600px) { .post-header { padding: 120px 20px 40px; } .post-content { padding: 0 20px 60px; } .post-cta { padding: 0 20px 60px; } .cta-box { padding: 32px 24px; } .footer { flex-direction: column; text-align: center; } .related-services, .related-guides { padding: 0 20px; } }
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-084ZGKDXZQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-084ZGKDXZQ');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Multi-Location Referral Marketing Scorecard | Catalyze Care",
+  "url": "https://catalyzegrowth.co/blog/referral-marketing-scorecard-multi-location-practices",
+  "datePublished": "2026-09-29",
+  "dateModified": "2026-09-29",
+  "author": {
+    "@type": "Person",
+    "name": "Andrew Brazis",
+    "email": "andrew@catalyzegrowth.co",
+    "url": "https://catalyzegrowth.co/about",
+    "sameAs": "https://www.linkedin.com/in/andrew-brazis-1769591a9"
+  },
+  "description": "A monthly referral scorecard for multi-location practices: capture, response time, loop closure, source mix, and outreach capacity by location.",
+  "image": "https://catalyzegrowth.co/og-image.png",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Catalyze Care",
+    "url": "https://catalyzegrowth.co"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://catalyzegrowth.co/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://catalyzegrowth.co/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Referral Marketing Scorecard for Multi-Location Practices",
+      "item": "https://catalyzegrowth.co/blog/referral-marketing-scorecard-multi-location-practices"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should a referral scorecard for multiple locations include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Five areas per location: referral capture, response time from referral to patient contact, loop closure with the sending office, source mix across referring offices, and outreach capacity versus the priority list."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should a multi-location practice review referral data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monthly for the full scorecard, with a weekly glance at response time and loop closure at any location that missed its target the month before."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What close-the-loop standard should each location use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Set it from your own baseline. Catalyze Care's close-the-loop guide uses a seven-day status update to the sending office as the service standard, and each location is scored against the same number."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does every location need its own physician liaison?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not always. Compare each location's priority office list with the offices actually contacted. Where the list is longer than a liaison's calendar, add fax, email, phone, or LinkedIn outreach to the same list."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does Catalyze Care charge for referral marketing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Referral marketing is $5,000/month with a 3-month minimum. Monthly reports show outreach and booked-inquiry fields from your intake."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "url": "https://catalyzegrowth.co/blog/referral-marketing-scorecard-multi-location-practices",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "#definition",
+      "#key-takeaway",
+      "#faq-speak-1",
+      "#faq-speak-2"
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Monthly referral scorecard review for a multi-location practice",
+  "description": "Pull fields, flag misses, review loop misses, rebalance outreach, and pick focus offices.",
+  "url": "https://catalyzegrowth.co/blog/referral-marketing-scorecard-multi-location-practices",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Pull the fields",
+      "text": "Export the five areas by location from intake, the referral queue, and the outreach log."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Flag misses",
+      "text": "Mark any location below its target on response time or loop closure."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Review loop misses by office",
+      "text": "Call or fax the sending offices that waited longest."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Rebalance outreach",
+      "text": "Move liaison visits or multi-channel touches toward the widest capacity gap."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Pick next month's focus offices",
+      "text": "Name them per location and assign one owner each."
+    }
+  ]
+}
+</script>
+<link rel="stylesheet" href="../css/site.css" />
+<script src="../js/site.js" defer></script>
+<script src="../js/cookie-consent.js" defer></script>
+</head>
+<body>
+<nav class="nav"><div class="nav-inner"><a href="../index.html" class="nav-logo"><span class="mark">CC</span> Catalyze Care</a><div class="nav-links" id="primary-nav"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../index.html#referrals">Referral Data</a><a href="../referral.html">Referral Marketing</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html" class="active" aria-current="page">Blog</a><a href="../index.html#pricing">Pricing</a></div><a href="../index.html#contact" class="nav-cta">Get Started</a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></button></div></nav>
+<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><a href="../blog.html">Blog</a><span class="sep">/</span><span>Referral Marketing Scorecard for Multi-Location Practices</span></nav><div class="post-cat">Referral</div><h1>Referral Marketing Scorecard for Multi-Location Practices</h1><div class="post-meta"><span>By <a href="../about.html">Andrew Brazis</a> · Updated September 29, 2026</span><span>&middot;</span><span>9 min read</span></div></header>
+<article class="post-content">
+<p id="definition">A referral marketing scorecard for a multi-location practice is one monthly table that shows, for each location, how referrals arrive, how fast the practice responds, whether the loop closes with the sending office, where referrals come from, and whether outreach capacity matches the target list. It lets leadership compare locations on the same fields instead of on anecdotes. Catalyze Care runs <a href="../healthcare-referral-marketing.html">healthcare referral marketing</a> at <strong>$5,000/month</strong> with a 3-month minimum and reports on fields like these from your intake.</p>
+<p class="key-takeaway" id="key-takeaway"><span class="label">In one sentence</span>Score every location on the same five areas each month (capture, response time, loop closure, source mix, and outreach capacity) and set targets from your own baseline.</p>
+
+<h2>Why multi-location groups need one scorecard</h2>
+<p>Referring offices do not think in locations. A coordinator sends a patient to your group and expects a fast answer, whichever office picks it up. Inside the group, each location often has its own fax line, its own intake habits, and its own idea of what counts as a referral. The Agency for Healthcare Research and Quality describes <a href="https://www.ahrq.gov/ncepcr/care/coordination.html" target="_blank" rel="noopener">care coordination</a> as sharing information among everyone involved in a patient's care, and a referral that disappears between two offices is where that breaks first. One scorecard with shared definitions makes the gaps visible.</p>
+
+<h2>The five areas to score</h2>
+<table>
+<thead><tr><th>Area</th><th>Field to track by location</th><th>Where it comes from</th></tr></thead>
+<tbody>
+<tr><td>Referral capture</td><td>Referrals received, and the share of new patients with a referring provider recorded</td><td>EHR or practice management referral-source field</td></tr>
+<tr><td>Response time</td><td>Days from referral received to patient contacted, and to first appointment offered</td><td>Intake log or referral queue timestamps</td></tr>
+<tr><td>Loop closure</td><td>Share of referrals where the sending office got a status update within your standard</td><td>Fax, portal, or coordinator log</td></tr>
+<tr><td>Source mix</td><td>New versus repeat referring offices, and the share coming from your top five offices</td><td>Referral-source field, grouped by office</td></tr>
+<tr><td>Outreach capacity</td><td>Priority offices on the list versus offices actually contacted this month</td><td>Outreach log from liaison and multi-channel campaigns</td></tr>
+</tbody>
+</table>
+<p>The field definitions come from <a href="referral-marketing-kpis-practices.html">referral marketing KPIs practices should track</a>. The scorecard applies them to every location in the same format.</p>
+
+<h2>How to read each area</h2>
+<h3>Referral capture</h3>
+<p>If the referral-source field is optional, it will be skipped on busy days, and the location will look like it gets fewer referrals than it does. Make the field required at scheduling and review blanks each month.</p>
+<h3>Response time</h3>
+<p>A slow first call is where many referrals are lost, because the patient books elsewhere or the sending office picks another name. Track it per location, since one understaffed front desk can hide inside a healthy group average.</p>
+<h3>Loop closure</h3>
+<p>Sending offices remember whether you told them what happened. Our guide to <a href="closing-the-loop-referring-offices-7-days.html">closing the loop with referring offices in 7 days</a> sets out a seven-day status update as a service standard. Score each location against the standard you choose.</p>
+<h3>Source mix</h3>
+<p>A location that depends on two or three offices is exposed if one physician retires or changes systems. Watch the share from the top five offices, and count how many offices sent a second referral this quarter.</p>
+<h3>Outreach capacity</h3>
+<p>A liaison can only visit so many offices a week. When the priority list is longer than the calendar, offices go untouched for months. Compare list size with offices contacted, and add fax, email, phone, or LinkedIn where the gap is widest; <a href="referral-liaison-vs-multi-channel-outreach.html">referral liaison vs multi-channel outreach</a> covers when to combine them.</p>
+
+<h2>Set targets from your own baseline</h2>
+<p>Run one month to set a baseline for each location before you set targets. Compare locations on rates (capture, response time, loop closure) rather than raw volume, because a new office should not be judged against one that has served a market for a decade. Keep the scorecard at the aggregate level; patient details stay in the EHR.</p>
+
+<h2 id="howto-heading">A 30-minute monthly review</h2>
+<ol>
+<li id="howto-step-1"><strong>Pull the fields.</strong> Export the five areas by location from intake, the referral queue, and the outreach log.</li>
+<li id="howto-step-2"><strong>Flag misses.</strong> Mark any location below its target on response time or loop closure.</li>
+<li id="howto-step-3"><strong>Review loop misses by office.</strong> Call or fax the sending offices that waited longest.</li>
+<li id="howto-step-4"><strong>Rebalance outreach.</strong> Move liaison visits or multi-channel touches toward the widest capacity gap.</li>
+<li id="howto-step-5"><strong>Pick next month's focus offices.</strong> Name them per location and assign one owner each.</li>
+</ol>
+<p>For the full picture of how referral outreach works, read <a href="what-is-healthcare-referral-marketing.html">what healthcare referral marketing is</a>. The report fields a referral partner should send each month are in <a href="close-the-loop-referral-reporting.html">close-the-loop referral reporting</a>.</p>
+
+<section class="post-faq" id="faq" aria-labelledby="faq-heading"><h2 id="faq-heading">FAQ</h2><div class="post-faq-list"><div class="post-faq-item" id="faq-speak-1"><h3>What should a referral scorecard for multiple locations include?</h3><p>Five areas per location: referral capture, response time from referral to patient contact, loop closure with the sending office, source mix across referring offices, and outreach capacity versus the priority list.</p></div><div class="post-faq-item" id="faq-speak-2"><h3>How often should a multi-location practice review referral data?</h3><p>Monthly for the full scorecard, with a weekly glance at response time and loop closure at any location that missed its target the month before.</p></div><div class="post-faq-item" id="faq-speak-3"><h3>What close-the-loop standard should each location use?</h3><p>Set it from your own baseline. Catalyze Care's close-the-loop guide uses a seven-day status update to the sending office as the service standard, and each location is scored against the same number.</p></div><div class="post-faq-item" id="faq-speak-4"><h3>Does every location need its own physician liaison?</h3><p>Not always. Compare each location's priority office list with the offices actually contacted. Where the list is longer than a liaison's calendar, add fax, email, phone, or LinkedIn outreach to the same list.</p></div><div class="post-faq-item" id="faq-speak-5"><h3>What does Catalyze Care charge for referral marketing?</h3><p>Referral marketing is $5,000/month with a 3-month minimum. Monthly reports show outreach and booked-inquiry fields from your intake.</p></div></div></section>
+</article>
+<aside class="related-guides" aria-labelledby="related-guides-heading"><div class="related-guides-box"><h2 id="related-guides-heading">Related guides</h2><p><a href="../healthcare-referral-marketing.html">Healthcare referral marketing</a> · <a href="referral-marketing-kpis-practices.html">Referral marketing KPIs</a> · <a href="closing-the-loop-referring-offices-7-days.html">Closing the loop in 7 days</a> · <a href="referral-liaison-vs-multi-channel-outreach.html">Referral liaison vs multi-channel outreach</a> · <a href="what-is-healthcare-referral-marketing.html">What is healthcare referral marketing</a></p></div></aside>
+<p class="related-services">Related services: <a href="../healthcare-referral-marketing.html">Healthcare referral marketing</a> · <a href="../referral.html">Referral Marketing</a> · <a href="../healthcare-marketing-agency.html">Healthcare marketing agency</a> · <a href="../healthcare-digital-marketing.html">Healthcare digital marketing</a></p>
+<div class="post-cta"><div class="cta-box"><h3>Running referrals across several offices?</h3><p>Book a demo and bring your locations and referral-source fields. Referral marketing is $5,000/month with a 3-month minimum.</p><a href="../index.html#contact">Book a Demo &rarr;</a></div></div>
+<footer class="footer" aria-label="Site footer"><div class="footer-left">&copy; 2026 Catalyze Care. All rights reserved.<br>Service-area marketing for healthcare practices (no public street address).</div><div class="footer-links"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html">Blog</a>
+        <a href="../healthcare-marketing-agency.html">Agency</a> <a href="../healthcare-digital-marketing.html">Digital Marketing</a> <a href="../healthcare-referral-marketing.html">Referral Practices</a> <a href="../seo-for-healthcare-practices.html">SEO for Practices</a> <a href="../paid-ads-for-healthcare-practices.html">Paid Ads for Practices</a> <a href="../about.html">About</a> <a href="../index.html#contact">Contact</a></div></footer>
+</body>
+</html>
