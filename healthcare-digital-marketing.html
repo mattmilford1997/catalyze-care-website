@@ -571,7 +571,23 @@ body {
       "name": "Which metrics should a healthcare digital marketing report show?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Booked appointments by source, show rate, and cost per booked appointment first, then speed to lead and active referring offices. Impressions and clicks explain the change."
+        "text": "Booked appointments by source, show rate, and cost per booked appointment first, then call answer rate, speed to lead, referral conversion rate, and active referring offices. Impressions and clicks explain the change. Definitions are in the healthcare digital marketing metrics glossary."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is call answer rate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Call answer rate is the share of inbound calls during open hours that a person at your practice answered live. Track it by source so missed calls from ads and referring offices show up in the monthly report."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is referral conversion rate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Referral conversion rate is the share of referrals received that became a booked appointment, counted from your intake log. When it drops, check intake follow-up, insurance fit, and time to first contact."
       }
     }
   ]
@@ -584,7 +600,7 @@ body {
   "url": "https://catalyzegrowth.co/healthcare-digital-marketing",
   "speakable": {
     "@type": "SpeakableSpecification",
-    "cssSelector": ["#definition", "#key-takeaway", "#faq-speak-1", "#faq-speak-2", "#faq-speak-3", "#faq-speak-metrics"]
+    "cssSelector": ["#definition", "#key-takeaway", "#faq-speak-1", "#faq-speak-2", "#faq-speak-3", "#faq-speak-metrics", "#metrics-answer", "#faq-speak-call-answer", "#faq-speak-referral-conversion"]
   }
 }
 </script>
@@ -825,7 +841,7 @@ body {
     </tbody>
   </table>
   </div>
-  <p class="proof-honesty" style="max-width:800px;margin:20px auto 0;">Fees match the homepage: $5,000 / $799 / $2,500. Reports show outreach and booked-inquiry fields from your intake. Full buyer FAQ: <a href="how-to-choose-a-healthcare-marketing-agency.html">how to choose</a>.</p>
+  <p class="proof-honesty" style="max-width:800px;margin:20px auto 0;">Published fees: referral marketing $5,000/month (3-month minimum), SEO $799/month, and paid ads $2,500/month plus media. Reports show outreach and booked-inquiry fields from your intake. Full buyer FAQ: <a href="how-to-choose-a-healthcare-marketing-agency.html">how to choose</a>.</p>
 </section>
 
 <section class="section" id="education">
@@ -835,13 +851,17 @@ body {
     <p>Healthcare digital marketing, as Catalyze Care uses the term, is <a href="seo-for-healthcare-practices.html">SEO for healthcare practices</a>, <a href="paid-ads-for-healthcare-practices.html">paid ads for healthcare practices</a>, and <a href="healthcare-referral-marketing.html">healthcare referral marketing</a> on one specialty, geography, and reporting cadence. Service pages, ad copy, and fax copy should name the same ages, payers, and footprint. The sourced guide is <a href="blog/healthcare-digital-marketing-explained.html">healthcare digital marketing, explained</a>. Published fees stay $5,000 / $799 / $2,500. Reports show outreach and booked-inquiry fields from your intake.</p>
     <p>You do not have to buy all three on day one. Sequence against the gap: referral when other offices already send the specialty, SEO when patients search and the practice is invisible, paid when openings need nearer-term demand. Buyer FAQ: <a href="how-to-choose-a-healthcare-marketing-agency.html">how to choose a healthcare marketing agency</a>. Agency definition: <a href="blog/what-is-a-healthcare-marketing-agency.html">what is a healthcare marketing agency</a>. Channel contrast: <a href="blog/provider-referrals-vs-paid-ads.html">referral marketing vs paid ads</a>.</p>
     <p>Score the mix on booked inquiries, not impressions. Our guide to a <a href="blog/healthcare-digital-marketing-channel-mix.html">channel mix without vanity metrics</a> shows how, and <a href="blog/how-ai-overviews-pick-healthcare-marketing-sources.html">how AI Overviews pick healthcare marketing sources</a> covers the newest place patients find answers.</p>
-    <h3 id="metrics-glossary">Five numbers to read first in a monthly report</h3>
+    <h3 id="metrics-glossary">The numbers to read first in a monthly report</h3>
+    <p id="metrics-answer">Start with booked appointments by source, show rate, and cost per booked appointment. Then look at call answer rate, speed to lead, and referral conversion rate, which show where inquiries slip before they reach your schedule.</p>
     <ul>
       <li><strong>Booked appointments by source.</strong> Inquiries that became scheduled visits, counted by your intake team and split by referral, search, and ads.</li>
       <li><strong>Show rate.</strong> The share of booked appointments the patient attended, tracked by source so you can see which channel brings patients who follow through.</li>
       <li><strong>Cost per booked appointment.</strong> Spend for the month divided by booked appointments from that channel, with a note on whether media, management fees, or both are included.</li>
       <li><strong>Speed to lead.</strong> Time from a call, form, or fax arriving to your first reply. Slow replies waste referrals and paid clicks alike.</li>
+      <li><strong>Call answer rate.</strong> The share of inbound calls during open hours that a person at your practice answered live. Split it by source if your phone system allows, so missed calls from ads and referring offices show up.</li>
       <li><strong>Active referring offices.</strong> Offices that sent at least one referral this month, split into new and returning.</li>
+      <li><strong>Referral conversion rate.</strong> The share of referrals received that became a booked appointment, counted from your intake log. When it drops, check intake follow-up, insurance fit, and time to first contact.</li>
+      <li><strong>Close-the-loop time.</strong> Days from receiving a referral to sending the referring office a status update.</li>
     </ul>
     <p>Impressions, clicks, and average position explain why those numbers moved. Every term is defined in our <a href="blog/healthcare-digital-marketing-metrics-glossary.html">healthcare digital marketing metrics glossary</a>.</p>
   </div>
@@ -898,7 +918,15 @@ body {
     </div>
     <div class="faq-item" id="faq-speak-metrics">
       <h3>Which metrics should a healthcare digital marketing report show?</h3>
-      <p>Booked appointments by source, show rate, and cost per booked appointment first, then speed to lead and active referring offices. Impressions and clicks explain the change. Definitions are in the <a href="blog/healthcare-digital-marketing-metrics-glossary.html">healthcare digital marketing metrics glossary</a>.</p>
+      <p>Booked appointments by source, show rate, and cost per booked appointment first, then call answer rate, speed to lead, referral conversion rate, and active referring offices. Impressions and clicks explain the change. Definitions are in the <a href="blog/healthcare-digital-marketing-metrics-glossary.html">healthcare digital marketing metrics glossary</a>.</p>
+    </div>
+    <div class="faq-item" id="faq-speak-call-answer">
+      <h3>What is call answer rate?</h3>
+      <p>Call answer rate is the share of inbound calls during open hours that a person at your practice answered live. Track it by source so missed calls from ads and referring offices show up in the monthly report.</p>
+    </div>
+    <div class="faq-item" id="faq-speak-referral-conversion">
+      <h3>What is referral conversion rate?</h3>
+      <p>Referral conversion rate is the share of referrals received that became a booked appointment, counted from your intake log. When it drops, check intake follow-up, insurance fit, and time to first contact.</p>
     </div>
   </div>
   <p class="proof-honesty">Catalyze Care publishes fees ($5,000 / $799 / $2,500). Work is HIPAA-aware, not a certification claim.</p>
