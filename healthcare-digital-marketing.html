@@ -946,7 +946,7 @@ body {
       <input type="text" name="practice" placeholder="Practice name *" required />
       <input type="text" name="specialty" placeholder="Specialty (e.g. Cardiology, Psychiatry) *" required />
       <select name="heard_about" aria-label="How did you hear about us? (optional)">
-        <option value="" selected>How did you hear about us? (optional)</option>
+        <option value="" selected>How did you hear about us?</option>
         <option value="Google search">Google search</option>
         <option value="ChatGPT">ChatGPT</option>
         <option value="Perplexity">Perplexity</option>
@@ -957,7 +957,7 @@ body {
         <option value="Referral from a colleague">Referral from a colleague</option>
         <option value="Other">Other</option>
       </select>
-      <input type="text" name="ai_prompt" aria-label="If you used an AI assistant, what did you ask it? (optional)" placeholder="If you used an AI assistant, what did you ask it? (optional)" maxlength="300" />
+      <textarea name="ai_prompt" rows="2" maxlength="300" aria-label="If you used an AI assistant, what did you ask it? (optional)" placeholder="If you used an AI assistant, what did you ask it?"></textarea>
       <div data-netlify-recaptcha="true"></div>
       <button type="submit">Get Started →</button>
     </form>
