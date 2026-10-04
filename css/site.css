@@ -482,6 +482,32 @@
 }
 
 
+/* Optional "How did you hear about us?" select on CTA forms: match the inputs. */
+.cta-form select {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 14px 44px 14px 18px;
+  border-radius: 10px;
+  border: 2px solid rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.1);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23ffffff' stroke-width='2'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 18px center;
+  color: white;
+  font-size: 0.95rem;
+  font-family: 'DM Sans', sans-serif;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+.cta-form select:focus { border-color: rgba(255,255,255,0.5); }
+.cta-form select:has(option[value=""]:checked) { color: rgba(255,255,255,0.5); }
+.cta-form select option { color: #1A1A2E; background: #ffffff; }
+
 /* Mobile-safe stacked tables: desktop stays a real table; mobile becomes cards (no overflow-x). */
 .stack-table-wrap {
   max-width: 960px;
