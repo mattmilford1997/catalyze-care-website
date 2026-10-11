@@ -6,8 +6,8 @@
 <meta name="theme-color" content="#F97316" />
 <link rel="apple-touch-icon" href="/favicon.svg" />
 <meta property="og:locale" content="en_US" />
-<title>HIPAA and Your Marketing Stack: Pixels, Tracking, and What Changed After the HHS Guidance | Catalyze Care</title>
-<meta name="description" content="Tracking pixels on healthcare websites have been the subject of HHS guidance, litigation, and settlements. Here's what the current position is, what's actually risky, and how to measure marketing without transmitting PHI." />
+<title>HIPAA and Marketing Pixels: What Changed | Catalyze Care</title>
+<meta name="description" content="Where HHS guidance on tracking pixels stands after the 2024 court ruling, what is actually risky, and how to measure marketing without sending PHI." />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://catalyzegrowth.co/blog/hipaa-marketing-pixels-tracking" />
@@ -87,7 +87,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
     "email": "andrew@catalyzegrowth.co",
     "url": "https://catalyzegrowth.co/about"
   },
-  "dateModified": "2026-09-09",
+  "dateModified": "2026-10-11",
   "description": "Tracking pixels on healthcare websites have been the subject of HHS guidance, litigation, and settlements. Here's what the current position is, what's actually risky, and how to measure marketing without transmitting PHI.",
   "image": "https://catalyzegrowth.co/og-image.png",
   "publisher": {
@@ -146,7 +146,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
     },
     {
       "@type": "Question",
-      "name": "Is Google Analytics 4 HIPAA-compliant out of the box?",
+      "name": "Can Google Analytics 4 receive PHI under a BAA?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No. Google does not sign a BAA for standard GA4. Treat it as a marketing tool, not a medical record system. Have counsel review the tag map."
@@ -173,7 +173,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 <body>
 <nav class="nav"><div class="nav-inner"><a href="../index.html" class="nav-logo"><span class="mark">CC</span> Catalyze Care</a><div class="nav-links" id="primary-nav"><a href="../index.html#marketing">Marketing</a><a href="../index.html#leads">Lead Lists</a><a href="../index.html#referrals">Referral Data</a><a href="../paid-ads.html">Paid Ads</a><a href="../seo.html">SEO</a><a href="../blog.html" class="active" aria-current="page">Blog</a><a href="../index.html#pricing">Pricing</a></div><a href="../index.html#contact" class="nav-cta">Get Started</a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></button></div></nav>
-<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><a href="../blog.html">Blog</a><span class="sep">/</span><span>HIPAA and Your Marketing Stack: Pixels, Tracking, and What Changed After the HHS Guidance</span></nav><div class="post-cat">Paid Ads</div><h1>HIPAA and Your Marketing Stack: Pixels, Tracking, and What Changed After the HHS Guidance</h1><div class="post-meta"><span>By Andrew · Updated September 9, 2026</span><span>&middot;</span><span>3 min read</span></div></header>
+<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><a href="../blog.html">Blog</a><span class="sep">/</span><span>HIPAA and Your Marketing Stack: Pixels, Tracking, and What Changed After the HHS Guidance</span></nav><div class="post-cat">Paid Ads</div><h1>HIPAA and Your Marketing Stack: Pixels, Tracking, and What Changed After the HHS Guidance</h1><div class="post-meta"><span>By Andrew · Updated October 11, 2026</span><span>&middot;</span><span>3 min read</span></div></header>
 <article class="post-content">
 <p id="definition">HIPAA-aware marketing measurement means tracking appointments and inquiries without sending protected health information to ad platforms through pixels, tags, or URL parameters. HHS OCR has published guidance on online tracking technologies used by covered entities and business associates. The risk is not “having a pixel”; it is sending identifiers plus health, care, or payment context. Conversion setup for Google Ads is covered in our <a href="hipaa-google-ads-conversion-tracking.html">HIPAA-aware Google Ads conversion tracking</a> guide. Catalyze Care paid ads management is $2,500/month (media separate). This is general education, not legal advice.</p>
 <p class="key-takeaway" id="key-takeaway"><span class="label">In one sentence</span>Measure the appointment request, not the diagnosis, and keep PHI out of pixels, form captures, and query strings.</p>
@@ -192,7 +192,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 </ul>
 <p>Lower risk: a general homepage view with no identifying parameters. Even that, on a covered entity's site, is worth reviewing.</p>
 <h2>The platforms' own restrictions</h2>
-<p>Meta restricts data from sites it categorizes as health-related and will block custom events. Google Analytics 4 is not HIPAA-compliant out of the box, and Google won't sign a BAA for it. Google Ads conversion tracking has the same issue. The platforms have effectively told healthcare advertisers to figure out a different measurement layer.</p>
+<p>Meta restricts data from sites it categorizes as health-related and will block custom events. Google states that it <a href="https://support.google.com/analytics/answer/13297105" target="_blank" rel="noopener">makes no representation that Google Analytics satisfies HIPAA requirements</a> and does not offer a BAA for it. Google Ads conversion tracking has the same issue. The platforms have effectively told healthcare advertisers to figure out a different measurement layer.</p>
 <h2>How to measure marketing without transmitting PHI</h2>
 <p><strong>1. Separate the marketing site from the patient site.</strong> Public informational pages can carry standard tracking with care. Intake, scheduling, and portal flows live on a separate domain or subdomain with no third-party pixels.</p>
 <p><strong>2. Use server-side tracking with a filter.</strong> Route events through your own server, strip identifying and health-related parameters, and forward only generic events (page view, form submitted) to ad platforms. Several vendors offer HIPAA-oriented versions of this and will sign BAAs.</p>
@@ -205,20 +205,17 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 <h2>How Catalyze Care handles it</h2>
 <p>Catalyze Care runs paid media for healthcare practices with a HIPAA-conscious measurement setup by default: separated marketing and intake domains where possible, server-side filtered events, campaign-tagged intake attribution, and BAAs with every tool in the stack. We start every engagement with a tag audit.</p>
 <p>Book a demo and we will walk a tag-map review before media recommendations. Reports show spend and booked-inquiry fields from your intake. Process: <a href="../how-catalyze-care-works.html">how Catalyze Care works</a>.</p>
-<section class="post-faq" id="faq" aria-labelledby="faq-heading"><h2 id="faq-heading">FAQ</h2><div class="post-faq-list"><div class="post-faq-item"><h3>Can a healthcare practice put a Meta or Google pixel on every page?</h3><p>The risk is what the pixel sends. URLs or form fields that identify a person and relate to health, care, or payment can be PHI. Portals and scheduling flows are high risk. HHS OCR publishes tracking-technology guidance. This is not legal advice.</p></div><div class="post-faq-item"><h3>How do you measure ads without transmitting PHI?</h3><p>Keep conversion events on generic thank-you pages, strip identifiers from URLs, prefer server-side filtered events, and reconcile booked patients from your own intake. See <a href="hipaa-google-ads-conversion-tracking.html">HIPAA-aware Google Ads conversion tracking</a>.</p></div><div class="post-faq-item"><h3>Is Google Analytics 4 HIPAA-compliant out of the box?</h3><p>No. Google does not sign a BAA for standard GA4. Treat it as a marketing tool, not a medical record system. Have counsel review the tag map.</p></div></div></section>
+<section class="post-faq" id="faq" aria-labelledby="faq-heading"><h2 id="faq-heading">FAQ</h2><div class="post-faq-list"><div class="post-faq-item"><h3>Can a healthcare practice put a Meta or Google pixel on every page?</h3><p>The risk is what the pixel sends. URLs or form fields that identify a person and relate to health, care, or payment can be PHI. Portals and scheduling flows are high risk. HHS OCR publishes tracking-technology guidance. This is not legal advice.</p></div><div class="post-faq-item"><h3>How do you measure ads without transmitting PHI?</h3><p>Keep conversion events on generic thank-you pages, strip identifiers from URLs, prefer server-side filtered events, and reconcile booked patients from your own intake. See <a href="hipaa-google-ads-conversion-tracking.html">HIPAA-aware Google Ads conversion tracking</a>.</p></div><div class="post-faq-item"><h3>Can Google Analytics 4 receive PHI under a BAA?</h3><p>No. Google does not sign a BAA for standard GA4. Treat it as a marketing tool, not a medical record system. Have counsel review the tag map.</p></div></div></section>
 </article>
 <aside class="related-guides" aria-labelledby="related-guides-heading">
 <div class="related-guides-box">
-<h2 id="related-guides-heading">Related guides</h2>
-<ul>
+<h2 id="related-guides-heading">Related guides</h2><ul>
 <li><a href="hipaa-google-ads-conversion-tracking.html">HIPAA-aware Google Ads conversion tracking</a></li>
 <li><a href="google-ads-healthcare-2026-legitscript.html">Google Ads, LegitScript, and healthcare disapprovals</a></li>
 <li><a href="meta-ads-healthcare-without-condition-targeting.html">Meta ads for healthcare without condition targeting</a></li>
 <li><a href="paid-ads-for-healthcare-practices-explained.html">Paid ads for healthcare practices, explained</a></li>
-<li><a href="healthcare-digital-marketing-explained.html">Healthcare digital marketing, explained</a></li>
-<li><a href="../paid-ads-for-healthcare-practices.html">Matching page: paid ads for healthcare practices</a></li>
-</ul>
-</div>
+<li><a href="../paid-ads-for-healthcare-practices.html">Paid ads for healthcare practices</a></li>
+</ul></div>
 </aside>
 
 <p class="related-services">Related services: <a href="../paid-ads-for-healthcare-practices.html">paid ads for healthcare practices</a> · <a href="../seo.html">SEO</a> · <a href="../paid-ads.html">Paid Ads</a> · <a href="../referral.html">Referral Marketing</a></p>

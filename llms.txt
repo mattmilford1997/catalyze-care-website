@@ -39,6 +39,12 @@ Key facts
 - How is practice SEO different from enterprise patient-acquisition platforms?: https://catalyzegrowth.co/seo-for-healthcare-practices#faq-speak-enterprise
 - Can one agency run referral marketing, SEO, and paid ads together?: https://catalyzegrowth.co/healthcare-marketing-agency#faq-speak-together
 - What should a healthcare digital marketing plan measure in the first 90 days?: https://catalyzegrowth.co/healthcare-digital-marketing#faq-speak-90
+- How long does it take to see results from a healthcare marketing agency?: https://catalyzegrowth.co/healthcare-marketing-agency#faq-speak-results-timeline
+- What should I ask a healthcare marketing agency before signing?: https://catalyzegrowth.co/healthcare-marketing-agency#faq-before-signing
+- What does a healthcare SEO company do each month?: https://catalyzegrowth.co/seo-for-healthcare-practices#faq-speak-monthly-seo
+- How is SEO for a medical clinic different from SEO for other local businesses?: https://catalyzegrowth.co/seo-for-healthcare-practices#faq-clinic-vs-local
+- What is the difference between healthcare digital marketing and healthcare SEO?: https://catalyzegrowth.co/healthcare-digital-marketing#faq-speak-digital-vs-seo
+- Does social media belong in a healthcare digital marketing plan?: https://catalyzegrowth.co/healthcare-digital-marketing#faq-social
 
 ## Services
 - Healthcare Referral Marketing: https://catalyzegrowth.co/referral
@@ -98,11 +104,11 @@ Key facts
 - How to Build a Referral Target List That Actually Produces Referrals: https://catalyzegrowth.co/blog/build-physician-referral-target-list
 - The First 90 Days of a Referral Campaign: https://catalyzegrowth.co/blog/referral-campaign-first-90-days-benchmarks
 - LinkedIn Outreach to Physicians: The Message That Gets Replies: https://catalyzegrowth.co/blog/linkedin-outreach-physicians-referrals
-- Google Ads for Healthcare in 2026: LegitScript, Certification, and the Disapprovals That Kill Launches: https://catalyzegrowth.co/blog/google-ads-healthcare-2026-legitscript
+- Google Ads for Healthcare: LegitScript and Disapprovals: https://catalyzegrowth.co/blog/google-ads-healthcare-2026-legitscript
 - Meta Ads for Healthcare: You Can't Target by Condition: https://catalyzegrowth.co/blog/meta-ads-healthcare-without-condition-targeting
-- HIPAA and Your Marketing Stack: Pixels, Tracking, and What Changed After the HHS Guidance: https://catalyzegrowth.co/blog/hipaa-marketing-pixels-tracking
+- HIPAA and Marketing Pixels: What Changed: https://catalyzegrowth.co/blog/hipaa-marketing-pixels-tracking
 - Local SEO for Multi-State Telehealth: https://catalyzegrowth.co/blog/local-seo-multi-state-telehealth
-- AI Search Is Answering "Best Therapist Near Me." Here's How to Get Cited.: https://catalyzegrowth.co/blog/ai-search-healthcare-practice-visibility
+- How to Get Your Practice Cited in AI Search: https://catalyzegrowth.co/blog/ai-search-healthcare-practice-visibility
 - Referral Analytics: Closing the Loop: https://catalyzegrowth.co/blog/referral-analytics-closing-the-loop
 - The Pediatrician Channel: https://catalyzegrowth.co/blog/pediatrician-referrals-behavioral-health-therapy
 - Q4 Is Not Dead: Deductible Resets, Open Enrollment, and Planning for January Demand: https://catalyzegrowth.co/blog/healthcare-marketing-q4-january-demand
@@ -137,7 +143,7 @@ Key facts
 - Multi-Location Healthcare Paid Ads: https://catalyzegrowth.co/blog/multi-location-healthcare-paid-ads-structure
 - WebMD Ignite-Style Referral Networks vs Practice-Led Outreach: https://catalyzegrowth.co/blog/webmd-ignite-style-vs-practice-led-referral-outreach
 - Building a Referring-Office List Without Buying a Network: https://catalyzegrowth.co/blog/building-referring-office-list-without-buying-network
-- Healthcare Digital Marketing Channel Mix Without Vanity Metrics: https://catalyzegrowth.co/blog/healthcare-digital-marketing-channel-mix
+- Healthcare Digital Marketing Channel Mix: https://catalyzegrowth.co/blog/healthcare-digital-marketing-channel-mix
 - Healthcare Marketing Agency RFP Scorecard for Practice Owners: https://catalyzegrowth.co/blog/healthcare-marketing-agency-rfp-scorecard
 - How AI Overviews Pick Healthcare Marketing Sources: https://catalyzegrowth.co/blog/how-ai-overviews-pick-healthcare-marketing-sources
 - What a Local SEO Package for Multi-Provider Practices Should Include: https://catalyzegrowth.co/blog/local-seo-package-multi-provider-practices
