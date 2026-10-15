@@ -4,7 +4,7 @@
 
 Key facts
 - Services: healthcare referral marketing (flagship), SEO for healthcare practices, paid ads (Google Ads, Meta Ads, Display) for healthcare practices.
-- Published prices: referral marketing $5,000/month with a 3-month minimum; SEO $799/month; paid ads management $2,500/month, media billed separately.
+- Published prices: referral marketing $5,000/month with a 3-month minimum; SEO $799/month with a 6-month minimum; paid ads management $2,500/month plus media, with a 3-month minimum.
 - Who we work with: therapy practices, psychiatry clinics, multi-location mental health groups, and other specialty practices and provider groups in the US.
 - Referral outreach channels: fax, email, phone, LinkedIn, and direct mail to offices that already refer in your specialty.
 - Reporting: monthly, tied to booked appointments from your intake, not clicks.
@@ -45,6 +45,13 @@ Key facts
 - How is SEO for a medical clinic different from SEO for other local businesses?: https://catalyzegrowth.co/seo-for-healthcare-practices#faq-clinic-vs-local
 - What is the difference between healthcare digital marketing and healthcare SEO?: https://catalyzegrowth.co/healthcare-digital-marketing#faq-speak-digital-vs-seo
 - Does social media belong in a healthcare digital marketing plan?: https://catalyzegrowth.co/healthcare-digital-marketing#faq-social
+- What does healthcare marketing agency fee transparency look like?: https://catalyzegrowth.co/healthcare-marketing-agency#faq-speak-fee-transparency
+- What is included in a local SEO package for a multi-provider practice?: https://catalyzegrowth.co/seo#faq-speak-local-package
+- How should a practice allocate budget across SEO, paid ads, and referral marketing?: https://catalyzegrowth.co/healthcare-digital-marketing#faq-speak-allocate
+- What should a practice see on a healthcare marketing agency fee sheet?: https://catalyzegrowth.co/blog/healthcare-marketing-agency-fee-transparency-checklist
+- How should a practice split budget across referral, SEO, and paid ads in the first three months?: https://catalyzegrowth.co/blog/healthcare-marketing-budget-allocation-practices
+- When should a practice pause paid ads, SEO, or referral outreach?: https://catalyzegrowth.co/blog/when-to-pause-paid-ads-vs-seo-vs-referral
+- What should a local SEO package include for a multi-provider practice?: https://catalyzegrowth.co/blog/local-seo-package-multi-provider-practices
 
 ## Services
 - Healthcare Referral Marketing: https://catalyzegrowth.co/referral

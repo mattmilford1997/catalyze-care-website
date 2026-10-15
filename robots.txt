@@ -7,7 +7,6 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-# GEO: let AI crawlers read public pages
 User-agent: GPTBot
 Allow: /
 
