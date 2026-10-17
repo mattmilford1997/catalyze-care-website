@@ -44,7 +44,9 @@
   };
 
   function initLeadEvents() {
-    document.querySelectorAll('form[data-netlify="true"]').forEach(function (form) {
+    /* Netlify strips data-netlify at deploy, so match on the form-name field it keeps. */
+    document.querySelectorAll('form').forEach(function (form) {
+      if (!form.querySelector('input[name="form-name"]')) return;
       var name = form.getAttribute('name') || '';
       if (name !== 'demo-request' && !/-inquiry$/.test(name)) return;
       form.addEventListener('submit', function () {
