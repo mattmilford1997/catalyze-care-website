@@ -49,4 +49,13 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
 Sitemap: https://catalyzegrowth.co/sitemap.xml
