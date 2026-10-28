@@ -434,7 +434,9 @@ body {
 <meta property="og:image" content="https://catalyzegrowth.co/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Catalyze Care, healthcare marketing agency for referral marketing, SEO, and paid ads" />
 <meta name="twitter:image" content="https://catalyzegrowth.co/og-image.png" />
+<meta name="twitter:image:alt" content="Catalyze Care, healthcare marketing agency for referral marketing, SEO, and paid ads" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Healthcare Marketing Agency for Provider Groups | Catalyze Care" />
 <meta name="twitter:description" content="Healthcare marketing agency for therapy practices, psychiatry clinics, and multi-location groups: referral marketing, SEO, and paid ads on one plan." />
@@ -442,6 +444,7 @@ body {
 {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
+  "@id": "https://catalyzegrowth.co/healthcare-marketing-agency#service",
   "name": "Catalyze Care Healthcare Marketing Agency",
   "url": "https://catalyzegrowth.co/healthcare-marketing-agency",
   "email": "andrew@catalyzegrowth.co",
@@ -722,12 +725,46 @@ body {
   "@type": "WebPage",
   "@id": "https://catalyzegrowth.co/healthcare-marketing-agency#webpage",
   "dateModified": "2026-10-22",
-  "author": {"@type": "Person", "@id": "https://catalyzegrowth.co/about#andrew-brazis", "name": "Andrew Brazis", "url": "https://catalyzegrowth.co/about", "sameAs": ["https://www.linkedin.com/in/andrew-brazis-1769591a9"]},
-  "publisher": {"@type": "Organization", "@id": "https://catalyzegrowth.co/#organization", "name": "Catalyze Care", "url": "https://catalyzegrowth.co"},
+  "author": {
+    "@type": "Person",
+    "@id": "https://catalyzegrowth.co/about#andrew-brazis",
+    "name": "Andrew Brazis",
+    "url": "https://catalyzegrowth.co/about",
+    "sameAs": [
+      "https://www.linkedin.com/in/andrew-brazis-1769591a9"
+    ],
+    "worksFor": {
+      "@id": "https://catalyzegrowth.co/#organization"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://catalyzegrowth.co/#organization",
+    "name": "Catalyze Care",
+    "url": "https://catalyzegrowth.co"
+  },
   "url": "https://catalyzegrowth.co/healthcare-marketing-agency",
   "speakable": {
     "@type": "SpeakableSpecification",
-    "cssSelector": ["#faq-speak-switching", "#definition", "#key-takeaway", "#faq-speak-1", "#faq-speak-2", "#faq-speak-3", "#faq-speak-fee-transparency", "#faq-speak-cardinal", "#therapy-practices", "#psychiatry-practices", "#monthly-work-answer", "#faq-speak-cost", "#faq-speak-together", "#faq-speak-results-timeline"]
+    "cssSelector": [
+      "#faq-speak-switching",
+      "#definition",
+      "#key-takeaway",
+      "#faq-speak-1",
+      "#faq-speak-2",
+      "#faq-speak-3",
+      "#faq-speak-fee-transparency",
+      "#faq-speak-cardinal",
+      "#therapy-practices",
+      "#psychiatry-practices",
+      "#monthly-work-answer",
+      "#faq-speak-cost",
+      "#faq-speak-together",
+      "#faq-speak-results-timeline"
+    ]
+  },
+  "about": {
+    "@id": "https://catalyzegrowth.co/healthcare-marketing-agency#service"
   }
 }
 </script>
@@ -759,7 +796,7 @@ body {
       <a href="/paid-ads">Paid Ads</a>
       <a href="/seo">SEO</a>
       <a href="/how-catalyze-care-works">How We Work</a>
-      <a href="/#pricing">Pricing</a>
+      <a href="/pricing">Pricing</a>
     </div>
     <a href="#contact" class="nav-cta">Get Started</a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></button>

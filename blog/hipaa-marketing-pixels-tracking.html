@@ -49,6 +49,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 .post-cat { display: inline-flex; font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: 18px; }
 .post-header h1 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.18; letter-spacing: -0.02em; margin-bottom: 20px; }
 .post-meta { font-size: 0.88rem; color: var(--gray-600); display: flex; gap: 10px; }
+.post-meta a { color: var(--accent); text-decoration: none; font-weight: 500; }
 .post-content { max-width: 760px; margin: 0 auto; padding: 0 32px 80px; }
 .post-content h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; margin: 44px 0 16px; color: var(--navy); }
 .post-content p { font-size: 1.02rem; color: var(--slate); line-height: 1.8; margin-bottom: 20px; }
@@ -90,7 +91,8 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
   "datePublished": "2026-08-26",
   "author": {
     "@type": "Person",
-    "name": "Andrew",
+    "@id": "https://catalyzegrowth.co/about#andrew-brazis",
+    "name": "Andrew Brazis",
     "email": "andrew@catalyzegrowth.co",
     "url": "https://catalyzegrowth.co/about"
   },
@@ -99,6 +101,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
   "image": "https://catalyzegrowth.co/og-image.png",
   "publisher": {
     "@type": "Organization",
+    "@id": "https://catalyzegrowth.co/#organization",
     "name": "Catalyze Care",
     "url": "https://catalyzegrowth.co"
   }
@@ -178,9 +181,9 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 <script src="../js/cookie-consent.js" defer></script>
 </head>
 <body>
-<nav class="nav"><div class="nav-inner"><a href="/" class="nav-logo"><span class="mark">CC</span> Catalyze Care</a><div class="nav-links" id="primary-nav"><a href="/#marketing">Marketing</a><a href="/#leads">Lead Lists</a><a href="/#referrals">Referral Data</a><a href="/paid-ads">Paid Ads</a><a href="/seo">SEO</a><a href="/blog" class="active" aria-current="page">Blog</a><a href="/#pricing">Pricing</a></div><a href="/#contact" class="nav-cta">Get Started</a>
+<nav class="nav"><div class="nav-inner"><a href="/" class="nav-logo"><span class="mark">CC</span> Catalyze Care</a><div class="nav-links" id="primary-nav"><a href="/#marketing">Marketing</a><a href="/#leads">Lead Lists</a><a href="/#referrals">Referral Data</a><a href="/paid-ads">Paid Ads</a><a href="/seo">SEO</a><a href="/blog" class="active" aria-current="page">Blog</a><a href="/pricing">Pricing</a></div><a href="/#contact" class="nav-cta">Get Started</a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></button></div></nav>
-<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/blog">Blog</a><span class="sep">/</span><span>HIPAA and Your Marketing Stack: Pixels, Tracking, and What Changed After the HHS Guidance</span></nav><div class="post-cat">Paid Ads</div><h1>HIPAA and Your Marketing Stack: Pixels, Tracking, and What Changed After the HHS Guidance</h1><div class="post-meta"><span>By Andrew · Updated October 11, 2026</span><span>&middot;</span><span>3 min read</span></div></header>
+<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/blog">Blog</a><span class="sep">/</span><span>HIPAA and Your Marketing Stack: Pixels, Tracking, and What Changed After the HHS Guidance</span></nav><div class="post-cat">Paid Ads</div><h1>HIPAA and Your Marketing Stack: Pixels, Tracking, and What Changed After the HHS Guidance</h1><div class="post-meta"><span>By <a href="/about">Andrew Brazis</a> · Updated October 11, 2026</span><span>&middot;</span><span>3 min read</span></div></header>
 <article class="post-content">
 <p id="definition">HIPAA-aware marketing measurement means tracking appointments and inquiries without sending protected health information to ad platforms through pixels, tags, or URL parameters. HHS OCR has published guidance on online tracking technologies used by covered entities and business associates. The risk is not “having a pixel”; it is sending identifiers plus health, care, or payment context. Conversion setup for Google Ads is covered in our <a href="/blog/hipaa-google-ads-conversion-tracking">HIPAA-aware Google Ads conversion tracking</a> guide. Catalyze Care paid ads management is $2,500/month (media separate). This is general education, not legal advice.</p>
 <p class="key-takeaway" id="key-takeaway"><span class="label">In one sentence</span>Measure the appointment request, not the diagnosis, and keep PHI out of pixels, form captures, and query strings.</p>
