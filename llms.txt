@@ -10,6 +10,7 @@ Key facts
 - Reporting: monthly, tied to booked appointments from your intake, not clicks.
 - Client results are published only with the client’s written permission.
 - Pricing: https://catalyzegrowth.co/pricing
+- Content feed (JSON Feed, every live page and post with its last update): https://catalyzegrowth.co/feed.json
 - Contact: andrew@catalyzegrowth.co. Book a demo: https://catalyzegrowth.co/#contact
 
 ## Start here: our five main pages
