@@ -130,11 +130,14 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - What a Physician Referral Marketing Agency Does Each Month: https://catalyzegrowth.co/blog/physician-referral-marketing-agency
 - What to Check When Referral Volume Dips: https://catalyzegrowth.co/blog/when-referral-volume-dips-healthcare-practices
 - Google Ads vs Meta Ads for a Healthcare Practice: https://catalyzegrowth.co/blog/healthcare-google-ads-vs-meta-ads-for-practices
+  Use Google Ads when people are searching for care in your area. Use Meta Ads to reach people in your service area who aren't searching yet, without targeting a condition.
 - Healthcare Digital Marketing, Explained: https://catalyzegrowth.co/blog/healthcare-digital-marketing-explained
 - Referral Marketing vs Paid Ads for Healthcare Practices: https://catalyzegrowth.co/blog/provider-referrals-vs-paid-ads
+  Referral marketing reaches the offices that already send patients in your specialty. Paid ads buy nearer-term demand from people searching for care, and stop when spend stops.
 - Fax Isn't Dead: Why It Still Works for Reaching Physician Offices in 2026: https://catalyzegrowth.co/blog/fax-marketing-physician-offices
 - Voicemail Drops, TCPA, and Healthcare Outreach: https://catalyzegrowth.co/blog/ringless-voicemail-tcpa-healthcare-outreach
 - How to Build a Referral Target List That Actually Produces Referrals: https://catalyzegrowth.co/blog/build-physician-referral-target-list
+  Start from the patient journey: list every provider who sees your patient before you do. Filter to the area you actually serve, rank by referral volume, and find the person in each office who routes referrals.
 - LinkedIn Outreach to Physicians: The Message That Gets Replies: https://catalyzegrowth.co/blog/linkedin-outreach-physicians-referrals
 - Google Ads for Healthcare: LegitScript and Disapprovals: https://catalyzegrowth.co/blog/google-ads-healthcare-2026-legitscript
 - Meta Ads for Healthcare: You Can't Target by Condition: https://catalyzegrowth.co/blog/meta-ads-healthcare-without-condition-targeting
@@ -151,8 +154,10 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - Agency vs In-House Healthcare Marketing: https://catalyzegrowth.co/blog/agency-vs-in-house-healthcare-marketing
 - Physician Liaison vs Referral Agency: https://catalyzegrowth.co/blog/physician-liaison-vs-referral-agency
 - HIPAA-Aware Google Ads Conversion Tracking for Practices: https://catalyzegrowth.co/blog/hipaa-google-ads-conversion-tracking
+  Track the appointment request, not the diagnosis. Keep patient details out of pixels, tags, and URLs, and count conversions your front desk can confirm.
 - Local SEO Checklist for Healthcare Practices: https://catalyzegrowth.co/blog/local-seo-checklist-healthcare-practices
 - Google Business Profile for Healthcare Practices: https://catalyzegrowth.co/blog/google-business-profile-healthcare-practices
+  Your Google Business Profile should match the clinic door, the website, and the directories: same name, address, phone, hours, and services. Each staffed location patients can visit gets its own profile.
 - When Not to Hire a Healthcare Marketing Agency: https://catalyzegrowth.co/blog/when-not-to-hire-healthcare-marketing-agency
 - Questions Before Signing a Healthcare Marketing Contract: https://catalyzegrowth.co/blog/questions-before-signing-healthcare-marketing-contract
 - Multi-Location vs Single-Site Healthcare SEO: https://catalyzegrowth.co/blog/multi-location-vs-single-site-healthcare-seo
@@ -162,11 +167,13 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - What “Healthcare-Only Agency” Should Mean: https://catalyzegrowth.co/blog/what-healthcare-only-agency-should-mean
 - Healthcare Marketing Budget Allocation for Practices: https://catalyzegrowth.co/blog/healthcare-marketing-budget-allocation-practices
 - How Practices Should Evaluate Referral Marketing Vendors: https://catalyzegrowth.co/blog/evaluate-referral-marketing-vendors
+  Before you sign, a referral marketing vendor should name its data source, the monthly report fields your front desk can check, and where its compliance line sits. You should own the target list and the suppression list.
 - Local Pack vs Organic SEO for Healthcare Practices: https://catalyzegrowth.co/blog/local-pack-vs-organic-seo-healthcare
 - HIPAA-Aware Meta Ads Creative and Landing Pages: https://catalyzegrowth.co/blog/hipaa-aware-meta-ads-creative-landing-pages
 - Healthcare Marketing RFP / RFI Questions Practices Should Ask: https://catalyzegrowth.co/blog/healthcare-marketing-rfp-rfi-questions
 - How to Brief a Healthcare Marketing Agency: https://catalyzegrowth.co/blog/how-to-brief-a-healthcare-marketing-agency
 - Referral Marketing KPIs Practices Should Track: https://catalyzegrowth.co/blog/referral-marketing-kpis-practices
+  Track outreach volume, meetings, referrals received, booked appointments, and how long the consult note takes to get back to the referring office. Check each field against your intake.
 - Healthcare Website Conversion Essentials for SEO and Paid Traffic: https://catalyzegrowth.co/blog/healthcare-website-conversion-essentials
 - Healthcare Marketing Attribution Without PHI Leakage: https://catalyzegrowth.co/blog/healthcare-marketing-attribution-without-phi
 - Staff Intake Before Scaling Referral or Paid Ads: https://catalyzegrowth.co/blog/staff-intake-before-scaling-referral-or-paid
@@ -175,6 +182,7 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - WebMD Ignite-Style Referral Networks vs Practice-Led Outreach: https://catalyzegrowth.co/blog/webmd-ignite-style-vs-practice-led-referral-outreach
 - Building a Referring-Office List Without Buying a Network: https://catalyzegrowth.co/blog/building-referring-office-list-without-buying-network
 - Healthcare Digital Marketing Channel Mix: https://catalyzegrowth.co/blog/healthcare-digital-marketing-channel-mix
+  Pick the channel that fits the gap. Referral outreach when other offices already send your specialty, SEO when patients search and your listing or site is the bottleneck, paid ads when open slots need nearer-term demand.
 - Healthcare Marketing Agency RFP Scorecard for Practice Owners: https://catalyzegrowth.co/blog/healthcare-marketing-agency-rfp-scorecard
 - How AI Overviews Pick Healthcare Marketing Sources: https://catalyzegrowth.co/blog/how-ai-overviews-pick-healthcare-marketing-sources
 - What a Local SEO Package for Multi-Provider Practices Should Include: https://catalyzegrowth.co/blog/local-seo-package-multi-provider-practices
@@ -191,14 +199,20 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - Paid Search Landing Page Checklist for Healthcare: https://catalyzegrowth.co/blog/paid-search-landing-page-checklist-healthcare
 - Closing the Loop With Referring Offices in 7 Days: https://catalyzegrowth.co/blog/closing-the-loop-referring-offices-7-days
 - Referral Liaison vs Multi-Channel Outreach for Practices: https://catalyzegrowth.co/blog/referral-liaison-vs-multi-channel-outreach
+  Keep a referral liaison for face-to-face trust with the offices that refer most. Add multi-channel outreach when your target list is bigger than weekly visits can cover.
 - Healthcare Marketing Agency Fee Transparency Checklist: https://catalyzegrowth.co/blog/healthcare-marketing-agency-fee-transparency-checklist
+  Get written line items before you sign: management fee versus media, minimum term, who owns the accounts, and which report fields you can check against intake. Catalyze Care publishes its fees: $5,000 a month for referral marketing, $799 for SEO, and $2,500 plus media for paid ads management.
 - What to Expect in the First 90 Days of Referral Marketing: https://catalyzegrowth.co/blog/healthcare-referral-marketing-first-90-days
+  Month 1 builds the target list and sends the first wave. Month 2 keeps the cadence and follows up with offices that replied.
 - When a Practice Should Use SEO vs Paid Ads: https://catalyzegrowth.co/blog/healthcare-seo-vs-paid-ads-when-to-use-each
+  Use SEO when patients already search for your specialty and town. It builds over months.
 - Questions to Ask a Healthcare Digital Marketing Agency: https://catalyzegrowth.co/blog/questions-to-ask-a-healthcare-digital-marketing-agency
+  Get five answers in writing before the first invoice: what the monthly report measures, how patient information stays out of ad platforms, who owns the accounts and creative, the minimum term, and who writes the ads. Score the written answers, not the pitch.
 - How to Switch Healthcare Marketing Agencies Without Losing Your Accounts: https://catalyzegrowth.co/blog/switching-healthcare-marketing-agencies-account-ownership
 - Multi-Location Google Review Routing Without Duplicate GBP: https://catalyzegrowth.co/blog/multi-location-google-review-routing-without-duplicate-gbp
 - HIPAA-Aware Remarketing for Healthcare Paid Ads: https://catalyzegrowth.co/blog/hipaa-aware-remarketing-healthcare-paid-ads
 - Healthcare Digital Marketing Glossary: https://catalyzegrowth.co/blog/healthcare-digital-marketing-metrics-glossary
+  Booked appointments by source is the number every other metric should roll up to. Cost per booked appointment, cost per new patient, and speed to lead tell you what that number cost and how fast intake answered.
 - Healthcare Marketing Agency Onboarding: https://catalyzegrowth.co/blog/healthcare-marketing-agency-onboarding-first-30-days
 - Healthcare Practice SEO Audit Checklist: https://catalyzegrowth.co/blog/healthcare-practice-seo-audit-checklist
 - Provider and Location Page SEO: https://catalyzegrowth.co/blog/provider-and-location-pages-healthcare-seo
