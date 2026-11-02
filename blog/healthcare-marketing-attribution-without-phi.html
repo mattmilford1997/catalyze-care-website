@@ -103,7 +103,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
   "headline": "Healthcare Marketing Attribution Without PHI Leakage | Catalyze Care",
   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-attribution-without-phi",
   "datePublished": "2026-09-17",
-  "dateModified": "2026-09-17",
+  "dateModified": "2026-11-02",
   "author": {
     "@type": "Person",
     "@id": "https://catalyzegrowth.co/about#andrew-brazis",
@@ -249,16 +249,28 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 <body>
 <nav class="nav"><div class="nav-inner"><a href="/" class="nav-logo"><span class="mark">CC</span> Catalyze Care</a><div class="nav-links" id="primary-nav"><a href="/#marketing">Marketing</a><a href="/#leads">Lead Lists</a><a href="/#referrals">Referral Data</a><a href="/referral">Referral Marketing</a><a href="/paid-ads">Paid Ads</a><a href="/seo">SEO</a><a href="/blog" class="active" aria-current="page">Blog</a><a href="/pricing">Pricing</a></div><a href="/#contact" class="nav-cta">Get Started</a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></button></div></nav>
-<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/blog">Blog</a><span class="sep">/</span><span>Healthcare Marketing Attribution Without PHI Leakage</span></nav><div class="post-cat">Compliance</div><h1>Healthcare Marketing Attribution Without PHI Leakage</h1><div class="post-meta"><span>By <a href="/about">Andrew Brazis</a>, who runs Catalyze Care · Updated September 17, 2026</span><span>&middot;</span><span>11 min read</span></div></header>
+<header class="post-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/blog">Blog</a><span class="sep">/</span><span>Healthcare Marketing Attribution Without PHI Leakage</span></nav><div class="post-cat">Compliance</div><h1>Healthcare Marketing Attribution Without PHI Leakage</h1><div class="post-meta"><span>By <a href="/about">Andrew Brazis</a>, who runs Catalyze Care · Updated November 2, 2026</span><span>&middot;</span><span>11 min read</span></div></header>
 <article class="post-content">
 <p id="definition">Healthcare marketing attribution without PHI leakage means assigning credit to referral, SEO, or paid channels using generic campaign labels, clean thank-you events, and practice-side intake fields, never diagnoses, member IDs, or condition strings in pixels, UTMs, or call-tracking transcripts sent to ad platforms. HHS OCR has published guidance on online tracking technologies used by HIPAA covered entities and business associates. Pair that with Google Ads healthcare policy and your counsel’s review of the tag map. Treat it as education, not legal advice. Catalyze Care publishes paid ads management at <strong>$2,500/month</strong> (media separate), SEO at <strong>$799/month</strong>, and referral marketing at <strong>$5,000/month</strong> (3-month minimum).</p>
-<p class="key-takeaway" id="key-takeaway"><span class="label">In one sentence</span>Attribute the appointment request, not the diagnosis, and keep PHI out of UTMs, call recordings, and offline conversion uploads.</p>
-<h2>Why attribution breaks in healthcare</h2>
+<p class="key-takeaway" id="key-takeaway"><span class="label">Quick answer</span>Credit referral, SEO, and paid channels using generic campaign labels, clean thank-you events, and the intake fields your practice already keeps. Keep diagnoses, member IDs, and condition strings inside the practice, out of anything sent to ad platforms.</p>
+<nav class="post-toc" aria-label="Table of contents">
+<p>Contents</p>
+<ol>
+<li><a href="#why-attribution-breaks-in-healthcare">Why attribution breaks in healthcare</a></li>
+<li><a href="#utm-hygiene-for-practices">UTM hygiene for practices</a></li>
+<li><a href="#call-tracking-caveats">Call tracking caveats</a></li>
+<li><a href="#offline-conversions-without-phi">Offline conversions without PHI</a></li>
+<li><a href="#checklist">Attribution checklist (visible steps)</a></li>
+<li><a href="#what-catalyze-care-does">What Catalyze Care does</a></li>
+<li><a href="#faq-heading">FAQ</a></li>
+</ol>
+</nav>
+<h2 id="why-attribution-breaks-in-healthcare">Why attribution breaks in healthcare</h2>
 <p>Practices need to know which channel produced a booked appointment. Ad platforms want conversion signals. The conflict appears when someone pastes a diagnosis into a UTM, names a condition in a thank-you URL, or uploads a call recording that includes clinical details. OCR’s tracking guidance treats tools that connect an individual to health-related context as high risk. The safe pattern is the same as <a href="/blog/hipaa-google-ads-conversion-tracking">HIPAA-aware Google Ads conversion tracking</a>: measure the appointment request on a generic page, not the clinical story.</p>
 <p class="cite">Source: <a href="https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html">HHS OCR, Use of Online Tracking Technologies by HIPAA Covered Entities and Business Associates</a>.</p>
 <p class="cite">Source: <a href="https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/marketing/index.html">HHS, Marketing (HIPAA Privacy Rule)</a>.</p>
 
-<h2>UTM hygiene for practices</h2>
+<h2 id="utm-hygiene-for-practices">UTM hygiene for practices</h2>
 <p>UTMs are fine when they name the channel, campaign, and creative, not the patient. Use source/medium/campaign values like <code>google / cpc / orthopedic-service-area</code> or <code>referral / fax / q3-outreach</code>. Do not put condition names, procedure codes, or member IDs in query strings that tags or analytics will store.</p>
 <ul>
 <li><strong>Allowed pattern:</strong> channel + geography or service-line label the practice already publishes on the website.</li>
@@ -267,7 +279,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 </ul>
 <p>For pixel rules, read <a href="/blog/hipaa-marketing-pixels-tracking">HIPAA marketing pixels and tracking</a>.</p>
 
-<h2>Call tracking caveats</h2>
+<h2 id="call-tracking-caveats">Call tracking caveats</h2>
 <p>Dynamic numbers help connect a click to a phone call. They become risky when recordings, transcripts, or CRM notes with clinical detail sync to an advertising or analytics vendor. Prefer:</p>
 <ul>
 <li>Call duration or answered/missed flags as the marketing signal.</li>
@@ -276,7 +288,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 </ul>
 <p>This is not legal advice. Practices should involve their privacy officer before enabling transcript features on marketing numbers.</p>
 
-<h2>Offline conversions without PHI</h2>
+<h2 id="offline-conversions-without-phi">Offline conversions without PHI</h2>
 <p>Offline conversion imports (for example, uploading booked appointments back to Google Ads) should use a click ID or call timestamp plus a generic conversion name such as “appointment_request.” Do not upload names, DOBs, MRNs, or diagnosis codes. Match keys stay in the practice CRM; the upload file stays minimal.</p>
 <p class="cite">Source: <a href="https://support.google.com/adspolicy/answer/176031">Google Ads, Healthcare and medicines policy</a>.</p>
 
@@ -291,7 +303,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 </ol>
 <p>For the website side, read <a href="/blog/healthcare-website-conversion-essentials">healthcare website conversion essentials</a>. To see how we set this up for clients, read about our <a href="/healthcare-marketing-agency">healthcare marketing agency</a> work, <a href="/paid-ads-for-healthcare-practices">paid ads for healthcare practices</a>, and <a href="/healthcare-digital-marketing">healthcare digital marketing</a>.</p>
 
-<h2>What Catalyze Care does</h2>
+<h2 id="what-catalyze-care-does">What Catalyze Care does</h2>
 <p>We set channel reporting so practices can see referral, SEO, and paid activity without diagnosis-level pixels. Published fees only: referral <strong>$5,000/month</strong> (3-month minimum), SEO <strong>$799/month</strong>, paid ads <strong>$2,500/month</strong> management (media separate). Reports show outreach and booked-inquiry fields from your intake.</p>
 
 <h2>Sources</h2>

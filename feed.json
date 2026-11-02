@@ -13,6 +13,634 @@
  ],
  "items": [
   {
+   "id": "https://catalyzegrowth.co/seo",
+   "url": "https://catalyzegrowth.co/seo",
+   "title": "SEO for Healthcare Practices | Catalyze Care",
+   "summary": "Local SEO, on-page, technical SEO, and content built for healthcare practices, so more patients find you. $799/month, 6-month minimum.",
+   "content_text": "Local SEO, on-page, technical SEO, and content built for healthcare practices, so more patients find you. $799/month, 6-month minimum.",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/paid-ads",
+   "url": "https://catalyzegrowth.co/paid-ads",
+   "title": "Paid Ads for Healthcare Practices | Catalyze Care",
+   "summary": "HIPAA-aware Google Ads, Meta Ads, and Display for healthcare practices, aimed at booked appointments. $2,500/month management, media billed separately.",
+   "content_text": "HIPAA-aware Google Ads, Meta Ads, and Display for healthcare practices, aimed at booked appointments. $2,500/month management, media billed separately.",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/when-referral-volume-dips-healthcare-practices",
+   "url": "https://catalyzegrowth.co/blog/when-referral-volume-dips-healthcare-practices",
+   "title": "When Referral Volume Dips | Catalyze Care",
+   "summary": "A checklist when referrals fall: list quality, a 7-day close-the-loop, channel mix, and whether intake can take the next patient.",
+   "content_text": "A checklist when referrals fall: list quality, a 7-day close-the-loop, channel mix, and whether intake can take the next patient.",
+   "date_published": "2026-10-09T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/google-ads-healthcare-2026-legitscript",
+   "url": "https://catalyzegrowth.co/blog/google-ads-healthcare-2026-legitscript",
+   "title": "Google Ads for Healthcare: LegitScript and Disapprovals",
+   "summary": "What Google requires certification for in healthcare ads, what commonly gets disapproved, and how to launch an account without losing a month.",
+   "content_text": "What Google requires certification for in healthcare ads, what commonly gets disapproved, and how to launch an account without losing a month.",
+   "date_published": "2026-08-26T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/meta-ads-healthcare-without-condition-targeting",
+   "url": "https://catalyzegrowth.co/blog/meta-ads-healthcare-without-condition-targeting",
+   "title": "Meta Ads Without Condition Targeting | Catalyze Care",
+   "summary": "Meta removed health-condition targeting and restricts pixel events. Use place, life stage, and creative that names the service.",
+   "content_text": "Meta removed health-condition targeting and restricts pixel events. Use place, life stage, and creative that names the service.",
+   "date_published": "2026-08-26T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/hipaa-marketing-pixels-tracking",
+   "url": "https://catalyzegrowth.co/blog/hipaa-marketing-pixels-tracking",
+   "title": "HIPAA and Marketing Pixels: What Changed | Catalyze Care",
+   "summary": "Where HHS guidance on tracking pixels stands after the 2024 court ruling, what is actually risky, and how to measure marketing without sending PHI.",
+   "content_text": "Where HHS guidance on tracking pixels stands after the 2024 court ruling, what is actually risky, and how to measure marketing without sending PHI.",
+   "date_published": "2026-08-26T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/local-seo-multi-state-telehealth",
+   "url": "https://catalyzegrowth.co/blog/local-seo-multi-state-telehealth",
+   "title": "Local SEO for Multi-State Telehealth | Catalyze Care",
+   "summary": "How telehealth practices compete for near me searches without a storefront: state and city pages, Google Business Profile rules, and directories.",
+   "content_text": "How telehealth practices compete for near me searches without a storefront: state and city pages, Google Business Profile rules, and directories.",
+   "date_published": "2026-08-26T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/ai-search-healthcare-practice-visibility",
+   "url": "https://catalyzegrowth.co/blog/ai-search-healthcare-practice-visibility",
+   "title": "How to Get Your Practice Cited in AI Search | Catalyze Care",
+   "summary": "How ChatGPT and Google AI Overviews pick sources for care questions like best therapist near me, and what a practice can publish to be one of them.",
+   "content_text": "How ChatGPT and Google AI Overviews pick sources for care questions like best therapist near me, and what a practice can publish to be one of them.",
+   "date_published": "2026-08-26T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/pediatrician-referrals-behavioral-health-therapy",
+   "url": "https://catalyzegrowth.co/blog/pediatrician-referrals-behavioral-health-therapy",
+   "title": "Pediatrician Referrals for Child Therapy | Catalyze Care",
+   "summary": "Pediatricians see every child in your market first, and most have nowhere good to send kids who need therapy. How to become their referral answer.",
+   "content_text": "Pediatricians see every child in your market first, and most have nowhere good to send kids who need therapy. How to become their referral answer.",
+   "date_published": "2026-08-26T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-q4-january-demand",
+   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-q4-january-demand",
+   "title": "Q4 Planning for January Healthcare Demand | Catalyze Care",
+   "summary": "Deductibles reset, plans change, and January is the busiest intake month for many specialties. How to use Q4 to set up demand for Q1.",
+   "content_text": "Deductibles reset, plans change, and January is the busiest intake month for many specialties. How to use Q4 to set up demand for Q1.",
+   "date_published": "2026-08-26T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/patient-acquisition-cost-benchmarks",
+   "url": "https://catalyzegrowth.co/blog/patient-acquisition-cost-benchmarks",
+   "title": "What Does It Cost to Acquire a Patient? | Catalyze Care",
+   "summary": "How practices should calculate patient acquisition cost from their own intake.",
+   "content_text": "How practices should calculate patient acquisition cost from their own intake.",
+   "date_published": "2026-08-26T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/healthcare-directory-profile-audit",
+   "url": "https://catalyzegrowth.co/blog/healthcare-directory-profile-audit",
+   "title": "30-Minute Directory Profile Audit | Catalyze Care",
+   "summary": "Patients and referring offices check directories before they call. A 30-minute audit to fix incomplete, inconsistent, or wrong insurance listings.",
+   "content_text": "Patients and referring offices check directories before they call. A 30-minute audit to fix incomplete, inconsistent, or wrong insurance listings.",
+   "date_published": "2026-08-26T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/referral-nurture-cadence-referring-offices",
+   "url": "https://catalyzegrowth.co/blog/referral-nurture-cadence-referring-offices",
+   "title": "Six-Touch Referring-Office Nurture Plan | Catalyze Care",
+   "summary": "Winning a referring office is half the work. A six-touch annual cadence keeps your practice top of mind with that office without becoming noise.",
+   "content_text": "Winning a referring office is half the work. A six-touch annual cadence keeps your practice top of mind with that office without becoming noise.",
+   "date_published": "2026-08-26T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/2027-healthcare-marketing-plan-template",
+   "url": "https://catalyzegrowth.co/blog/2027-healthcare-marketing-plan-template",
+   "title": "2027 Healthcare Marketing Plan on One Page | Catalyze Care",
+   "summary": "A one-page 2027 marketing plan for healthcare practices: three channels, five numbers, and one review cadence your team can keep.",
+   "content_text": "A one-page 2027 marketing plan for healthcare practices: three channels, five numbers, and one review cadence your team can keep.",
+   "date_published": "2026-08-26T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/seo-vs-geo-healthcare-practices",
+   "url": "https://catalyzegrowth.co/blog/seo-vs-geo-healthcare-practices",
+   "title": "SEO vs GEO for Healthcare Practices | Catalyze Care",
+   "summary": "How traditional SEO and generative engine optimization (GEO) differ for healthcare practices, what to do first, and what Google, HHS, CMS, and AHRQ say.",
+   "content_text": "How traditional SEO and generative engine optimization (GEO) differ for healthcare practices, what to do first, and what Google, HHS, CMS, and AHRQ say.",
+   "date_published": "2026-09-08T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/agency-vs-in-house-healthcare-marketing",
+   "url": "https://catalyzegrowth.co/blog/agency-vs-in-house-healthcare-marketing",
+   "title": "Agency vs In-House Healthcare Marketing | Catalyze Care",
+   "summary": "When to hire an in-house marketer, when a healthcare marketing agency fits better, and the hybrid most practices use. Published fees included.",
+   "content_text": "When to hire an in-house marketer, when a healthcare marketing agency fits better, and the hybrid most practices use. Published fees included.",
+   "date_published": "2026-09-08T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/physician-liaison-vs-referral-agency",
+   "url": "https://catalyzegrowth.co/blog/physician-liaison-vs-referral-agency",
+   "title": "Physician Liaison vs Referral Agency | Catalyze Care",
+   "summary": "Physician liaison wage context from public BLS data vs Catalyze Care referral marketing at $5,000/month with a 3-month minimum.",
+   "content_text": "Physician liaison wage context from public BLS data vs Catalyze Care referral marketing at $5,000/month with a 3-month minimum.",
+   "date_published": "2026-09-08T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/when-not-to-hire-healthcare-marketing-agency",
+   "url": "https://catalyzegrowth.co/blog/when-not-to-hire-healthcare-marketing-agency",
+   "title": "When Not to Hire a Healthcare Marketing Agency",
+   "summary": "When a healthcare practice should not hire a marketing agency. Uses published Catalyze fees ($5,000 / $799 / $2,500).",
+   "content_text": "When a healthcare practice should not hire a marketing agency. Uses published Catalyze fees ($5,000 / $799 / $2,500).",
+   "date_published": "2026-09-10T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/questions-before-signing-healthcare-marketing-contract",
+   "url": "https://catalyzegrowth.co/blog/questions-before-signing-healthcare-marketing-contract",
+   "title": "Questions Before Signing a Contract | Catalyze Care",
+   "summary": "Checklist before you sign: account ownership, tracking, report fields, published fees, and the minimum term on each channel.",
+   "content_text": "Checklist before you sign: account ownership, tracking, report fields, published fees, and the minimum term on each channel.",
+   "date_published": "2026-09-10T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/multi-location-vs-single-site-healthcare-seo",
+   "url": "https://catalyzegrowth.co/blog/multi-location-vs-single-site-healthcare-seo",
+   "title": "Multi-Location vs Single-Site Healthcare SEO",
+   "summary": "How NAP consistency and Google Business Profile differ for one clinic vs many locations.",
+   "content_text": "How NAP consistency and Google Business Profile differ for one clinic vs many locations.",
+   "date_published": "2026-09-10T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/how-to-read-healthcare-marketing-agency-proposal",
+   "url": "https://catalyzegrowth.co/blog/how-to-read-healthcare-marketing-agency-proposal",
+   "title": "How to Read a Healthcare Marketing Agency Proposal",
+   "summary": "Read a healthcare marketing proposal for fees, data ownership, reporting, and cancel terms.",
+   "content_text": "Read a healthcare marketing proposal for fees, data ownership, reporting, and cancel terms.",
+   "date_published": "2026-09-11T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/close-the-loop-referral-reporting",
+   "url": "https://catalyzegrowth.co/blog/close-the-loop-referral-reporting",
+   "title": "Close-the-Loop Referral Reporting | Catalyze Care",
+   "summary": "What a practice should measure each month in referral reporting: offices contacted, responses, referred patients, and close-the-loop notes.",
+   "content_text": "What a practice should measure each month in referral reporting: offices contacted, responses, referred patients, and close-the-loop notes.",
+   "date_published": "2026-09-11T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/google-ads-account-structure-healthcare-practices",
+   "url": "https://catalyzegrowth.co/blog/google-ads-account-structure-healthcare-practices",
+   "title": "Google Ads Account Structure for Healthcare Practices",
+   "summary": "How to structure Google Ads campaigns and ad groups for a healthcare practice. HIPAA-aware conversion notes.",
+   "content_text": "How to structure Google Ads campaigns and ad groups for a healthcare practice. HIPAA-aware conversion notes.",
+   "date_published": "2026-09-11T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/what-healthcare-only-agency-should-mean",
+   "url": "https://catalyzegrowth.co/blog/what-healthcare-only-agency-should-mean",
+   "title": "What “Healthcare-Only Agency” Should Mean | Catalyze Care",
+   "summary": "What a healthcare-only marketing agency should mean in practice: fax workflows, HIPAA-aware tracking, and limits on condition targeting.",
+   "content_text": "What a healthcare-only marketing agency should mean in practice: fax workflows, HIPAA-aware tracking, and limits on condition targeting.",
+   "date_published": "2026-09-11T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-budget-allocation-practices",
+   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-budget-allocation-practices",
+   "title": "Marketing Budget for Healthcare Practices | Catalyze Care",
+   "summary": "How to split a practice marketing budget across referral, SEO, and paid ads in the first three months, using published Catalyze Care fees.",
+   "content_text": "How to split a practice marketing budget across referral, SEO, and paid ads in the first three months, using published Catalyze Care fees.",
+   "date_published": "2026-09-12T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/local-pack-vs-organic-seo-healthcare",
+   "url": "https://catalyzegrowth.co/blog/local-pack-vs-organic-seo-healthcare",
+   "title": "Local Pack vs Organic SEO for Healthcare Practices",
+   "summary": "Local pack (Maps / Google Business Profile) vs organic website SEO for healthcare practices.",
+   "content_text": "Local pack (Maps / Google Business Profile) vs organic website SEO for healthcare practices.",
+   "date_published": "2026-09-12T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/hipaa-aware-meta-ads-creative-landing-pages",
+   "url": "https://catalyzegrowth.co/blog/hipaa-aware-meta-ads-creative-landing-pages",
+   "title": "HIPAA-Aware Meta Ads and Landing Pages | Catalyze Care",
+   "summary": "HIPAA-aware Meta Ads creative and landing pages for healthcare practices. No condition targeting. Published $2,500 management fee.",
+   "content_text": "HIPAA-aware Meta Ads creative and landing pages for healthcare practices. No condition targeting. Published $2,500 management fee.",
+   "date_published": "2026-09-12T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-rfp-rfi-questions",
+   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-rfp-rfi-questions",
+   "title": "Healthcare Marketing RFP Questions for Practices",
+   "summary": "RFP and RFI questions for a healthcare marketing agency: fees, ownership, reporting, cancel terms, and proposal red flags.",
+   "content_text": "RFP and RFI questions for a healthcare marketing agency: fees, ownership, reporting, cancel terms, and proposal red flags.",
+   "date_published": "2026-09-13T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/how-to-brief-a-healthcare-marketing-agency",
+   "url": "https://catalyzegrowth.co/blog/how-to-brief-a-healthcare-marketing-agency",
+   "title": "How to Brief a Healthcare Marketing Agency | Catalyze Care",
+   "summary": "Kickoff inputs for a healthcare marketing agency: ICP, service area, compliance constraints, and reporting cadence.",
+   "content_text": "Kickoff inputs for a healthcare marketing agency: ICP, service area, compliance constraints, and reporting cadence.",
+   "date_published": "2026-09-13T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/healthcare-website-conversion-essentials",
+   "url": "https://catalyzegrowth.co/blog/healthcare-website-conversion-essentials",
+   "title": "Healthcare Website Conversion Essentials | Catalyze Care",
+   "summary": "HIPAA-safe forms, landing-page clarity, and no condition-in-URL for healthcare SEO and paid traffic.",
+   "content_text": "HIPAA-safe forms, landing-page clarity, and no condition-in-URL for healthcare SEO and paid traffic.",
+   "date_published": "2026-09-13T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/healthcare-success-alternatives",
+   "url": "https://catalyzegrowth.co/healthcare-success-alternatives",
+   "title": "Healthcare Success Alternatives for Healthcare Practices",
+   "summary": "Healthcare Success alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
+   "content_text": "Healthcare Success alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
+   "date_published": "2026-09-15T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/practice-builders-alternatives",
+   "url": "https://catalyzegrowth.co/practice-builders-alternatives",
+   "title": "Practice Builders Alternatives for Healthcare Practices",
+   "summary": "Practice Builders alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
+   "content_text": "Practice Builders alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
+   "date_published": "2026-09-15T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/webmd-ignite-alternatives",
+   "url": "https://catalyzegrowth.co/webmd-ignite-alternatives",
+   "title": "WebMD Ignite Alternatives for Healthcare Practices",
+   "summary": "WebMD Ignite alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
+   "content_text": "WebMD Ignite alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
+   "date_published": "2026-09-15T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/quaintise-alternatives",
+   "url": "https://catalyzegrowth.co/quaintise-alternatives",
+   "title": "Quaintise Alternatives for Healthcare Practices",
+   "summary": "Quaintise alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
+   "content_text": "Quaintise alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
+   "date_published": "2026-09-15T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-attribution-without-phi",
+   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-attribution-without-phi",
+   "title": "Healthcare Attribution Without PHI Leakage | Catalyze Care",
+   "summary": "UTM hygiene, call-tracking caveats, and offline conversions for practices, without PHI in pixels or URLs. HHS/OCR-safe framing, not legal advice.",
+   "content_text": "UTM hygiene, call-tracking caveats, and offline conversions for practices, without PHI in pixels or URLs. HHS/OCR-safe framing, not legal advice.",
+   "date_published": "2026-09-17T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/staff-intake-before-scaling-referral-or-paid",
+   "url": "https://catalyzegrowth.co/blog/staff-intake-before-scaling-referral-or-paid",
+   "title": "Staff Intake Before Scaling Referral or Ads | Catalyze Care",
+   "summary": "How healthcare practices should staff intake capacity and SLAs to referring offices before scaling referral marketing or paid ads.",
+   "content_text": "How healthcare practices should staff intake capacity and SLAs to referring offices before scaling referral marketing or paid ads.",
+   "date_published": "2026-09-17T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/review-generation-reputation-healthcare-practices",
+   "url": "https://catalyzegrowth.co/blog/review-generation-reputation-healthcare-practices",
+   "title": "Review Generation for Healthcare Practices | Catalyze Care",
+   "summary": "How healthcare practices earn honest Google reviews after completed visits, reply without exposing patient information, and keep profiles accurate.",
+   "content_text": "How healthcare practices earn honest Google reviews after completed visits, reply without exposing patient information, and keep profiles accurate.",
+   "date_published": "2026-09-17T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/multi-location-healthcare-paid-ads-structure",
+   "url": "https://catalyzegrowth.co/blog/multi-location-healthcare-paid-ads-structure",
+   "title": "Multi-Location Healthcare Paid Ads | Catalyze Care",
+   "summary": "How multi-location practices split Google and Meta ads: shared vs per-location campaigns, budgets by capacity, landing pages, and tracking.",
+   "content_text": "How multi-location practices split Google and Meta ads: shared vs per-location campaigns, budgets by capacity, landing pages, and tracking.",
+   "date_published": "2026-09-17T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/webmd-ignite-style-vs-practice-led-referral-outreach",
+   "url": "https://catalyzegrowth.co/blog/webmd-ignite-style-vs-practice-led-referral-outreach",
+   "title": "Referral Networks vs Practice-Led Outreach | Catalyze Care",
+   "summary": "What Ignite-style referral network products optimize for versus practice-led multi-channel outreach.",
+   "content_text": "What Ignite-style referral network products optimize for versus practice-led multi-channel outreach.",
+   "date_published": "2026-09-17T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/building-referring-office-list-without-buying-network",
+   "url": "https://catalyzegrowth.co/blog/building-referring-office-list-without-buying-network",
+   "title": "Referring-Office List Without a Network Buy | Catalyze Care",
+   "summary": "How practices build a referring-office list from claims-backed patterns and owned outreach, without buying a referral network. Referral fee $5,000/month.",
+   "content_text": "How practices build a referring-office list from claims-backed patterns and owned outreach, without buying a referral network. Referral fee $5,000/month.",
+   "date_published": "2026-09-18T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-agency-rfp-scorecard",
+   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-agency-rfp-scorecard",
+   "title": "Healthcare Marketing Agency RFP Scorecard | Catalyze Care",
+   "summary": "A criteria-only RFP scorecard for practice owners comparing healthcare marketing agencies.",
+   "content_text": "A criteria-only RFP scorecard for practice owners comparing healthcare marketing agencies.",
+   "date_published": "2026-09-18T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/how-ai-overviews-pick-healthcare-marketing-sources",
+   "url": "https://catalyzegrowth.co/blog/how-ai-overviews-pick-healthcare-marketing-sources",
+   "title": "How AI Overviews Pick Healthcare Marketing Sources",
+   "summary": "What Google AI Overviews and similar answer engines tend to cite for healthcare marketing questions, and what a practice can publish to earn a mention.",
+   "content_text": "What Google AI Overviews and similar answer engines tend to cite for healthcare marketing questions, and what a practice can publish to earn a mention.",
+   "date_published": "2026-09-18T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/local-seo-package-multi-provider-practices",
+   "url": "https://catalyzegrowth.co/blog/local-seo-package-multi-provider-practices",
+   "title": "Local SEO for Multi-Provider Practices | Catalyze Care",
+   "summary": "What a multi-provider local SEO package should include: GBP hygiene, matching citations, and service-page depth. SEO is $799/month, 6-month minimum.",
+   "content_text": "What a multi-provider local SEO package should include: GBP hygiene, matching citations, and service-page depth. SEO is $799/month, 6-month minimum.",
+   "date_published": "2026-09-18T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/how-practices-should-read-monthly-healthcare-marketing-report",
+   "url": "https://catalyzegrowth.co/blog/how-practices-should-read-monthly-healthcare-marketing-report",
+   "title": "How to Read a Monthly Healthcare Marketing Report",
+   "summary": "What a practice administrator should check on a monthly healthcare marketing report: outreach, meetings, referrals, bookings, and follow-up time.",
+   "content_text": "What a practice administrator should check on a monthly healthcare marketing report: outreach, meetings, referrals, bookings, and follow-up time.",
+   "date_published": "2026-09-19T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/google-business-profile-vs-website-seo-ownership",
+   "url": "https://catalyzegrowth.co/blog/google-business-profile-vs-website-seo-ownership",
+   "title": "GBP vs Website SEO: Who Owns What | Catalyze Care",
+   "summary": "Who owns Google Business Profile versus the website for a multi-provider group: roles, NAP, and reviews, plus how it ties to SEO at $799/month.",
+   "content_text": "Who owns Google Business Profile versus the website for a multi-provider group: roles, NAP, and reviews, plus how it ties to SEO at $799/month.",
+   "date_published": "2026-09-19T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/when-to-pause-paid-ads-vs-seo-vs-referral",
+   "url": "https://catalyzegrowth.co/blog/when-to-pause-paid-ads-vs-seo-vs-referral",
+   "title": "When to Pause Paid, SEO, or Referral | Catalyze Care",
+   "summary": "A checklist for pausing paid ads, SEO, or referral work: lead quality, intake capacity, booked inquiries versus spend, and seasonal demand.",
+   "content_text": "A checklist for pausing paid ads, SEO, or referral work: lead quality, intake capacity, booked inquiries versus spend, and seasonal demand.",
+   "date_published": "2026-09-19T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-stack-map",
+   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-stack-map",
+   "title": "Healthcare Marketing Stack: Who Owns What | Catalyze Care",
+   "summary": "What Catalyze Care owns in a healthcare marketing stack versus the practice CRM, EHR, and phone. No claimed product integrations.",
+   "content_text": "What Catalyze Care owns in a healthcare marketing stack versus the practice CRM, EHR, and phone. No claimed product integrations.",
+   "date_published": "2026-09-19T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/echo-factory-alternatives",
+   "url": "https://catalyzegrowth.co/echo-factory-alternatives",
+   "title": "Echo Factory Alternatives for Healthcare Practices",
+   "summary": "Echo Factory alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
+   "content_text": "Echo Factory alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
+   "date_published": "2026-09-19T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/nkp-medical-alternatives",
+   "url": "https://catalyzegrowth.co/nkp-medical-alternatives",
+   "title": "NKP Medical Alternatives for Healthcare Practices",
+   "summary": "NKP Medical alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care paid ads is $2,500/month plus media.",
+   "content_text": "NKP Medical alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care paid ads is $2,500/month plus media.",
+   "date_published": "2026-09-19T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-budget-planning-mid-size-provider-groups",
+   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-budget-planning-mid-size-provider-groups",
+   "title": "Healthcare Marketing Budget Planning for Provider Groups",
+   "summary": "How mid-size provider groups plan referral, SEO, and paid budgets from published fees of $5,000, $799, and $2,500, with channel mix and pause rules.",
+   "content_text": "How mid-size provider groups plan referral, SEO, and paid budgets from published fees of $5,000, $799, and $2,500, with channel mix and pause rules.",
+   "date_published": "2026-09-20T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/call-tracking-vs-ehr-practice-management-attribution",
+   "url": "https://catalyzegrowth.co/blog/call-tracking-vs-ehr-practice-management-attribution",
+   "title": "Call Tracking vs EHR Attribution | Catalyze Care",
+   "summary": "What call tracking can prove versus what an EHR or practice-management system can prove, for PHI-safe healthcare marketing attribution.",
+   "content_text": "What call tracking can prove versus what an EHR or practice-management system can prove, for PHI-safe healthcare marketing attribution.",
+   "date_published": "2026-09-20T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/hipaa-safe-remarketing-audience-exclusions-healthcare-ads",
+   "url": "https://catalyzegrowth.co/blog/hipaa-safe-remarketing-audience-exclusions-healthcare-ads",
+   "title": "Remarketing Exclusions for Healthcare Ads | Catalyze Care",
+   "summary": "Policy-first remarketing and audience exclusions for healthcare ads. We do not publish a CPC. Management $2,500/month plus media.",
+   "content_text": "Policy-first remarketing and audience exclusions for healthcare ads. We do not publish a CPC. Management $2,500/month plus media.",
+   "date_published": "2026-09-20T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/choose-referral-retainer-or-paid-ads-test-month",
+   "url": "https://catalyzegrowth.co/blog/choose-referral-retainer-or-paid-ads-test-month",
+   "title": "Referral Retainer or Paid Ads Test Month? | Catalyze Care",
+   "summary": "Decision tree for a $5,000 referral retainer versus a $2,500 paid ads test month.",
+   "content_text": "Decision tree for a $5,000 referral retainer versus a $2,500 paid ads test month.",
+   "date_published": "2026-09-20T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/imre-alternatives",
+   "url": "https://catalyzegrowth.co/imre-alternatives",
+   "title": "Imre Alternatives for Healthcare Practices",
+   "summary": "Imre alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
+   "content_text": "Imre alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
+   "date_published": "2026-09-20T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/the-digital-elevator-alternatives",
+   "url": "https://catalyzegrowth.co/the-digital-elevator-alternatives",
+   "title": "Digital Elevator Alternatives for Healthcare Practices",
+   "summary": "Digital Elevator alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
+   "content_text": "Digital Elevator alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
+   "date_published": "2026-09-20T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-quarterly-okr-practices",
+   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-quarterly-okr-practices",
+   "title": "Quarterly Marketing OKRs for Practices | Catalyze Care",
+   "summary": "Set quarterly marketing OKRs across referral, SEO, and paid using published Catalyze fees as budget anchors: $5,000 / $799 / $2,500.",
+   "content_text": "Set quarterly marketing OKRs across referral, SEO, and paid using published Catalyze fees as budget anchors: $5,000 / $799 / $2,500.",
+   "date_published": "2026-09-24T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/local-seo-multi-provider-groups-without-duplicate-gbp",
+   "url": "https://catalyzegrowth.co/blog/local-seo-multi-provider-groups-without-duplicate-gbp",
+   "title": "Local SEO for Multi-Provider Groups | Catalyze Care",
+   "summary": "Local SEO for multi-provider groups: one Google Business Profile per location, ownership, categories, and review routing without duplicates.",
+   "content_text": "Local SEO for multi-provider groups: one Google Business Profile per location, ownership, categories, and review routing without duplicates.",
+   "date_published": "2026-09-24T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/paid-search-landing-page-checklist-healthcare",
+   "url": "https://catalyzegrowth.co/blog/paid-search-landing-page-checklist-healthcare",
+   "title": "Paid Search Landing Page Checklist for Healthcare",
+   "summary": "A paid search landing page checklist for healthcare practices: compliant copy, a visible phone CTA, and form fields your intake team can use.",
+   "content_text": "A paid search landing page checklist for healthcare practices: compliant copy, a visible phone CTA, and form fields your intake team can use.",
+   "date_published": "2026-09-24T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/closing-the-loop-referring-offices-7-days",
+   "url": "https://catalyzegrowth.co/blog/closing-the-loop-referring-offices-7-days",
+   "title": "Closing the Loop With Referring Offices | Catalyze Care",
+   "summary": "A 7-day close-the-loop SLA for referring offices: who replies, fax/email/portal, and fields to track. Published referral fee $5,000/mo.",
+   "content_text": "A 7-day close-the-loop SLA for referring offices: who replies, fax/email/portal, and fields to track. Published referral fee $5,000/mo.",
+   "date_published": "2026-09-24T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/practis-alternatives",
+   "url": "https://catalyzegrowth.co/practis-alternatives",
+   "title": "Practis Alternatives for Healthcare Practices",
+   "summary": "Practis alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
+   "content_text": "Practis alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
+   "date_published": "2026-09-24T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/dlm-conversion-alternatives",
+   "url": "https://catalyzegrowth.co/dlm-conversion-alternatives",
+   "title": "DLM Conversion Alternatives for Healthcare Practices",
+   "summary": "DLM Conversion alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care paid ads is $2,500/month plus media.",
+   "content_text": "DLM Conversion alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care paid ads is $2,500/month plus media.",
+   "date_published": "2026-09-24T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/multi-location-google-review-routing-without-duplicate-gbp",
+   "url": "https://catalyzegrowth.co/blog/multi-location-google-review-routing-without-duplicate-gbp",
+   "title": "Review Routing for Multi-Location Groups | Catalyze Care",
+   "summary": "How multi-location healthcare groups route Google reviews to the right location profile without duplicate Business Profiles. SEO fee $799/month.",
+   "content_text": "How multi-location healthcare groups route Google reviews to the right location profile without duplicate Business Profiles. SEO fee $799/month.",
+   "date_published": "2026-09-26T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/hipaa-aware-remarketing-healthcare-paid-ads",
+   "url": "https://catalyzegrowth.co/blog/hipaa-aware-remarketing-healthcare-paid-ads",
+   "title": "HIPAA-Aware Remarketing for Healthcare Ads | Catalyze Care",
+   "summary": "HIPAA-aware remarketing for healthcare paid ads: no condition targeting, generic thank-you URLs, creative rules, and audience exclusions.",
+   "content_text": "HIPAA-aware remarketing for healthcare paid ads: no condition targeting, generic thank-you URLs, creative rules, and audience exclusions.",
+   "date_published": "2026-09-26T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-agency-onboarding-first-30-days",
+   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-agency-onboarding-first-30-days",
+   "title": "Healthcare Marketing Agency Onboarding | Catalyze Care",
+   "summary": "What the first 30 days with a healthcare marketing agency should cover: account access, intake, targeting, tracking without PHI, and reporting.",
+   "content_text": "What the first 30 days with a healthcare marketing agency should cover: account access, intake, targeting, tracking without PHI, and reporting.",
+   "date_published": "2026-09-27T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/provider-and-location-pages-healthcare-seo",
+   "url": "https://catalyzegrowth.co/blog/provider-and-location-pages-healthcare-seo",
+   "title": "Provider and Location Page SEO | Catalyze Care",
+   "summary": "What every provider and location page on a practice website needs to rank and book: details, schema, internal links, and how to avoid thin city pages.",
+   "content_text": "What every provider and location page on a practice website needs to rank and book: details, schema, internal links, and how to avoid thin city pages.",
+   "date_published": "2026-09-27T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/healthcare-paid-ads-compliance-checklist-2026",
+   "url": "https://catalyzegrowth.co/blog/healthcare-paid-ads-compliance-checklist-2026",
+   "title": "Healthcare Paid Ads Compliance Checklist 2026",
+   "summary": "A 2026 checklist for healthcare paid ads: LegitScript-aware creative, PHI-safe pixels, and call conversions over 60 seconds.",
+   "content_text": "A 2026 checklist for healthcare paid ads: LegitScript-aware creative, PHI-safe pixels, and call conversions over 60 seconds.",
+   "date_published": "2026-09-29T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/why-healthcare-ppc-rankings-swing",
+   "url": "https://catalyzegrowth.co/blog/why-healthcare-ppc-rankings-swing",
+   "title": "Why Healthcare PPC Rankings Swing | Catalyze Care",
+   "summary": "Why healthcare Google Ads positions move week to week: auctions, policy reviews, budgets, query mix, and bidding. What to check before changing bids.",
+   "content_text": "Why healthcare Google Ads positions move week to week: auctions, policy reviews, budgets, query mix, and bidding. What to check before changing bids.",
+   "date_published": "2026-09-30T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/referral-marketing-scorecard-multi-location-practices",
+   "url": "https://catalyzegrowth.co/blog/referral-marketing-scorecard-multi-location-practices",
+   "title": "Multi-Location Referral Marketing Scorecard | Catalyze Care",
+   "summary": "A monthly referral scorecard for multi-location practices: capture, response time, loop closure, source mix, and outreach capacity by location.",
+   "content_text": "A monthly referral scorecard for multi-location practices: capture, response time, loop closure, source mix, and outreach capacity by location.",
+   "date_published": "2026-09-30T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/cardinal-digital-marketing-alternatives",
+   "url": "https://catalyzegrowth.co/cardinal-digital-marketing-alternatives",
+   "title": "Cardinal Digital Marketing Alternatives for Practices",
+   "summary": "Cardinal Digital Marketing alternatives for practices: what to compare, plus Catalyze Care's published fees: $5,000 referral, $799 SEO, $2,500 paid ads.",
+   "content_text": "Cardinal Digital Marketing alternatives for practices: what to compare, plus Catalyze Care's published fees: $5,000 referral, $799 SEO, $2,500 paid ads.",
+   "date_published": "2026-10-01T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/switching-healthcare-marketing-agencies-account-ownership",
+   "url": "https://catalyzegrowth.co/blog/switching-healthcare-marketing-agencies-account-ownership",
+   "title": "Switching Healthcare Marketing Agencies | Catalyze Care",
+   "summary": "Before you change agencies, put Google Ads, GA4, your Business Profile, the domain, and call tracking in the practice name. A handover checklist.",
+   "content_text": "Before you change agencies, put Google Ads, GA4, your Business Profile, the domain, and call tracking in the practice name. A handover checklist.",
+   "date_published": "2026-10-18T00:00:00Z",
+   "date_modified": "2026-11-02T00:00:00Z"
+  },
+  {
    "id": "https://catalyzegrowth.co/",
    "url": "https://catalyzegrowth.co/",
    "title": "Catalyze Care | Referral, SEO, Paid Ads for Provider Groups",
@@ -140,60 +768,6 @@
    "date_modified": "2026-11-01T00:00:00Z"
   },
   {
-   "id": "https://catalyzegrowth.co/blog/local-seo-multi-state-telehealth",
-   "url": "https://catalyzegrowth.co/blog/local-seo-multi-state-telehealth",
-   "title": "Local SEO for Multi-State Telehealth | Catalyze Care",
-   "summary": "How telehealth practices compete for near me searches without a storefront: state and city pages, Google Business Profile rules, and directories.",
-   "content_text": "How telehealth practices compete for near me searches without a storefront: state and city pages, Google Business Profile rules, and directories.",
-   "date_published": "2026-08-26T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/ai-search-healthcare-practice-visibility",
-   "url": "https://catalyzegrowth.co/blog/ai-search-healthcare-practice-visibility",
-   "title": "How to Get Your Practice Cited in AI Search | Catalyze Care",
-   "summary": "How ChatGPT and Google AI Overviews pick sources for care questions like best therapist near me, and what a practice can publish to be one of them.",
-   "content_text": "How ChatGPT and Google AI Overviews pick sources for care questions like best therapist near me, and what a practice can publish to be one of them.",
-   "date_published": "2026-08-26T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-q4-january-demand",
-   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-q4-january-demand",
-   "title": "Q4 Planning for January Healthcare Demand | Catalyze Care",
-   "summary": "Deductibles reset, plans change, and January is the busiest intake month for many specialties. How to use Q4 to set up demand for Q1.",
-   "content_text": "Deductibles reset, plans change, and January is the busiest intake month for many specialties. How to use Q4 to set up demand for Q1.",
-   "date_published": "2026-08-26T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/patient-acquisition-cost-benchmarks",
-   "url": "https://catalyzegrowth.co/blog/patient-acquisition-cost-benchmarks",
-   "title": "What Does It Cost to Acquire a Patient? | Catalyze Care",
-   "summary": "How practices should calculate patient acquisition cost from their own intake.",
-   "content_text": "How practices should calculate patient acquisition cost from their own intake.",
-   "date_published": "2026-08-26T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/healthcare-directory-profile-audit",
-   "url": "https://catalyzegrowth.co/blog/healthcare-directory-profile-audit",
-   "title": "30-Minute Directory Profile Audit | Catalyze Care",
-   "summary": "Patients and referring offices check directories before they call. A 30-minute audit to fix incomplete, inconsistent, or wrong insurance listings.",
-   "content_text": "Patients and referring offices check directories before they call. A 30-minute audit to fix incomplete, inconsistent, or wrong insurance listings.",
-   "date_published": "2026-08-26T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/2027-healthcare-marketing-plan-template",
-   "url": "https://catalyzegrowth.co/blog/2027-healthcare-marketing-plan-template",
-   "title": "2027 Healthcare Marketing Plan on One Page | Catalyze Care",
-   "summary": "A one-page 2027 marketing plan for healthcare practices: three channels, five numbers, and one review cadence your team can keep.",
-   "content_text": "A one-page 2027 marketing plan for healthcare practices: three channels, five numbers, and one review cadence your team can keep.",
-   "date_published": "2026-08-26T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
    "id": "https://catalyzegrowth.co/blog/hipaa-google-ads-conversion-tracking",
    "url": "https://catalyzegrowth.co/blog/hipaa-google-ads-conversion-tracking",
    "title": "HIPAA-Aware Google Ads Conversion Tracking",
@@ -221,84 +795,12 @@
    "date_modified": "2026-11-01T00:00:00Z"
   },
   {
-   "id": "https://catalyzegrowth.co/blog/when-not-to-hire-healthcare-marketing-agency",
-   "url": "https://catalyzegrowth.co/blog/when-not-to-hire-healthcare-marketing-agency",
-   "title": "When Not to Hire a Healthcare Marketing Agency",
-   "summary": "When a healthcare practice should not hire a marketing agency. Uses published Catalyze fees ($5,000 / $799 / $2,500).",
-   "content_text": "When a healthcare practice should not hire a marketing agency. Uses published Catalyze fees ($5,000 / $799 / $2,500).",
-   "date_published": "2026-09-10T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/questions-before-signing-healthcare-marketing-contract",
-   "url": "https://catalyzegrowth.co/blog/questions-before-signing-healthcare-marketing-contract",
-   "title": "Questions Before Signing a Contract | Catalyze Care",
-   "summary": "Checklist before you sign: account ownership, tracking, report fields, published fees, and the minimum term on each channel.",
-   "content_text": "Checklist before you sign: account ownership, tracking, report fields, published fees, and the minimum term on each channel.",
-   "date_published": "2026-09-10T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/multi-location-vs-single-site-healthcare-seo",
-   "url": "https://catalyzegrowth.co/blog/multi-location-vs-single-site-healthcare-seo",
-   "title": "Multi-Location vs Single-Site Healthcare SEO",
-   "summary": "How NAP consistency and Google Business Profile differ for one clinic vs many locations.",
-   "content_text": "How NAP consistency and Google Business Profile differ for one clinic vs many locations.",
-   "date_published": "2026-09-10T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-budget-allocation-practices",
-   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-budget-allocation-practices",
-   "title": "Marketing Budget for Healthcare Practices | Catalyze Care",
-   "summary": "How to split a practice marketing budget across referral, SEO, and paid ads in the first three months, using published Catalyze Care fees.",
-   "content_text": "How to split a practice marketing budget across referral, SEO, and paid ads in the first three months, using published Catalyze Care fees.",
-   "date_published": "2026-09-12T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
    "id": "https://catalyzegrowth.co/blog/evaluate-referral-marketing-vendors",
    "url": "https://catalyzegrowth.co/blog/evaluate-referral-marketing-vendors",
    "title": "How to Evaluate Referral Marketing Vendors | Catalyze Care",
    "summary": "Evaluate a referral marketing vendor on data source, close-the-loop reporting, and compliance.",
    "content_text": "Evaluate a referral marketing vendor on data source, close-the-loop reporting, and compliance.",
    "date_published": "2026-09-12T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/local-pack-vs-organic-seo-healthcare",
-   "url": "https://catalyzegrowth.co/blog/local-pack-vs-organic-seo-healthcare",
-   "title": "Local Pack vs Organic SEO for Healthcare Practices",
-   "summary": "Local pack (Maps / Google Business Profile) vs organic website SEO for healthcare practices.",
-   "content_text": "Local pack (Maps / Google Business Profile) vs organic website SEO for healthcare practices.",
-   "date_published": "2026-09-12T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/hipaa-aware-meta-ads-creative-landing-pages",
-   "url": "https://catalyzegrowth.co/blog/hipaa-aware-meta-ads-creative-landing-pages",
-   "title": "HIPAA-Aware Meta Ads and Landing Pages | Catalyze Care",
-   "summary": "HIPAA-aware Meta Ads creative and landing pages for healthcare practices. No condition targeting. Published $2,500 management fee.",
-   "content_text": "HIPAA-aware Meta Ads creative and landing pages for healthcare practices. No condition targeting. Published $2,500 management fee.",
-   "date_published": "2026-09-12T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-rfp-rfi-questions",
-   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-rfp-rfi-questions",
-   "title": "Healthcare Marketing RFP Questions for Practices",
-   "summary": "RFP and RFI questions for a healthcare marketing agency: fees, ownership, reporting, cancel terms, and proposal red flags.",
-   "content_text": "RFP and RFI questions for a healthcare marketing agency: fees, ownership, reporting, cancel terms, and proposal red flags.",
-   "date_published": "2026-09-13T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/how-to-brief-a-healthcare-marketing-agency",
-   "url": "https://catalyzegrowth.co/blog/how-to-brief-a-healthcare-marketing-agency",
-   "title": "How to Brief a Healthcare Marketing Agency | Catalyze Care",
-   "summary": "Kickoff inputs for a healthcare marketing agency: ICP, service area, compliance constraints, and reporting cadence.",
-   "content_text": "Kickoff inputs for a healthcare marketing agency: ICP, service area, compliance constraints, and reporting cadence.",
-   "date_published": "2026-09-13T00:00:00Z",
    "date_modified": "2026-11-01T00:00:00Z"
   },
   {
@@ -356,33 +858,6 @@
    "date_modified": "2026-11-01T00:00:00Z"
   },
   {
-   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-attribution-without-phi",
-   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-attribution-without-phi",
-   "title": "Healthcare Attribution Without PHI Leakage | Catalyze Care",
-   "summary": "UTM hygiene, call-tracking caveats, and offline conversions for practices, without PHI in pixels or URLs. HHS/OCR-safe framing, not legal advice.",
-   "content_text": "UTM hygiene, call-tracking caveats, and offline conversions for practices, without PHI in pixels or URLs. HHS/OCR-safe framing, not legal advice.",
-   "date_published": "2026-09-17T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/staff-intake-before-scaling-referral-or-paid",
-   "url": "https://catalyzegrowth.co/blog/staff-intake-before-scaling-referral-or-paid",
-   "title": "Staff Intake Before Scaling Referral or Ads | Catalyze Care",
-   "summary": "How healthcare practices should staff intake capacity and SLAs to referring offices before scaling referral marketing or paid ads.",
-   "content_text": "How healthcare practices should staff intake capacity and SLAs to referring offices before scaling referral marketing or paid ads.",
-   "date_published": "2026-09-17T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/webmd-ignite-style-vs-practice-led-referral-outreach",
-   "url": "https://catalyzegrowth.co/blog/webmd-ignite-style-vs-practice-led-referral-outreach",
-   "title": "Referral Networks vs Practice-Led Outreach | Catalyze Care",
-   "summary": "What Ignite-style referral network products optimize for versus practice-led multi-channel outreach.",
-   "content_text": "What Ignite-style referral network products optimize for versus practice-led multi-channel outreach.",
-   "date_published": "2026-09-17T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
    "id": "https://catalyzegrowth.co/blog/healthcare-digital-marketing-channel-mix",
    "url": "https://catalyzegrowth.co/blog/healthcare-digital-marketing-channel-mix",
    "title": "Healthcare Digital Marketing Channel Mix | Catalyze Care",
@@ -392,74 +867,11 @@
    "date_modified": "2026-11-01T00:00:00Z"
   },
   {
-   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-agency-rfp-scorecard",
-   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-agency-rfp-scorecard",
-   "title": "Healthcare Marketing Agency RFP Scorecard | Catalyze Care",
-   "summary": "A criteria-only RFP scorecard for practice owners comparing healthcare marketing agencies.",
-   "content_text": "A criteria-only RFP scorecard for practice owners comparing healthcare marketing agencies.",
-   "date_published": "2026-09-18T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/how-ai-overviews-pick-healthcare-marketing-sources",
-   "url": "https://catalyzegrowth.co/blog/how-ai-overviews-pick-healthcare-marketing-sources",
-   "title": "How AI Overviews Pick Healthcare Marketing Sources",
-   "summary": "What Google AI Overviews and similar answer engines tend to cite for healthcare marketing questions, and what a practice can publish to earn a mention.",
-   "content_text": "What Google AI Overviews and similar answer engines tend to cite for healthcare marketing questions, and what a practice can publish to earn a mention.",
-   "date_published": "2026-09-18T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/how-practices-should-read-monthly-healthcare-marketing-report",
-   "url": "https://catalyzegrowth.co/blog/how-practices-should-read-monthly-healthcare-marketing-report",
-   "title": "How to Read a Monthly Healthcare Marketing Report",
-   "summary": "What a practice administrator should check on a monthly healthcare marketing report: outreach, meetings, referrals, bookings, and follow-up time.",
-   "content_text": "What a practice administrator should check on a monthly healthcare marketing report: outreach, meetings, referrals, bookings, and follow-up time.",
-   "date_published": "2026-09-19T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/google-business-profile-vs-website-seo-ownership",
-   "url": "https://catalyzegrowth.co/blog/google-business-profile-vs-website-seo-ownership",
-   "title": "GBP vs Website SEO: Who Owns What | Catalyze Care",
-   "summary": "Who owns Google Business Profile versus the website for a multi-provider group: roles, NAP, and reviews, plus how it ties to SEO at $799/month.",
-   "content_text": "Who owns Google Business Profile versus the website for a multi-provider group: roles, NAP, and reviews, plus how it ties to SEO at $799/month.",
-   "date_published": "2026-09-19T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/when-to-pause-paid-ads-vs-seo-vs-referral",
-   "url": "https://catalyzegrowth.co/blog/when-to-pause-paid-ads-vs-seo-vs-referral",
-   "title": "When to Pause Paid, SEO, or Referral | Catalyze Care",
-   "summary": "A checklist for pausing paid ads, SEO, or referral work: lead quality, intake capacity, booked inquiries versus spend, and seasonal demand.",
-   "content_text": "A checklist for pausing paid ads, SEO, or referral work: lead quality, intake capacity, booked inquiries versus spend, and seasonal demand.",
-   "date_published": "2026-09-19T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-stack-map",
-   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-stack-map",
-   "title": "Healthcare Marketing Stack: Who Owns What | Catalyze Care",
-   "summary": "What Catalyze Care owns in a healthcare marketing stack versus the practice CRM, EHR, and phone. No claimed product integrations.",
-   "content_text": "What Catalyze Care owns in a healthcare marketing stack versus the practice CRM, EHR, and phone. No claimed product integrations.",
-   "date_published": "2026-09-19T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
    "id": "https://catalyzegrowth.co/catalyze-care-vs-echo-factory",
    "url": "https://catalyzegrowth.co/catalyze-care-vs-echo-factory",
    "title": "Catalyze Care vs Echo Factory for Practices",
    "summary": "Catalyze Care vs Echo Factory: our published fees ($5,000 / $799 / $2,500) next to Echo Factory’s public hospital and HIPAA-analytics positioning.",
    "content_text": "Catalyze Care vs Echo Factory: our published fees ($5,000 / $799 / $2,500) next to Echo Factory’s public hospital and HIPAA-analytics positioning.",
-   "date_published": "2026-09-19T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/echo-factory-alternatives",
-   "url": "https://catalyzegrowth.co/echo-factory-alternatives",
-   "title": "Echo Factory Alternatives for Healthcare Practices",
-   "summary": "Echo Factory alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
-   "content_text": "Echo Factory alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
    "date_published": "2026-09-19T00:00:00Z",
    "date_modified": "2026-11-01T00:00:00Z"
   },
@@ -473,56 +885,11 @@
    "date_modified": "2026-11-01T00:00:00Z"
   },
   {
-   "id": "https://catalyzegrowth.co/nkp-medical-alternatives",
-   "url": "https://catalyzegrowth.co/nkp-medical-alternatives",
-   "title": "NKP Medical Alternatives for Healthcare Practices",
-   "summary": "NKP Medical alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care paid ads is $2,500/month plus media.",
-   "content_text": "NKP Medical alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care paid ads is $2,500/month plus media.",
-   "date_published": "2026-09-19T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-budget-planning-mid-size-provider-groups",
-   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-budget-planning-mid-size-provider-groups",
-   "title": "Healthcare Marketing Budget Planning for Provider Groups",
-   "summary": "How mid-size provider groups plan referral, SEO, and paid budgets from published fees of $5,000, $799, and $2,500, with channel mix and pause rules.",
-   "content_text": "How mid-size provider groups plan referral, SEO, and paid budgets from published fees of $5,000, $799, and $2,500, with channel mix and pause rules.",
-   "date_published": "2026-09-20T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/call-tracking-vs-ehr-practice-management-attribution",
-   "url": "https://catalyzegrowth.co/blog/call-tracking-vs-ehr-practice-management-attribution",
-   "title": "Call Tracking vs EHR Attribution | Catalyze Care",
-   "summary": "What call tracking can prove versus what an EHR or practice-management system can prove, for PHI-safe healthcare marketing attribution.",
-   "content_text": "What call tracking can prove versus what an EHR or practice-management system can prove, for PHI-safe healthcare marketing attribution.",
-   "date_published": "2026-09-20T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/choose-referral-retainer-or-paid-ads-test-month",
-   "url": "https://catalyzegrowth.co/blog/choose-referral-retainer-or-paid-ads-test-month",
-   "title": "Referral Retainer or Paid Ads Test Month? | Catalyze Care",
-   "summary": "Decision tree for a $5,000 referral retainer versus a $2,500 paid ads test month.",
-   "content_text": "Decision tree for a $5,000 referral retainer versus a $2,500 paid ads test month.",
-   "date_published": "2026-09-20T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
    "id": "https://catalyzegrowth.co/catalyze-care-vs-imre",
    "url": "https://catalyzegrowth.co/catalyze-care-vs-imre",
    "title": "Catalyze Care vs Imre for Practices",
    "summary": "Catalyze Care vs Imre: our published fees ($5,000 / $799 / $2,500) next to Imre’s public healthcare and consumer agency-of-record positioning.",
    "content_text": "Catalyze Care vs Imre: our published fees ($5,000 / $799 / $2,500) next to Imre’s public healthcare and consumer agency-of-record positioning.",
-   "date_published": "2026-09-20T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/imre-alternatives",
-   "url": "https://catalyzegrowth.co/imre-alternatives",
-   "title": "Imre Alternatives for Healthcare Practices",
-   "summary": "Imre alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
-   "content_text": "Imre alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
    "date_published": "2026-09-20T00:00:00Z",
    "date_modified": "2026-11-01T00:00:00Z"
   },
@@ -536,38 +903,11 @@
    "date_modified": "2026-11-01T00:00:00Z"
   },
   {
-   "id": "https://catalyzegrowth.co/the-digital-elevator-alternatives",
-   "url": "https://catalyzegrowth.co/the-digital-elevator-alternatives",
-   "title": "Digital Elevator Alternatives for Healthcare Practices",
-   "summary": "Digital Elevator alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
-   "content_text": "Digital Elevator alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
-   "date_published": "2026-09-20T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-quarterly-okr-practices",
-   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-quarterly-okr-practices",
-   "title": "Quarterly Marketing OKRs for Practices | Catalyze Care",
-   "summary": "Set quarterly marketing OKRs across referral, SEO, and paid using published Catalyze fees as budget anchors: $5,000 / $799 / $2,500.",
-   "content_text": "Set quarterly marketing OKRs across referral, SEO, and paid using published Catalyze fees as budget anchors: $5,000 / $799 / $2,500.",
-   "date_published": "2026-09-24T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
    "id": "https://catalyzegrowth.co/catalyze-care-vs-practis",
    "url": "https://catalyzegrowth.co/catalyze-care-vs-practis",
    "title": "Catalyze Care vs Practis for Practices",
    "summary": "Catalyze Care vs Practis for practices comparing medical SEO. Catalyze publishes SEO at $799/month with a 6-month minimum.",
    "content_text": "Catalyze Care vs Practis for practices comparing medical SEO. Catalyze publishes SEO at $799/month with a 6-month minimum.",
-   "date_published": "2026-09-24T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/practis-alternatives",
-   "url": "https://catalyzegrowth.co/practis-alternatives",
-   "title": "Practis Alternatives for Healthcare Practices",
-   "summary": "Practis alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
-   "content_text": "Practis alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
    "date_published": "2026-09-24T00:00:00Z",
    "date_modified": "2026-11-01T00:00:00Z"
   },
@@ -623,15 +963,6 @@
    "summary": "Ten questions before you sign: measurement, patient data, account ownership, minimums, and who writes creative. Fees: $5,000, $799, and $2,500.",
    "content_text": "Ten questions before you sign: measurement, patient data, account ownership, minimums, and who writes creative. Fees: $5,000, $799, and $2,500.",
    "date_published": "2026-10-16T00:00:00Z",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/switching-healthcare-marketing-agencies-account-ownership",
-   "url": "https://catalyzegrowth.co/blog/switching-healthcare-marketing-agencies-account-ownership",
-   "title": "Switching Healthcare Marketing Agencies | Catalyze Care",
-   "summary": "Before you change agencies, put Google Ads, GA4, your Business Profile, the domain, and call tracking in the practice name. A handover checklist.",
-   "content_text": "Before you change agencies, put Google Ads, GA4, your Business Profile, the domain, and call tracking in the practice name. A handover checklist.",
-   "date_published": "2026-10-18T00:00:00Z",
    "date_modified": "2026-11-01T00:00:00Z"
   },
   {
@@ -716,63 +1047,11 @@
    "date_modified": "2026-10-30T00:00:00Z"
   },
   {
-   "id": "https://catalyzegrowth.co/healthcare-success-alternatives",
-   "url": "https://catalyzegrowth.co/healthcare-success-alternatives",
-   "title": "Healthcare Success Alternatives for Healthcare Practices",
-   "summary": "Healthcare Success alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
-   "content_text": "Healthcare Success alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
-   "date_published": "2026-09-15T00:00:00Z",
-   "date_modified": "2026-10-29T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/practice-builders-alternatives",
-   "url": "https://catalyzegrowth.co/practice-builders-alternatives",
-   "title": "Practice Builders Alternatives for Healthcare Practices",
-   "summary": "Practice Builders alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
-   "content_text": "Practice Builders alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
-   "date_published": "2026-09-15T00:00:00Z",
-   "date_modified": "2026-10-29T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/webmd-ignite-alternatives",
-   "url": "https://catalyzegrowth.co/webmd-ignite-alternatives",
-   "title": "WebMD Ignite Alternatives for Healthcare Practices",
-   "summary": "WebMD Ignite alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
-   "content_text": "WebMD Ignite alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
-   "date_published": "2026-09-15T00:00:00Z",
-   "date_modified": "2026-10-29T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/quaintise-alternatives",
-   "url": "https://catalyzegrowth.co/quaintise-alternatives",
-   "title": "Quaintise Alternatives for Healthcare Practices",
-   "summary": "Quaintise alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
-   "content_text": "Quaintise alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care fees: $5,000 / $799 / $2,500.",
-   "date_published": "2026-09-15T00:00:00Z",
-   "date_modified": "2026-10-29T00:00:00Z"
-  },
-  {
    "id": "https://catalyzegrowth.co/about",
    "url": "https://catalyzegrowth.co/about",
    "title": "About Catalyze Care | Healthcare Marketing Agency",
    "summary": "Catalyze Care is a healthcare marketing agency for healthcare practices and provider groups. Contact andrew@catalyzegrowth.co.",
    "content_text": "Catalyze Care is a healthcare marketing agency for healthcare practices and provider groups. Contact andrew@catalyzegrowth.co.",
-   "date_modified": "2026-10-27T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/seo",
-   "url": "https://catalyzegrowth.co/seo",
-   "title": "SEO for Healthcare Practices | Catalyze Care",
-   "summary": "Local SEO, on-page, technical SEO, and content built for healthcare practices, so more patients find you. $799/month, 6-month minimum.",
-   "content_text": "Local SEO, on-page, technical SEO, and content built for healthcare practices, so more patients find you. $799/month, 6-month minimum.",
-   "date_modified": "2026-10-27T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/paid-ads",
-   "url": "https://catalyzegrowth.co/paid-ads",
-   "title": "Paid Ads for Healthcare Practices | Catalyze Care",
-   "summary": "HIPAA-aware Google Ads, Meta Ads, and Display for healthcare practices, aimed at booked appointments. $2,500/month management, media billed separately.",
-   "content_text": "HIPAA-aware Google Ads, Meta Ads, and Display for healthcare practices, aimed at booked appointments. $2,500/month management, media billed separately.",
    "date_modified": "2026-10-27T00:00:00Z"
   },
   {
@@ -793,159 +1072,6 @@
    "date_modified": "2026-10-27T00:00:00Z"
   },
   {
-   "id": "https://catalyzegrowth.co/blog/referral-nurture-cadence-referring-offices",
-   "url": "https://catalyzegrowth.co/blog/referral-nurture-cadence-referring-offices",
-   "title": "Six-Touch Referring-Office Nurture Plan | Catalyze Care",
-   "summary": "Winning a referring office is half the work. A six-touch annual cadence keeps your practice top of mind with that office without becoming noise.",
-   "content_text": "Winning a referring office is half the work. A six-touch annual cadence keeps your practice top of mind with that office without becoming noise.",
-   "date_published": "2026-08-26T00:00:00Z",
-   "date_modified": "2026-10-27T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/physician-liaison-vs-referral-agency",
-   "url": "https://catalyzegrowth.co/blog/physician-liaison-vs-referral-agency",
-   "title": "Physician Liaison vs Referral Agency | Catalyze Care",
-   "summary": "Physician liaison wage context from public BLS data vs Catalyze Care referral marketing at $5,000/month with a 3-month minimum.",
-   "content_text": "Physician liaison wage context from public BLS data vs Catalyze Care referral marketing at $5,000/month with a 3-month minimum.",
-   "date_published": "2026-09-08T00:00:00Z",
-   "date_modified": "2026-10-27T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/close-the-loop-referral-reporting",
-   "url": "https://catalyzegrowth.co/blog/close-the-loop-referral-reporting",
-   "title": "Close-the-Loop Referral Reporting | Catalyze Care",
-   "summary": "What a practice should measure each month in referral reporting: offices contacted, responses, referred patients, and close-the-loop notes.",
-   "content_text": "What a practice should measure each month in referral reporting: offices contacted, responses, referred patients, and close-the-loop notes.",
-   "date_published": "2026-09-11T00:00:00Z",
-   "date_modified": "2026-10-27T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/closing-the-loop-referring-offices-7-days",
-   "url": "https://catalyzegrowth.co/blog/closing-the-loop-referring-offices-7-days",
-   "title": "Closing the Loop With Referring Offices | Catalyze Care",
-   "summary": "A 7-day close-the-loop SLA for referring offices: who replies, fax/email/portal, and fields to track. Published referral fee $5,000/mo.",
-   "content_text": "A 7-day close-the-loop SLA for referring offices: who replies, fax/email/portal, and fields to track. Published referral fee $5,000/mo.",
-   "date_published": "2026-09-24T00:00:00Z",
-   "date_modified": "2026-10-27T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/meta-ads-healthcare-without-condition-targeting",
-   "url": "https://catalyzegrowth.co/blog/meta-ads-healthcare-without-condition-targeting",
-   "title": "Meta Ads Without Condition Targeting | Catalyze Care",
-   "summary": "Meta removed health-condition targeting and restricts pixel events. Use place, life stage, and creative that names the service.",
-   "content_text": "Meta removed health-condition targeting and restricts pixel events. Use place, life stage, and creative that names the service.",
-   "date_published": "2026-08-26T00:00:00Z",
-   "date_modified": "2026-10-26T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/seo-vs-geo-healthcare-practices",
-   "url": "https://catalyzegrowth.co/blog/seo-vs-geo-healthcare-practices",
-   "title": "SEO vs GEO for Healthcare Practices | Catalyze Care",
-   "summary": "How traditional SEO and generative engine optimization (GEO) differ for healthcare practices, what to do first, and what Google, HHS, CMS, and AHRQ say.",
-   "content_text": "How traditional SEO and generative engine optimization (GEO) differ for healthcare practices, what to do first, and what Google, HHS, CMS, and AHRQ say.",
-   "date_published": "2026-09-08T00:00:00Z",
-   "date_modified": "2026-10-26T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/agency-vs-in-house-healthcare-marketing",
-   "url": "https://catalyzegrowth.co/blog/agency-vs-in-house-healthcare-marketing",
-   "title": "Agency vs In-House Healthcare Marketing | Catalyze Care",
-   "summary": "When to hire an in-house marketer, when a healthcare marketing agency fits better, and the hybrid most practices use. Published fees included.",
-   "content_text": "When to hire an in-house marketer, when a healthcare marketing agency fits better, and the hybrid most practices use. Published fees included.",
-   "date_published": "2026-09-08T00:00:00Z",
-   "date_modified": "2026-10-26T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/google-ads-account-structure-healthcare-practices",
-   "url": "https://catalyzegrowth.co/blog/google-ads-account-structure-healthcare-practices",
-   "title": "Google Ads Account Structure for Healthcare Practices",
-   "summary": "How to structure Google Ads campaigns and ad groups for a healthcare practice. HIPAA-aware conversion notes.",
-   "content_text": "How to structure Google Ads campaigns and ad groups for a healthcare practice. HIPAA-aware conversion notes.",
-   "date_published": "2026-09-11T00:00:00Z",
-   "date_modified": "2026-10-26T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/multi-location-healthcare-paid-ads-structure",
-   "url": "https://catalyzegrowth.co/blog/multi-location-healthcare-paid-ads-structure",
-   "title": "Multi-Location Healthcare Paid Ads | Catalyze Care",
-   "summary": "How multi-location practices split Google and Meta ads: shared vs per-location campaigns, budgets by capacity, landing pages, and tracking.",
-   "content_text": "How multi-location practices split Google and Meta ads: shared vs per-location campaigns, budgets by capacity, landing pages, and tracking.",
-   "date_published": "2026-09-17T00:00:00Z",
-   "date_modified": "2026-10-26T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/local-seo-multi-provider-groups-without-duplicate-gbp",
-   "url": "https://catalyzegrowth.co/blog/local-seo-multi-provider-groups-without-duplicate-gbp",
-   "title": "Local SEO for Multi-Provider Groups | Catalyze Care",
-   "summary": "Local SEO for multi-provider groups: one Google Business Profile per location, ownership, categories, and review routing without duplicates.",
-   "content_text": "Local SEO for multi-provider groups: one Google Business Profile per location, ownership, categories, and review routing without duplicates.",
-   "date_published": "2026-09-24T00:00:00Z",
-   "date_modified": "2026-10-26T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/multi-location-google-review-routing-without-duplicate-gbp",
-   "url": "https://catalyzegrowth.co/blog/multi-location-google-review-routing-without-duplicate-gbp",
-   "title": "Review Routing for Multi-Location Groups | Catalyze Care",
-   "summary": "How multi-location healthcare groups route Google reviews to the right location profile without duplicate Business Profiles. SEO fee $799/month.",
-   "content_text": "How multi-location healthcare groups route Google reviews to the right location profile without duplicate Business Profiles. SEO fee $799/month.",
-   "date_published": "2026-09-26T00:00:00Z",
-   "date_modified": "2026-10-26T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/healthcare-marketing-agency-onboarding-first-30-days",
-   "url": "https://catalyzegrowth.co/blog/healthcare-marketing-agency-onboarding-first-30-days",
-   "title": "Healthcare Marketing Agency Onboarding | Catalyze Care",
-   "summary": "What the first 30 days with a healthcare marketing agency should cover: account access, intake, targeting, tracking without PHI, and reporting.",
-   "content_text": "What the first 30 days with a healthcare marketing agency should cover: account access, intake, targeting, tracking without PHI, and reporting.",
-   "date_published": "2026-09-27T00:00:00Z",
-   "date_modified": "2026-10-26T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/healthcare-paid-ads-compliance-checklist-2026",
-   "url": "https://catalyzegrowth.co/blog/healthcare-paid-ads-compliance-checklist-2026",
-   "title": "Healthcare Paid Ads Compliance Checklist 2026",
-   "summary": "A 2026 checklist for healthcare paid ads: LegitScript-aware creative, PHI-safe pixels, and call conversions over 60 seconds.",
-   "content_text": "A 2026 checklist for healthcare paid ads: LegitScript-aware creative, PHI-safe pixels, and call conversions over 60 seconds.",
-   "date_published": "2026-09-29T00:00:00Z",
-   "date_modified": "2026-10-26T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/why-healthcare-ppc-rankings-swing",
-   "url": "https://catalyzegrowth.co/blog/why-healthcare-ppc-rankings-swing",
-   "title": "Why Healthcare PPC Rankings Swing | Catalyze Care",
-   "summary": "Why healthcare Google Ads positions move week to week: auctions, policy reviews, budgets, query mix, and bidding. What to check before changing bids.",
-   "content_text": "Why healthcare Google Ads positions move week to week: auctions, policy reviews, budgets, query mix, and bidding. What to check before changing bids.",
-   "date_published": "2026-09-30T00:00:00Z",
-   "date_modified": "2026-10-26T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/referral-marketing-scorecard-multi-location-practices",
-   "url": "https://catalyzegrowth.co/blog/referral-marketing-scorecard-multi-location-practices",
-   "title": "Multi-Location Referral Marketing Scorecard | Catalyze Care",
-   "summary": "A monthly referral scorecard for multi-location practices: capture, response time, loop closure, source mix, and outreach capacity by location.",
-   "content_text": "A monthly referral scorecard for multi-location practices: capture, response time, loop closure, source mix, and outreach capacity by location.",
-   "date_published": "2026-09-30T00:00:00Z",
-   "date_modified": "2026-10-26T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/cardinal-digital-marketing-alternatives",
-   "url": "https://catalyzegrowth.co/cardinal-digital-marketing-alternatives",
-   "title": "Cardinal Digital Marketing Alternatives for Practices",
-   "summary": "Cardinal Digital Marketing alternatives for practices: what to compare, plus Catalyze Care's published fees: $5,000 referral, $799 SEO, $2,500 paid ads.",
-   "content_text": "Cardinal Digital Marketing alternatives for practices: what to compare, plus Catalyze Care's published fees: $5,000 referral, $799 SEO, $2,500 paid ads.",
-   "date_published": "2026-10-01T00:00:00Z",
-   "date_modified": "2026-10-26T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/google-ads-healthcare-2026-legitscript",
-   "url": "https://catalyzegrowth.co/blog/google-ads-healthcare-2026-legitscript",
-   "title": "Google Ads for Healthcare: LegitScript and Disapprovals",
-   "summary": "What Google requires certification for in healthcare ads, what commonly gets disapproved, and how to launch an account without losing a month.",
-   "content_text": "What Google requires certification for in healthcare ads, what commonly gets disapproved, and how to launch an account without losing a month.",
-   "date_published": "2026-08-26T00:00:00Z",
-   "date_modified": "2026-10-24T00:00:00Z"
-  },
-  {
    "id": "https://catalyzegrowth.co/blog/ringless-voicemail-tcpa-healthcare-outreach",
    "url": "https://catalyzegrowth.co/blog/ringless-voicemail-tcpa-healthcare-outreach",
    "title": "Voicemail Drops and TCPA for Healthcare | Catalyze Care",
@@ -964,138 +1090,12 @@
    "date_modified": "2026-10-23T00:00:00Z"
   },
   {
-   "id": "https://catalyzegrowth.co/blog/pediatrician-referrals-behavioral-health-therapy",
-   "url": "https://catalyzegrowth.co/blog/pediatrician-referrals-behavioral-health-therapy",
-   "title": "Pediatrician Referrals for Child Therapy | Catalyze Care",
-   "summary": "Pediatricians see every child in your market first, and most have nowhere good to send kids who need therapy. How to become their referral answer.",
-   "content_text": "Pediatricians see every child in your market first, and most have nowhere good to send kids who need therapy. How to become their referral answer.",
-   "date_published": "2026-08-26T00:00:00Z",
-   "date_modified": "2026-10-23T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/what-healthcare-only-agency-should-mean",
-   "url": "https://catalyzegrowth.co/blog/what-healthcare-only-agency-should-mean",
-   "title": "What “Healthcare-Only Agency” Should Mean | Catalyze Care",
-   "summary": "What a healthcare-only marketing agency should mean in practice: fax workflows, HIPAA-aware tracking, and limits on condition targeting.",
-   "content_text": "What a healthcare-only marketing agency should mean in practice: fax workflows, HIPAA-aware tracking, and limits on condition targeting.",
-   "date_published": "2026-09-11T00:00:00Z",
-   "date_modified": "2026-10-23T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/building-referring-office-list-without-buying-network",
-   "url": "https://catalyzegrowth.co/blog/building-referring-office-list-without-buying-network",
-   "title": "Referring-Office List Without a Network Buy | Catalyze Care",
-   "summary": "How practices build a referring-office list from claims-backed patterns and owned outreach, without buying a referral network. Referral fee $5,000/month.",
-   "content_text": "How practices build a referring-office list from claims-backed patterns and owned outreach, without buying a referral network. Referral fee $5,000/month.",
-   "date_published": "2026-09-18T00:00:00Z",
-   "date_modified": "2026-10-23T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/hipaa-safe-remarketing-audience-exclusions-healthcare-ads",
-   "url": "https://catalyzegrowth.co/blog/hipaa-safe-remarketing-audience-exclusions-healthcare-ads",
-   "title": "Remarketing Exclusions for Healthcare Ads | Catalyze Care",
-   "summary": "Policy-first remarketing and audience exclusions for healthcare ads. We do not publish a CPC. Management $2,500/month plus media.",
-   "content_text": "Policy-first remarketing and audience exclusions for healthcare ads. We do not publish a CPC. Management $2,500/month plus media.",
-   "date_published": "2026-09-20T00:00:00Z",
-   "date_modified": "2026-10-23T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/hipaa-aware-remarketing-healthcare-paid-ads",
-   "url": "https://catalyzegrowth.co/blog/hipaa-aware-remarketing-healthcare-paid-ads",
-   "title": "HIPAA-Aware Remarketing for Healthcare Ads | Catalyze Care",
-   "summary": "HIPAA-aware remarketing for healthcare paid ads: no condition targeting, generic thank-you URLs, creative rules, and audience exclusions.",
-   "content_text": "HIPAA-aware remarketing for healthcare paid ads: no condition targeting, generic thank-you URLs, creative rules, and audience exclusions.",
-   "date_published": "2026-09-26T00:00:00Z",
-   "date_modified": "2026-10-23T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/paid-search-landing-page-checklist-healthcare",
-   "url": "https://catalyzegrowth.co/blog/paid-search-landing-page-checklist-healthcare",
-   "title": "Paid Search Landing Page Checklist for Healthcare",
-   "summary": "A paid search landing page checklist for healthcare practices: compliant copy, a visible phone CTA, and form fields your intake team can use.",
-   "content_text": "A paid search landing page checklist for healthcare practices: compliant copy, a visible phone CTA, and form fields your intake team can use.",
-   "date_published": "2026-09-24T00:00:00Z",
-   "date_modified": "2026-10-20T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/dlm-conversion-alternatives",
-   "url": "https://catalyzegrowth.co/dlm-conversion-alternatives",
-   "title": "DLM Conversion Alternatives for Healthcare Practices",
-   "summary": "DLM Conversion alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care paid ads is $2,500/month plus media.",
-   "content_text": "DLM Conversion alternatives for practices: firms compared on written criteria, in no ranked order. Catalyze Care paid ads is $2,500/month plus media.",
-   "date_published": "2026-09-24T00:00:00Z",
-   "date_modified": "2026-10-20T00:00:00Z"
-  },
-  {
    "id": "https://catalyzegrowth.co/terms",
    "url": "https://catalyzegrowth.co/terms",
    "title": "Terms of Use | Catalyze Care",
    "summary": "Terms of use for catalyzegrowth.co, operated by Catalyze Care LLC. Site use, no medical advice, services sold separately, and California governing law.",
    "content_text": "Terms of use for catalyzegrowth.co, operated by Catalyze Care LLC. Site use, no medical advice, services sold separately, and California governing law.",
    "date_modified": "2026-10-18T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/hipaa-marketing-pixels-tracking",
-   "url": "https://catalyzegrowth.co/blog/hipaa-marketing-pixels-tracking",
-   "title": "HIPAA and Marketing Pixels: What Changed | Catalyze Care",
-   "summary": "Where HHS guidance on tracking pixels stands after the 2024 court ruling, what is actually risky, and how to measure marketing without sending PHI.",
-   "content_text": "Where HHS guidance on tracking pixels stands after the 2024 court ruling, what is actually risky, and how to measure marketing without sending PHI.",
-   "date_published": "2026-08-26T00:00:00Z",
-   "date_modified": "2026-10-18T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/how-to-read-healthcare-marketing-agency-proposal",
-   "url": "https://catalyzegrowth.co/blog/how-to-read-healthcare-marketing-agency-proposal",
-   "title": "How to Read a Healthcare Marketing Agency Proposal",
-   "summary": "Read a healthcare marketing proposal for fees, data ownership, reporting, and cancel terms.",
-   "content_text": "Read a healthcare marketing proposal for fees, data ownership, reporting, and cancel terms.",
-   "date_published": "2026-09-11T00:00:00Z",
-   "date_modified": "2026-10-18T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/healthcare-website-conversion-essentials",
-   "url": "https://catalyzegrowth.co/blog/healthcare-website-conversion-essentials",
-   "title": "Healthcare Website Conversion Essentials | Catalyze Care",
-   "summary": "HIPAA-safe forms, landing-page clarity, and no condition-in-URL for healthcare SEO and paid traffic.",
-   "content_text": "HIPAA-safe forms, landing-page clarity, and no condition-in-URL for healthcare SEO and paid traffic.",
-   "date_published": "2026-09-13T00:00:00Z",
-   "date_modified": "2026-10-18T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/review-generation-reputation-healthcare-practices",
-   "url": "https://catalyzegrowth.co/blog/review-generation-reputation-healthcare-practices",
-   "title": "Review Generation for Healthcare Practices | Catalyze Care",
-   "summary": "How healthcare practices earn honest Google reviews after completed visits, reply without exposing patient information, and keep profiles accurate.",
-   "content_text": "How healthcare practices earn honest Google reviews after completed visits, reply without exposing patient information, and keep profiles accurate.",
-   "date_published": "2026-09-17T00:00:00Z",
-   "date_modified": "2026-10-18T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/provider-and-location-pages-healthcare-seo",
-   "url": "https://catalyzegrowth.co/blog/provider-and-location-pages-healthcare-seo",
-   "title": "Provider and Location Page SEO | Catalyze Care",
-   "summary": "What every provider and location page on a practice website needs to rank and book: details, schema, internal links, and how to avoid thin city pages.",
-   "content_text": "What every provider and location page on a practice website needs to rank and book: details, schema, internal links, and how to avoid thin city pages.",
-   "date_published": "2026-09-27T00:00:00Z",
-   "date_modified": "2026-10-18T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/when-referral-volume-dips-healthcare-practices",
-   "url": "https://catalyzegrowth.co/blog/when-referral-volume-dips-healthcare-practices",
-   "title": "When Referral Volume Dips | Catalyze Care",
-   "summary": "A checklist when referrals fall: list quality, a 7-day close-the-loop, channel mix, and whether intake can take the next patient.",
-   "content_text": "A checklist when referrals fall: list quality, a 7-day close-the-loop, channel mix, and whether intake can take the next patient.",
-   "date_published": "2026-10-09T00:00:00Z",
-   "date_modified": "2026-10-16T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/blog/local-seo-package-multi-provider-practices",
-   "url": "https://catalyzegrowth.co/blog/local-seo-package-multi-provider-practices",
-   "title": "Local SEO for Multi-Provider Practices | Catalyze Care",
-   "summary": "What a multi-provider local SEO package should include: GBP hygiene, matching citations, and service-page depth. SEO is $799/month, 6-month minimum.",
-   "content_text": "What a multi-provider local SEO package should include: GBP hygiene, matching citations, and service-page depth. SEO is $799/month, 6-month minimum.",
-   "date_published": "2026-09-18T00:00:00Z",
-   "date_modified": "2026-10-15T00:00:00Z"
   },
   {
    "id": "https://catalyzegrowth.co/privacy",
