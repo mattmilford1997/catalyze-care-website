@@ -18,7 +18,7 @@
    "title": "SEO for Healthcare Practices | Catalyze Care",
    "summary": "Local SEO, on-page, technical SEO, and content built for healthcare practices, so more patients find you. $799/month, 6-month minimum.",
    "content_text": "Local SEO, on-page, technical SEO, and content built for healthcare practices, so more patients find you. $799/month, 6-month minimum.",
-   "date_modified": "2026-11-02T00:00:00Z"
+   "date_modified": "2026-11-03T00:00:00Z"
   },
   {
    "id": "https://catalyzegrowth.co/paid-ads",
@@ -26,16 +26,23 @@
    "title": "Paid Ads for Healthcare Practices | Catalyze Care",
    "summary": "HIPAA-aware Google Ads, Meta Ads, and Display for healthcare practices, aimed at booked appointments. $2,500/month management, media billed separately.",
    "content_text": "HIPAA-aware Google Ads, Meta Ads, and Display for healthcare practices, aimed at booked appointments. $2,500/month management, media billed separately.",
-   "date_modified": "2026-11-02T00:00:00Z"
+   "date_modified": "2026-11-03T00:00:00Z"
   },
   {
-   "id": "https://catalyzegrowth.co/blog/when-referral-volume-dips-healthcare-practices",
-   "url": "https://catalyzegrowth.co/blog/when-referral-volume-dips-healthcare-practices",
-   "title": "When Referral Volume Dips | Catalyze Care",
-   "summary": "A checklist when referrals fall: list quality, a 7-day close-the-loop, channel mix, and whether intake can take the next patient.",
-   "content_text": "A checklist when referrals fall: list quality, a 7-day close-the-loop, channel mix, and whether intake can take the next patient.",
-   "date_published": "2026-10-09T00:00:00Z",
-   "date_modified": "2026-11-02T00:00:00Z"
+   "id": "https://catalyzegrowth.co/referral",
+   "url": "https://catalyzegrowth.co/referral",
+   "title": "Healthcare Referral Marketing | Catalyze Care",
+   "summary": "Healthcare referral marketing on claims-backed data. We find providers who already refer in your specialty and reach them by fax, email, phone, and mail.",
+   "content_text": "Healthcare referral marketing on claims-backed data. We find providers who already refer in your specialty and reach them by fax, email, phone, and mail.",
+   "date_modified": "2026-11-03T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/healthcare-digital-marketing",
+   "url": "https://catalyzegrowth.co/healthcare-digital-marketing",
+   "title": "Healthcare Digital Marketing for Practices | Catalyze Care",
+   "summary": "Healthcare digital marketing for practices: SEO, paid ads, and referral outreach on one specialty map, with published fees and reports tied to intake.",
+   "content_text": "Healthcare digital marketing for practices: SEO, paid ads, and referral outreach on one specialty map, with published fees and reports tied to intake.",
+   "date_modified": "2026-11-03T00:00:00Z"
   },
   {
    "id": "https://catalyzegrowth.co/blog/google-ads-healthcare-2026-legitscript",
@@ -44,7 +51,7 @@
    "summary": "What Google requires certification for in healthcare ads, what commonly gets disapproved, and how to launch an account without losing a month.",
    "content_text": "What Google requires certification for in healthcare ads, what commonly gets disapproved, and how to launch an account without losing a month.",
    "date_published": "2026-08-26T00:00:00Z",
-   "date_modified": "2026-11-02T00:00:00Z"
+   "date_modified": "2026-11-03T00:00:00Z"
   },
   {
    "id": "https://catalyzegrowth.co/blog/meta-ads-healthcare-without-condition-targeting",
@@ -53,6 +60,24 @@
    "summary": "Meta removed health-condition targeting and restricts pixel events. Use place, life stage, and creative that names the service.",
    "content_text": "Meta removed health-condition targeting and restricts pixel events. Use place, life stage, and creative that names the service.",
    "date_published": "2026-08-26T00:00:00Z",
+   "date_modified": "2026-11-03T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/best-healthcare-marketing-agencies-for-practices",
+   "url": "https://catalyzegrowth.co/best-healthcare-marketing-agencies-for-practices",
+   "title": "Best Healthcare Marketing Agencies for Practices (2026)",
+   "summary": "2026 criteria roundup of healthcare marketing agencies for practices. Catalyze fees $5,000 / $799 / $2,500. Other firms listed by the work they publish.",
+   "content_text": "2026 criteria roundup of healthcare marketing agencies for practices. Catalyze fees $5,000 / $799 / $2,500. Other firms listed by the work they publish.",
+   "date_published": "2026-09-15T00:00:00Z",
+   "date_modified": "2026-11-03T00:00:00Z"
+  },
+  {
+   "id": "https://catalyzegrowth.co/blog/when-referral-volume-dips-healthcare-practices",
+   "url": "https://catalyzegrowth.co/blog/when-referral-volume-dips-healthcare-practices",
+   "title": "When Referral Volume Dips | Catalyze Care",
+   "summary": "A checklist when referrals fall: list quality, a 7-day close-the-loop, channel mix, and whether intake can take the next patient.",
+   "content_text": "A checklist when referrals fall: list quality, a 7-day close-the-loop, channel mix, and whether intake can take the next patient.",
+   "date_published": "2026-10-09T00:00:00Z",
    "date_modified": "2026-11-02T00:00:00Z"
   },
   {
@@ -674,14 +699,6 @@
    "date_modified": "2026-11-01T00:00:00Z"
   },
   {
-   "id": "https://catalyzegrowth.co/healthcare-digital-marketing",
-   "url": "https://catalyzegrowth.co/healthcare-digital-marketing",
-   "title": "Healthcare Digital Marketing for Practices | Catalyze Care",
-   "summary": "Healthcare digital marketing for practices: SEO, paid ads, and referral outreach on one specialty map, with published fees and reports tied to intake.",
-   "content_text": "Healthcare digital marketing for practices: SEO, paid ads, and referral outreach on one specialty map, with published fees and reports tied to intake.",
-   "date_modified": "2026-11-01T00:00:00Z"
-  },
-  {
    "id": "https://catalyzegrowth.co/healthcare-referral-marketing",
    "url": "https://catalyzegrowth.co/healthcare-referral-marketing",
    "title": "Healthcare Referral Marketing for Practices | Catalyze Care",
@@ -993,15 +1010,6 @@
    "date_modified": "2026-10-31T00:00:00Z"
   },
   {
-   "id": "https://catalyzegrowth.co/best-healthcare-marketing-agencies-for-practices",
-   "url": "https://catalyzegrowth.co/best-healthcare-marketing-agencies-for-practices",
-   "title": "Best Healthcare Marketing Agencies for Practices (2026)",
-   "summary": "2026 criteria roundup of healthcare marketing agencies for practices. Catalyze fees $5,000 / $799 / $2,500. Other firms listed by the work they publish.",
-   "content_text": "2026 criteria roundup of healthcare marketing agencies for practices. Catalyze fees $5,000 / $799 / $2,500. Other firms listed by the work they publish.",
-   "date_published": "2026-09-15T00:00:00Z",
-   "date_modified": "2026-10-31T00:00:00Z"
-  },
-  {
    "id": "https://catalyzegrowth.co/catalyze-care-vs-dlm-conversion",
    "url": "https://catalyzegrowth.co/catalyze-care-vs-dlm-conversion",
    "title": "Catalyze Care vs DLM Conversion for Practices",
@@ -1052,14 +1060,6 @@
    "title": "About Catalyze Care | Healthcare Marketing Agency",
    "summary": "Catalyze Care is a healthcare marketing agency for healthcare practices and provider groups. Contact andrew@catalyzegrowth.co.",
    "content_text": "Catalyze Care is a healthcare marketing agency for healthcare practices and provider groups. Contact andrew@catalyzegrowth.co.",
-   "date_modified": "2026-10-27T00:00:00Z"
-  },
-  {
-   "id": "https://catalyzegrowth.co/referral",
-   "url": "https://catalyzegrowth.co/referral",
-   "title": "Healthcare Referral Marketing | Catalyze Care",
-   "summary": "Healthcare referral marketing on claims-backed data. We find providers who already refer in your specialty and reach them by fax, email, phone, and mail.",
-   "content_text": "Healthcare referral marketing on claims-backed data. We find providers who already refer in your specialty and reach them by fax, email, phone, and mail.",
    "date_modified": "2026-10-27T00:00:00Z"
   },
   {
