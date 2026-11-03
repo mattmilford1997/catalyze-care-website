@@ -23,12 +23,14 @@ Key facts
 - Paid ads for healthcare practices: https://catalyzegrowth.co/paid-ads-for-healthcare-practices
   HIPAA-aware Google Ads, Meta Ads, and Display aimed at booked appointments, with no targeting by condition. $2,500/month management plus media, 3-month minimum.
 - Healthcare digital marketing: https://catalyzegrowth.co/healthcare-digital-marketing
-  SEO, paid ads, and referral outreach run as one system, with one specialty map and one monthly report you can check against your intake. Each channel keeps its own published fee: $5,000 / $799 / $2,500 a month.
+  What healthcare digital marketing includes for Catalyze Care is SEO, paid ads, and referral marketing on one plan, with the same specialty, geography, and monthly report. Published fees stay $5,000 / $799 / $2,500 a month.
 
 ## Plan details and pricing
 - Referral marketing plan: https://catalyzegrowth.co/referral
 - SEO plan: https://catalyzegrowth.co/seo
+  Local SEO, on-page, technical work, specialty content, and a Healthcare SEO checklist grounded in the practice audit. $799/month, 6-month minimum.
 - Paid ads plan: https://catalyzegrowth.co/paid-ads
+  HIPAA-aware Google Ads, Meta Ads, and Display for booked appointments. Geography and life-stage targeting. $2,500/month management plus media, 3-month minimum.
 - Pricing (every plan, minimum term, provider profiles, and lead lists): https://catalyzegrowth.co/pricing
 
 ## Questions practice owners ask, and where we answer them
@@ -91,6 +93,7 @@ Key facts
 ## More about how we work
 - How to Choose a Healthcare Marketing Agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency
 - Best Healthcare Marketing Agencies for Practices (2026): https://catalyzegrowth.co/best-healthcare-marketing-agencies-for-practices
+  Disclosed Catalyze Care roundup by Andrew Brazis with stated criteria and a dated methodology. Firms are listed, not ranked. Catalyze fees $5,000 / $799 / $2,500.
 - How Catalyze Care Works | Healthcare Marketing Process: https://catalyzegrowth.co/how-catalyze-care-works
 - Case Studies: https://catalyzegrowth.co/case-studies
 - About Catalyze Care | Healthcare Marketing Agency: https://catalyzegrowth.co/about
@@ -141,9 +144,9 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
   Start from the patient journey: list every provider who sees your patient before you do. Filter to the area you actually serve, rank by referral volume, and find the person in each office who routes referrals.
 - LinkedIn Outreach to Physicians: The Message That Gets Replies: https://catalyzegrowth.co/blog/linkedin-outreach-physicians-referrals
 - Google Ads for Healthcare: LegitScript and Disapprovals: https://catalyzegrowth.co/blog/google-ads-healthcare-2026-legitscript
-  Treat Google Ads for healthcare as a certification and policy question first. Confirm whether your category needs LegitScript or another certification before you build, write copy that describes the service, and match each landing page to its ad.
+  Treat Google Ads for healthcare as a certification and policy question first. Confirm whether your category needs LegitScript before you scale. Catalyze Care runs paid ads management at $2,500/month plus media.
 - Meta Ads for Healthcare: You Can't Target by Condition: https://catalyzegrowth.co/blog/meta-ads-healthcare-without-condition-targeting
-  On Meta, target by broad geography and the life stages you serve, and let creative that names the service draw the right people. Condition-based audiences are no longer available, so the creative does the selecting.
+  On Meta, target by broad geography and life stage, and let creative that names the service draw the right people. Condition-based audiences are gone. See Catalyze Care paid ads for campaign management.
 - HIPAA and Marketing Pixels: What Changed: https://catalyzegrowth.co/blog/hipaa-marketing-pixels-tracking
   Measure appointments and inquiries while keeping protected health information out of the pixels, tags, and web addresses sent to ad platforms. The risk is sending an identifier together with health, care, or payment context, so keep those two apart.
 - Local SEO for Multi-State Telehealth: https://catalyzegrowth.co/blog/local-seo-multi-state-telehealth
