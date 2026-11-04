@@ -825,7 +825,8 @@ body {
   "@type": "WebSite",
   "name": "Catalyze Care",
   "url": "https://catalyzegrowth.co",
-  "inLanguage": "en-US"
+  "inLanguage": "en-US",
+  "dateModified": "2026-11-04"
 }
 </script>
 <script type="application/ld+json">
@@ -1039,7 +1040,7 @@ body {
       <a href="#marketing" class="btn-secondary">See How It Works</a>
     </div>
     <p class="key-takeaway" id="quick-answer" style="margin-top:24px;"><span class="label">Quick answer</span>Catalyze Care runs referral marketing, SEO, and paid ads for therapy practices, psychiatry clinics, and multi-location provider groups. Referral marketing is $5,000 a month with a 3-month minimum, SEO is $799 a month with a 6-month minimum, and paid ads management is $2,500 a month plus media with a 3-month minimum. Every plan comes with a monthly report you can check against your own intake.</p>
-    <p class="page-updated" style="margin:0;font-size:0.85rem;color:var(--gray-600);">Updated <time datetime="2026-10-30">October 30, 2026</time></p>
+    <p class="page-updated" style="margin:0;font-size:0.85rem;color:var(--gray-600);">Updated <time datetime="2026-11-04">November 4, 2026</time></p>
   </div>
   <div class="hero-visual animate delay-2">
     <div class="stat-grid">
@@ -1591,11 +1592,15 @@ body {
     </div>
     <form class="cta-form" name="demo-request" method="POST" action="/thank-you" data-netlify="true" netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="demo-request" />
-      <p style="display:none"><label>Don't fill this out: <input name="bot-field" /></label></p>
-      <input type="text" name="name" placeholder="Your name *" required />
-      <input type="email" name="email" placeholder="Work email *" required />
-      <input type="text" name="practice" placeholder="Practice name *" required />
-      <input type="tel" name="phone" placeholder="Phone number *" required />
+      <p style="display:none"><label for="demo-bot-field">Don't fill this out: <input id="demo-bot-field" name="bot-field" /></label></p>
+      <label class="sr-only" for="demo-name">Your name</label>
+      <input type="text" id="demo-name" name="name" placeholder="Your name *" required />
+      <label class="sr-only" for="demo-email">Work email</label>
+      <input type="email" id="demo-email" name="email" placeholder="Work email *" required />
+      <label class="sr-only" for="demo-practice">Practice name</label>
+      <input type="text" id="demo-practice" name="practice" placeholder="Practice name *" required />
+      <label class="sr-only" for="demo-phone">Phone number</label>
+      <input type="tel" id="demo-phone" name="phone" placeholder="Phone number *" required />
       <button type="submit">Book a Demo →</button>
     </form>
   </div>
