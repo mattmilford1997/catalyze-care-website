@@ -538,6 +538,7 @@ body {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "url": "https://catalyzegrowth.co/referral",
+  "dateModified": "2026-11-04",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -630,7 +631,8 @@ body {
     <h1>Healthcare referral marketing built on <span class="accent">claims-backed</span> intelligence</h1>
     <p>Flagship service: claims-backed referral outreach for healthcare practices and provider groups. That is not health-system leakage analytics or HCP media.</p>
     <p id="definition">Healthcare referral marketing is systematic outreach to providers who already send patients in your specialty. Catalyze Care runs that as claims-backed outreach for healthcare practices and provider groups, fax, email, phone, LinkedIn, and direct mail on 48 million+ relationships across 120+ specialties. That is different from health-system referral-leakage analytics or HCP media products (for example, WebMD Ignite-style physician media). Published fee: <strong>$5,000/month</strong> with a <strong>3-month minimum</strong>. See <a href="#pricing">pricing</a>.</p>
-    <p class="key-takeaway" id="key-takeaway"><span class="label">In one sentence</span>Claims-backed outreach to offices already sending this specialty, fax, email, phone, LinkedIn, direct mail, at $5,000/month (3-month min).</p>
+    <p class="key-takeaway" id="key-takeaway"><span class="label">Quick answer</span>Claims-backed outreach to offices already sending this specialty, fax, email, phone, LinkedIn, direct mail, at $5,000/month (3-month min).</p>
+    <p class="page-updated" style="margin:16px 0 0;font-size:0.85rem;color:var(--gray-600);">Updated <time datetime="2026-11-04">November 4, 2026</time></p>
     <p>Read the <a href="/healthcare-referral-marketing">healthcare referral marketing</a> definition, the <a href="/blog/what-is-healthcare-referral-marketing">referral marketing playbook</a>, and <a href="/blog/physician-liaison-vs-referral-agency">physician liaison vs referral agency</a>. For common buyer questions, read <a href="/how-to-choose-a-healthcare-marketing-agency">how to choose a healthcare marketing agency</a>.</p>
     <p>Each month you get a packet you can check against intake: outreach, meetings, referrals received, booked appointments, and close-the-loop latency. To read the report, use <a href="/blog/how-practices-should-read-monthly-healthcare-marketing-report">how practices should read a monthly healthcare marketing report</a>.</p>
     
@@ -980,11 +982,15 @@ body {
     </div>
     <form class="cta-form" name="referral-inquiry" method="POST" action="/thank-you" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
       <input type="hidden" name="form-name" value="referral-inquiry" />
-      <p style="display:none"><label>Don't fill this out: <input name="bot-field" /></label></p>
-      <input type="text" name="name" placeholder="Your name *" required />
-      <input type="email" name="email" placeholder="Work email *" required />
-      <input type="text" name="practice" placeholder="Practice name *" required />
-      <input type="text" name="specialty" placeholder="Specialty (e.g. Cardiology, Psychiatry) *" required />
+      <p style="display:none"><label for="referral-bot-field">Don't fill this out: <input id="referral-bot-field" name="bot-field" /></label></p>
+      <label class="sr-only" for="referral-name">Your name</label>
+      <input type="text" id="referral-name" name="name" placeholder="Your name *" required />
+      <label class="sr-only" for="referral-email">Work email</label>
+      <input type="email" id="referral-email" name="email" placeholder="Work email *" required />
+      <label class="sr-only" for="referral-practice">Practice name</label>
+      <input type="text" id="referral-practice" name="practice" placeholder="Practice name *" required />
+      <label class="sr-only" for="referral-specialty">Specialty</label>
+      <input type="text" id="referral-specialty" name="specialty" placeholder="Specialty (e.g. Cardiology, Psychiatry) *" required />
       <div data-netlify-recaptcha="true"></div>
       <button type="submit">Get Started →</button>
     </form>

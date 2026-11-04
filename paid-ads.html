@@ -642,6 +642,7 @@ body {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "url": "https://catalyzegrowth.co/paid-ads",
+  "dateModified": "2026-11-04",
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": [
@@ -736,7 +737,7 @@ body {
     <p>HIPAA-aware Google Ads, Meta Ads, and Display campaigns built for healthcare practices, aimed at booked appointments, not vanity clicks. Management is $2,500/month (media separate).</p>
     <p id="definition">Paid ads for healthcare practices are paid campaigns built to drive booked appointments, not vanity traffic. Catalyze Care runs HIPAA-aware Google Ads, Meta Ads, and Display for healthcare practices. Campaigns do not target by health condition or diagnosis.</p>
     <p class="key-takeaway" id="key-takeaway"><span class="label">Quick answer</span>Catalyze Care runs HIPAA-aware Google Ads, Meta Ads, and Display campaigns for healthcare practices, built around booked appointments. Targeting is built on geography and life stage. Management is $2,500 a month plus media, with a 3-month minimum.</p>
-    <p class="page-updated" style="margin:16px 0 0;font-size:0.85rem;color:var(--gray-600);">Updated <time datetime="2026-11-03">November 3, 2026</time> · Written by <a href="/about">Andrew Brazis</a>, who runs Catalyze Care</p>
+    <p class="page-updated" style="margin:16px 0 0;font-size:0.85rem;color:var(--gray-600);">Updated <time datetime="2026-11-04">November 4, 2026</time> · Written by <a href="/about">Andrew Brazis</a>, who runs Catalyze Care</p>
 <nav class="post-toc" aria-label="Table of contents">
 <p>Contents</p>
 <ol>
@@ -1039,12 +1040,17 @@ body {
     </div>
     <form class="cta-form" name="paid-ads-inquiry" method="POST" action="/thank-you" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
       <input type="hidden" name="form-name" value="paid-ads-inquiry" />
-      <p style="display:none"><label>Don't fill this out: <input name="bot-field" /></label></p>
-      <input type="text" name="name" placeholder="Your name *" required />
-      <input type="email" name="email" placeholder="Work email *" required />
-      <input type="text" name="practice" placeholder="Practice name *" required />
-      <input type="text" name="specialty" placeholder="Specialty (e.g. Cardiology, Psychiatry) *" required />
-      <input type="tel" name="phone" placeholder="Phone number *" required />
+      <p style="display:none"><label for="paid-bot-field">Don't fill this out: <input id="paid-bot-field" name="bot-field" /></label></p>
+      <label class="sr-only" for="paid-name">Your name</label>
+      <input type="text" id="paid-name" name="name" placeholder="Your name *" required />
+      <label class="sr-only" for="paid-email">Work email</label>
+      <input type="email" id="paid-email" name="email" placeholder="Work email *" required />
+      <label class="sr-only" for="paid-practice">Practice name</label>
+      <input type="text" id="paid-practice" name="practice" placeholder="Practice name *" required />
+      <label class="sr-only" for="paid-specialty">Specialty</label>
+      <input type="text" id="paid-specialty" name="specialty" placeholder="Specialty (e.g. Cardiology, Psychiatry) *" required />
+      <label class="sr-only" for="paid-phone">Phone number</label>
+      <input type="tel" id="paid-phone" name="phone" placeholder="Phone number *" required />
       <div data-netlify-recaptcha="true"></div>
       <button type="submit">Book a Free Strategy Call →</button>
     </form>
