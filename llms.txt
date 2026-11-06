@@ -19,11 +19,11 @@ Key facts
 - Healthcare referral marketing: https://catalyzegrowth.co/healthcare-referral-marketing
   You get claims-backed outreach to the offices already sending patients in your specialty, by fax, email, phone, LinkedIn, and direct mail. $5,000/month, 3-month minimum.
 - SEO for healthcare practices: https://catalyzegrowth.co/seo-for-healthcare-practices
-  Google Business Profile, citations, on-page and technical fixes, schema, and patient-facing content written for your specialty and geography. $799/month, 6-month minimum.
+  Google Business Profile, citations, on-page and technical fixes, schema, and a healthcare SEO checklist a practice can walk in order. The checklist links the local SEO checklist for healthcare practices. $799/month, 6-month minimum.
 - Paid ads for healthcare practices: https://catalyzegrowth.co/paid-ads-for-healthcare-practices
-  HIPAA-aware Google Ads, Meta Ads, and Display aimed at booked appointments, with no targeting by condition. $2,500/month management plus media, 3-month minimum.
+  HIPAA-aware Google Ads, Meta Ads, and Display aimed at booked appointments, with a short contents list and a landing-page checklist before you scale spend. $2,500/month management plus media, 3-month minimum.
 - Healthcare digital marketing: https://catalyzegrowth.co/healthcare-digital-marketing
-  What healthcare digital marketing includes for Catalyze Care is SEO, paid ads, and referral marketing on one plan, with the same specialty, geography, and monthly report. SEO includes patient-facing content written for the specialty and geography. Published fees stay $5,000 / $799 / $2,500 a month.
+  Healthcare digital marketing includes SEO for healthcare practices, paid ads for healthcare practices, and healthcare referral marketing on one plan, with the same specialty, geography, and monthly report. Published fees stay $5,000 / $799 / $2,500 a month.
 
 ## Plan details and pricing
 - Referral marketing plan: https://catalyzegrowth.co/referral
@@ -94,7 +94,7 @@ Key facts
 ## More about how we work
 - How to Choose a Healthcare Marketing Agency: https://catalyzegrowth.co/how-to-choose-a-healthcare-marketing-agency
 - Best Healthcare Marketing Agencies for Practices (2026): https://catalyzegrowth.co/best-healthcare-marketing-agencies-for-practices
-  Disclosed Catalyze Care roundup by Andrew Brazis with stated criteria and a dated methodology. Firms are listed, not ranked. Catalyze fees $5,000 / $799 / $2,500.
+  Disclosed roundup by Andrew Brazis, operator of Catalyze Care, with stated selection criteria and a methodology dated to the public-site review. Firms are listed, not ranked. Catalyze fees stay $5,000 / $799 / $2,500.
 - How Catalyze Care Works | Healthcare Marketing Process: https://catalyzegrowth.co/how-catalyze-care-works
 - Case Studies: https://catalyzegrowth.co/case-studies
 - About Catalyze Care | Healthcare Marketing Agency: https://catalyzegrowth.co/about
@@ -140,7 +140,7 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - What to Check When Referral Volume Dips: https://catalyzegrowth.co/blog/when-referral-volume-dips-healthcare-practices
   When referrals fall, check four things before you change vendors: whether your target list still matches who sends your specialty, whether someone closes the loop within seven days, whether outreach is still reaching those offices, and whether intake can take the next patient. A dip is usually one of those four, and your own fields show which.
 - Google Ads vs Meta Ads for a Healthcare Practice: https://catalyzegrowth.co/blog/healthcare-google-ads-vs-meta-ads-for-practices
-  Use Google Ads when people are searching for care in your area. Use Meta Ads to reach people in your service area who aren't searching yet, without targeting a condition. Management is $2,500/month plus media.
+  Use Google Ads when people are searching for care in your area. Use Meta Ads to reach people in your service area who are not searching yet, without targeting a condition. A contents list covers when each platform fits and what the $2,500 fee includes.
 - Healthcare Digital Marketing, Explained: https://catalyzegrowth.co/blog/healthcare-digital-marketing-explained
   Healthcare digital marketing is SEO, paid ads, and referral outreach on one plan. SEO includes patient-facing content written for the specialty and geography.
 - Referral Marketing vs Paid Ads for Healthcare Practices: https://catalyzegrowth.co/blog/provider-referrals-vs-paid-ads
@@ -185,7 +185,7 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - Local SEO Checklist for Healthcare Practices: https://catalyzegrowth.co/blog/local-seo-checklist-healthcare-practices
   A local SEO checklist for healthcare practices: Google Business Profile, matching name, address, and phone, reviews, citations, on-page basics, and patient-facing content written for the specialty and geography.
 - Google Business Profile for Healthcare Practices: https://catalyzegrowth.co/blog/google-business-profile-healthcare-practices
-  Your Google Business Profile should match the clinic door, the website, and the directories: same name, address, phone, hours, and services. Each staffed location patients can visit gets its own profile.
+  Your Google Business Profile should match the clinic door, the website, and the directories: same name, address, phone, hours, and services. A contents list points to the profile steps, one listing per staffed location, reviews, and schema that matches the page.
 - When Not to Hire a Healthcare Marketing Agency: https://catalyzegrowth.co/blog/when-not-to-hire-healthcare-marketing-agency
   Hire an agency when intake can take the next patient and leadership will name who you take. Skip it when the only ask is a promised ranking or return, or when the real job is hospital leakage analytics or a logo-only project.
 - Questions Before Signing a Healthcare Marketing Contract: https://catalyzegrowth.co/blog/questions-before-signing-healthcare-marketing-contract
@@ -201,7 +201,7 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - What “Healthcare-Only Agency” Should Mean: https://catalyzegrowth.co/blog/what-healthcare-only-agency-should-mean
   A healthcare-only agency should do patient growth for practices and provider groups as its published work: referral outreach, healthcare SEO, and HIPAA-aware paid ads. You can check the claim.
 - Healthcare Marketing Budget Allocation for Practices: https://catalyzegrowth.co/blog/healthcare-marketing-budget-allocation-practices
-  Name the gap first: referring offices, search visibility, or nearer-term booked demand. Then staff the one matching channel at a published fee: referral $5,000/month, SEO $799/month, or paid ads management $2,500/month plus media.
+  Name the gap first: referring offices, search visibility, or nearer-term booked demand. Then staff the matching published fee. When referring offices are the gap, price healthcare referral marketing. When search ads are the gap, price paid ads for healthcare practices. Fees stay $5,000, $799, and $2,500 plus media.
 - How Practices Should Evaluate Referral Marketing Vendors: https://catalyzegrowth.co/blog/evaluate-referral-marketing-vendors
   Before you sign, a referral marketing vendor should name its data source, the monthly report fields your front desk can check, and where its compliance line sits. You should own the target list and the suppression list.
 - Local Pack vs Organic SEO for Healthcare Practices: https://catalyzegrowth.co/blog/local-pack-vs-organic-seo-healthcare
@@ -241,11 +241,11 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - Google Business Profile vs Website SEO Ownership for Multi-Provider Groups: https://catalyzegrowth.co/blog/google-business-profile-vs-website-seo-ownership
   Keep the primary logins for your Google Business Profile and website at the practice. Put one operations person in charge of name, address, phone, hours, and who you take. SEO at $799/month includes patient-facing content written for the specialty and geography.
 - When to Pause Paid Ads vs SEO vs Referral Marketing: https://catalyzegrowth.co/blog/when-to-pause-paid-ads-vs-seo-vs-referral
-  Pause a channel when it sends more demand than you can book, or advertises a fact that changed. Paid ads stop first when intake fills, lead quality slips, or a platform policy blocks the campaign.
+  Pause a channel when it sends more demand than you can book, or advertises a fact that changed. Paid ads stop first when intake fills. Before a restart, compare healthcare referral marketing and paid ads for healthcare practices.
 - Healthcare Marketing Stack Map: What Catalyze Owns vs Your CRM, EHR, and Phone: https://catalyzegrowth.co/blog/healthcare-marketing-stack-map
   The stack has two owners. We run outreach, SEO work on pages you approve, and paid ads in accounts you own, plus the monthly report.
 - Healthcare Marketing Budget Planning for Mid-Size Provider Groups: https://catalyzegrowth.co/blog/healthcare-marketing-budget-planning-mid-size-provider-groups
-  Plan your budget by naming the gap first: referring offices, search visibility, or nearer-term booked demand. Then staff the matching channel at a published fee: referral $5,000/month, SEO $799/month, or paid ads management $2,500/month plus media.
+  Plan the budget by naming the gap first: referring offices, search visibility, or nearer-term booked demand. Compare healthcare referral marketing and paid ads for healthcare practices against the published fees of $5,000, $799, and $2,500 plus media.
 - Call Tracking vs EHR and Practice-Management Attribution: https://catalyzegrowth.co/blog/call-tracking-vs-ehr-practice-management-attribution
   Call tracking shows which published number was dialed and which campaign owned it. Your EHR or practice-management system shows whether a new patient was booked and seen.
 - HIPAA-Safe Remarketing and Audience Exclusions for Healthcare Ads: https://catalyzegrowth.co/blog/hipaa-safe-remarketing-audience-exclusions-healthcare-ads
@@ -263,13 +263,13 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - Referral Liaison vs Multi-Channel Outreach for Practices: https://catalyzegrowth.co/blog/referral-liaison-vs-multi-channel-outreach
   Keep a referral liaison for face-to-face trust with the offices that refer most. Add multi-channel outreach when your target list is bigger than weekly visits can cover. The published plan is referral marketing at $5,000/month.
 - Healthcare Marketing Agency Fee Transparency Checklist: https://catalyzegrowth.co/blog/healthcare-marketing-agency-fee-transparency-checklist
-  Get written line items before you sign: management fee versus media, minimum term, who owns the accounts, and which report fields you can check against intake. Catalyze Care publishes its fees: $5,000 a month for referral marketing, $799 for SEO, and $2,500 plus media for paid ads management.
+  Get written line items before you sign: management fee versus media, minimum term, who owns the accounts, and which report fields you can check against intake. A contents list walks the fee sheet, the published examples, and the red flags. Fees stay $5,000, $799, and $2,500 plus media.
 - What to Expect in the First 90 Days of Referral Marketing: https://catalyzegrowth.co/blog/healthcare-referral-marketing-first-90-days
   Month 1 builds the target list and sends the first wave. Month 2 keeps the cadence and follows up with offices that replied. Month 3 checks the 7-day close-the-loop and booked appointments from intake. $5,000/month, 3-month minimum.
 - When a Practice Should Use SEO vs Paid Ads: https://catalyzegrowth.co/blog/healthcare-seo-vs-paid-ads-when-to-use-each
   Use SEO when patients already search for your specialty and town. Use paid ads when openings need nearer-term demand and intake can book them. SEO is $799/month; paid ads management is $2,500/month plus media.
 - Questions to Ask a Healthcare Digital Marketing Agency: https://catalyzegrowth.co/blog/questions-to-ask-a-healthcare-digital-marketing-agency
-  Get five answers in writing before the first invoice: what the monthly report measures, how patient information stays out of ad platforms, who owns the accounts and creative, the minimum term, and who writes the ads. Score the written answers, not the pitch.
+  Get five answers in writing before the first invoice: what the monthly report measures, how patient information stays out of ad platforms, who owns the accounts and creative, the minimum term, and who writes the ads. A later section shows what a written answer should include for SEO, paid ads, and referral.
 - How to Switch Healthcare Marketing Agencies Without Losing Your Accounts: https://catalyzegrowth.co/blog/switching-healthcare-marketing-agencies-account-ownership
   Move every account into your own name before you give notice: your domain, hosting, Google Business Profile, Google Ads, the Meta ad account, Analytics, Search Console, and call tracking. Export at least a year of reports too.
 - Multi-Location Google Review Routing Without Duplicate GBP: https://catalyzegrowth.co/blog/multi-location-google-review-routing-without-duplicate-gbp
