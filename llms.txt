@@ -33,6 +33,7 @@ Key facts
 - Paid ads plan: https://catalyzegrowth.co/paid-ads
   HIPAA-aware Google Ads, Meta Ads, and Display for healthcare practices, built around booked appointments. Geography and life-stage targeting. $2,500/month management plus media, 3-month minimum.
 - Pricing (every plan, minimum term, provider profiles, and lead lists): https://catalyzegrowth.co/pricing
+  Compare the published fees for referral marketing, SEO, and paid ads, plus provider profiles and lead lists. Use the form on the homepage if you want help choosing a starting channel.
 
 ## Questions practice owners ask, and where we answer them
 - What does the $799/month SEO plan include, month by month?: https://catalyzegrowth.co/seo-for-healthcare-practices#seo-plan
@@ -191,7 +192,7 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - Questions Before Signing a Healthcare Marketing Contract: https://catalyzegrowth.co/blog/questions-before-signing-healthcare-marketing-contract
   Before you sign, lock four things in writing: who owns the data and accounts, how HIPAA-aware tracking is set up, what the monthly report contains, and how cancel or pause works. Put them in the same document as the fee.
 - Multi-Location vs Single-Site Healthcare SEO: https://catalyzegrowth.co/blog/multi-location-vs-single-site-healthcare-seo
-  Both share one truth test: your name, address, and phone must match the real clinic everywhere they appear. A single site runs one Google Business Profile and one public address.
+  Both share one truth test: your name, address, and phone must match the real clinic everywhere they appear. A single site runs one Google Business Profile and one public address. Each staffed location needs its own profile.
 - How to Read a Healthcare Marketing Agency Proposal: https://catalyzegrowth.co/blog/how-to-read-healthcare-marketing-agency-proposal
   A proposal is complete when four things sit in the same document as the fee: who owns the accounts and lists, how HIPAA-aware tracking is set up, what the monthly report contains, and how cancel or pause works. If any are missing, ask the vendor to add them before you sign.
 - Close-the-Loop Referral Reporting for Practices: https://catalyzegrowth.co/blog/close-the-loop-referral-reporting
@@ -205,13 +206,13 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - How Practices Should Evaluate Referral Marketing Vendors: https://catalyzegrowth.co/blog/evaluate-referral-marketing-vendors
   Before you sign, a referral marketing vendor should name its data source, the monthly report fields your front desk can check, and where its compliance line sits. You should own the target list and the suppression list.
 - Local Pack vs Organic SEO for Healthcare Practices: https://catalyzegrowth.co/blog/local-pack-vs-organic-seo-healthcare
-  The local pack is the Maps block of business profiles that appears when patients search for your specialty nearby. The website results below it are a different surface. Organic work includes on-page copy, crawl health, schema, and patient-facing content written for the specialty and geography.
+  The local pack is the Maps block of business profiles. The website results are a different surface. A contents list covers which surface to staff first and how to read the month. SEO is $799/month with a 6-month minimum.
 - HIPAA-Aware Meta Ads Creative and Landing Pages: https://catalyzegrowth.co/blog/hipaa-aware-meta-ads-creative-landing-pages
-  Write Meta ad copy and imagery that invite a booked inquiry using geography and the age bands you serve. Keep diagnoses out of your targeting, pixels, and web addresses.
+  Write Meta ad copy and imagery that invite a booked inquiry using geography and the age bands you serve. Keep diagnoses out of targeting, pixels, and web addresses. A contents list covers the landing page and when to stop spend. Management is $2,500/month plus media.
 - Healthcare Marketing RFP / RFI Questions Practices Should Ask: https://catalyzegrowth.co/blog/healthcare-marketing-rfp-rfi-questions
   Send every vendor the same six questions in writing: the monthly fee by channel, who owns the ad account and target list, which fields the monthly report shows, how tracking stays HIPAA-aware, how the engagement ends, and what proof they can show with client permission.
 - How to Brief a Healthcare Marketing Agency: https://catalyzegrowth.co/blog/how-to-brief-a-healthcare-marketing-agency
-  Write a brief that names who you take, the area you serve, the limits on what marketing can say or track, and the fields you will review each month. We can start from that, keeping diagnosis-level patient files inside your systems.
+  Write a brief that names who you take, the area you serve, the limits on what marketing can say or track, and the fields you will review each month. A contents list covers month-one inputs and the published fees. Diagnosis-level patient files stay inside your systems.
 - Referral Marketing KPIs Practices Should Track: https://catalyzegrowth.co/blog/referral-marketing-kpis-practices
   Track outreach volume, meetings, referrals received, booked appointments, and how long the consult note takes to get back to the referring office. Check each field against your intake.
 - Healthcare Website Conversion Essentials for SEO and Paid Traffic: https://catalyzegrowth.co/blog/healthcare-website-conversion-essentials
@@ -247,11 +248,11 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - Healthcare Marketing Budget Planning for Mid-Size Provider Groups: https://catalyzegrowth.co/blog/healthcare-marketing-budget-planning-mid-size-provider-groups
   Plan the budget by naming the gap first: referring offices, search visibility, or nearer-term booked demand. Compare healthcare referral marketing and paid ads for healthcare practices against the published fees of $5,000, $799, and $2,500 plus media.
 - Call Tracking vs EHR and Practice-Management Attribution: https://catalyzegrowth.co/blog/call-tracking-vs-ehr-practice-management-attribution
-  Call tracking shows which published number was dialed and which campaign owned it. Your EHR or practice-management system shows whether a new patient was booked and seen.
+  Call tracking shows which published number was dialed and which campaign owned it. Your EHR or practice-management system shows whether a new patient was booked and seen. A contents list covers how to reconcile those fields in intake and what stays inside the practice.
 - HIPAA-Safe Remarketing and Audience Exclusions for Healthcare Ads: https://catalyzegrowth.co/blog/hipaa-safe-remarketing-audience-exclusions-healthcare-ads
   Start with platform policy and audience exclusions. Build remarketing audiences from public pages that keep a diagnosis out of the web address.
 - How to Choose Between a Referral Retainer and a Paid Ads Test Month: https://catalyzegrowth.co/blog/choose-referral-retainer-or-paid-ads-test-month
-  Choose a referral retainer when other offices already send your specialty and you can keep the slot you promise. Choose a paid ads test month when openings need nearer-term demand and intake can book the next patient.
+  Choose a referral retainer when other offices already send your specialty and you can keep the slot you promise. Choose a paid ads test month when openings need nearer-term demand and intake can book the next patient. A contents list also covers running both and where SEO fits. Fees: referral $5,000/month, paid ads $2,500/month plus media, SEO $799/month.
 - Healthcare Marketing Quarterly OKRs for Practices: https://catalyzegrowth.co/blog/healthcare-marketing-quarterly-okr-practices
   Write one objective per channel gap: referring offices, search visibility, or nearer-term booked demand. Staff the matching retainer and use the published fees as budget anchors: referral $5,000/month, SEO $799/month, and paid ads management $2,500/month plus media.
 - Local SEO for Multi-Provider Groups Without Duplicate GBP Listings: https://catalyzegrowth.co/blog/local-seo-multi-provider-groups-without-duplicate-gbp
