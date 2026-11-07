@@ -231,10 +231,20 @@ body { font-family: 'DM Sans', sans-serif; color: var(--navy); line-height: 1.6;
 <p>Client results appear only with the client’s written permission. We do not publish a CPC or a conversion rate for call tracking.</p>
 <p class="cite">Source: <a href="https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html">HHS OCR, HIPAA and online tracking technologies</a>. Written by <a href="/about">Andrew Brazis</a>. LinkedIn: <a href="https://www.linkedin.com/in/andrew-brazis-1769591a9">Andrew Brazis</a>.</p>
 <h2 id="reconcile-in-intake">Reconcile booked visits in intake</h2>
-<p>Call tracking shows which number was dialed and which campaign owned it. Your EHR or practice-management system shows whether a new patient was booked and seen. Score the month on fields the front desk already records. We do not forecast a patient count from call duration.</p>
-
+<p>Once a week, match the call log to new patients booked in that same week.</p>
+<ol>
+<li><strong>Pull calls for the week.</strong> From the call-tracking tool, list the date, the caller phone, and the campaign or tracking number for each call.</li>
+<li><strong>Pull new-patient records for the same dates.</strong> From the EHR or practice-management system, list each new patient booked in that range with the phone on the record.</li>
+<li><strong>Match source by date and phone.</strong> When the phone is the same and both dates fall in that week, write the campaign onto the source field intake already uses.</li>
+<li><strong>Flag unmatched calls.</strong> Flag a call with no new-patient record on that phone, a new patient with no call on that phone, and one phone tied to two campaigns. The front desk reviews flagged rows. Leave a flagged call out of the booked-visit count.</li>
+</ol>
 <h2 id="what-stays-inside">What stays inside the practice</h2>
-<p>Diagnosis, appointment reason, and chart notes stay in the practice system. Do not put a condition in a thank-you address or send those fields to an ad platform. HHS OCR publishes tracking-technology guidance. This is not legal advice. You keep ownership of the EHR, the CRM, and the phone system.</p>
+<p>Build that match from date, phone, and campaign. Keep clinical text out of the tracking tool.</p>
+<ol>
+<li><strong>Do not store a condition on the call.</strong> If the caller named a diagnosis, an appointment reason, or a chart detail, do not type it into the call log, a tag, a recording title, or a note in the tracking tool.</li>
+<li><strong>Export only the join fields.</strong> The file you compare should have date, phone, campaign or tracking number, and call length. Leave condition and chart text out of the file.</li>
+<li><strong>Clear clinical text in the tool itself.</strong> If a condition is already saved on a call record, delete it there before the next export.</li>
+</ol>
 
 <section class="post-faq" id="faq" aria-labelledby="faq-heading"><h2 id="faq-heading">FAQ</h2><div class="post-faq-list"><div class="post-faq-item" id="faq-speak-1"><h3>What can call tracking prove for a healthcare practice?</h3><p>Call tracking can prove which published number was dialed, which campaign or landing page owned that number, and how long the call lasted. It cannot prove a diagnosis, a booked visit, or that the caller became a patient.</p></div><div class="post-faq-item" id="faq-speak-2"><h3>What can an EHR or practice-management system prove?</h3><p>The EHR or practice-management system can prove whether a new patient was booked and seen. Keep those fields inside the practice. Do not send appointment reason or condition into an ad pixel.</p></div><div class="post-faq-item" id="faq-speak-3"><h3>How do you attribute marketing without sending PHI to ad platforms?</h3><p>Use UTM hygiene on public URLs, call tracking for campaign-to-phone only, and booked-inquiry fields from intake. HHS OCR publishes tracking-technology guidance. Not legal advice. Longer read: healthcare marketing attribution without PHI.</p></div></div></section>
 </article>
