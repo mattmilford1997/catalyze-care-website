@@ -106,7 +106,9 @@ Key facts
 ## Compare and alternatives
 Each comparison sets a named firm's public positioning next to Catalyze Care's published fees, unranked, and applies the same checks to every firm: written fees, healthcare-only constraints, reporting you can check against intake, and HIPAA-aware tracking.
 - Compare Healthcare Marketing Agencies: https://catalyzegrowth.co/compare
+  Judge each firm on the job it describes publicly, how open it is about fees, and how it reports. A contents list covers side-by-side comparisons, alternatives lists, and a criteria roundup. Published fees: referral $5,000/month, SEO $799/month, paid ads $2,500/month plus media.
 - Catalyze Care vs Healthcare Success for Practices: https://catalyzegrowth.co/catalyze-care-vs-healthcare-success
+  Healthcare Success publicly positions around hospital and health-system marketing. Catalyze Care publishes referral marketing at $5,000/month, SEO at $799/month, and paid ads management at $2,500/month plus media. A contents list covers the honest contrast and when either firm can be the better fit.
 - Healthcare Success Alternatives for Healthcare Practices: https://catalyzegrowth.co/healthcare-success-alternatives
 - Catalyze Care vs Practice Builders for Practices: https://catalyzegrowth.co/catalyze-care-vs-practice-builders
 - Practice Builders Alternatives for Healthcare Practices: https://catalyzegrowth.co/practice-builders-alternatives
@@ -117,14 +119,17 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - Catalyze Care vs Echo Factory for Practices: https://catalyzegrowth.co/catalyze-care-vs-echo-factory
 - Echo Factory Alternatives for Healthcare Practices: https://catalyzegrowth.co/echo-factory-alternatives
 - Catalyze Care vs NKP Medical for Practices: https://catalyzegrowth.co/catalyze-care-vs-nkp-medical
+  NKP Medical publicly describes PPC work, much of it for aesthetic practices. Catalyze Care publishes paid ads management at $2,500/month plus media. A contents list covers the honest contrast and when either firm can be the better fit.
 - NKP Medical Alternatives for Healthcare Practices: https://catalyzegrowth.co/nkp-medical-alternatives
 - Catalyze Care vs Imre for Practices: https://catalyzegrowth.co/catalyze-care-vs-imre
 - Imre Alternatives for Healthcare Practices: https://catalyzegrowth.co/imre-alternatives
 - Catalyze Care vs Digital Elevator for Practices: https://catalyzegrowth.co/catalyze-care-vs-the-digital-elevator
 - Digital Elevator Alternatives for Healthcare Practices: https://catalyzegrowth.co/the-digital-elevator-alternatives
 - Catalyze Care vs Practis for Practices: https://catalyzegrowth.co/catalyze-care-vs-practis
+  Practis publicly describes medical SEO and a full-service footprint from its Onspire years. Catalyze Care publishes SEO at $799/month with a 6-month minimum. A contents list covers the honest contrast and when either firm can be the better fit.
 - Practis Alternatives for Healthcare Practices: https://catalyzegrowth.co/practis-alternatives
 - Catalyze Care vs DLM Conversion for Practices: https://catalyzegrowth.co/catalyze-care-vs-dlm-conversion
+  DLM Conversion publicly positions around PPC and an EMR-linked platform. Catalyze Care publishes paid ads management at $2,500/month and bills media separately. A contents list covers the honest contrast and when either firm can be the better fit.
 - DLM Conversion Alternatives for Healthcare Practices: https://catalyzegrowth.co/dlm-conversion-alternatives
 - Catalyze Care vs Cardinal Digital Marketing for Practices: https://catalyzegrowth.co/catalyze-care-vs-cardinal-digital-marketing
 - Cardinal Digital Marketing Alternatives for Practices: https://catalyzegrowth.co/cardinal-digital-marketing-alternatives
@@ -182,7 +187,7 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - Physician Liaison vs Referral Agency: https://catalyzegrowth.co/blog/physician-liaison-vs-referral-agency
   A physician liaison is a relationship role that visits referring offices in person, resolves access issues, and grows volume for your organization. A referral agency runs multi-channel outreach by email, phone, LinkedIn, and mail against a claims-backed list and reports every month.
 - HIPAA-Aware Google Ads Conversion Tracking for Practices: https://catalyzegrowth.co/blog/hipaa-google-ads-conversion-tracking
-  Track the appointment request, not the diagnosis. Keep patient details out of pixels, tags, and URLs, and count conversions your front desk can confirm. That setup is part of paid ads management at $2,500/month plus media.
+  Track the appointment request, not the diagnosis. Keep patient details out of pixels, tags, and URLs, and count conversions your front desk can confirm. A contents list covers what OCR flagged, practical conversion rules, and sources. Paid ads management is $2,500/month plus media.
 - Local SEO Checklist for Healthcare Practices: https://catalyzegrowth.co/blog/local-seo-checklist-healthcare-practices
   A local SEO checklist for healthcare practices: Google Business Profile, matching name, address, and phone, reviews, citations, on-page basics, and patient-facing content written for the specialty and geography.
 - Google Business Profile for Healthcare Practices: https://catalyzegrowth.co/blog/google-business-profile-healthcare-practices
@@ -198,7 +203,7 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - Close-the-Loop Referral Reporting for Practices: https://catalyzegrowth.co/blog/close-the-loop-referral-reporting
   Close-the-loop referral reporting is a monthly packet you can check against intake: which offices were contacted, which responded, which patients named a referring provider, and whether those offices got an acknowledgment. Count only what your front desk can confirm.
 - Google Ads Account Structure for Healthcare Practices: https://catalyzegrowth.co/blog/google-ads-account-structure-healthcare-practices
-  Own the Google Ads account yourself, with us as a user. Split campaigns by goal and location, and keep each ad group to one service so the ad and its landing page match.
+  Own the Google Ads account yourself, with us as a user. Split campaigns by goal and location, and keep each ad group to one service so the ad and its landing page match. A contents list covers the setup steps, a readable structure, and HIPAA-aware notes. Management is $2,500/month plus media.
 - What “Healthcare-Only Agency” Should Mean: https://catalyzegrowth.co/blog/what-healthcare-only-agency-should-mean
   A healthcare-only agency should do patient growth for practices and provider groups as its published work: referral outreach, healthcare SEO, and HIPAA-aware paid ads. You can check the claim.
 - Healthcare Marketing Budget Allocation for Practices: https://catalyzegrowth.co/blog/healthcare-marketing-budget-allocation-practices
@@ -210,13 +215,13 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - HIPAA-Aware Meta Ads Creative and Landing Pages: https://catalyzegrowth.co/blog/hipaa-aware-meta-ads-creative-landing-pages
   Write Meta ad copy and imagery that invite a booked inquiry using geography and the age bands you serve. Keep diagnoses out of targeting, pixels, and web addresses. A contents list covers the landing page and when to stop spend. Management is $2,500/month plus media.
 - Healthcare Marketing RFP / RFI Questions Practices Should Ask: https://catalyzegrowth.co/blog/healthcare-marketing-rfp-rfi-questions
-  Send every vendor the same six questions in writing: the monthly fee by channel, who owns the ad account and target list, which fields the monthly report shows, how tracking stays HIPAA-aware, how the engagement ends, and what proof they can show with client permission.
+  Send every vendor the same six questions in writing: the monthly fee by channel, who owns the ad account and target list, which fields the monthly report shows, how tracking stays HIPAA-aware, how the engagement ends, and what proof they can show with client permission. A contents list covers those questions, proposal red flags, and what to do after the answers come back.
 - How to Brief a Healthcare Marketing Agency: https://catalyzegrowth.co/blog/how-to-brief-a-healthcare-marketing-agency
   Write a brief that names who you take, the area you serve, the limits on what marketing can say or track, and the fields you will review each month. A contents list covers month-one inputs and the published fees. Diagnosis-level patient files stay inside your systems.
 - Referral Marketing KPIs Practices Should Track: https://catalyzegrowth.co/blog/referral-marketing-kpis-practices
   Track outreach volume, meetings, referrals received, booked appointments, and how long the consult note takes to get back to the referring office. Check each field against your intake.
 - Healthcare Website Conversion Essentials for SEO and Paid Traffic: https://catalyzegrowth.co/blog/healthcare-website-conversion-essentials
-  Turn visitors into booked patients with a page that names who you take, a form that collects only what the front desk needs, and a page that matches what the visitor clicked. Keep diagnoses out of form fields, pixels, and web addresses.
+  Name who you take, match the page to the click, and keep diagnoses out of forms, pixels, and URLs. Count booked inquiries the front desk can confirm. A contents list covers HIPAA-safe forms, landing-page clarity, and keeping a condition out of the URL.
 - Healthcare Marketing Attribution Without PHI Leakage: https://catalyzegrowth.co/blog/healthcare-marketing-attribution-without-phi
   Credit referral, SEO, and paid channels using generic campaign labels, clean thank-you events, and the intake fields your practice already keeps. Keep diagnoses, member IDs, and condition strings inside the practice, out of anything sent to ad platforms.
 - Staff Intake Before Scaling Referral or Paid Ads: https://catalyzegrowth.co/blog/staff-intake-before-scaling-referral-or-paid
@@ -250,7 +255,7 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - Call Tracking vs EHR and Practice-Management Attribution: https://catalyzegrowth.co/blog/call-tracking-vs-ehr-practice-management-attribution
   Call tracking shows which published number was dialed and which campaign owned it. Your EHR or practice-management system shows whether a new patient was booked and seen. A contents list covers how to reconcile those fields in intake and what stays inside the practice.
 - HIPAA-Safe Remarketing and Audience Exclusions for Healthcare Ads: https://catalyzegrowth.co/blog/hipaa-safe-remarketing-audience-exclusions-healthcare-ads
-  Start with platform policy and audience exclusions. Build remarketing audiences from public pages that keep a diagnosis out of the web address.
+  Start with platform policy and audience exclusions. Build remarketing audiences from public pages that keep a diagnosis out of the web address. A contents list covers the exclusions that belong on a healthcare account and the published fee. Management is $2,500/month plus media.
 - How to Choose Between a Referral Retainer and a Paid Ads Test Month: https://catalyzegrowth.co/blog/choose-referral-retainer-or-paid-ads-test-month
   Choose a referral retainer when other offices already send your specialty and you can keep the slot you promise. Choose a paid ads test month when openings need nearer-term demand and intake can book the next patient. A contents list also covers running both and where SEO fits. Fees: referral $5,000/month, paid ads $2,500/month plus media, SEO $799/month.
 - Healthcare Marketing Quarterly OKRs for Practices: https://catalyzegrowth.co/blog/healthcare-marketing-quarterly-okr-practices
@@ -268,7 +273,7 @@ Each comparison sets a named firm's public positioning next to Catalyze Care's p
 - What to Expect in the First 90 Days of Referral Marketing: https://catalyzegrowth.co/blog/healthcare-referral-marketing-first-90-days
   Month 1 builds the target list and sends the first wave. Month 2 keeps the cadence and follows up with offices that replied. Month 3 checks the 7-day close-the-loop and booked appointments from intake. $5,000/month, 3-month minimum.
 - When a Practice Should Use SEO vs Paid Ads: https://catalyzegrowth.co/blog/healthcare-seo-vs-paid-ads-when-to-use-each
-  Use SEO when patients already search for your specialty and town. Use paid ads when openings need nearer-term demand and intake can book them. SEO is $799/month; paid ads management is $2,500/month plus media.
+  Use SEO when patients already search for your specialty and town. Use paid ads when openings need nearer-term demand and intake can book them. A contents list covers who is already looking, speed versus compounding, and intake capacity. SEO is $799/month; paid ads management is $2,500/month plus media.
 - Questions to Ask a Healthcare Digital Marketing Agency: https://catalyzegrowth.co/blog/questions-to-ask-a-healthcare-digital-marketing-agency
   Get five answers in writing before the first invoice: what the monthly report measures, how patient information stays out of ad platforms, who owns the accounts and creative, the minimum term, and who writes the ads. A later section shows what a written answer should include for SEO, paid ads, and referral.
 - How to Switch Healthcare Marketing Agencies Without Losing Your Accounts: https://catalyzegrowth.co/blog/switching-healthcare-marketing-agencies-account-ownership
