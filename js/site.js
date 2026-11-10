@@ -92,8 +92,91 @@
     }
   }
 
+  /* First-touch landing, referrer, and UTM/gclid capture for Netlify forms.
+     sessionStorage only: no cookies, no third-party calls, no PHI.
+     Values are written once per session and never overwritten. */
+  var ATTR_KEY = 'cc_form_attr';
+  var ATTR_FIELDS = [
+    'first_landing_page',
+    'first_referrer',
+    'utm_source',
+    'utm_medium',
+    'utm_campaign',
+    'utm_term',
+    'utm_content',
+    'gclid'
+  ];
+  var ATTR_PARAMS = [
+    'utm_source',
+    'utm_medium',
+    'utm_campaign',
+    'utm_term',
+    'utm_content',
+    'gclid'
+  ];
+
+  function readAttr() {
+    try {
+      var raw = window.sessionStorage.getItem(ATTR_KEY);
+      if (!raw) return {};
+      var data = JSON.parse(raw);
+      return data && typeof data === 'object' ? data : {};
+    } catch (err) {
+      return {};
+    }
+  }
+
+  function writeAttr(data) {
+    try {
+      window.sessionStorage.setItem(ATTR_KEY, JSON.stringify(data));
+    } catch (err) {
+      /* storage blocked: forms still submit; attribution fields stay empty */
+    }
+  }
+
+  function referrerOriginPath(ref) {
+    if (!ref) return '';
+    try {
+      var url = new URL(ref);
+      return url.origin + url.pathname;
+    } catch (err) {
+      return '';
+    }
+  }
+
+  function captureAttr() {
+    var data = readAttr();
+    /* First pageview only. An empty referrer is stored so a later same-site
+       document.referrer cannot overwrite it. Already-stored values are kept. */
+    if (Object.prototype.hasOwnProperty.call(data, 'first_landing_page')) return;
+
+    data.first_landing_page = window.location.pathname || '/';
+    data.first_referrer = referrerOriginPath(document.referrer);
+    var params = new URLSearchParams(window.location.search);
+    ATTR_PARAMS.forEach(function (key) {
+      if (!data[key]) {
+        var val = params.get(key);
+        if (val) data[key] = val;
+      }
+    });
+    writeAttr(data);
+  }
+
+  function fillAttrForms() {
+    var data = readAttr();
+    document.querySelectorAll('form').forEach(function (form) {
+      if (!form.querySelector('input[name="form-name"]')) return;
+      ATTR_FIELDS.forEach(function (name) {
+        var input = form.querySelector('input[name="' + name + '"]');
+        if (input) input.value = data[name] || '';
+      });
+    });
+  }
+
   function start() {
     initNav();
+    captureAttr();
+    fillAttrForms();
     initLeadEvents();
     sendConfirmedLead();
   }
