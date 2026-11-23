@@ -173,6 +173,53 @@
     });
   }
 
+  /* Microsoft Clarity (free tier), loaded late so it is not render-blocking.
+     CLARITY_PROJECT_ID is the project ID from the Clarity account.
+     If it is ever set back to REPLACE_ME, the tag must not load.
+     In the Clarity project settings, set masking to Strict masking mode.
+     Clarity is never loaded on /thank-you or other confirmation pages. */
+  var CLARITY_PROJECT_ID = 'zicykxc6v8';
+
+  function isConfirmationPage() {
+    if (document.body && document.body.hasAttribute('data-lead-success')) return true;
+    var path = (window.location.pathname || '').split('?')[0].split('#')[0];
+    path = path.replace(/\/+$/, '') || '/';
+    return path === '/thank-you' || /\/thank-you\.html$/i.test(path);
+  }
+
+  function shouldLoadClarity() {
+    if (!CLARITY_PROJECT_ID || CLARITY_PROJECT_ID === 'REPLACE_ME') return false;
+    if (isConfirmationPage()) return false;
+    return true;
+  }
+
+  function loadClarity() {
+    if (!shouldLoadClarity()) return;
+    if (typeof window.clarity === 'function') return;
+    /* Standard Clarity tag, inserted after load/idle. */
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
+      t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+      y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+    })(window, document, 'clarity', 'script', CLARITY_PROJECT_ID);
+  }
+
+  function scheduleClarity() {
+    if (!shouldLoadClarity()) return;
+    function startClarity() {
+      if (window.requestIdleCallback) {
+        window.requestIdleCallback(function () { loadClarity(); }, { timeout: 3000 });
+      } else {
+        window.setTimeout(loadClarity, 0);
+      }
+    }
+    if (document.readyState === 'complete') {
+      startClarity();
+    } else {
+      window.addEventListener('load', startClarity);
+    }
+  }
+
   function start() {
     initNav();
     captureAttr();
@@ -186,4 +233,5 @@
   } else {
     start();
   }
+  scheduleClarity();
 })();

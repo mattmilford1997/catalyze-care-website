@@ -962,21 +962,21 @@ body {
       <h2>Talk to a healthcare marketing agency that already has the referral map</h2>
       <p>Share your practice details. We’ll walk through specialty, market, and which of referral, SEO, or paid ads should go first.</p>
     </div>
-    <form class="cta-form" name="agency-inquiry" method="POST" action="/thank-you" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
-      <input type="hidden" name="form-name" value="agency-inquiry" />
-      <input type="hidden" name="first_landing_page" value="" />
-      <input type="hidden" name="first_referrer" value="" />
-      <input type="hidden" name="utm_source" value="" />
-      <input type="hidden" name="utm_medium" value="" />
-      <input type="hidden" name="utm_campaign" value="" />
-      <input type="hidden" name="utm_term" value="" />
-      <input type="hidden" name="utm_content" value="" />
-      <input type="hidden" name="gclid" value="" />
-      <p style="display:none"><label>Don't fill this out: <input name="bot-field" /></label></p>
-      <input type="text" name="name" placeholder="Your name *" required />
-      <input type="email" name="email" placeholder="Work email *" required />
-      <input type="text" name="practice" placeholder="Practice name *" required />
-      <input type="text" name="specialty" placeholder="Specialty (e.g. Cardiology, Psychiatry) *" required />
+    <form class="cta-form" name="agency-inquiry" method="POST" action="/thank-you" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-clarity-mask="true">
+      <input type="hidden" name="form-name" value="agency-inquiry" data-clarity-mask="true" />
+      <input type="hidden" name="first_landing_page" value="" data-clarity-mask="true" />
+      <input type="hidden" name="first_referrer" value="" data-clarity-mask="true" />
+      <input type="hidden" name="utm_source" value="" data-clarity-mask="true" />
+      <input type="hidden" name="utm_medium" value="" data-clarity-mask="true" />
+      <input type="hidden" name="utm_campaign" value="" data-clarity-mask="true" />
+      <input type="hidden" name="utm_term" value="" data-clarity-mask="true" />
+      <input type="hidden" name="utm_content" value="" data-clarity-mask="true" />
+      <input type="hidden" name="gclid" value="" data-clarity-mask="true" />
+      <p style="display:none"><label>Don't fill this out: <input name="bot-field" data-clarity-mask="true" /></label></p>
+      <input type="text" name="name" placeholder="Your name *" required data-clarity-mask="true" />
+      <input type="email" name="email" placeholder="Work email *" required data-clarity-mask="true" />
+      <input type="text" name="practice" placeholder="Practice name *" required data-clarity-mask="true" />
+      <input type="text" name="specialty" placeholder="Specialty (e.g. Cardiology, Psychiatry) *" required data-clarity-mask="true" />
       <div data-netlify-recaptcha="true"></div>
       <button type="submit">Get Started →</button>
     </form>
