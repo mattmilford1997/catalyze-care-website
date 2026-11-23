@@ -2,14 +2,14 @@
 
 Dated log of content edits on catalyzegrowth.co. Each entry lists the date, files or URLs, what changed, and why.
 
-## 2026-11-23 (analytics: Microsoft Clarity, gated until a project ID is set)
+## 2026-11-23 (analytics: Microsoft Clarity)
 
 Not a content batch. No copy, title, meta, H1, URL, nav, footer, price, or fax changes. The privacy Last updated line is unchanged (PR #69 already updates it).
 
-- `js/site.js`: added the standard Microsoft Clarity tag behind a `CLARITY_PROJECT_ID` constant set to `REPLACE_ME`. The script does not load while that value is still the placeholder, does not load on `/thank-you` or other confirmation pages, and is scheduled after window load (or idle) so it is not render-blocking. When a real project ID is set, the Clarity project should use Strict masking mode.
+- `js/site.js`: added the standard Microsoft Clarity tag behind a `CLARITY_PROJECT_ID` constant set to `zicykxc6v8`. A guard still prevents the script from loading if that value is ever set back to the `REPLACE_ME` placeholder. The script does not load on `/thank-you` or other confirmation pages, and is scheduled after window load (or idle) so it is not render-blocking. The Clarity project is set to Strict masking mode (Clarity may take up to 1 hour to apply that setting).
 - Forms on `/` (demo-request), `/seo` (seo-inquiry), `/paid-ads` (paid-ads-inquiry), `/referral` (referral-inquiry), `/healthcare-marketing-agency` (agency-inquiry), and `/healthcare-digital-marketing` (digital-marketing-inquiry): added `data-clarity-mask="true"` on each form and every input.
 - `/privacy` (privacy.html): added one sentence naming Microsoft Clarity (session and heatmap analytics, form inputs masked) and linking to the Microsoft Privacy Statement. Last updated is unchanged.
-- Why: add free-tier session and heatmap analytics with strict form masking, without loading Clarity until Matt supplies a project ID, and without recording confirmation pages.
+- Why: add free-tier session and heatmap analytics with strict form masking, and without recording confirmation pages.
 
 ## 2026-11-23 (bug fix: restore homepage form reCAPTCHA)
 

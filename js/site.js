@@ -174,12 +174,11 @@
   }
 
   /* Microsoft Clarity (free tier), loaded late so it is not render-blocking.
-     Set CLARITY_PROJECT_ID to the project ID from the Clarity account.
-     Leave it as REPLACE_ME until that ID exists; the tag must not load
-     while the value is still the placeholder.
+     CLARITY_PROJECT_ID is the project ID from the Clarity account.
+     If it is ever set back to REPLACE_ME, the tag must not load.
      In the Clarity project settings, set masking to Strict masking mode.
      Clarity is never loaded on /thank-you or other confirmation pages. */
-  var CLARITY_PROJECT_ID = 'REPLACE_ME';
+  var CLARITY_PROJECT_ID = 'zicykxc6v8';
 
   function isConfirmationPage() {
     if (document.body && document.body.hasAttribute('data-lead-success')) return true;
