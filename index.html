@@ -1591,7 +1591,7 @@ body {
       <p>Catalyze Care runs referral marketing, SEO, and paid ads for therapy practices, psychiatry clinics, and multi-location provider groups. Lead lists and referral data are available too.</p>
       <p style="margin-top:12px;">After you book, we look at your specialty, your market, and how many new patients intake can take, then suggest which channel to start with. Fees are on <a href="/pricing" style="color:inherit;text-decoration:underline;">Catalyze Care pricing</a>.</p>
     </div>
-    <form class="cta-form" name="demo-request" method="POST" action="/thank-you" data-netlify="true" netlify-honeypot="bot-field">
+    <form class="cta-form" name="demo-request" method="POST" action="/thank-you" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
       <input type="hidden" name="form-name" value="demo-request" />
       <input type="hidden" name="first_landing_page" value="" />
       <input type="hidden" name="first_referrer" value="" />
@@ -1610,6 +1610,7 @@ body {
       <input type="text" id="demo-practice" name="practice" placeholder="Practice name *" required />
       <label class="sr-only" for="demo-phone">Phone number</label>
       <input type="tel" id="demo-phone" name="phone" placeholder="Phone number *" required />
+      <div data-netlify-recaptcha="true"></div>
       <button type="submit">Book a Demo →</button>
     </form>
   </div>

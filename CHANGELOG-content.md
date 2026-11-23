@@ -2,6 +2,14 @@
 
 Dated log of content edits on catalyzegrowth.co. Each entry lists the date, files or URLs, what changed, and why.
 
+## 2026-11-23 (bug fix: restore homepage form reCAPTCHA)
+
+Not a content batch. No copy, title, meta, H1, URL, nav, footer, price, or fax changes.
+
+- `/` (index.html), form `demo-request`: restored Netlify reCAPTCHA the same way service-page forms have it (`data-netlify-recaptcha="true"` on the form, plus a `div data-netlify-recaptcha`). The `netlify-honeypot="bot-field"` attribute and hidden honeypot field were already present and were left in place. Hidden `form-name`, visible fields, first-landing/referrer/UTM capture, and the `/thank-you` redirect are unchanged.
+- Why: PR #30 (live Sep 25) removed homepage reCAPTCHA for mobile speed. Since then Netlify flagged 584 homepage submissions as spam and 0 as verified. Service-page forms that kept reCAPTCHA were not hit the same way.
+- Speed: Netlify injects a synchronous `https://www.google.com/recaptcha/api.js` into the recaptcha div at deploy time, so the script cannot be deferred or lazy-loaded without dropping that div and risking form detection or verification. The injected script sits at the bottom of the homepage, after the main content, as on the service pages. Lighthouse before/after is in the PR.
+
 ## 2026-11-23 (biweekly reviewed batch: service page upgrades only)
 
 Change type: one kind only. Added one sourced, answer-first section with a table to two existing service pages that already target Top 5 terms. No title, meta description, H1, URL, nav, footer, form, schema, price, or Book a Demo change. No existing copy was removed or reworded, no figures were removed, and no fax wording was touched or added. No new URLs, no redirects, no merges.
