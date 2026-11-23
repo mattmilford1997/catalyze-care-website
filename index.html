@@ -1591,25 +1591,25 @@ body {
       <p>Catalyze Care runs referral marketing, SEO, and paid ads for therapy practices, psychiatry clinics, and multi-location provider groups. Lead lists and referral data are available too.</p>
       <p style="margin-top:12px;">After you book, we look at your specialty, your market, and how many new patients intake can take, then suggest which channel to start with. Fees are on <a href="/pricing" style="color:inherit;text-decoration:underline;">Catalyze Care pricing</a>.</p>
     </div>
-    <form class="cta-form" name="demo-request" method="POST" action="/thank-you" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
-      <input type="hidden" name="form-name" value="demo-request" />
-      <input type="hidden" name="first_landing_page" value="" />
-      <input type="hidden" name="first_referrer" value="" />
-      <input type="hidden" name="utm_source" value="" />
-      <input type="hidden" name="utm_medium" value="" />
-      <input type="hidden" name="utm_campaign" value="" />
-      <input type="hidden" name="utm_term" value="" />
-      <input type="hidden" name="utm_content" value="" />
-      <input type="hidden" name="gclid" value="" />
-      <p style="display:none"><label for="demo-bot-field">Don't fill this out: <input id="demo-bot-field" name="bot-field" /></label></p>
+    <form class="cta-form" name="demo-request" method="POST" action="/thank-you" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-clarity-mask="true">
+      <input type="hidden" name="form-name" value="demo-request" data-clarity-mask="true" />
+      <input type="hidden" name="first_landing_page" value="" data-clarity-mask="true" />
+      <input type="hidden" name="first_referrer" value="" data-clarity-mask="true" />
+      <input type="hidden" name="utm_source" value="" data-clarity-mask="true" />
+      <input type="hidden" name="utm_medium" value="" data-clarity-mask="true" />
+      <input type="hidden" name="utm_campaign" value="" data-clarity-mask="true" />
+      <input type="hidden" name="utm_term" value="" data-clarity-mask="true" />
+      <input type="hidden" name="utm_content" value="" data-clarity-mask="true" />
+      <input type="hidden" name="gclid" value="" data-clarity-mask="true" />
+      <p style="display:none"><label for="demo-bot-field">Don't fill this out: <input id="demo-bot-field" name="bot-field" data-clarity-mask="true" /></label></p>
       <label class="sr-only" for="demo-name">Your name</label>
-      <input type="text" id="demo-name" name="name" placeholder="Your name *" required />
+      <input type="text" id="demo-name" name="name" placeholder="Your name *" required data-clarity-mask="true" />
       <label class="sr-only" for="demo-email">Work email</label>
-      <input type="email" id="demo-email" name="email" placeholder="Work email *" required />
+      <input type="email" id="demo-email" name="email" placeholder="Work email *" required data-clarity-mask="true" />
       <label class="sr-only" for="demo-practice">Practice name</label>
-      <input type="text" id="demo-practice" name="practice" placeholder="Practice name *" required />
+      <input type="text" id="demo-practice" name="practice" placeholder="Practice name *" required data-clarity-mask="true" />
       <label class="sr-only" for="demo-phone">Phone number</label>
-      <input type="tel" id="demo-phone" name="phone" placeholder="Phone number *" required />
+      <input type="tel" id="demo-phone" name="phone" placeholder="Phone number *" required data-clarity-mask="true" />
       <div data-netlify-recaptcha="true"></div>
       <button type="submit">Book a Demo →</button>
     </form>
